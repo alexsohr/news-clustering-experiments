@@ -68,12 +68,26 @@ via full context). The combo ("better vectors + better judge text") tied chunk_p
   quality at ⅓ the cost.** (Both low precision on this FP-prone high-cosine pool; the fusion gate
   supplies precision in the full pipeline.)
 
-## Bottom line
-On body-rich Bloomberg (the production proxy), **chunking helps**: chunk vectors are the better
-separator (+0.042 AUC, confident), end-to-end is ≥ baseline, and **chunk_pair is the judge text to
-use** (ties full_body at ⅓ cost). This validates adopting body-paragraph chunking + a chunk_pair judge
-for the production research-artifact corpus — exactly the regime news (title-rich/body-poor) failed to
-represent.
+**Confident END-TO-END (1,100 pairs / 68 SAME) — added 2026-06-22 (`v4_confident_endtoend.json`):**
+| arm | F1 | P | R | TP | FP | FN |
+|---|---|---|---|---|---|---|
+| single-vector baseline | 0.605 | 0.706 | 0.529 | 36 | 15 | 32 |
+| chunk + chunk_pair | 0.600 | 0.692 | 0.529 | 36 | 16 | 32 |
+| chunk + full_body | 0.627 | 0.740 | 0.544 | 37 | 13 | 31 |
+
+On the confident eval the three are **statistically tied** (spread 0.027 over 68 SAME; TP differ by ≤1).
+⚠️ **Correction:** the directional 463-eval read (chunk_pair 0.680 > baseline 0.667) was **noise** — at
+68 SAME the end-to-end arms are indistinguishable.
+
+## Bottom line (honest, confident)
+On body-rich Bloomberg, **chunk vectors are a better SEPARATOR** of same-event pairs (cosine AUC
+0.666 vs 0.624, +0.042 — confident), the opposite of news. But that advantage **does not convert into
+an end-to-end F1 win**: with the fusion gate + LLM judge in place, baseline ≈ chunk_pair ≈ full_body
+(~0.60–0.63, tied). So chunking is **neutral-to-positive end-to-end and strictly better at the vector
+level** — a safe/good choice for body-rich production (and likely a clearer win on a corpus with more
+same-event density or where candidate-retrieval quality matters more than here). **`chunk_pair` is the
+judge text to use** (ties full_body at ⅓ the cost). News (body-poor) remains the case where chunking
+actively hurts.
 
 ## Artifacts
 `bloomberg_eval.csv` (463), `bloomberg_eval_large.csv` (1100), `bb_followup_sa{1,2,3}.json`.

@@ -23,18 +23,27 @@ Pipeline: ingest → URL+MinHash dedup → body-chunk embeddings → single-pass
 
 # ---------------- §1 setup ----------------
 md("## §1 — Setup & config")
-code('''import sys, json, asyncio, hashlib, pickle
+code('''import sys, os, json, asyncio, hashlib, pickle
 from pathlib import Path
 import numpy as np, pandas as pd
 sys.path.insert(0, str(Path.cwd() / "scripts"))
 import v4_chunking as v4c
 import bloomberg_clustering as bc
+
+# Load API keys from a project-local .env (OPENAI_API_KEY required for embeddings + the judge).
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path.cwd() / ".env")
+except ImportError:
+    pass
+assert os.environ.get("OPENAI_API_KEY"), "Set OPENAI_API_KEY (e.g. in a project .env) before running."
 print("modules loaded:", [n for n in dir(bc) if not n.startswith("_")][:8], "...")''')
 
 md("### §1.1 — CONFIG (all production knobs)")
 code('''CONFIG = {
     # --- data ---
     "items_path":   Path.cwd() / "artifacts" / "v4" / "bloomberg_items.parquet",  # 🔌 SWAP for prod
+    "max_items":    int(os.environ["BB_MAX_ITEMS"]) if os.environ.get("BB_MAX_ITEMS") else None,  # None=full corpus; int=quick demo
     "cache_dir":    Path.cwd() / ".cache",
     "fusion_gate_path": Path.cwd() / "artifacts" / "v4" / "fusion_model_chunk.json",  # runtime-only
 
@@ -76,6 +85,9 @@ to scope merge candidates — your entity-extraction output).""")
 code('''items_df = pd.read_parquet(CONFIG["items_path"])
 items_df["item_clients"] = items_df["item_clients"].apply(set)   # parquet stores it as a list
 items_df["published_at"] = pd.to_datetime(items_df["published_at"], utc=True)
+if CONFIG["max_items"]:   # quick-demo subset (earliest by time); set max_items=None for full corpus
+    items_df = items_df.sort_values("published_at").head(CONFIG["max_items"]).reset_index(drop=True)
+    print(f"⏱️  demo subset: first {len(items_df):,} items by time (max_items=None => full corpus)")
 print(f"{len(items_df):,} items | columns: {list(items_df.columns)}")
 print(f"body present: {(items_df['body'].str.len() > 0).mean()*100:.0f}%  (body-rich corpus)")
 items_df.head(2)[["item_id", "title", "published_at", "item_clients"]]''')
