@@ -1,0 +1,1 @@
+{"precision": 0.8095238095238095, "recall": 0.5862068965517241, "f1": 0.68, "tp": 17, "fp": 4, "fn": 12, "tn": 430, "n_scored": 463, "n_missing": 0, "mode": "combo_singlevec_chunkpairjudge"}

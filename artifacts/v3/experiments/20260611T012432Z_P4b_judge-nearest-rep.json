@@ -1,0 +1,532 @@
+{
+  "run_id": "20260611T012432Z_P4b_judge-nearest-rep",
+  "phase": "P4b",
+  "tag": "judge-nearest-rep",
+  "description": "Gray-zone judge compares against the cosine-nearest story member instead of the first member; on top of accepted rubric-v2.",
+  "parent_run_id": "20260611T011247Z_P4_judge-rubric-v2",
+  "comparison_root": "R2",
+  "kernel_clean": false,
+  "checkpoint_fingerprint": "d73a0b264dd69eaf",
+  "pipeline_counts": {
+    "processed_items": 7871,
+    "s10": {
+      "new_no_candidates": 1283,
+      "gray_diff": 2007,
+      "new_below_tau_low": 3946,
+      "gray_same": 463,
+      "auto": 172
+    },
+    "s11": {
+      "clusters_raw": 567,
+      "noise": 4247,
+      "dropped_client": 190,
+      "judge_gate": {
+        "clusters_in": 377,
+        "kept": 18,
+        "dropped": 359,
+        "peeled_members": 8,
+        "judge_calls": 596
+      },
+      "absorbed": 51
+    },
+    "s13": {
+      "merge_pool": 18,
+      "merge_candidates": 0,
+      "merges_applied": 0,
+      "second_sweep_assigned": 0
+    },
+    "final": {
+      "stories": 7203,
+      "multi_item": 446,
+      "singletons": 6757,
+      "largest_story": 20
+    }
+  },
+  "metrics": {
+    "frozen_full": {
+      "precision": 0.7596153846153846,
+      "recall": 0.8494623655913979,
+      "f1": 0.8020304568527918,
+      "tp": 79,
+      "fp": 25,
+      "fn": 14,
+      "tn": 425,
+      "n_scored": 543,
+      "unresolved_pairs": 178
+    },
+    "frozen_non_boilerplate": {
+      "precision": 0.7596153846153846,
+      "recall": 0.8586956521739131,
+      "f1": 0.8061224489795917,
+      "tp": 79,
+      "fp": 25,
+      "fn": 13,
+      "tn": 248,
+      "n_scored": 365
+    },
+    "frozen_full_v2style": {
+      "precision": 0.7596153846153846,
+      "recall": 0.8494623655913979,
+      "f1": 0.8020304568527918,
+      "tp": 79,
+      "fp": 25,
+      "fn": 14,
+      "tn": 425,
+      "n_scored": 543
+    },
+    "supplemental_gt72h": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "tn": 196,
+      "n_scored": 199,
+      "by_gap_bucket": {
+        "14-30d": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "tn": 69,
+          "n_scored": 70
+        },
+        "3-7d": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 62,
+          "n_scored": 62
+        },
+        "7-14d": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 1,
+          "tn": 65,
+          "n_scored": 67
+        }
+      }
+    }
+  },
+  "attribution": {
+    "pred_same_stage_counts": {
+      "s10_judge": 59,
+      "s10_other": 24,
+      "s10_auto": 21
+    },
+    "fp_by_stage": {
+      "s10_judge": 24,
+      "s10_auto": 1
+    },
+    "fn_by_blocker": {
+      "judge_said_no": 9,
+      "divergent_other": 3,
+      "below_tau_low_pairwise": 1,
+      "set_aside_unresolved": 1
+    },
+    "fp_pairs": [
+      {
+        "pair_id": "p0208",
+        "stage": "s10_judge",
+        "cosine": 0.576,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0213",
+        "stage": "s10_judge",
+        "cosine": 0.593,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0219",
+        "stage": "s10_judge",
+        "cosine": 0.588,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0246",
+        "stage": "s10_judge",
+        "cosine": 0.628,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0262",
+        "stage": "s10_judge",
+        "cosine": 0.61,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0284",
+        "stage": "s10_judge",
+        "cosine": 0.64,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0304",
+        "stage": "s10_judge",
+        "cosine": 0.66,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0309",
+        "stage": "s10_auto",
+        "cosine": 0.672,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0313",
+        "stage": "s10_judge",
+        "cosine": 0.677,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0314",
+        "stage": "s10_judge",
+        "cosine": 0.665,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0315",
+        "stage": "s10_judge",
+        "cosine": 0.673,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0323",
+        "stage": "s10_judge",
+        "cosine": 0.691,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0325",
+        "stage": "s10_judge",
+        "cosine": 0.657,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0353",
+        "stage": "s10_judge",
+        "cosine": 0.664,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0357",
+        "stage": "s10_judge",
+        "cosine": 0.665,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0365",
+        "stage": "s10_judge",
+        "cosine": 0.737,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0388",
+        "stage": "s10_judge",
+        "cosine": 0.701,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0390",
+        "stage": "s10_judge",
+        "cosine": 0.723,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0404",
+        "stage": "s10_judge",
+        "cosine": 0.704,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0406",
+        "stage": "s10_judge",
+        "cosine": 0.728,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0417",
+        "stage": "s10_judge",
+        "cosine": 0.749,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0420",
+        "stage": "s10_judge",
+        "cosine": 0.778,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0435",
+        "stage": "s10_judge",
+        "cosine": 0.756,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0443",
+        "stage": "s10_judge",
+        "cosine": 0.77,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0493",
+        "stage": "s10_judge",
+        "cosine": 0.844,
+        "boilerplate": false
+      }
+    ],
+    "fn_pairs": [
+      {
+        "pair_id": "p0124",
+        "blocker": "below_tau_low_pairwise",
+        "cosine": 0.536
+      },
+      {
+        "pair_id": "p0126",
+        "blocker": "judge_said_no",
+        "cosine": 0.523
+      },
+      {
+        "pair_id": "p0231",
+        "blocker": "judge_said_no",
+        "cosine": 0.587
+      },
+      {
+        "pair_id": "p0254",
+        "blocker": "set_aside_unresolved",
+        "cosine": 0.618
+      },
+      {
+        "pair_id": "p0258",
+        "blocker": "divergent_other",
+        "cosine": 0.625
+      },
+      {
+        "pair_id": "p0264",
+        "blocker": "judge_said_no",
+        "cosine": 0.622
+      },
+      {
+        "pair_id": "p0271",
+        "blocker": "judge_said_no",
+        "cosine": 0.601
+      },
+      {
+        "pair_id": "p0273",
+        "blocker": "judge_said_no",
+        "cosine": 0.649
+      },
+      {
+        "pair_id": "p0299",
+        "blocker": "judge_said_no",
+        "cosine": 0.605
+      },
+      {
+        "pair_id": "p0303",
+        "blocker": "judge_said_no",
+        "cosine": 0.675
+      },
+      {
+        "pair_id": "p0322",
+        "blocker": "divergent_other",
+        "cosine": 0.654
+      },
+      {
+        "pair_id": "p0337",
+        "blocker": "judge_said_no",
+        "cosine": 0.677
+      },
+      {
+        "pair_id": "p0342",
+        "blocker": "divergent_other",
+        "cosine": 0.686
+      },
+      {
+        "pair_id": "p0415",
+        "blocker": "judge_said_no",
+        "cosine": 0.717
+      }
+    ]
+  },
+  "judge_quality": {
+    "n_judged": 543,
+    "overall_accuracy": 0.9226519337016574,
+    "by_bin": {
+      "[0.20, 0.40)": {
+        "n": 60,
+        "acc": 1.0
+      },
+      "[0.40, 0.50)": {
+        "n": 60,
+        "acc": 0.983
+      },
+      "[0.50, 0.55)": {
+        "n": 60,
+        "acc": 0.967
+      },
+      "[0.55, 0.60)": {
+        "n": 55,
+        "acc": 0.945
+      },
+      "[0.60, 0.65)": {
+        "n": 60,
+        "acc": 0.867
+      },
+      "[0.65, 0.70)": {
+        "n": 52,
+        "acc": 0.808
+      },
+      "[0.70, 0.75)": {
+        "n": 60,
+        "acc": 0.883
+      },
+      "[0.75, 0.80)": {
+        "n": 46,
+        "acc": 0.957
+      },
+      "[0.80, 0.85)": {
+        "n": 42,
+        "acc": 0.929
+      },
+      "[0.85, 1.00)": {
+        "n": 48,
+        "acc": 0.875
+      }
+    }
+  },
+  "fusion": {
+    "enabled": true,
+    "oof_auc": 0.9118279569892473,
+    "oof_auc_cosine": 0.7484348864994026,
+    "gates": {
+      "p_high": 0.8071947159553038,
+      "p_low": 0.03024980153040738
+    },
+    "cv_scheme": "GroupKFold5-pairgraph",
+    "model_path": "/Users/alex/Projcts/news-clustering/artifacts/v3/fusion_model.json"
+  },
+  "cost": {
+    "judge_calls_new": 422,
+    "judge_calls_cached": 2644
+  },
+  "notebook": "story_clustering_poc_v3.ipynb",
+  "config": {
+    "active_window_hours": 72,
+    "artifacts_dir": "/Users/alex/Projcts/news-clustering/artifacts/v3",
+    "cache_dir": "/Users/alex/Projcts/news-clustering/.cache",
+    "centroid_merge_sim": 0.85,
+    "client_universe_size": 20,
+    "comparison_root": "R2",
+    "data_dir": "/Users/alex/Projcts/news-clustering/dataset/financial-news-multisource/data",
+    "embed_dims": 1024,
+    "embed_model": "text-embedding-3-large",
+    "eval_cosine_bins": [
+      [
+        0.2,
+        0.4
+      ],
+      [
+        0.4,
+        0.5
+      ],
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.55,
+        0.6
+      ],
+      [
+        0.6,
+        0.65
+      ],
+      [
+        0.65,
+        0.7
+      ],
+      [
+        0.7,
+        0.75
+      ],
+      [
+        0.75,
+        0.8
+      ],
+      [
+        0.8,
+        0.85
+      ],
+      [
+        0.85,
+        1.0
+      ]
+    ],
+    "eval_pairs_per_bin": 60,
+    "frozen_eval_path": "/Users/alex/Projcts/news-clustering/artifacts/v2/labeled_eval_set.csv",
+    "gemini_judge_model": "gemini-3.5-flash",
+    "hdbscan_cluster_selection_method": "eom",
+    "hdbscan_judge_gate": true,
+    "hdbscan_metric": "cosine",
+    "hdbscan_min_cluster_size": 2,
+    "hdbscan_min_samples": 2,
+    "human_spotcheck_band": [
+      0.55,
+      0.75
+    ],
+    "judge_model": "gpt-4.1-mini",
+    "judge_prompt_version": "v2",
+    "judge_rep": "nearest",
+    "lede_chars": 600,
+    "merge_include_closed": false,
+    "merge_sim_v3": null,
+    "metadata_model": "gpt-4.1",
+    "minhash_num_perm": 128,
+    "minhash_threshold": 0.85,
+    "openai_judge_model": "gpt-5.2",
+    "parent_run_id": "20260611T011247Z_P4_judge-rubric-v2",
+    "primary_source": "bloomberg_reuters",
+    "random_seed": 42,
+    "run_description": "Gray-zone judge compares against the cosine-nearest story member instead of the first member; on top of accepted rubric-v2.",
+    "run_phase": "P4b",
+    "run_tag": "judge-nearest-rep",
+    "second_sweep": false,
+    "second_sweep_window_h": 336,
+    "sonnet_model": "claude-sonnet-4-6",
+    "supplemental_eval_path": "/Users/alex/Projcts/news-clustering/artifacts/v3/labeled_eval_supplemental.csv",
+    "target_canonical_items": 10000,
+    "tau_high": 0.94,
+    "tau_high_prior": 0.75,
+    "tau_low": 0.54,
+    "tau_low_prior": 0.55,
+    "use_fusion_gates": true,
+    "vendor_rate_limits_rpm": {
+      "sonnet": 25,
+      "haiku": 40,
+      "openai": 50,
+      "gemini": 50
+    }
+  },
+  "eval_hashes": {
+    "frozen_csv_sha256": "f8dde5b701cee45d",
+    "supplemental_csv_sha256": "fe215c5d0e19b7da"
+  },
+  "stop_rule": {
+    "ship": 0.85,
+    "floor": 0.75,
+    "headline_f1": 0.8020304568527918,
+    "verdict": "CONTINUE"
+  },
+  "accepted": false,
+  "notes": "REJECT: dF1 -0.008 (0.810->0.802). Recall unchanged (no FN flipped); precision down (FP 23->25) \u2014 nearest member is more similar for false saga pairs too. Revert to judge_rep=first."
+}

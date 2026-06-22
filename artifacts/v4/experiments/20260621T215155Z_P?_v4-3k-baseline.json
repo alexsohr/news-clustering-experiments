@@ -1,0 +1,505 @@
+{
+  "run_id": "20260621T215155Z_P?_v4-3k-baseline",
+  "phase": "P?",
+  "tag": "v4-3k-baseline",
+  "description": "",
+  "parent_run_id": null,
+  "comparison_root": "R0",
+  "kernel_clean": false,
+  "checkpoint_fingerprint": "2043b8a1080533d3",
+  "pipeline_counts": {
+    "processed_items": 2350,
+    "s10": {
+      "new_no_candidates": 995,
+      "gray_diff": 360,
+      "new_below_tau_low": 799,
+      "auto": 43,
+      "gray_same": 153
+    },
+    "s11": {
+      "clusters_raw": 146,
+      "noise": 1272,
+      "dropped_client": 48,
+      "judge_gate": {
+        "clusters_in": 98,
+        "kept": 2,
+        "dropped": 96,
+        "peeled_members": 2,
+        "judge_calls": 159
+      },
+      "absorbed": 7
+    },
+    "s13": {
+      "merge_pool": 2,
+      "merge_candidates": 0,
+      "merges_applied": 0,
+      "second_sweep_assigned": 0
+    },
+    "final": {
+      "stories": 2149,
+      "multi_item": 149,
+      "singletons": 2000,
+      "largest_story": 13
+    }
+  },
+  "metrics": {
+    "frozen_full": {
+      "precision": 0.7830188679245284,
+      "recall": 0.8924731182795699,
+      "f1": 0.8341708542713568,
+      "tp": 83,
+      "fp": 23,
+      "fn": 10,
+      "tn": 427,
+      "n_scored": 543,
+      "unresolved_pairs": 178
+    },
+    "frozen_non_boilerplate": {
+      "precision": 0.7830188679245284,
+      "recall": 0.9021739130434783,
+      "f1": 0.8383838383838385,
+      "tp": 83,
+      "fp": 23,
+      "fn": 9,
+      "tn": 250,
+      "n_scored": 365
+    },
+    "frozen_full_v2style": {
+      "precision": 0.7830188679245284,
+      "recall": 0.8924731182795699,
+      "f1": 0.8341708542713568,
+      "tp": 83,
+      "fp": 23,
+      "fn": 10,
+      "tn": 427,
+      "n_scored": 543
+    },
+    "supplemental_gt72h": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "tn": 198,
+      "n_scored": 199,
+      "by_gap_bucket": {
+        "14-30d": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 70,
+          "n_scored": 70
+        },
+        "3-7d": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 62,
+          "n_scored": 62
+        },
+        "7-14d": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "tn": 66,
+          "n_scored": 67
+        }
+      }
+    }
+  },
+  "attribution": {
+    "pred_same_stage_counts": {
+      "s10_judge": 76,
+      "s10_auto": 22,
+      "s10_other": 7,
+      "s11_cluster": 1
+    },
+    "fp_by_stage": {
+      "s10_judge": 23
+    },
+    "fn_by_blocker": {
+      "judge_said_no": 7,
+      "below_tau_low_pairwise": 1,
+      "divergent_other": 1,
+      "set_aside_unresolved": 1
+    },
+    "fp_pairs": [
+      {
+        "pair_id": "p0196",
+        "stage": "s10_judge",
+        "cosine": 0.579,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0208",
+        "stage": "s10_judge",
+        "cosine": 0.576,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0213",
+        "stage": "s10_judge",
+        "cosine": 0.593,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0246",
+        "stage": "s10_judge",
+        "cosine": 0.628,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0284",
+        "stage": "s10_judge",
+        "cosine": 0.64,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0304",
+        "stage": "s10_judge",
+        "cosine": 0.66,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0309",
+        "stage": "s10_judge",
+        "cosine": 0.672,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0313",
+        "stage": "s10_judge",
+        "cosine": 0.677,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0314",
+        "stage": "s10_judge",
+        "cosine": 0.665,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0315",
+        "stage": "s10_judge",
+        "cosine": 0.673,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0323",
+        "stage": "s10_judge",
+        "cosine": 0.691,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0325",
+        "stage": "s10_judge",
+        "cosine": 0.657,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0338",
+        "stage": "s10_judge",
+        "cosine": 0.655,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0353",
+        "stage": "s10_judge",
+        "cosine": 0.664,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0357",
+        "stage": "s10_judge",
+        "cosine": 0.665,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0365",
+        "stage": "s10_judge",
+        "cosine": 0.737,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0388",
+        "stage": "s10_judge",
+        "cosine": 0.701,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0390",
+        "stage": "s10_judge",
+        "cosine": 0.723,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0406",
+        "stage": "s10_judge",
+        "cosine": 0.728,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0417",
+        "stage": "s10_judge",
+        "cosine": 0.749,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0435",
+        "stage": "s10_judge",
+        "cosine": 0.756,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0443",
+        "stage": "s10_judge",
+        "cosine": 0.77,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0493",
+        "stage": "s10_judge",
+        "cosine": 0.844,
+        "boilerplate": false
+      }
+    ],
+    "fn_pairs": [
+      {
+        "pair_id": "p0124",
+        "blocker": "below_tau_low_pairwise",
+        "cosine": 0.536
+      },
+      {
+        "pair_id": "p0126",
+        "blocker": "judge_said_no",
+        "cosine": 0.523
+      },
+      {
+        "pair_id": "p0231",
+        "blocker": "divergent_other",
+        "cosine": 0.587
+      },
+      {
+        "pair_id": "p0254",
+        "blocker": "set_aside_unresolved",
+        "cosine": 0.618
+      },
+      {
+        "pair_id": "p0264",
+        "blocker": "judge_said_no",
+        "cosine": 0.622
+      },
+      {
+        "pair_id": "p0271",
+        "blocker": "judge_said_no",
+        "cosine": 0.601
+      },
+      {
+        "pair_id": "p0273",
+        "blocker": "judge_said_no",
+        "cosine": 0.649
+      },
+      {
+        "pair_id": "p0299",
+        "blocker": "judge_said_no",
+        "cosine": 0.605
+      },
+      {
+        "pair_id": "p0337",
+        "blocker": "judge_said_no",
+        "cosine": 0.677
+      },
+      {
+        "pair_id": "p0415",
+        "blocker": "judge_said_no",
+        "cosine": 0.717
+      }
+    ]
+  },
+  "judge_quality": {
+    "n_judged": 531,
+    "overall_accuracy": 0.9042357274401474,
+    "by_bin": {
+      "[0.20, 0.40)": {
+        "n": 60,
+        "acc": 1.0
+      },
+      "[0.40, 0.50)": {
+        "n": 60,
+        "acc": 0.983
+      },
+      "[0.50, 0.55)": {
+        "n": 58,
+        "acc": 0.966
+      },
+      "[0.55, 0.60)": {
+        "n": 55,
+        "acc": 0.945
+      },
+      "[0.60, 0.65)": {
+        "n": 59,
+        "acc": 0.864
+      },
+      "[0.65, 0.70)": {
+        "n": 51,
+        "acc": 0.804
+      },
+      "[0.70, 0.75)": {
+        "n": 60,
+        "acc": 0.883
+      },
+      "[0.75, 0.80)": {
+        "n": 44,
+        "acc": 0.955
+      },
+      "[0.80, 0.85)": {
+        "n": 39,
+        "acc": 0.949
+      },
+      "[0.85, 1.00)": {
+        "n": 45,
+        "acc": 0.889
+      }
+    }
+  },
+  "fusion": {
+    "enabled": true,
+    "oof_auc": 0.9118279569892473,
+    "oof_auc_cosine": 0.7484348864994026,
+    "gates": {
+      "p_high": 0.8071947159553038,
+      "p_low": 0.03024980153040738
+    },
+    "cv_scheme": "GroupKFold5-pairgraph",
+    "model_path": "/Users/alex/Projcts/news-clustering/artifacts/v4/fusion_model.json"
+  },
+  "cost": {
+    "judge_calls_new": 155,
+    "judge_calls_cached": 670
+  },
+  "notebook": "story_clustering_poc_v3.ipynb",
+  "config": {
+    "active_window_hours": 72,
+    "artifacts_dir": "/Users/alex/Projcts/news-clustering/artifacts/v4",
+    "cache_dir": "/Users/alex/Projcts/news-clustering/.cache",
+    "centroid_merge_sim": 0.85,
+    "chunk_max_tokens": 400,
+    "chunk_min_tokens": 25,
+    "client_universe_size": 20,
+    "data_dir": "/Users/alex/Projcts/news-clustering/dataset/financial-news-multisource/data",
+    "embed_dims": 1024,
+    "embed_model": "text-embedding-3-large",
+    "eval_cosine_bins": [
+      [
+        0.2,
+        0.4
+      ],
+      [
+        0.4,
+        0.5
+      ],
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.55,
+        0.6
+      ],
+      [
+        0.6,
+        0.65
+      ],
+      [
+        0.65,
+        0.7
+      ],
+      [
+        0.7,
+        0.75
+      ],
+      [
+        0.75,
+        0.8
+      ],
+      [
+        0.8,
+        0.85
+      ],
+      [
+        0.85,
+        1.0
+      ]
+    ],
+    "eval_pairs_per_bin": 60,
+    "eval_seeded_sampling": true,
+    "frozen_eval_path": "/Users/alex/Projcts/news-clustering/artifacts/v2/labeled_eval_set.csv",
+    "gemini_judge_model": "gemini-3.5-flash",
+    "hdbscan_cluster_selection_method": "eom",
+    "hdbscan_judge_gate": true,
+    "hdbscan_metric": "cosine",
+    "hdbscan_min_cluster_size": 2,
+    "hdbscan_min_samples": 2,
+    "human_spotcheck_band": [
+      0.55,
+      0.75
+    ],
+    "judge_escalation_band": [
+      0.0,
+      1.01
+    ],
+    "judge_escalation_model": null,
+    "judge_model": "gpt-4.1-mini",
+    "judge_prompt_version": "v2",
+    "judge_rep": "first",
+    "judge_text_mode": "chunk_pair",
+    "lede_chars": 600,
+    "max_chunks_per_item": 12,
+    "merge_include_closed": false,
+    "merge_sim_v3": null,
+    "metadata_model": "gpt-4.1",
+    "minhash_num_perm": 128,
+    "minhash_threshold": 0.85,
+    "openai_judge_model": "gpt-5.2",
+    "primary_source": "bloomberg_reuters",
+    "random_seed": 42,
+    "run_tag": "v4-3k-baseline",
+    "second_sweep": false,
+    "second_sweep_window_h": 336,
+    "sonnet_model": "claude-sonnet-4-6",
+    "supplemental_eval_path": "/Users/alex/Projcts/news-clustering/artifacts/v3/labeled_eval_supplemental.csv",
+    "target_canonical_items": 3000,
+    "tau_high": 0.94,
+    "tau_high_prior": 0.94,
+    "tau_low": 0.54,
+    "tau_low_prior": 0.54,
+    "use_chunking": false,
+    "use_fusion_gates": true,
+    "vendor_rate_limits_rpm": {
+      "sonnet": 25,
+      "haiku": 40,
+      "openai": 400,
+      "gemini": 50
+    }
+  },
+  "eval_hashes": {
+    "frozen_csv_sha256": "f8dde5b701cee45d",
+    "supplemental_csv_sha256": "fe215c5d0e19b7da"
+  },
+  "stop_rule": {
+    "ship": 0.85,
+    "floor": 0.75,
+    "headline_f1": 0.8341708542713568,
+    "verdict": "CONTINUE"
+  }
+}

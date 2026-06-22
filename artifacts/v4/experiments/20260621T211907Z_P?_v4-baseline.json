@@ -1,0 +1,438 @@
+{
+  "run_id": "20260621T211907Z_P?_v4-baseline",
+  "phase": "P?",
+  "tag": "v4-baseline",
+  "description": "",
+  "parent_run_id": null,
+  "comparison_root": "R0",
+  "kernel_clean": false,
+  "checkpoint_fingerprint": "2043b8a1080533d3",
+  "pipeline_counts": {
+    "processed_items": 7871,
+    "s10": {
+      "new_no_candidates": 1286,
+      "gray_diff": 2078,
+      "new_below_tau_low": 3916,
+      "gray_same": 418,
+      "auto": 173
+    },
+    "s11": {
+      "clusters_raw": 571,
+      "noise": 4306,
+      "dropped_client": 198,
+      "judge_gate": {
+        "clusters_in": 373,
+        "kept": 3,
+        "dropped": 370,
+        "peeled_members": 3,
+        "judge_calls": 608
+      },
+      "absorbed": 7
+    },
+    "s13": {
+      "merge_pool": 3,
+      "merge_candidates": 0,
+      "merges_applied": 0,
+      "second_sweep_assigned": 0
+    },
+    "final": {
+      "stories": 7276,
+      "multi_item": 439,
+      "singletons": 6837,
+      "largest_story": 13
+    }
+  },
+  "metrics": {
+    "frozen_full": {
+      "precision": 0.9166666666666666,
+      "recall": 0.8279569892473119,
+      "f1": 0.8700564971751412,
+      "tp": 77,
+      "fp": 7,
+      "fn": 16,
+      "tn": 443,
+      "n_scored": 543,
+      "unresolved_pairs": 178
+    },
+    "frozen_non_boilerplate": {
+      "precision": 0.9166666666666666,
+      "recall": 0.8369565217391305,
+      "f1": 0.875,
+      "tp": 77,
+      "fp": 7,
+      "fn": 15,
+      "tn": 266,
+      "n_scored": 365
+    },
+    "frozen_full_v2style": {
+      "precision": 0.9166666666666666,
+      "recall": 0.8279569892473119,
+      "f1": 0.8700564971751412,
+      "tp": 77,
+      "fp": 7,
+      "fn": 16,
+      "tn": 443,
+      "n_scored": 543
+    },
+    "supplemental_gt72h": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "tn": 198,
+      "n_scored": 199,
+      "by_gap_bucket": {
+        "14-30d": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 70,
+          "n_scored": 70
+        },
+        "3-7d": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 62,
+          "n_scored": 62
+        },
+        "7-14d": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "tn": 66,
+          "n_scored": 67
+        }
+      }
+    }
+  },
+  "attribution": {
+    "pred_same_stage_counts": {
+      "s10_judge": 40,
+      "s10_other": 24,
+      "s10_auto": 20
+    },
+    "fp_by_stage": {
+      "s10_judge": 7
+    },
+    "fn_by_blocker": {
+      "judge_said_no": 9,
+      "divergent_other": 5,
+      "below_tau_low_pairwise": 1,
+      "set_aside_unresolved": 1
+    },
+    "fp_pairs": [
+      {
+        "pair_id": "p0246",
+        "stage": "s10_judge",
+        "cosine": 0.628,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0253",
+        "stage": "s10_judge",
+        "cosine": 0.61,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0284",
+        "stage": "s10_judge",
+        "cosine": 0.64,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0304",
+        "stage": "s10_judge",
+        "cosine": 0.66,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0314",
+        "stage": "s10_judge",
+        "cosine": 0.665,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0315",
+        "stage": "s10_judge",
+        "cosine": 0.673,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0357",
+        "stage": "s10_judge",
+        "cosine": 0.665,
+        "boilerplate": false
+      }
+    ],
+    "fn_pairs": [
+      {
+        "pair_id": "p0124",
+        "blocker": "below_tau_low_pairwise",
+        "cosine": 0.536
+      },
+      {
+        "pair_id": "p0152",
+        "blocker": "judge_said_no",
+        "cosine": 0.529
+      },
+      {
+        "pair_id": "p0215",
+        "blocker": "divergent_other",
+        "cosine": 0.576
+      },
+      {
+        "pair_id": "p0226",
+        "blocker": "judge_said_no",
+        "cosine": 0.574
+      },
+      {
+        "pair_id": "p0244",
+        "blocker": "judge_said_no",
+        "cosine": 0.646
+      },
+      {
+        "pair_id": "p0254",
+        "blocker": "set_aside_unresolved",
+        "cosine": 0.618
+      },
+      {
+        "pair_id": "p0258",
+        "blocker": "divergent_other",
+        "cosine": 0.625
+      },
+      {
+        "pair_id": "p0264",
+        "blocker": "judge_said_no",
+        "cosine": 0.622
+      },
+      {
+        "pair_id": "p0271",
+        "blocker": "judge_said_no",
+        "cosine": 0.601
+      },
+      {
+        "pair_id": "p0303",
+        "blocker": "judge_said_no",
+        "cosine": 0.675
+      },
+      {
+        "pair_id": "p0322",
+        "blocker": "divergent_other",
+        "cosine": 0.654
+      },
+      {
+        "pair_id": "p0331",
+        "blocker": "divergent_other",
+        "cosine": 0.671
+      },
+      {
+        "pair_id": "p0342",
+        "blocker": "divergent_other",
+        "cosine": 0.686
+      },
+      {
+        "pair_id": "p0366",
+        "blocker": "judge_said_no",
+        "cosine": 0.707
+      },
+      {
+        "pair_id": "p0393",
+        "blocker": "judge_said_no",
+        "cosine": 0.732
+      },
+      {
+        "pair_id": "p0415",
+        "blocker": "judge_said_no",
+        "cosine": 0.717
+      }
+    ]
+  },
+  "judge_quality": {
+    "n_judged": 543,
+    "overall_accuracy": 0.9650092081031307,
+    "by_bin": {
+      "[0.20, 0.40)": {
+        "n": 60,
+        "acc": 1.0
+      },
+      "[0.40, 0.50)": {
+        "n": 60,
+        "acc": 0.983
+      },
+      "[0.50, 0.55)": {
+        "n": 60,
+        "acc": 0.967
+      },
+      "[0.55, 0.60)": {
+        "n": 55,
+        "acc": 0.982
+      },
+      "[0.60, 0.65)": {
+        "n": 60,
+        "acc": 0.917
+      },
+      "[0.65, 0.70)": {
+        "n": 52,
+        "acc": 0.885
+      },
+      "[0.70, 0.75)": {
+        "n": 60,
+        "acc": 0.95
+      },
+      "[0.75, 0.80)": {
+        "n": 46,
+        "acc": 0.978
+      },
+      "[0.80, 0.85)": {
+        "n": 42,
+        "acc": 1.0
+      },
+      "[0.85, 1.00)": {
+        "n": 48,
+        "acc": 1.0
+      }
+    }
+  },
+  "fusion": {
+    "enabled": true,
+    "oof_auc": 0.9118279569892473,
+    "oof_auc_cosine": 0.7484348864994026,
+    "gates": {
+      "p_high": 0.8071947159553038,
+      "p_low": 0.03024980153040738
+    },
+    "cv_scheme": "GroupKFold5-pairgraph",
+    "model_path": "/Users/alex/Projcts/news-clustering/artifacts/v4/fusion_model.json"
+  },
+  "cost": {
+    "judge_calls_new": 0,
+    "judge_calls_cached": 3104
+  },
+  "notebook": "story_clustering_poc_v3.ipynb",
+  "config": {
+    "active_window_hours": 72,
+    "artifacts_dir": "/Users/alex/Projcts/news-clustering/artifacts/v4",
+    "cache_dir": "/Users/alex/Projcts/news-clustering/.cache",
+    "centroid_merge_sim": 0.85,
+    "chunk_max_tokens": 400,
+    "chunk_min_tokens": 25,
+    "client_universe_size": 20,
+    "data_dir": "/Users/alex/Projcts/news-clustering/dataset/financial-news-multisource/data",
+    "embed_dims": 1024,
+    "embed_model": "text-embedding-3-large",
+    "eval_cosine_bins": [
+      [
+        0.2,
+        0.4
+      ],
+      [
+        0.4,
+        0.5
+      ],
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.55,
+        0.6
+      ],
+      [
+        0.6,
+        0.65
+      ],
+      [
+        0.65,
+        0.7
+      ],
+      [
+        0.7,
+        0.75
+      ],
+      [
+        0.75,
+        0.8
+      ],
+      [
+        0.8,
+        0.85
+      ],
+      [
+        0.85,
+        1.0
+      ]
+    ],
+    "eval_pairs_per_bin": 60,
+    "eval_seeded_sampling": false,
+    "frozen_eval_path": "/Users/alex/Projcts/news-clustering/artifacts/v2/labeled_eval_set.csv",
+    "gemini_judge_model": "gemini-3.5-flash",
+    "hdbscan_cluster_selection_method": "eom",
+    "hdbscan_judge_gate": true,
+    "hdbscan_metric": "cosine",
+    "hdbscan_min_cluster_size": 2,
+    "hdbscan_min_samples": 2,
+    "human_spotcheck_band": [
+      0.55,
+      0.75
+    ],
+    "judge_escalation_band": [
+      0.0,
+      1.01
+    ],
+    "judge_escalation_model": "gpt-5.2",
+    "judge_model": "gpt-4.1-mini",
+    "judge_prompt_version": "v2",
+    "judge_rep": "first",
+    "judge_text_mode": "chunk_pair",
+    "lede_chars": 600,
+    "max_chunks_per_item": 12,
+    "merge_include_closed": false,
+    "merge_sim_v3": null,
+    "metadata_model": "gpt-4.1",
+    "minhash_num_perm": 128,
+    "minhash_threshold": 0.85,
+    "openai_judge_model": "gpt-5.2",
+    "primary_source": "bloomberg_reuters",
+    "random_seed": 42,
+    "run_tag": "v4-baseline",
+    "second_sweep": false,
+    "second_sweep_window_h": 336,
+    "sonnet_model": "claude-sonnet-4-6",
+    "supplemental_eval_path": "/Users/alex/Projcts/news-clustering/artifacts/v3/labeled_eval_supplemental.csv",
+    "target_canonical_items": 10000,
+    "tau_high": 0.94,
+    "tau_high_prior": 0.94,
+    "tau_low": 0.54,
+    "tau_low_prior": 0.54,
+    "use_chunking": false,
+    "use_fusion_gates": true,
+    "vendor_rate_limits_rpm": {
+      "sonnet": 25,
+      "haiku": 40,
+      "openai": 50,
+      "gemini": 50
+    }
+  },
+  "eval_hashes": {
+    "frozen_csv_sha256": "f8dde5b701cee45d",
+    "supplemental_csv_sha256": "fe215c5d0e19b7da"
+  },
+  "stop_rule": {
+    "ship": 0.85,
+    "floor": 0.75,
+    "headline_f1": 0.8700564971751412,
+    "verdict": "STOP_SHIP"
+  }
+}

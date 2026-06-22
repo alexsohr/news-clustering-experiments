@@ -1,0 +1,1387 @@
+# supplemental >72h same-client slice | models: sonnet=claude-sonnet-4-6 openai=gpt-5.2 gemini=gemini-3.5-flash | prompt=v1 | seed=42
+pair_id,item_a_id,item_b_id,cosine_sim,sim_bucket,time_gap_hours,gap_bucket,shared_clients,item_a_title,item_a_lede,item_a_published_at,item_b_title,item_b_lede,item_b_published_at,is_boilerplate_pair,verdict_sonnet,verdict_openai,verdict_gemini,final_label
+supp0000,153e23f9-d2ec-5565-bba0-43c3e0b6ee7f,c6959213-e4b3-54c3-b742-fc4bd2ddbdf7,0.45363032817840576,"[0.4, 0.55)",552.0,14-30d,Apple,"REFILE-Apple's invincibility fades on iPhone miss, global woes",,2012-07-25 00:00:00+00:00,Apple fires closing shots at Samsung in patents battle,,2012-08-17 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0001,41dac9b6-12f6-5dec-8fbd-443d4b7c7e1b,a5707310-2277-5f3d-9f7c-422497e7ee20,0.45576950907707214,"[0.4, 0.55)",492.73027777777776,14-30d,Goldman Sachs,Buffett's Berkshire set to get nearly $2.15 billion of Goldman stock,,2013-10-01 00:00:00+00:00,Soros-Backed Essent Seeks $1.2 Billion Valuation in IPO,"Essent Group Ltd. (ESNT) , the mortgage
+insurer backed by George Soros and Goldman Sachs (GS) Group Inc., is
+seeking a valuation of $1.2 billion in an initial public
+offering as the company adds capital to expand sales. Essent and its investors are selling 19.7 million shares
+for $13.50 to $15.50 apiece, according to a regulatory filing
+today from the Bermuda-based firm. At the midpoint, that would
+raise about $286 million for a 24 percent stake. Investors have poured capital into mortgage insurers this
+year amid rising home prices. Essent was started during the
+housing bust as homeowners’ def",2013-10-21 12:43:49+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0002,66be9fbe-42d9-5a57-9d0f-cf00eda05b85,a4ef1815-a208-5f8e-a590-5309a13daacb,0.47673699259757996,"[0.4, 0.55)",528.0,14-30d,Boeing,FAA temporarily grounds Boeing 787s for potential fire risk,,2013-01-16 00:00:00+00:00,Boeing to address compensation after Dreamliner back in air: executive,,2013-02-07 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0003,059ed3fa-92e3-5b8c-9e4a-65cbbed6aa55,90f229c0-75bf-5759-9231-2c908236ce74,0.40670618414878845,"[0.4, 0.55)",115.98305555555555,3-7d,Google,"Apple, J&J, Tesla, Intel, Sirius: Intellectual Property","Apple Inc. won an appeals court
+ruling that lets it argue anew that Google Inc. (GOOG) ’s Motorola
+Mobility infringed its patents for touchscreen technology. The appeals court ordered the U.S. International Trade
+Commission in Washington to consider whether Motorola Mobility
+infringed one patent, and review whether an aspect of a second
+patent was valid. The U.S. Court of Appeals for the Federal
+Circuit, which posted the opinion on its website yesterday,
+upheld invalidity findings on other aspects of that patent. The case focused on what an Apple lawyer told the court was
+a key invention that ",2013-08-08 04:01:01+00:00,Mobile ad firm Millennial Media buys Jumptap to help it fight Google,,2013-08-13 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0004,74a9d4de-83a5-55f0-b06d-202cc8b3ced9,b0d99b1e-748c-5b87-b6f5-5ce7a544caaf,0.42541632056236267,"[0.4, 0.55)",300.8725,7-14d,Goldman Sachs,Consumer Rates Climb After Deregulation Goldman Sachs Funded,"Houston (10750MF) consumers were supposed to
+get lower electricity rates from deregulation. Instead, they pay
+some of the nation’s highest prices, partly because of bonds
+ Goldman Sachs Group Inc. (GS) recently sold for a local utility. The Wall Street bank marketed $1.7 billion of securities
+for Houston-based CenterPoint Energy Inc. (CNP) last month at higher
+yields than most of the company’s similar long-term debt,
+according to data compiled by Bloomberg. That raised costs borne
+by 2.2 million Houston-area consumers by about $47 million. The sale shows how deregulation in Texas backfired, dr",2012-02-23 22:57:46+00:00,"Goldman’s European Power Trading Head Resigns, SparkSpread Says","Phil Beatty resigned as head of
+European power and natural-gas trading at Goldman Sachs Group
+Inc. (GS) , SparkSpread said, without citing anyone. Beatty left yesterday after more than 10 years at the bank
+and may start a hedge fund, SparkSpread said. Sophie Bullock, a spokeswoman for Goldman Sachs, declined
+to comment when contacted by telephone in London . To contact the reporter on this story:
+ Matthew Brown in London at 
+ mbrown42@bloomberg.net To contact the editor responsible for this story:
+Stephen Voss at 
+ sev@bloomberg.net",2012-03-07 11:50:07+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0005,8c34af41-43c3-53f6-936a-f6f9875cc41d,a06660ac-3b5c-5306-a1cb-65d8209a715b,0.5171844363212585,"[0.4, 0.55)",132.07611111111112,3-7d,Goldman Sachs,"Goldman Sachs Cuts Costs, Boosts Dividend as Revenue Tumbles 20%","Goldman Sachs Group Inc. , the world’s most profitable securities firm before the financial crisis, said earnings were little changed as the bank cut costs in response to a 20 percent drop in revenue. The firm increased its dividend 10 percent. Shares of the company fell as revenue of $6.72 billion fell short of the $7.35 billion average estimate of 17 analysts surveyed by Bloomberg. Third-quarter net income rose to $1.52 billion, or $2.88 a share, from $1.51 billion, or $2.85, a year earlier, the New York-based company said today in a statement. Chief Executive Officer Lloyd C. Blankfein , 59",2013-10-17 11:55:26+00:00,Goldman Sachs trying to improve fixed-income trading: media report,,2013-10-23 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0006,f244f182-8a25-56fa-be11-93ffa4fc299f,58f44638-069d-528c-9b9e-80b5cb99b22a,0.4035205543041229,"[0.4, 0.55)",674.4194444444445,14-30d,Apple,"Apple, Samsung Inch Toward End of Smartphone Patent Fight","Apple Inc. (AAPL) and Samsung Electronics Co. may inch closer to settling their global litigation over smartphone patents with decisions in the U.S. and Europe that allow sales of competing handsets while the fight over legal damages continues. Facing an antitrust probe by European regulators, Samsung said today that it will halt efforts to block sales of Apple products there. Hours earlier, a U.S. judge in California rejected Apple’s request to block sales of Samsung devices. Samsung and Apple, the world’s two biggest smartphone makers, have each scored victories in their patent disputes foug",2012-12-18 21:34:50+00:00,US STOCKS-Wall Street flat as Apple gains; Boeing drags Dow,,2013-01-16 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0007,249c935a-94c6-5252-b544-4fc5c8757b80,80b50323-17d5-5432-ba25-2c83155bf658,0.43221572041511536,"[0.4, 0.55)",260.5258333333333,7-14d,Facebook,"Facebook changes IPO pitch in Boston, scraps video",,2012-05-08 00:00:00+00:00,Nasdaq Sets Up Appeals Process for Missed Facebook Orders,"Nasdaq OMX Group Inc. (NDAQ) set up an
+appeals process for traders whose Facebook Inc. (FB) trades didn’t go
+through, giving them a deadline of 5 p.m. New York time to
+submit requests. Nasdaq OMX said traders with questions about orders placed
+between 11:11 a.m. and 11:30 a.m. New York time should contact
+the exchange operator at +1-212-231-5100. “Our intention is to reach resolution of those trades
+today through an offline matching process,” Nasdaq said in an
+e-mailed statement. “If at the end of that process, a firm
+continues to have questions or concerns, the firm needs to
+submit a formal a",2012-05-18 20:31:33+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0008,48708f9f-ae99-5625-971a-28927a42f318,9cc2e814-080e-59e0-8634-6b4b25567bdf,0.5111110210418701,"[0.4, 0.55)",310.0941666666667,7-14d,Google,Reding Says Google Privacy Policy Will Breach EU Rules,"European Union Justice Commissioner 
+Viviane Reding talks about Google Inc.'s privacy policy and the 
+euro-zone debt crisis. She speaks in London with Bloomberg Television's Olivia 
+Sterns. (Source: Bloomberg) 00:00 Google's privacy policy; data protection 
+06:49 European debt crisis; ECB three-year loans Running Time: 09:40",2012-03-01 17:56:25+00:00,EU Seeks Phone-Company Data on Technology Standardization,"France Telecom SA (FTE) , Deutsche Telekom
+AG (DTE) and Telefonica SA (TEF) are among European phone companies
+questioned by regulators about talks held by the group on
+technology standards to compete with Google Inc. (GOOG) and Apple Inc. (AAPL) The other companies involved are Telecom Italia SpA (TIT) and
+ Vodafone Group Plc (VOD) , as well as trade association GSMA . The CEOs
+of the companies, four of which are former national phone
+monopolies, met for the first time in Paris in October 2010. The
+meetings focused on operating systems and capacity for handling
+surging data traffic on wireles",2012-03-14 16:02:04+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0009,ea6458cf-ce1d-53f7-8eaa-eec94d69aa85,fc7ba5c8-7492-5b4c-8b61-38b1a3e320fe,0.47537851333618164,"[0.4, 0.55)",216.0,7-14d,Microsoft,Microsoft rank and file unsettled but optimistic about change,,2013-09-08 00:00:00+00:00,UPDATE 4-Microsoft raises payout 22 pct ahead of investor meet,,2013-09-17 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0010,d9ec171e-da2d-5fde-95c9-e125edd4f712,f3a7d4b8-0744-577c-8357-a2059a766515,0.42149287462234497,"[0.4, 0.55)",120.0,3-7d,Microsoft,Microsoft Showcases Momentum in Devices and Services at Annual Shareholder Meeting,,2012-11-28 00:00:00+00:00,U.S. Teachers Awarded at Microsoft's 2012 Global Forum,,2012-12-03 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0011,a839949f-3a0e-521d-be0c-f7c35f77ae83,6a1da61a-daa9-5808-984d-51aa5c21ab78,0.46743765473365784,"[0.4, 0.55)",223.99527777777777,7-14d,Bank of America,"Treasuries Deliver Loss as High-Yield Bonds, Stocks Rise","Treasuries are falling in 2013 while
+high-yield bonds and stocks set records, reflecting demand for
+riskier assets as the Federal Reserve promises to stick to its
+program of quantitative easing to spur growth. Government debt has slid 0.4 percent this year, versus a
+2.1 percent gain for high-yield bonds, after accounting for
+interest, according to Bank of America Merrill Lynch indexes.
+The high-yield gauge rose to 971.9 yesterday, the most based on
+data that go back to 1986. The Dow Jones Industrial Average
+climbed to its highest level ever. Fed Chairman Ben S. Bernanke 
+and Vice Chairman Jane",2013-03-06 08:41:14+00:00,Corporate Bond Sales Reach $34 Billion in U.S. on Fund Inflows,"GlaxoSmithKline Plc (GSK) and Nissan
+Motor Co. (7201) led sales of at least $34 billion this week with
+investors allocating money to corporate bond funds as relative
+yields declined. Glaxo, the U.K.’s largest drugmaker, sold $3 billion in its
+first U.S. sale in more than 10 months and Yokohama, Japan-based
+Nissan raised $1 billion, according to data compiled by
+Bloomberg. Offerings increased from $31.6 billion last week and
+compare with a 2013 weekly average of $31.4 billion. Investors deposited $2.3 billion into U.S. investment-grade
+bond funds in the week ended March 13, the strongest inflow",2013-03-15 16:40:57+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0012,4180bc9d-3d7c-54a5-a34c-489f7b60548f,7e146353-4b80-5b89-a47f-4eb55e3dacc6,0.41155898571014404,"[0.4, 0.55)",156.40416666666667,3-7d,ExxonMobil,Exxon Mobil Corporation Announces Estimated First Quarter 2012 Results,,2012-04-26 00:00:00+00:00,Fuchs Chief Says Oil Companies ‘Losing Interest’ in Lubricants,"Fuchs Petrolub AG (FPE) Chief Executive
+Officer Stefan Fuchs said the global lubricants industry will
+change as some oil companies switch focus while private equity
+and emerging-market energy companies invest in the sector. Some of the “classic” oil companies are “losing
+interest” in lubricants, Fuchs said on a call, without giving
+names. Fuchs’s competitors include Infineum, a joint venture
+created by Exxon Mobil Corp. (XOM) and Royal Dutch Shell Plc (RDSA) in 1999,
+and Chevron Corp. (CVX) ’s Oronite. The $9 billion purchase of Lubrizol Corp. by Warren Buffett ’s Berkshire Hathaway Inc. (BRK/",2012-05-02 12:24:15+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0013,1b51c9c5-ca9a-55f9-929c-eb8a562236b5,25b31164-a12d-56b5-8d0f-a1200ebfc09e,0.8395968675613403,"[0.75, 0.9)",672.0,14-30d,Bank of America,Bank of America Announces Cash Tender Offers for Certain Senior Notes Maturing in 2014 for up to US$5.0 Billion,,2013-07-18 00:00:00+00:00,Bank of America Announces Expiration and Results of Cash Tender Offers for 2014 Senior Notes,,2013-08-15 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0015,4a5ad3b0-9354-5897-af3a-baa63e8ef418,55672ae7-1ca5-5a3a-ab9b-9e68d49a9fc3,0.6368619203567505,"[0.55, 0.75)",120.0,3-7d,IBM,Flagship Solutions Group Wins 2012 IBM Beacon Award for Miami Dolphins Smarter Stadium Solution,,2012-02-29 00:00:00+00:00,Provista Chosen as Finalist in IBM 2012 Beacon Awards,,2012-03-05 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0016,95715a7f-ea21-5c48-aabf-223541a03659,b990eaa1-a31a-5486-add9-d616a449c43e,0.46588799357414246,"[0.4, 0.55)",504.0,14-30d,Facebook,Facebook's Sandberg sells another $3.75 mln in stock,,2012-11-08 00:00:00+00:00,"UPDATE 1-Facebook, Zynga revamp partnership",,2012-11-29 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0017,3323d8bc-3ce7-5b32-a935-df215efdbf9e,14c33174-9e6f-5231-bbfd-391bd79acc65,0.4577784240245819,"[0.4, 0.55)",613.6458333333334,14-30d,Facebook,Facebook IPO almost ready -WSJ,,2012-01-27 00:00:00+00:00,"Goldman Sachs, Insider Trading, Facebook, BNY in Court News","A former Goldman Sachs Group Inc. (GS) 
+computer programmer was freed after his conviction for stealing
+the bank’s high-speed trading code was reversed by a U.S.
+appeals court. Wearing a gray sweatsuit, white tennis shoes and a huge
+grin, Sergey Aleynikov , 42, left the Manhattan courthouse where
+he had been convicted in December 2010 and entered a waiting car
+with his lawyer, Kevin Marino . “Justice occasionally works,” Aleynikov told reporters as
+he left. “This was such big news to me I haven’t had any time
+to think about what would happen.” Aleynikov, a naturalized U.S. citizen born in Russ",2012-02-21 13:38:45+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0018,e10cfb16-a096-5f79-8de2-fd3d48fac20c,53c962c5-8dbe-5358-8d7f-c56faa16938e,0.4465821385383606,"[0.4, 0.55)",120.0,3-7d,Bank of America,"UPDATE 2-Bank of America profit jumps on equity trading, cost cuts",,2013-07-17 00:00:00+00:00,BofA Merrill Launches Dashboard Analytics for Global Reporting and Account Management,,2013-07-22 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0019,6ea67da8-7732-5005-8403-406e229873f4,34ee3666-2276-531b-9b5c-5de8b878e622,0.5680858492851257,"[0.55, 0.75)",216.0,7-14d,JPMorgan,iRobot CEO To Speak At 41st Annual J.P. Morgan Technology Media and Telecom Conference,,2013-05-07 00:00:00+00:00,KB Home to Webcast Presentation at the J.P. Morgan Homebuilding and Building Products Conference,,2013-05-16 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0020,779a45da-d76e-5f23-aee1-ffcaa8e02d60,6dd56f77-d8bb-502f-95e5-1e085aca85ff,0.48827505111694336,"[0.4, 0.55)",477.5113888888889,14-30d,Walmart,Wal-Mart files unfair US labor practice charge over protests,,2012-11-16 00:00:00+00:00,Wal-Mart Shouldn't Discount Worker Safety,"Wal-Mart Stores Inc. (WMT) is learning just how hard it is to escape the stain of exploiting human beings for profit. The company was already roiling from news that the Tazreen factory in Bangladesh , a firetrap that burned down killing more than 100 workers last month, was a Wal-Mart supplier. Now, Bloomberg News has reported that the retailer last year said it would not pay Bangladeshi factories prices sufficient to cover safety improvements that might have prevented the Tazreen blaze. Wal-Mart's position was contained in a record of a meeting in Dhaka about the Fire and Building Safety Agre",2012-12-05 21:30:41+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0021,d4cf8bca-60a8-53cf-b6a8-11c116e037b0,5d9422c8-08c4-55bb-8561-68ac99d6c57d,0.4614580571651459,"[0.4, 0.55)",504.0,14-30d,IBM,"IBM to Acquire Tealeaf Technology, Inc. to Help Marketers Deliver Exceptional Digital Experience for Smarter Commerce",,2012-05-02 00:00:00+00:00,Voxeo Named IBM Alliance Partner,,2012-05-23 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0022,4dae3695-144d-54f8-8625-25db7892f2b5,d8180501-e978-527f-b218-959e7848eeee,0.5265802145004272,"[0.4, 0.55)",193.81027777777777,7-14d,JPMorgan,Biggest Banks Face Fed Restoring Barriers in Commodities,"(Corrects Omarova’s affiliation in 20th paragraph.) The Federal Reserve ’s review of its
+decision to let banks store, transport and trade raw materials
+signals a potential rebuilding of the wall between banking and
+commerce that legislation and rulemaking have eroded. The central bank said July 19 that it’s reviewing a decade-old decision that physical commodities are “complementary” to
+banking, allowing lenders such as Citigroup Inc. (C) and JPMorgan
+Chase & Co. (JPM) to operate in both industries. Goldman Sachs Group
+Inc. (GS) and Morgan Stanley may be less at risk from the review as
+some bu",2013-07-23 15:27:39+00:00,"Glencore Leading in Metals Storage as Goldman, JPMorgan Cut","Glencore Xstrata Plc, the biggest
+publicly traded raw-materials supplier, became the largest owner
+of warehouses monitored by the London Metal Exchange as banks
+pull back amid increased scrutiny by lawmakers and regulators. Pacorini Metals, owned by Baar, Switzerland-based Glencore,
+added 14 warehouses this year, taking its total to 178, or two
+more than C. Steinweg Handelsveem BV, according to LME data
+compiled by Bloomberg. The expansion contrasts with a drop in
+listed warehouses held by Goldman Sachs Group Inc. and JPMorgan
+Chase & Co. (JPM) , the third and fourth-largest owners. U.S. finan",2013-07-31 17:16:16+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0023,60563df2-f93a-53c2-bcad-6637be74bc6a,5a6a260e-f28a-5186-94cb-fb188d2195c5,0.5033560991287231,"[0.4, 0.55)",402.54055555555556,14-30d,Bank of America,Nationstar to Buy Rights on $10.4 Billion of Home Loans,"Nationstar Mortgage Holdings Inc. (NSM) 
+agreed to buy servicing rights on mortgages with an unpaid
+principal balance of $10.4 billion from Bank of America Corp. (BAC) as
+banks reduce the amount of home loans they administer. The purchase will be funded partly by an investment by
+ Newcastle Investment Corp. (NCT) , Lewisville, Texas-based Nationstar
+said in a statement today. Newcastle paid $44 million for the
+right to receive 65 percent of the monthly cash flow generated
+by the rights, the New York-based real-estate debt investor said
+in a separate statement. Nationstar, taken public by Fortr",2012-06-05 12:50:48+00:00,Bank of America Sells Structured Credit Linked to ING,"(Corrects amount of ING note in second paragraph.) Bank of America Merrill Lynch sold
+$100 million of structured notes that will initially reward
+investors based on the performance of a similar note issued last
+year by ING Groep NV. The $100 million credit-linked note is tied to a 6.51
+billion-ruble ($194 million) ING security, which itself is
+linked to a bond from OAO Gazprombank, Russia’s third-biggest
+lender, until December 12. After that Bank of America’s note is
+tied to a basket of undisclosed credits. Andrew Todd , a Bank of America spokesman in London,
+declined to comment on the note. C",2012-06-22 07:23:14+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0024,666977e7-14be-58bc-bff7-b9309a97e081,b67a46ec-fed9-5e12-897d-1b4c376a8544,0.40171000361442566,"[0.4, 0.55)",168.0,3-7d,Google,Tech wrap: Google bypassed Safari privacy settings,,2012-02-17 00:00:00+00:00,"Google is done with Clearwire, intends to sell off shares for a huge loss",,2012-02-24 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0025,24dbb078-4df8-5e97-bdee-82c4345745da,41fc5423-8493-53ca-a2ed-ea7f592fd402,0.4967944025993347,"[0.4, 0.55)",639.3394444444444,14-30d,Apple,Apple Loses Bid to Ban Samsung’s Galaxy Tab 10.1N in Germany,"Apple Inc. (AAPL) lost a court bid to ban
+sales of Samsung Electronics Co.’s Galaxy 10.1N tablet computer,
+a modified version of the original 10.1 model that was blocked
+in Germany . The Dusseldorf appeals court judges backed a lower court
+ruling that had rejected the bid in February, the tribunal’s
+spokesman Klaus Schumacher said in an interview today. The court
+granted a separate Apple bid for a ban on Samsung’s Galaxy 7.7
+tablet in all 27 member states of the European Union. Apple has been fighting tablet competitors in courts across
+the globe for about a year. The iPad maker scored a victo",2012-07-24 08:39:38+00:00,"Apple, Samsung CEOs talk but no trial settlement reached",,2012-08-20 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0026,20574654-81c1-5994-a67b-2821051da6b5,dcaee1a9-b8b4-528a-9d05-135933e933a5,0.6558420658111572,"[0.55, 0.75)",270.6022222222222,7-14d,Toyota,"Toyota regains top global auto sales spot, with VW in pursuit",,2012-07-26 00:00:00+00:00,Toyota Shares Rise After Profit Beats Analyst Estimates,"Toyota Motor Corp. (7203) rose to the
+highest in a month in Tokyo trading as profit beat analysts’
+estimates and the company raised its sales target. Asia ’s largest automaker climbed 2.5 percent to 3,140 yen,
+the highest since July 9, at the close of trading in Tokyo. The
+shares were today’s biggest contributor to the 2 percent gain on
+the benchmark Nikkei 225 (NKY) Stock Average. Toyota may regain its global sales title for the year from
+ General Motors Co. (GM) and Volkswagen AG (VOW) , based on its revised goal.
+The carmaker, which fell to third last year, now expects sales
+to rise 23 perc",2012-08-06 06:36:08+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0027,336f564d-a6d6-5630-8376-aa02aeb8f256,5c5c0fdd-3a83-5c41-add2-eeb32956de68,0.4816751182079315,"[0.4, 0.55)",151.2913888888889,3-7d,JPMorgan,JPMorgan Restricts New Student Lending to Bank Customers,"(Corrects JPMorgan’s 2011 student lending in the fourth
+paragraph of a story originally published April 10.) JPMorgan Chase & Co. (JPM) , the largest
+U.S. bank, will stop providing private student loans to people
+who aren’t customers of the company beginning July 1. “The private student-loan market has continued to decline
+and government programs have expanded to help more students and
+their families,” Steve O’Halloran, a spokesman for the New
+York-based bank, said today in an e-mail. Customers must have a Chase deposit, loan or credit-card
+relationship to apply, he said. The company will cont",2012-04-12 16:42:31+00:00,JPMorgan bets on transaction banking in Africa,,2012-04-19 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0028,bfb8e5da-9617-5b25-888d-d1043869ebdf,bb874182-aff4-5b15-829a-7fec73f174bd,0.4441241919994354,"[0.4, 0.55)",336.0,7-14d,Microsoft,Microsoft CTO Barry Briggs to Be Centerpiece Conversation Interview at Ninth Annual SNS Predictions Dinner in New York,,2013-11-04 00:00:00+00:00,Symphony Teleca Names Microsoft Executive John Kahan to Board of Directors,,2013-11-18 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0029,c4a17489-1554-5c97-a49f-fb39cbc740fc,9c5c5801-c501-52a1-9c3a-b343adb1b07e,0.49228373169898987,"[0.4, 0.55)",158.9163888888889,3-7d,Goldman Sachs,Goldman may delay UK bonuses until top tax rate falls,,2013-01-13 00:00:00+00:00,Goldman Raises CEO’s Stock Bonus 90% to $13.3 Million,"(Corrects 2007 payout in third paragraph of story
+published Jan. 18.) Goldman Sachs Group Inc. (GS) boosted
+Chief Executive Officer Lloyd C. Blankfein’s stock bonus 90
+percent to $13.3 million, topping JPMorgan Chase & Co. (JPM) ’s Jamie Dimon for the first time in five years, as profit climbed . While the bank didn’t disclose Blankfein’s cash bonus, a
+person familiar with the payout said his total bonus was about
+70 percent restricted stock and 30 percent cash, like last year.
+On that basis, the total would be about $19 million including
+$5.7 million in cash. Pay for Blankfein, whose $67.9 mi",2013-01-19 14:54:59+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0030,a9c194a4-315c-5de5-8215-d6bca8bf9b6a,5b0c9ffe-69ad-5a54-8a5e-f6cffeaae582,0.5325044393539429,"[0.4, 0.55)",456.0,14-30d,Facebook,Whoâs buying Facebook stock? Experts put their money where their mouths are,,2012-05-18 00:00:00+00:00,"IPO ""whisper"" estimates may be heard after Facebook",,2012-06-06 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0031,ab99a9f4-d3c4-529e-b3d8-3d5e51394f1f,a867a6ea-e504-5eeb-8759-a2d7f5ef6808,0.4123237133026123,"[0.4, 0.55)",315.60277777777776,7-14d,Bank of America,American Apparel Said to Plan $75 Million Loan Refinance,"American Apparel Inc. (APP) is close to
+refinancing a $75 million loan that may allow the chain to
+remove language from its public filings that it’s at risk of
+ceasing operations, said two people familiar with the situation. The retailer may sign an agreement with Boston-based
+Crystal Financial LLC in the next two days to refinance the
+credit revolver held by Bank of America Corp. , said the people,
+who declined to be identified because the negotiations are
+private. The facility was due to mature on July 2. Crystal was
+founded in 2010 and its lead investor is a fund backed by George
+Soros , ac",2012-03-13 20:23:50+00:00,Bank of America plans international advisory board: sources,,2012-03-27 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0032,90994b54-f43d-5f80-9ad5-8049ffe39188,04b291c4-1151-5f42-ba8e-99a2d44ad2fd,0.4191993474960327,"[0.4, 0.55)",79.29083333333334,3-7d,JPMorgan,JPMorgan Denied Motion to Dismiss Syncora Guarantee Suit,"JPMorgan Chase & Co. (JPM) lost a motion to
+dismiss a suit filed by Syncora Guarantee Inc. accusing Bear
+Stearns & Co. of making false and misleading statements
+connected with a mortgage-backed securities transaction. The bond insurer sued JPMorgan Securities LLC, formerly
+Bear Stearns, in New York state Supreme Court in Manhattan in
+June 2011 over the transaction, known as GreenPoint Mortgage
+Funding Trust 2007-HE1. JPMorgan moved to dismiss the complaint, saying that
+Syncora already tried to litigate the claims in federal court in
+Manhattan. Justice Charles E. Ramos denied the motion, saying",2012-05-07 16:42:33+00:00,Factbox: JPMorgan's Dimon past comments on regulation,,2012-05-11 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0033,428579c4-c687-58b9-80c6-fcf05d057650,7317d428-6ec7-58bd-82c5-0c3956a46e09,0.4142381250858307,"[0.4, 0.55)",413.82444444444445,14-30d,Apple,Nokia Advances Most in Five Months on Takeover Speculation,"Nokia Oyj (NOK1V) , the mobile-phone maker
+struggling to recover lost market share, jumped the most in five
+months as investors speculated the company may receive a
+takeover bid. The stock advanced 6 percent, the most since Jan. 5, to
+close at 2.36 euros in Helsinki. Nokia had declined 41 percent this year before today as
+consumers snapped up Apple Inc. (AAPL) iPhones and smartphones running
+on Google Inc.’s Android software. Espoo, Finland-based Nokia is
+rebuilding its smartphone business around the Windows Phone
+software from Microsoft Corp. (MSFT) , which has been speculated to be a
+possibl",2012-06-08 16:01:29+00:00,Sprint Shares Fall Amid Concern Over Expansion of Network,"Sprint Nextel Corp. (S) , the third-
+biggest U.S. wireless carrier, declined the most in two months
+amid concern over the management of its fourth-generation
+network expansion. About 250 employees that had been assigned to Ericsson AB
+to help plan and oversee the network were reassigned back to
+Sprint. The shift of employees was highlighted in a report today
+by Detwiler Fenton & Co., which called the change a “black
+eye” for Ericsson and a sign that Sprint may have had troubles
+coordinating the work. Ericsson was hired as a contract partner
+to handle Sprint’s network operation and expansion. T",2012-06-25 21:50:57+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0034,fd993f85-023e-5f11-a98c-550478b0a2fb,a835c7ce-88d8-575b-b9c3-fe88f6742460,0.4543037712574005,"[0.4, 0.55)",216.0,7-14d,AT&T,AT&T; Becomes Largest Wireless Carrier to Join U.S. Environmental Protection Agency's SmartWay Transport Partnership Program,,2013-06-12 00:00:00+00:00,AT&T; to Release Second-Quarter 2013 Earnings July 23,,2013-06-21 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0035,d0c0ad44-b99b-5d60-8ff7-b02eb6aa4bb9,09422a56-1edf-5965-abf6-dd8496827f5a,0.5103415846824646,"[0.4, 0.55)",312.0,7-14d,AT&T,FCC okays AT&T; spectrum transfer to T-Mobile USA,,2012-04-25 00:00:00+00:00,AT&T; plans small cell tests around year end,,2012-05-08 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0036,86991b68-2c03-56b6-af49-9e06d1464a1a,4980c08d-6147-5fdf-acae-59985f368aea,0.400979608297348,"[0.4, 0.55)",201.68277777777777,7-14d,Facebook,Morgan Stanley works on Facebook IPO orders-source,,2012-05-21 00:00:00+00:00,Opera Jumps Most Ever After Report Facebook May Bid: Oslo Mover,"Opera Software ASA (OPERA) , the Norwegian
+marker of Internet browsers, surged the most on record in Oslo
+after technology website Pocket-Lint reported that Facebook Inc. (FB) 
+may try to acquire the company. Opera gained as much as 26 percent, the biggest jump since
+it first sold shares in 2004. The Oslo-based company rose 18
+percent to 40.5 kroner at 11:37 a.m., giving it a market value
+of 4.85 billion kroner ($807 million). Opera is the last major independent browser left, with the
+others owned by companies such as Microsoft Corp. (MSFT) , Google Inc. (GOOG) 
+and Apple Inc. (AAPL) , said Al",2012-05-29 09:40:58+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0037,dcf5e178-5724-51cf-992a-adbfc53296bd,efee70bb-921f-5e97-8168-9c64167ba66f,0.5013787150382996,"[0.4, 0.55)",272.7077777777778,7-14d,Bank of America,The Oddest Revelation From the Bank of America Fraud Suit,"There is something very weird about the civil complaint the Justice Department filed this week against Bank of America Corp. (BAC) for allegedly defrauding Fannie Mae and Freddie Mac . Prosecutors are suing under a statute called the False Claims Act , which imposes liability on those who defraud the federal government. Curiously, the suit is seeking damages for acts that Countrywide Financial Corp. committed before Fannie and Freddie were seized by the government -- back when U.S. officials were adamant that Fannie and Freddie didn’t have any implicit government guarantee. (Bank of America bo",2012-10-26 18:53:22+00:00,Merrill Asks Singapore Court to Reject Ex-Client’s Suit,"Bank of America Corp. (BAC) ’s Merrill Lynch
+unit asked Singapore’s High Court to reject a former Indonesian
+private-banking client’s lawsuit for 251 billion rupiah ($26
+million) as fraudulent. Prem Harjani asked the court in a Sept. 27 suit to enforce
+an award he won in Indonesian courts against Merrill for
+embezzlement and defamation. Merrill countersued on Nov. 5,
+saying the award shouldn’t be enforced as it undermines an
+earlier Singapore judgment that Harjani had defrauded Merrill. A Merrill unit won $9.4 million from Harjani in the
+Singapore court in 2010 for failing to pay for shares in",2012-11-07 03:35:50+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0038,0af1fcea-85c2-5510-8219-3954551fd336,ab33d001-aa65-5827-b104-43debf46add5,0.5279080271720886,"[0.4, 0.55)",313.0,7-14d,JPMorgan,Dimon Aware of $1 Billion Loss Before ‘Teapot’ Comment,"JPMorgan Chase & Co. (JPM) had already
+lost more than $700 million on synthetic credit bets and Chief
+Executive Officer Jamie Dimon was told that number could climb
+to almost $1 billion when he dismissed press reports about the
+positions in April as a “tempest in a teapot.” While JPMorgan booked a $718 million loss on the positions
+held by its chief investment office in the first quarter, it
+didn’t publicly specify the loss when releasing the results
+April 13. When an analyst asked Dimon that day about media
+coverage of the trades, he dismissed them as a minor issue. Dimon disclosed the CIO lo",2012-07-13 23:00:00+00:00,UPDATE 5-JPMorgan creates more management checks and balances,,2012-07-27 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0039,90709bb2-c168-59df-a9f7-7cc254fc7f4d,ce3c7a52-3daa-5c85-aeb1-b13305858226,0.43935924768447876,"[0.4, 0.55)",196.63833333333332,7-14d,Goldman Sachs,"Commerzbank, JPMorgan, Megaupload, Goldman, Macy’s, HSBC in Court News","More than 100 bankers claim
+ Commerzbank AG (CBK) broke a pledge by Dresdner Bank, which it bought
+in 2009, to set aside about $516 million for bonuses and are
+asking a U.K. court this week to order that they be paid. In the trial, scheduled to begin tomorrow in London , the
+former Dresdner bankers seek about 50 million euros ($64.5
+million), with individual payouts of as much as 2 million euros.
+The suit is the largest in the U.K. over bonus cuts resulting
+from the financial crisis following the bankruptcy of Lehman
+Brothers Holdings Inc. After buying the bank, Commerzbank slashed by as much ",2012-01-24 11:51:35+00:00,Goldman Sachs Names Italy Chairman Zannoni Head of Russia,"Goldman Sachs Group Inc. (GS) said Paolo Zannoni, chairman of Italian investment banking , will take over
+as chief of Russian operations from co-heads Chris Barter and
+Jean Raby in the third leadership change in as many years. Barter, who joined the Moscow office in 2007, will retire
+after 19 years while Raby will work with investment-banking
+clients, the New York-based firm said in a statement today.
+Massimo Della Ragione and Francesco Pascuzzi will continue as
+co-heads of investment banking in Italy . The bank, led by Chief Executive Officer Lloyd Blankfein ,
+has struggled after opening its ",2012-02-01 16:29:53+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0040,310534fa-c8e8-542a-a628-c9cbaca68a71,5e2e6bed-fe1a-5766-b6d5-8bcd245a0c95,0.760459303855896,"[0.75, 0.9)",720.0,14-30d,AT&T,AT&T; 4G LTE Available In Jacksonville,,2013-05-06 00:00:00+00:00,AT&T; 4G LTE Available In Fort Wayne,,2013-06-05 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0041,b5b03383-0edd-559f-9504-7d7e05d8c4d4,1c938bea-d65f-5f9b-8ac2-8d4e5ac6d36d,0.43176203966140747,"[0.4, 0.55)",120.0,3-7d,Morgan Stanley,"ON THE MOVE: Morgan Stanley adds ex-Merrill, Wells Fargo advisers",,2012-02-23 00:00:00+00:00,"Critical Alerts for Morgan Stanley, LinkedIn, Valeant, Cavium, and Clean Energy Fuels Released by Seven Summits Research",,2012-02-28 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0042,76c86f0f-1d02-5da8-ba0e-3cdf08a20658,549799dc-9868-5419-99cc-95168ef4d0e8,0.4192165732383728,"[0.4, 0.55)",267.38166666666666,7-14d,Apple,Samsung Presses Apple Fight With Mini Stores in Best Buy,"Samsung Electronics Co. (005930) , stepping up a battle with Apple Inc. (AAPL) , will staff mini-stores at Best Buy Co. (BBY) ’s U.S. locations to showcase how its tablets, smartphones and televisions work together. Best Buy shares surged. Starting April 8, the Suwon, South Korea-based electronics maker will open 500 Samsung Experience Shops inside Best Buy, taking up about 460 square feet of prime space near the front of the retailer’s largest stores Samsung said in a statement today. Financial terms weren’t disclosed. Samsung, stung by Apple lawsuits accusing the company of “slavishly” copyi",2013-04-04 20:37:06+00:00,"Techquity: Apple cuts, happy tune for Amazon",,2013-04-16 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0043,c3a5c624-e756-5f49-9bc7-c12806e8ea70,3ddfad2d-9698-5aa7-b588-52addebd9b62,0.4662526249885559,"[0.4, 0.55)",75.71083333333333,3-7d,Apple,"Samsung, Sony Said to Plan Device Debuts Ahead of IPhone","Samsung Electronics Co. (005930) and Sony
+Corp. (6758) are said to be unveiling new devices next month as two of
+Asia’s biggest technology companies try to showcase their
+products before Apple Inc. (AAPL) releases new iPhones and iPads. Samsung’s Galaxy Gear, a wristwatch-like device with
+features of a smartphone, and Note 3 will be introduced Sept. 4,
+according to people familiar with the matter. Sony’s latest
+Xperia handset, featuring imaging sensors used in its TVs and
+cameras, will be unveiled the same day, two other people said. Samsung and Sony are introducing their devices for the
+holid",2013-08-19 20:38:44+00:00,Cartoon Critters Flee Apple for Samsung,"Hans Han built a $5 million business in Shanghai by slapping big-eyed cartoon animals on the back of Apple's iPhone and iPad. Now he's looking for a new home for the cute critters on his Funway protective cases for mobile devices. The erosion of Apple's share of China's market for both smartphones and tablets already sent Han's pink owls, green frogs and white cats scurrying to the back of Samsung devices, and he says he's looking to make cases for other handset makers. ""The market changes very quickly,"" Han, CEO of Shanghai Stella Industry, said in an interview in Beijing. ""If you don't chang",2013-08-23 00:21:23+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0044,12831236-616a-51cb-967f-3c0183ec38fd,1d24c983-52cd-5119-9a1e-695b30653cc4,0.42855048179626465,"[0.4, 0.55)",143.98333333333332,3-7d,Morgan Stanley,Morgan Stanley Sees China Stealth Spending: Cutting Research,"China’s transition toward consumer-
+led growth and away from exports may be occurring faster than
+the government realizes. Official data may have understated household consumption
+and incomes by $1.6 trillion last year, according to estimates
+by Morgan Stanley. The reason: China’s statisticians haven’t kept pace with
+structural changes in household spending such as on housing and
+health care, which have grown rapidly, Hong Kong-based
+strategists Jonathan Garner and Helen Qiao wrote in a Feb. 28
+report. The finding suggests that such spending amounts to about 46
+percent of GDP, higher than the ",2013-03-01 00:01:00+00:00,Morgan Stanley says it would fare better under own stress test,,2013-03-07 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0045,20f17b7c-f7c3-5ae1-9bbb-bd627cc7ca0b,0181efa7-1d33-54af-a47b-96372776e969,0.40246179699897766,"[0.4, 0.55)",435.25444444444446,14-30d,ExxonMobil,"Brazilian Stock Movers: Cosan, Gafisa and Usiminas Were Active","The following companies had unusual 
+price changes in Sao Paulo trading. Stock symbols are in
+parentheses, and prices are as of the market close. Preferred
+shares are usually the most-traded class of stock. The Bovespa (IBOV) Index rose 0.5 percent to 56,076.82. Cosan SA Industria e Comercio (CSAN3) (CSAN3 BS) advanced 1.2
+percent to 31.20 reais. The renewable energy and infrastructure
+company said in a regulatory filing yesterday it concluded the
+acquisition of Comma Oil & Chemicals Ltd. from Exxon Mobil Corp.
+as part of its strategy to enter the European market for
+automotive lubricants. Gaf",2012-07-04 20:44:44+00:00,"U.S. refinery shutdowns - Sunoco, Valero, Exxon",,2012-07-23 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0046,3242ab5f-abd1-59ed-a6dd-33cf058308f8,07e027b6-7494-5a74-9e2a-1f78a5fbe502,0.4719401001930237,"[0.4, 0.55)",73.38194444444444,3-7d,Wells Fargo,"RBS, Deutsche Bank Lose Appeal in Mortgage-Bond Lawsuit","Royal Bank of Scotland Group Plc ,
+ Deutsche Bank AG (DBK) and Wells Fargo & Co. (WFC) must face claims from a
+pension fund over $1.3 billion in mortgage bonds and potentially
+billions more, a federal appeals court ruled. The U.S. Court of Appeals in Manhattan today reversed a
+lower-court ruling that dismissed the case against the banks and
+NovaStar Mortgage Inc. over loans bundled into securities before
+the financial crisis. The claims by the New Jersey Carpenters Health Fund
+“permit us to draw the reasonable inference” that the banks
+are liable under federal securities laws, the appeals cour",2013-03-01 22:37:05+00:00,Wells Fargo may test mortgage servicing rights market - CFO,,2013-03-05 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0047,40f843c9-c136-5275-8eb9-0e09f480f45f,b57851b8-209c-541a-8d8b-36c182c97aa3,0.43604516983032227,"[0.4, 0.55)",388.5416666666667,14-30d,JPMorgan,Dimon Says He Was ‘Dead Wrong’ in April About Trading Loss,"JPMorgan Chase & Co. (JPM) Chief Executive
+Officer Jamie Dimon said he was “dead wrong” in April when he
+dismissed reports about trading losses as a “tempest in a
+teapot.” Dimon made the comment today to the Senate Banking
+Committee. To contact the reporter on this story:
+Dawn Kopecki in Washington at 
+ dkopecki@bloomberg.net ; To contact the editors responsible for this story:
+Maura Reynolds at 
+ mreynolds34@bloomberg.net ;
+David Scheer at 
+ dscheer@bloomberg.net",2012-06-13 14:31:01+00:00,CFTC Said to Vote 5-0 to Propose Cross-Border Swaps Guidance,"The U.S. Commodity Futures Trading
+Commission voted to propose guidance for the international reach
+of Dodd-Frank Act derivatives rules for JPMorgan Chase & Co. (JPM) ,
+ Goldman Sachs Group Inc. (GS) and other financial institutions,
+according to two people briefed on the matter. The guidance approved today after a unanimous vote by the
+CFTC’s five commissioners will determine which overseas units of
+U.S. banks must comply with rules dictated by the 2010
+regulatory overhaul. The vote was conducted through a private
+process in which commissioners gave their approval on paper. “During a default ",2012-06-29 19:03:31+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0048,e0dd4cf8-d5c0-5ae4-add9-4cd94609c206,48290420-b9ee-57fa-b50b-bee610f8c951,0.40397411584854126,"[0.4, 0.55)",624.0,14-30d,Microsoft,Microsoft said to be buying Yammer,,2012-06-14 00:00:00+00:00,Cincom Extends Global ISV Agreement With Microsoft Dynamics,,2012-07-10 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0049,be99f908-fcdc-594b-931e-2e079d4d6372,0c2c5404-73a7-5132-9054-6a323de44458,0.4268267750740051,"[0.4, 0.55)",260.8847222222222,7-14d,JPMorgan,JPMorgan Names Armine Head of Compliance to Replace Gallo,"JPMorgan Chase & Co. (JPM) , the lender
+that lost more than $6.2 billion last year from wrong-way bets
+on credit derivatives , named Cindy Armine as chief compliance
+officer. Armine will replace Martha Gallo, according to New York-
+based JPMorgan. Armine joined the firm in May 2011 as chief control officer
+of home lending after 31 years at Citigroup Inc., where she was
+chief compliance officer. Armine was hired, in part, to oversee
+a consent agreement reached with U.S. regulators in April over
+foreclosure practices. The accord was signed by 13 other banks. JPMorgan, in a 129-page report detail",2013-01-24 03:06:55+00:00,"ON THE MOVE-Morgan Stanley lands advisers from Wells, JPMorgan",,2013-02-04 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0050,4cc48ac7-abf9-5f24-bfb8-906f35e2b288,27f0e056-bf81-59c7-b86c-d15ae97c7af0,0.4749966263771057,"[0.4, 0.55)",221.45833333333334,7-14d,JPMorgan,CORRECTED-UPDATE 2-JPMorgan posts first quarterly loss under Dimon,,2013-10-11 00:00:00+00:00,JPMorgan Said to Reach Record $13 Billion U.S. Settlement,"JPMorgan Chase & Co.’s record $13 billion deal to end U.S. probes of its mortgage-bond sales would free the nation’s largest bank from mounting civil disputes with the government while leaving a criminal inquiry unresolved. The tentative pact with the Department of Justice increased from an $11 billion proposal last month and would mark the largest amount paid by a financial firm in a settlement with the U.S. The deal wouldn’t release the bank from potential criminal liability, at the insistence of U.S. Attorney General Eric Holder , according to terms described by a person familiar with the t",2013-10-20 05:27:30+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0051,a6519f6c-6b20-5d70-8242-c44ecb29f51c,aad6316a-4cd0-5caa-a901-9b36cb855168,0.5136586427688599,"[0.4, 0.55)",315.09694444444443,7-14d,JPMorgan,"JPMorgan Loss Shows Need to Measure Risk, Krawcheck Writes in FT","JPMorgan Chase & Co. (JPM) ’s $2 billion
+trading loss shows regulators need to focus on ensuring banks
+have enough capital relative to their risks, rather than trying
+to ban proprietary trading, Sallie Krawcheck wrote in a
+Financial Times op-ed article. It’s often impossible to distinguish between proprietary
+trading, services for clients and hedging, said Krawcheck,
+former head of Bank of America Corp.’s wealth-management
+division. Regulators should instead work to measure how much
+risk banks have and on improving inadequate risk measurements,
+in order to guarantee lenders have the right amou",2012-05-23 20:54:11+00:00,"Senators ask ""where were the regulators"" at JPMorgan - Rough Cuts",,2012-06-06 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0052,169f2ae0-0037-5c4e-b02f-4d762508275e,50e2a744-68dc-52d2-8276-3007d4aa0cdb,0.5533905029296875,"[0.55, 0.75)",120.0,3-7d,JPMorgan,JPMorgan grabs compensation from dismissed traders,,2012-07-13 00:00:00+00:00,"In the JPMorgan scandal, a rush to hire lawyers",,2012-07-18 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0053,6722b87d-6edb-59ea-981f-d28570ae55fe,6934fc01-71cd-53ec-86f8-26590e711e91,0.565704882144928,"[0.55, 0.75)",648.0,14-30d,ExxonMobil,UPDATE 2-Exxon needs US approval to restart North Line pipeline,,2012-05-09 00:00:00+00:00,Exxon Mobil warns red tape risks snuffing out gas boom,,2012-06-05 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0054,4f388b9f-6eab-57b7-89b2-d8e9d6c4d3b7,a4c20773-019e-5fb2-9e4d-b4bc966292d8,0.43343982100486755,"[0.4, 0.55)",528.0,14-30d,Facebook,"Brands Must Seize the Opportunity to Reach New Audiences through Facebook Graph Search, Advises Punch Communications",,2013-01-16 00:00:00+00:00,"Facebook, Google, Groupon, and Twitter led all companies in private acquisitions in 2012",,2013-02-07 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0055,008953f0-8e7f-5b72-b7ce-856941de27e1,d0c5d618-62c8-5c6a-ae5d-e106146865fa,0.6183748841285706,"[0.55, 0.75)",505.3202777777778,14-30d,Apple,Samsung CEO Said to Speak With Apple Today About Suit,"Samsung Electronics Co. (005930) ’s chief
+executive officer will talk with his counterpart at Apple Inc.
+to see whether they can resolve their smartphone patent dispute
+before a U.S. jury begins deliberating, according to a person
+familiar with the matter. The companies’ lawyers will report to U.S. District Judge
+Lucy Koh in federal court in San Jose , California , on the
+outcome of today’s telephone discussion between Apple’s Tim Cook 
+and Samsung’s Kwon Oh Hyun, according to the person, who asked
+not to be identified because the talks are private. Apple, based in Cupertino, California, sued ",2012-08-20 12:59:34+00:00,Apple’s Krall Leads Samsung Win in Jobs’ Global Smartphone War,"If Apple Inc. (AAPL) ’s patent litigation is the “thermonuclear war” over smartphone technology and design that co-founder Steve Jobs pledged to his biographer, Noreen Krall is its field marshal. Krall has become a familiar sight in courtrooms around the world as Apple’s chief litigation counsel. Her greatest victory came Aug. 24, when a California jury ordered Samsung Electronics Co., the biggest smartphone maker, to pay Apple more than $1 billion for infringing patents related to the iPhone. “There is no historical precedent for what Noreen Krall is doing,” said John Thorne, who ran Verizon ",2012-09-10 14:18:47+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0056,5ab3f4af-b574-5cd6-8554-93ab57624245,2afbc40c-e127-59f3-8044-93b7cf85dcb8,0.4287911057472229,"[0.4, 0.55)",264.0,7-14d,Facebook,"Wolf Haldenstein Adler Freeman & Herz LLP Commences Class Action Lawsuit on Behalf of Investors in Facebook, Inc.",,2012-05-24 00:00:00+00:00,Requests for Facebook Password Ignite Risky Legal Woes,,2012-06-04 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0057,b614a8b1-06ba-5735-9ed9-f2d4ee6cc87c,910055ec-9567-5929-90aa-2d2bfb83c913,0.428181916475296,"[0.4, 0.55)",713.2622222222222,14-30d,JPMorgan,Trading at Noon: JPMorgan's Dimon dilemma,,2013-05-13 00:00:00+00:00,ING U.S. Falls as JPMorgan Analysts Cite Annuity Risk,"ING U.S. Inc. (VOYA) , the insurer that had
+its initial public offering last month, declined 3 percent in
+ New York trading after JPMorgan Chase & Co. gave the stock a
+neutral recommendation, citing risks related to annuities. The company, majority-owned by ING Groep NV (INGA) , fell to $27.57
+at 1 p.m. after dipping as low as $27.25. Analysts at JPMorgan
+led by Jimmy Bhullar set a 2014 year-end price target of $28 for
+the New York-based insurer. The IPO price was $19.50 a share. ING U.S. is coping with liabilities from variable
+annuities, in which the company ensures minimum returns to
+client",2013-06-11 17:15:44+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0058,c95faef1-d279-5e01-bd3e-9475a2c4ff80,9accaeb7-ea56-5413-a9db-0af26b8d6cfc,0.45655253529548645,"[0.4, 0.55)",168.0,3-7d,JPMorgan,"TEXT-Fitch solutions:JPM, Wells Fargo's CDS tighten;Citigroup stumbles",,2012-04-13 00:00:00+00:00,Exclusive: JPMorgan poised to sell U.S. metal concentrate unit,,2012-04-20 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0059,1a63d3d7-fb85-57c4-bed0-c51c8702053b,e073808c-8949-5da1-b3bd-f501e7600032,0.40623465180397034,"[0.4, 0.55)",72.11166666666666,3-7d,Apple,Nuance Communications Falls Most Since August 2006: Boston Mover,"Nuance Communications Inc. (NUAN) , a maker
+of speech-recognition software, tumbled the most in more than
+five years after first-quarter earnings and revenue trailed
+analysts’ estimates on deferred sales in its mobile segment. Nuance dropped 13 percent to $26.50 at the close in New
+York for the biggest one-day percentage decline since Aug. 9,
+2006. Yesterday the company reported earnings excluding some
+items of 34 cents a share. Analysts in a Bloomberg survey had
+estimated 36 cents. The Burlington, Massachusetts-based company, which also
+ provides technology for health-care companies, in Decem",2012-02-10 21:17:16+00:00,Apple Shares Climb Above $500 After Earnings Surprise Ignites 17% Surge,"Shares of Apple Inc. (AAPL) rallied above
+$500 for the first time after a two-week gain spurred by the
+iPhone maker’s first-quarter earnings report approached 20
+percent. Apple increased 1.9 percent to $502.60 today. In the
+Standard & Poor’s 500 Index, Google Inc. (GOOG) , Priceline.com Inc. (PCLN) and
+ Intuitive Surgical Inc. (ISRG) cost more per share, at $612.20, $571.15
+and $503.07, respectively. “It reminds us all of the amazing transformation of Apple
+over the past eight years,” Timothy Ghriskey , who owns Apple
+and oversees $2 billion as chief investment officer of Solaris
+Group LLC in ",2012-02-13 21:23:58+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0060,7f2981ab-ad5a-5275-ac53-02e699bd771d,efbce184-a09f-598a-83b5-4b4d9f4112e2,0.4462569057941437,"[0.4, 0.55)",525.2463888888889,14-30d,Facebook,Brands Invest in Facebook Advertising with New Budgets and Focus on Fan Acquisition; Mobile Search Spend up Significantly,,2012-01-13 00:00:00+00:00,Zynga Surges for Second Day After Facebook IPO Filing: San Francisco Mover,"Zynga Inc. (ZNGA) , the biggest developer of
+games for social-networking sites, climbed 26 percent in two
+days, boosted by Facebook Inc.’s initial public offering filing . The shares rose 8.1 percent to $13.39 at the close,
+bringing their year-to-date gain to 42 percent. The stock got a
+lift after Facebook reported that 12 percent of its revenue
+comes from Zynga, which makes such games as “CityVille” and
+“Texas HoldEm Poker” for the site. Facebook’s IPO prospectus -- which helped bolster other
+Internet stocks, including Groupon Inc. and Renren Inc. --showed
+how reliant the social network is on",2012-02-03 21:14:47+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0061,a118fee1-43d3-52ae-9a08-ccc4fa9f4991,1f8e34ff-b991-5421-8fb0-bb3925d96dd8,0.40616273880004883,"[0.4, 0.55)",496.78194444444443,14-30d,Goldman Sachs,Aladdin Credit Fund Renamed Fort Hill as Mitsubishi Deal Closes,"Aladdin Credit Partners LLC, the fund
+started in 2009 by former Goldman Sachs Group Inc. banker Luke Gosselin and ex-CIT Group Inc. executive Victor Russo, is being
+renamed Fort Hill Investment Partners LLC after the sale of an
+equity stake to a unit of Japan’s Mitsubishi Corp. (8058) Fort Hill, based in New York, will hold debt of companies
+“in and around restructuring” situations, said Simmon Saraf,
+the fund’s chief operating officer. The investment manager
+oversees gross assets of about $800 million, it said in an e-
+mailed statement today. “The rebranding is establishing a platform for gro",2012-01-04 16:33:38+00:00,Tesco Property Finance Said to Plan Investor Update Call,"Tesco Property Finance 5 Plc hired
+banks to arrange an investor update call, according to a banker
+involved in the matter. Goldman Sachs Group Inc., HSBC Holdings Plc, Lloyds Banking
+Group Plc and Royal Bank of Scotland Group Plc are arranging the
+call, the banker said. A sale of bonds in pounds with a rental
+guarantee from Tesco Plc (TSCO) may follow. To contact the reporter on this story:
+Hannah Benjamin in London at 
+ hbenjamin1@bloomberg.net To contact the editor responsible for this story:
+Andrew Reierson at 
+ areierson1@bloomberg.net",2012-01-25 09:20:33+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0062,6f738abe-bd3f-531f-ab58-eb9db9319de9,70504eb7-f4cf-5356-827c-0a48d2aa97b8,0.5774283409118652,"[0.55, 0.75)",144.0,3-7d,Boeing,Boeing Statement on FAA Joint Review on 787,,2013-01-11 00:00:00+00:00,WRAPUP 5-Most Boeing Dreamliners grounded for battery checks,,2013-01-17 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0063,6544d6bf-6a34-55d3-90d7-c1f8bd0531c7,fbb4ea01-cbb3-5773-9fce-b8b29f14a3c8,0.4498428702354431,"[0.4, 0.55)",434.0,14-30d,Goldman Sachs,TEXT-Fitch says Goldman's performance in line with rating assumptions,,2012-07-17 00:00:00+00:00,Knight Survives Another Day With Short-Term Financing,"Knight Capital Group Inc. (KCG) , fighting
+to stay afloat after a $440 million loss spurred by a software
+bug, scrambled with its advisers to find a buyer or investor. The market maker responsible for about 10 percent of
+American equity volume turned to Goldman Sachs Group Inc. (GS) on
+Aug. 1 to buy the firm out of trading positions acquired by
+mistake when a computer program malfunctioned, a person with
+knowledge of the matter said. It has until the close of business
+on Aug. 6 to complete the transaction. “There’s a lot of questions about their liquidity -- do
+they have the money to get throu",2012-08-04 02:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0064,534f1835-b0b9-5f40-8e62-c8a5cfccec61,a0c28254-49c4-56a6-81f3-e53b914980d0,0.44145745038986206,"[0.4, 0.55)",237.7111111111111,7-14d,JPMorgan,JPMorgan Joins Wells Fargo in Boosting Dividend,"JPMorgan Chase & Co. (JPM) and Wells
+Fargo & Co. joined U.S. banks raising dividends and authorizing
+share repurchases after passing the Federal Reserve ’s test of
+how lenders would fare in an economic decline. JPMorgan, the largest U.S. bank, will increase its
+quarterly dividend 20 percent to 30 cents a share, the New York-
+based company said yesterday in a statement. The bank also
+authorized a $15 billion stock-repurchase program, with $12
+billion approved for 2012. Wells Fargo, the most valuable U.S.
+lender, increased its quarterly dividend by 83 percent to 22
+cents a share, according to a ",2012-03-14 01:25:06+00:00,"MF’s Corzine Ordered Funds Moved to JP Morgan, Memo Says","Jon S. Corzine, MF Global Holding
+Ltd. (MFGLQ) ’s chief executive officer, gave “direct instructions” to
+transfer $200 million from a customer fund account to meet an
+overdraft in a brokerage account with JPMorgan Chase & Co. (JPM) ,
+according to a memo written by congressional investigators. Edith O’Brien, a treasurer for the firm, said in an e-mail
+quoted in the memo that the transfer was “Per JC’s direct
+instructions,” according to a copy of the memo obtained by
+Bloomberg News. The e-mail, dated Oct. 28, was sent three days
+before the company collapsed, the memo says. The memo does not
+indi",2012-03-23 23:07:46+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0065,384961f5-732b-5d7d-a4f8-13239196b68a,752e1cae-3754-53ef-a159-420aa93d83e0,0.44923990964889526,"[0.4, 0.55)",155.16722222222222,3-7d,Bank of America,"BofA, Commerzbank, S&P, Adelphia, Greenlight in Court News","Bank of America Corp. is impeding an
+investigation of its loan modification practices by negotiating
+settlements with borrowers who must agree to keep them secret
+and not criticize the bank in exchange for cash payments and
+loan relief, Arizona officials say. The Arizona Attorney General’s office is asking a court to
+block those aspects of the settlements and require the bank to
+turn over all the agreements. The bank denies any wrongdoing. One 2011 accord involving a borrower facing foreclosure who
+defaulted on a $253,142 mortgage included a $5,000 payment, plus
+$7,500 for legal fees, and the ",2012-01-26 13:12:45+00:00,Citigroup Says Bank Will Exit Mortgage Brokerage Business,"Citigroup Inc. (C) , the third-largest
+U.S. lender by assets, plans to stop using brokers to originate
+mortgages and probably will cut jobs as it exits the business
+while banks grapple with the fallout from the housing collapse. Most of the 300 employees tied to the brokerage business
+will be reassigned and job “discontinuances” may be in the
+“low double digits,” according to e-mails today from Mark Rodgers , a spokesman for the New York-based bank. Citigroup will
+focus on its own retail and correspondent channels, he said. Lenders including JPMorgan Chase & Co. and Bank of America
+Corp. (BAC)",2012-02-02 00:22:47+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0066,9a3b7b88-c7ed-50da-bf06-961902e50431,3ccf5ea0-0999-52df-b8d4-ecc64c9f89ff,0.400486022233963,"[0.4, 0.55)",120.0,3-7d,Facebook,CAPRI SUN GROWS UP IN MONSTER-SIZED FACEBOOK CAMPAIGN,,2012-05-24 00:00:00+00:00,Saft Says: Facebook an act of cynicism across the board,,2012-05-29 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0067,534f1835-b0b9-5f40-8e62-c8a5cfccec61,6b137669-011c-56ab-b5d5-45e16c99f2f8,0.4000689685344696,"[0.4, 0.55)",134.1861111111111,3-7d,JPMorgan,JPMorgan Joins Wells Fargo in Boosting Dividend,"JPMorgan Chase & Co. (JPM) and Wells
+Fargo & Co. joined U.S. banks raising dividends and authorizing
+share repurchases after passing the Federal Reserve ’s test of
+how lenders would fare in an economic decline. JPMorgan, the largest U.S. bank, will increase its
+quarterly dividend 20 percent to 30 cents a share, the New York-
+based company said yesterday in a statement. The bank also
+authorized a $15 billion stock-repurchase program, with $12
+billion approved for 2012. Wells Fargo, the most valuable U.S.
+lender, increased its quarterly dividend by 83 percent to 22
+cents a share, according to a ",2012-03-14 01:25:06+00:00,"Citigroup Weakness Shows in Stress Test, Says Peabody: Tom Keene","Investors in Citigroup Inc. (C) , the
+U.S. bank that took the most government aid during the financial
+crisis, should consider selling shares after stress tests showed
+the lender is vulnerable to an economic downturn, said Charles Peabody, an analyst at Portales Partners LLC. “If you think the second half of the year is going to show
+economic weakness, then you want to sell a Citigroup,” Peabody
+said in an interview today on “Bloomberg Surveillance” with
+ Tom Keene and Ken Prewitt. “The sensitivity of their portfolio
+to an economic downturn is much greater than anyone else’s.” The Federal Rese",2012-03-19 15:36:16+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0068,be220990-ee16-5909-99c4-85950db7505f,4baeafdf-7c73-59f2-a8d8-67b52a0453a0,0.5530515909194946,"[0.55, 0.75)",96.0,3-7d,Boeing,"Boeing, WestJet Announce Order for 65 737 MAX Airplanes",,2013-09-26 00:00:00+00:00,Boeing Delivers First Next-Generation 737-900ER to Delta Air Lines,,2013-09-30 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0069,c717adfc-4a88-5efc-96ff-78f9becd2989,90e68ad0-60fc-57dd-868a-95cf452fdaad,0.4199422597885132,"[0.4, 0.55)",148.66472222222222,3-7d,Bank of America,Bank of America Sued by Justice Department Over Mortgage Bonds,"The U.S. Justice Department filed
+civil claims today against Bank of America Corp. over a 2008
+mortgage-bond deal that soured as housing prices collapsed. The Justice Department announced the suit alleging the
+Charlotte, North Carolina-based bank defrauded investors in
+connection with the sale of more than $850 million in
+residential mortgage-backed securities. To contact the reporter on this story:
+Phil Mattingly in Washington at 
+ pmattingly@bloomberg.net To contact the editor responsible for this story:
+Gregory Mott at 
+ gmott1@bloomberg.net",2013-08-06 19:20:07+00:00,Bloom Energy Announces Leasing Program with Bank of America Merrill Lynch for Bloom Customers,,2013-08-13 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0070,7cb2ca31-3d2d-5005-904d-5496b9e7043c,0aedc912-7bc8-5e7b-98be-ab4176f773cc,0.5978372097015381,"[0.55, 0.75)",170.58388888888888,7-14d,JPMorgan,JPMorgan Seeks Liability Shield in WaMu Bondholder Suit,"JPMorgan Chase & Co. (JPM) asked a federal
+judge to order the Federal Deposit Insurance Corp. to cover any
+costs or liabilities in a bondholder case stemming from the
+bank’s takeover of Washington Mutual Bank. JPMorgan, in a filing today in Washington, said that under
+the terms of a 2008 agreement with the FDIC it shouldn’t be on
+the hook for any damages, attorneys’ fees or court costs in a
+lawsuit filed by Washington Mutual bondholders accusing the bank
+of being involved in a scheme to deprive them of their
+investments. When it picked up Washington Mutual banking operations in
+September 2008,",2013-01-07 20:09:02+00:00,Blavatnik Takes JPMorgan to Trial for Subprime Loss,"JPMorgan Chase & Co. (JPM) filled a fund started by billionaire Leonard Blavatnik with risky mortgage securities instead of the conservative investments it was told to make, lawyers for Blavatnik told a New York state judge today. Blavatnik, 55, sued New York-based JPMorgan in New York state Supreme Court in June 2009, accusing the biggest U.S. bank by assets of putting more money into mortgage securities than his investment guidelines allowed. The CMMF fund was started by Blavatnik’s Access Industries in 2006 as a “short-term, highly liquid and very conservative cash management account,” acco",2013-01-14 22:44:04+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0071,be42e35c-1878-5b11-ac45-70f63cfd8b40,e37f5304-5c11-5436-8a23-00ff1a889b26,0.578447699546814,"[0.55, 0.75)",627.8547222222222,14-30d,Ford,Detroit Big Three Profits Surge While Shares Decline,"Home was where the hemorrhaging
+happened three years ago when two Detroit automakers headed for
+bankruptcy and a third suffered record losses. Now North America
+has become a money machine for the Detroit Three, which earned
+$4.5 billion there in the first quarter on surging U.S. sales. General Motors Co. (GM) , Ford (F) Motor Co. and Chrysler Group LLC
+exceeded estimates with first quarter net income that totaled
+$3.2 billion. The most pleasant surprise was healthy North
+American operating margins of 11.5 percent at Ford, 7 percent at
+GM and 4.5 percent at Chrysler. Even combined losses of $40",2012-05-04 20:08:43+00:00,"Research and Markets: 2012 Report on the $200 Billion US Automobile Manufacturing Industry Featuring GM, Ford, and Chrysler",,2012-05-31 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0072,d8050ebf-1fdd-569f-b8e1-087b3dda56a8,685c3fab-7271-5310-a7a9-c0ce0b5e417f,0.7666260004043579,"[0.75, 0.9)",312.0,7-14d,Apple,"US STOCKS SNAPSHOT-Dow, S&P; 500 tick up on data; Apple weighs",,2013-01-15 00:00:00+00:00,"US STOCKS-Dow, S&P; 500 near flat after rally; Apple boosts Nasdaq",,2013-01-28 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0073,6f738abe-bd3f-531f-ab58-eb9db9319de9,42002235-ab1f-5230-88aa-5de4b1a990c5,0.6067987084388733,"[0.55, 0.75)",504.0,14-30d,Boeing,Boeing Statement on FAA Joint Review on 787,,2013-01-11 00:00:00+00:00,Boeing 787 investigation making progress - US NTSB spokeswoman,,2013-02-01 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0074,a7df183d-490a-5078-b1eb-5359b167544a,954cf676-1b52-5106-8f00-c8bf74a416e9,0.5715593099594116,"[0.55, 0.75)",504.0,14-30d,JPMorgan,Bain Capital hires ex J.P. Morgan Asia-Pac CEO Abdelnour as adviser,,2012-12-18 00:00:00+00:00,JPMorgan investment bank chairman Staley joins hedge fund,,2013-01-08 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0075,2ffdbc4c-3201-5ec0-bc15-76a5a99d35d0,47b096e3-8054-541d-ab33-96bb8b9805e0,0.9808160066604614,"[0.9, 1.01)",552.6238888888889,14-30d,Citigroup,"Asia-Pacific Bond Risk Rises, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds from non-payment in the Asia-Pacific region
+rose, according to traders of credit-default swaps. The Markit iTraxx Australia index increased 1.5 basis
+points to 115 basis points as of 11:33 a.m. in Sydney, according
+to Westpac Banking Corp. prices. The gauge is headed for its
+second straight daily rise after falling to its lowest in more
+than a month at 112.5 on Feb. 14, according to data provider
+CMA. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan rose one basis point to 111.5 as of 8:10
+a.m. in Hong Kong, accordin",2013-02-18 01:24:44+00:00,"Asia-Pacific Bond Risk Rises, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds from non-payment in the Asia-Pacific region
+rose, according to traders of credit-default swaps. The Markit iTraxx Australia index increased 2 basis points
+to 106 basis points as of 11:18 a.m. in Sydney, according to
+Westpac Banking Corp. prices. The gauge is headed for its first
+rise in eight business days after closing yesterday at its
+lowest since May 2011, according to data provider CMA. The Markit iTraxx Japan index advanced 0.5 of a basis point
+to 99.75 as of 9:11 a.m. in Tokyo , Citigroup Inc. prices show.
+The benchmark, which reached a ",2013-03-13 02:02:10+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0076,0dcec445-1d92-5e22-ba79-2fdf6bd15a35,eb04f1f8-2f94-5bde-a27b-5e99ce315a03,0.6814603805541992,"[0.55, 0.75)",432.0,14-30d,Walmart,Exclusive: Bangladesh factory banned by Wal-Mart still makes Wrangler shirts,,2013-05-19 00:00:00+00:00,"Insight: Barred by Wal-Mart, Bangladesh suppliers feel left on the shelf",,2013-06-06 00:00:00+00:00,False,UNCLEAR,DIFFERENT,DIFFERENT,DIFFERENT
+supp0077,1d6ebcd1-1f0b-5e58-aa0e-620481bd87d5,8958d4b0-a3b5-57d3-9b40-f480f4ca4c0a,0.6349663734436035,"[0.55, 0.75)",121.62861111111111,3-7d,Verizon,Verizon Communications Debt Falls on Plan for Biggest Bond Sale,"Bonds of Verizon Communications Inc. (VZ) 
+fell as the carrier plans to issue as much as $50 billion of
+securities to help finance its purchase of Vodafone Group Plc’s
+45 percent stake in Verizon Wireless . The company’s $1.75 billion of 2.45 percent bonds maturing
+in 2022 dropped 1.2 cents to 87.1 cents on the dollar to yield
+4.16 percent as of 4:27 p.m. in New York , according to Trace,
+the bond-price reporting system of the Financial Industry
+Regulatory Authority. The cost to protect corporate bonds from
+default in the U.S. was little changed. Verizon’s offering may exceed Apple Inc.’s reco",2013-09-03 22:22:17+00:00,RLPC: Verizon sets pricing on $14B bank loan,,2013-09-09 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0078,cdbdaf25-41ad-5be9-a53e-e23535ca4917,8d5a3724-2ddd-5723-b6b5-b10f972712e4,0.7989340424537659,"[0.75, 0.9)",506.9552777777778,14-30d,Apple,U.S. Stocks Pare Gains as Apple Leads Slump in Technology Shares,"U.S. stocks pared gains as Apple Inc. (AAPL) 
+led a retreat in technology shares that wiped out most of an
+early rally triggered by unexpected growth in American
+manufacturing. Apple slid 1.2 percent, extending last week’s 4.7 percent
+tumble. Technology shares in the Standard & Poor’s 500 Index
+lost 0.4 percent and were the biggest drag on the index among
+its 10 main groups. The S&P 500 was up less than 0.1 percent at 1,441.39 at
+3:27 p.m. in New York after surging as much as 1.1 percent. To contact the editor responsible for this story:
+Michael P. Regan at 
+ mregan12@bloomberg.net",2012-10-01 19:28:17+00:00,Stocks Erase Loss on Apple Rally as Treasuries Decline,"U.S. stocks erased losses as Apple
+Inc. (AAPL) led a rally in technology shares. Treasuries fell as a
+tightening presidential race made investors reluctant to
+speculate on the economy’s prospects. The Standard & Poor’s 500 Index rose less than 0.1 percent
+to 1,433.81 at 4 p.m. in New York after tumbling as much as 0.8
+percent. Apple rallied 4 percent for its biggest gain since May.
+Yields on 10-year Treasury notes added five basis points to 1.81
+percent. Oil, natural gas, lead, nickel and zinc tumbled at
+least 1.5 percent to lead losses in commodities. S&P 500 futures
+added 0.1 percent at 6:21",2012-10-22 22:25:36+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0079,fcd8389b-0548-5c22-8325-002e3238c5ef,8d9664ed-0790-57f0-8ba4-be4900610816,0.676807701587677,"[0.55, 0.75)",168.0,3-7d,Apple,"Research and Markets: Global Mobile Ad Spending Market Report 2012-2016: Apple, Facebook, Google & Pandora Media Dominate the Industry",,2013-11-01 00:00:00+00:00,"Research and Markets: Global Third Platform Market 2012-2016: Apple Inc., Nokia Inc., and Samsung Electronics Co. Ltd Among Top Vendors",,2013-11-08 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0080,eaab0376-7f87-53cc-9a60-0122fcec2c5c,7c2b1220-1bfd-546a-8510-e153189baea3,0.5694046020507812,"[0.55, 0.75)",600.0,14-30d,Apple,"Weil, White & Case, Mintz Levin, Sidley: Business of Law","Apple Inc. (AAPL) , advised by Weil Gotshal
+& Manges LLP, agreed to buy AuthenTec Inc. (AUTH) for about $350
+million, deploying some of its $117.2 billion cash hoard to gain
+fingerprint-authentication and encryption security technology
+for the iPad and iPhone. Alston & Bird LLP represented
+AuthenTec. Weil’s team included Silicon Valley mergers and
+acquisitions partner Kyle Krpata, New York M&A partner Howard Chatzinoff, Silicon Valley technology and IP transactions
+partner Karen Ballack, New York technology and IP transactions
+partner Charan Sandhu and Silicon Valley technology and IP
+transact",2012-07-30 04:01:01+00:00,"Apple, Microsoft, Humana, Diageo: Intellectual Property","Apple Inc. (AAMRQ) is appealing a bankruptcy
+judge’s ruling in favor of Eastman Kodak Co. that blocked the
+iPhone maker’s claims to two patents. Apple said in a court filing Aug. 22 that it is challenging
+U.S. Bankruptcy Judge Allan Gropper’s decision that gave Kodak a
+partial victory in a lawsuit over ownership of 10 patents. The assets are in a portfolio of patents that Kodak put up
+for sale as part of its bankruptcy restructuring. The Rochester,
+New York-based company sued Apple after the Cupertino,
+California-based company asserted claims to the patents. Gropper ruled in favor of Kodak on ",2012-08-24 04:01:01+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0081,0b0cb9a0-e5f3-5748-b175-61d52cb670da,67da1524-f1c4-517e-a74d-09e650e28057,0.6150023937225342,"[0.55, 0.75)",528.0,14-30d,AT&T,AT&T;'s Network Has Fastest 4G LTE Speeds In Bridgeport,,2013-03-12 00:00:00+00:00,AT&T; 4G LTE Available In Temple/Killeen,,2013-04-03 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0082,ab33d001-aa65-5827-b104-43debf46add5,306410a8-e7aa-5f0a-abe2-a2c0998e7cde,0.5557720065116882,"[0.55, 0.75)",432.0,14-30d,JPMorgan,UPDATE 5-JPMorgan creates more management checks and balances,,2012-07-27 00:00:00+00:00,JPMorgan to let futures clients keep extra cash in the bank,,2012-08-14 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0083,a54704ae-ee99-5006-9717-9c8d84757f13,415c64a7-a73a-51be-8329-e179814314cb,0.6756839752197266,"[0.55, 0.75)",192.0,7-14d,Morgan Stanley,Fitch Affirms Morgan Stanley Re-Remic Trust 2011-IO,,2012-06-19 00:00:00+00:00,TEXT-S&P; rates Morgan Stanley Capital I Trust 2007-IQ14,,2012-06-27 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0084,1fcdfa24-74ee-5890-b11e-f69200a00b22,67500ebb-4b66-5e2a-ae38-6c85c59dce34,0.5538405776023865,"[0.55, 0.75)",120.0,3-7d,Goldman Sachs,RPT-UPDATE 1-Investor says may appeal lost arbitration against Goldman,,2013-03-21 00:00:00+00:00,UPDATE 4-Buffett trades warrants for smaller stake in Goldman,,2013-03-26 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0085,4f76f7b9-6c23-5c7e-b3ac-016bbd4acade,f30fdfbe-4a59-5639-8ce5-08939644128c,0.6395586729049683,"[0.55, 0.75)",545.8952777777778,14-30d,Twitter,Chinese Internet Companies Jump on WSJ Report of Facebook Initial Offering,"Social media company Renren Inc (RENN) . led
+a surge in Chinese Internet companies after a report that
+Facebook Inc. may file for an initial public offering next week. Renren jumped 26 percent to $5.25 at the close in New York
+after the Wall Street Journal report, the most in more than
+eight months. Sina Corp (SINA) ., which operates a service similar to
+Twitter, rose 12 percent to $69.96. Facebook, the largest social-networking site, may be valued
+at $75 billion to $100 billion in the IPO, the Wall Street
+Journal reported, citing unidentified people. A Facebook IPO may
+increase investors’ wil",2012-01-27 22:06:17+00:00,Baidu’s Slowing Sales View Curbs N.Y. Stocks: China Overnight,"Baidu Inc. (BIDU) dropped the most in two
+months, leading a decline in U.S.-traded Chinese stocks, on
+concern the nation’s largest online search engine will see a
+drop in advertising revenue as the economy slows. Baidu slid 3.5 percent on Feb. 17, the biggest retreat
+since Dec. 21, after forecasting a slowdown in first-quarter
+sales. Sina Corp. (SINA) , provider of a Twitter-like service in China ,
+and social network website owner Renren Inc. (RENN) also slipped,
+eroding the Bloomberg China-US 55 Index’s (CH55BN) 3.6 percent advance
+this week. Presiding over a search engine with about 311,000
+",2012-02-19 16:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0086,90542055-c7c3-5d87-9483-6d66bc406134,8a96b94d-cdd4-537d-bfc7-5d58f761a4a8,0.5835872888565063,"[0.55, 0.75)",624.0,14-30d,Ford,Ford Motor says Nov. U.S. auto industry sales up about 10 pct,,2012-12-03 00:00:00+00:00,Ford on track to sell 2.2 million cars in U.S. this year,,2012-12-29 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0087,ec026cd3-620b-57ec-be46-a78c47de24fe,6de01999-7356-595b-8ca7-2baad7e7f6d3,0.5737273693084717,"[0.55, 0.75)",648.0,14-30d,Google,Google gives energy group $2.65M to update our outdated power grid,,2013-01-16 00:00:00+00:00,"GE and Google Agreement Allows Utilities Anywhere to Tap Familiar, Easy-to-Use Maps Platform to Boost Productivity",,2013-02-12 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0088,24e98f9b-626c-5cf2-868c-33db020f0e53,cb708ec2-7c88-50a7-9115-5a1018b16523,0.5570789575576782,"[0.55, 0.75)",112.51777777777778,3-7d,Facebook,Trading at Noon: Facebook Makes its Debut,,2012-05-18 00:00:00+00:00,Facebook Analysts Who Shunned Herd Now Look Like Heroes,"Analysts who broke away from the herd
+and told investors to avoid Facebook Inc. (FB) , the biggest initial
+public offering ever by a technology company, are looking like
+heroes after the stock plunged. The social networking site lost 19 percent through
+yesterday to $34.03 after opening at $42 on May 18. That’s
+consistent with warnings from Richard Greenfield of BTIG LLC and
+ Brian Wieser of Pivotal Research Group LLC, who says the stock
+will slip as low as $30. It left five firms with bullish calls
+predicting an average rally of 36 percent and one, Tom Forte of
+Telsey Advisory Group, saying sh",2012-05-22 16:31:04+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0089,30b2f9f3-2430-540e-93e4-d39a7e14e679,013bc17d-ccb6-5c5b-b2c8-bd35a41b87f5,0.5535205006599426,"[0.55, 0.75)",216.0,7-14d,Microsoft,Microsoft Announces Quarterly Earnings Release Date,,2013-04-09 00:00:00+00:00,"Microsoft CFO exits, profit rises",,2013-04-18 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0090,89d63396-400f-5835-b171-789af3f03207,6ac1924e-d8b7-5f0f-b02b-f28f131e1ee3,0.6301876306533813,"[0.55, 0.75)",511.63416666666666,14-30d,JPMorgan,JPMorgan Taps Taxpayer-Backed Banks for Bailout Rules,"JPMorgan Chase & Co. (JPM) , the biggest
+U.S. bank, is using cheap funding from government-chartered
+institutions to meet new regulations designed to ensure it won’t
+need a taxpayer bailout in any future crisis. The bank borrowed almost $20 billion in the first half of
+the year from Federal Home Loan Banks, according to filings,
+almost as much as it got from selling dollar-denominated bonds
+in 2013. New York-based JPMorgan, with $2.4 trillion of assets,
+obtained most of the loans from the Federal Home Loan Bank of
+Cincinnati, whose 740 members typically resemble the $139
+million-asset Bank of ",2013-10-10 20:22:57+00:00,Banks Fret Over Fed’s Planned Liquidity Requirement: Muni Credit,"U.S. banks led by JPMorgan Chase (JPM) &
+Co. and Wells Fargo (WFC) & Co. have bought a record amount of
+municipal debt. That demand is now at risk under a Federal
+Reserve proposal that excludes local bonds from a list of easy-to-sell assets. Banks added $63 billion of the securities in the year
+through June, more than any category of buyer, helping lower
+state and city borrowing costs as individuals yanked a record
+amount of cash from muni mutual funds, Fed data show. The
+companies hold about $390 billion of munis, the most since at
+least 1945 and about 10.5 percent of the market. Three years
+",2013-11-01 04:01:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0091,95715a7f-ea21-5c48-aabf-223541a03659,e99f7e68-7322-50d1-a58c-d7d9cc44eebd,0.6174756288528442,"[0.55, 0.75)",288.0,7-14d,Facebook,Facebook's Sandberg sells another $3.75 mln in stock,,2012-11-08 00:00:00+00:00,Facebook director Andreessen sells $54 mln in shares to cover taxes,,2012-11-20 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0092,27f0e056-bf81-59c7-b86c-d15ae97c7af0,8e61500f-5976-55b4-bc08-aa2803eeeba0,0.8977793455123901,"[0.75, 0.9)",718.3297222222222,14-30d,JPMorgan,JPMorgan Said to Reach Record $13 Billion U.S. Settlement,"JPMorgan Chase & Co.’s record $13 billion deal to end U.S. probes of its mortgage-bond sales would free the nation’s largest bank from mounting civil disputes with the government while leaving a criminal inquiry unresolved. The tentative pact with the Department of Justice increased from an $11 billion proposal last month and would mark the largest amount paid by a financial firm in a settlement with the U.S. The deal wouldn’t release the bank from potential criminal liability, at the insistence of U.S. Attorney General Eric Holder , according to terms described by a person familiar with the t",2013-10-20 05:27:30+00:00,JPMorgan Said to Agree to Details of $13 Billion Accord,"JPMorgan Chase & Co. has resolved the last obstacles to a record $13 billion settlement of civil state and U.S. probes over the sale of mortgage bonds, clearing the way for a deal today after months of negotiations, two people briefed on the matter said. The accord includes a previously disclosed $4 billion settlement to end a 2011 Federal Housing Finance Agency lawsuit, said one of the people, who asked not to be identified because the discussions are private. While the deal would mark the largest amount paid by a financial firm in a settlement with the U.S., the Justice Department is still p",2013-11-19 03:47:17+00:00,False,DIFFERENT,SAME,DIFFERENT,DIFFERENT
+supp0093,83e9f8c1-c525-52ba-a943-297c930ba908,84adc3b8-4c6e-5383-8dd2-239aa4c15d38,0.5724208354949951,"[0.55, 0.75)",480.0,14-30d,Microsoft,Breakingviews: Microsoft's mid-life crisis,,2013-06-21 00:00:00+00:00,Ballmer tightens grip on Microsoft with major revamp,,2013-07-11 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0094,b429d13d-0dc6-555a-84f8-38e12ae9c25d,b33240e3-fe67-523b-8886-fc249df20d5c,0.566085696220398,"[0.55, 0.75)",648.0,14-30d,Facebook,Next hot IPO may skip Nasdaq after Facebook debacle - Fast Forward,,2012-05-25 00:00:00+00:00,"Facebook IPO`s Impact on Investor Confidence Almost as Great as the May 2010 Flash Crash, Says TABB Group",,2012-06-21 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0095,c89509d6-81e0-5b08-9b74-24c5674958f5,a18be94d-42e3-57b4-853b-58f14d4c154f,0.5715868473052979,"[0.55, 0.75)",120.0,3-7d,Boeing,"Top U.S. official says working ""diligently"" on Boeing 787 issues",,2013-01-23 00:00:00+00:00,EXCLUSIVE-Japan eased safety standards ahead of Boeing 787 rollout,,2013-01-28 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0096,dcf5e178-5724-51cf-992a-adbfc53296bd,a7693809-b105-55a4-9672-5407266fa3c6,0.5580893158912659,"[0.55, 0.75)",412.2422222222222,14-30d,Bank of America,The Oddest Revelation From the Bank of America Fraud Suit,"There is something very weird about the civil complaint the Justice Department filed this week against Bank of America Corp. (BAC) for allegedly defrauding Fannie Mae and Freddie Mac . Prosecutors are suing under a statute called the False Claims Act , which imposes liability on those who defraud the federal government. Curiously, the suit is seeking damages for acts that Countrywide Financial Corp. committed before Fannie and Freddie were seized by the government -- back when U.S. officials were adamant that Fannie and Freddie didn’t have any implicit government guarantee. (Bank of America bo",2012-10-26 18:53:22+00:00,Deutsche Bank Loses Bid to End U.S. Housing Agency Suit,"Goldman Sachs Group Inc. (GS) and
+ Deutsche Bank AG (DBK) failed to persuade a judge to throw out
+lawsuits by the Federal Housing Finance Agency over alleged
+misconduct in the sale of mortgage-backed securities. U.S. District Judge Denise Cote in Manhattan denied
+requests by the banks to dismiss the suits, while rejecting some
+claims against them, according to filings today. The FHFA is the
+conservator for the U.S. government-sponsored housing
+enterprises Fannie Mae (FNMA) and Freddie Mac. “The facts alleged in the amended complaint are sufficient
+to plead fraud with respect to the offering ma",2012-11-12 23:07:54+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0097,7e4ccf78-0fde-5f85-8845-5bbc7d3a6f0e,ed1e88c8-792a-53fe-b9e2-270127c9cac1,0.5748099684715271,"[0.55, 0.75)",576.0,14-30d,ExxonMobil,"Exxon narrowly beats, but production falls short",,2012-01-31 00:00:00+00:00,UPDATE 1-Exxon expects annual investment of $37 bln a year,,2012-02-24 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0098,47aa4161-6bbf-5884-8115-d471cc325f02,370d8884-d975-5966-ac2a-48d7d72f4ddb,0.7310087084770203,"[0.55, 0.75)",312.0,7-14d,Facebook,Yahoo threatens Facebook as patent war looms,,2012-02-28 00:00:00+00:00,Yahoo sues Facebook for infringing 10 patents,,2012-03-12 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0099,765ae8ba-d954-5fa6-b63a-cd7e19eb0ac3,ca6ac4aa-32f2-5060-9c07-7227ce15686a,0.6169004440307617,"[0.55, 0.75)",336.0,7-14d,Boeing,Boeing on course to achieve 787 production target-executive,,2012-10-10 00:00:00+00:00,UPDATE 4-Boeing profit beats forecasts; aims to return cash,,2012-10-24 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0100,2d7ff316-0600-5d6a-9a3f-7ad6b8bca26e,68b8dabc-b8b4-5a05-9a99-9ee50d720d5f,0.5689610838890076,"[0.55, 0.75)",240.0,7-14d,Walmart,Wal-Mart shareholder sues over bribery scandal,,2012-04-25 00:00:00+00:00,Buffett: Wal-Mart may have made a mistake in Mexico,,2012-05-05 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0101,f6fdefec-7698-55cd-bbd8-2bcbb3fb666a,86f5f410-dd4b-5487-a7f3-a59484fa8577,0.5901752710342407,"[0.55, 0.75)",122.30305555555556,3-7d,Facebook,Facebook Tells Staff to Keep Focus Amid Market Debut,"Facebook Inc. (FB) Chief Executive Officer
+ Mark Zuckerberg sent a message to newly wealthy employees of the
+largest social-networking service on the day of its delayed
+stock-market debut: “Stay focused” and “keep hacking.” The words were emblazoned on T-shirts handed out during a
+gathering of more than 2,000 people at the company’s Menlo Park,
+ California , headquarters, according to a person who attended and
+asked not to be identified because the event was private. They
+were there to watch Zuckerberg mark the opening of trading on
+the Nasdaq Stock Market -- an event set back after Nasdaq OMX",2012-05-18 21:41:49+00:00,Facebook executive ducks questions about IPO debacle,,2012-05-24 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0102,9a60312a-5df7-5795-872c-9bfcd2b10c29,34baebd2-ed66-584c-8b5c-e58409e79f29,0.5743404626846313,"[0.55, 0.75)",168.0,3-7d,Boeing,WRAPUP 6-Boeing Dreamliners grounded worldwide on battery checks,,2013-01-17 00:00:00+00:00,ANA flight cancellations top 450 with Boeing jet grounded,,2013-01-24 00:00:00+00:00,False,UNCLEAR,DIFFERENT,DIFFERENT,DIFFERENT
+supp0103,823a472d-5c55-52cd-bb83-04eef6c4fee4,d7121e73-8cdf-52b5-b15d-f92df4604118,0.5920974612236023,"[0.55, 0.75)",190.26944444444445,7-14d,Apple,Apple Unveils IPad With Sharper Screen to Widen Tablet Lead,"Apple Inc. (AAPL) introduced a new version
+of the iPad, beefing up the two-year-old mobile computer with a
+sharper screen and faster chip to widen its lead over Amazon.com
+Inc. (AMZN) , Microsoft Corp. (MSFT) and Google Inc. in the tablet market. The device will be called iPad, carry a price tag of $499
+to $829 and include a chip that enables better graphics, Apple
+said today at an event in San Francisco. It will also boast a
+9.7-inch screen that has more pixels than traditional high-
+definition televisions and run on so-called long-term evolution,
+or LTE, wireless networks, which deliver data",2012-03-08 01:43:50+00:00,Apple iPad debuts reaches U.S.,,2012-03-16 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0104,b7eda172-65b3-5a34-a0d8-8e905b5e6c6c,388f033c-84ee-5421-9804-e2df7090d9d1,0.6666110157966614,"[0.55, 0.75)",168.0,3-7d,AT&T,AT&T; 4G LTE Available In Fairmont,,2013-08-14 00:00:00+00:00,AT&T; 4G LTE Coming To Greenville This Year,,2013-08-21 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0105,34518957-27c0-5841-8dfd-95f18b703c95,dee63b67-91f3-5f52-a92c-f81a9aef87c1,0.5721821784973145,"[0.55, 0.75)",672.0,14-30d,Boeing,UPDATE 1-Boeing CEO says interest in 777X is high,,2013-05-22 00:00:00+00:00,AIRSHOW-WRAPUP 2-Orders top $100 bln as Ryanair gives Boeing a boost,,2013-06-19 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0106,84c9a68f-be5a-5aaa-9ac1-c489eb384bad,45d95fb6-1e3d-5208-a79f-e25f485d386c,0.5657885670661926,"[0.55, 0.75)",192.0,7-14d,Apple,UPDATE 6-Apple's Cook finally shares $98 billion cache,,2012-03-19 00:00:00+00:00,UPDATE 3-Apple CEO on China mission to clear up problems,,2012-03-27 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0107,f409a03f-2f8c-555e-9785-b65ca5710ceb,578cefda-9dd7-5ad5-9c2e-c21dd82bf983,0.8153418302536011,"[0.75, 0.9)",120.0,3-7d,AT&T,"AT&T; Invested Nearly $1.4 Billion In Alabama From 2010 Through 2012 To Enhance Speeds, Reliability And Performance For Customers",,2013-02-21 00:00:00+00:00,"AT&T; Invested More Than $1.0 Billion In Pennsylvania From 2010 Through 2012 To Enhance Speeds, Reliability And Performance For Customers",,2013-02-26 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0108,54e14e8e-a56a-54d3-afbf-8b98c893874f,ac4a3fe2-e807-588f-ac34-033a4971e7e7,0.7868419885635376,"[0.75, 0.9)",408.0,14-30d,Ford,Fitch Takes Multiple Rating Actions on Ford Credit Auto Owner Trust 2010-A,,2012-02-10 00:00:00+00:00,Fitch Expects to Rate Ford Credit Auto Lease Trust 2012-A; Presale Issued,,2012-02-27 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0109,558affec-9b42-5a09-b359-6eff0f202480,99fd8288-7e45-54e5-a463-ca3e9220ca08,0.5707759261131287,"[0.55, 0.75)",246.2552777777778,7-14d,Toyota,Toyota says March China auto sales down 11.7 pct yr/yr,,2013-04-01 00:00:00+00:00,"Czech Car Output Drops 18% in First Quarter, Hospodarske Says","Czech car output declined 18
+percent in the first quarter from a year earlier, Hospodarske
+Noviny reported, citing figures from automakers. Toyota Peugeot Citroen Automobile Czech, a venture of
+ Toyota Motor Corp. (7203) and PSA Peugeot Citroen, posted the biggest
+decline, by 24 percent, the newspaper said. Car factories are
+the Czech Republic ’s largest manufacturing industry. To contact the reporter on this story:
+Peter Laca in Prague at 
+ placa@bloomberg.net To contact the editor responsible for this story:
+Balazs Penz at 
+ bpenz@bloomberg.net",2013-04-11 06:15:19+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0110,24fb83bd-367d-515c-90b7-19999b63aa29,34fcc39c-98b1-56b1-8d5d-dde61bf63e06,0.5840924978256226,"[0.55, 0.75)",218.3177777777778,7-14d,Facebook,Facebook First-Quarter Profit Drops; Costs Almost Double,"Facebook Inc. (FB) , the social network
+planning an initial public offering, said first-quarter profit
+fell 12 percent as sales growth slowed and marketing costs more
+than doubled. Net income dropped to $205 million in the three months
+through March, Menlo Park , California-based Facebook said
+yesterday in a regulatory filing . Sales climbed 45 percent to
+$1.06 billion, a slowdown from 55 percent in the December
+period. Expenses surged to $677 million, reflecting higher costs of
+helping marketers reach Facebook’s growing user base, which
+swelled by one-third to 901 million last quarter. The co",2012-04-24 21:40:56+00:00,Trading at Noon: Facebook plans to raise $10.6 billion,,2012-05-04 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0111,c3e25b45-c826-5ca4-98e6-6e195cf28f2f,bfce33f3-595d-57ee-a803-cfa69d9a9eac,0.6894817352294922,"[0.55, 0.75)",120.0,3-7d,Boeing,Boeing set to confirm plans for larger 787 Dreamliner: sources,,2013-06-13 00:00:00+00:00,Korean Air to order more Boeing 747-8s: sources,,2013-06-18 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0112,9894ca3d-f4a6-5ed6-afe9-5aaac9926cca,6246f219-b86e-53c8-93ed-52e547572f13,0.570438027381897,"[0.55, 0.75)",704.8008333333333,14-30d,Toyota,Exedy Expects Sales Rise to Exceed Analyst Estimates on Yen,"Exedy Corp. (7278) , a Toyota Motor Corp. (7203) 
+supplier, forecast sales will expand at almost twice the pace
+analysts expect as it benefits from a weaker yen and orders from
+carmakers including Volkswagen AG. (VOW) Revenue will rise 10 percent to about 220 billion yen ($2.4
+billion) in the fiscal year started April 1, compared with the
+200 billion yen projected in the year just ended, President
+Haruo Shimizu said in an interview. The company received an
+order from Volkswagen worth several billion yen last year for
+transmissions to be used in China, he said, without specifying
+details. Exedy",2013-04-02 06:12:57+00:00,Nissan Forecasts Deliveries in China Will Increase 6% This Year,"Nissan Motor Co. (7201) , the third-biggest
+global carmaker in China, expects sales in the country to rise
+about 6 percent this year as anti-Japan sentiment subsides in
+the world’s biggest auto market. Deliveries in China will probably increase to 1.25 million
+units in 2013 after falling to 1.18 million last year, Executive
+Vice President Andy Palmer said in an e-mail interview
+yesterday. Nissan would be projecting higher growth had it not
+stopped counting some cars that used to recognized in past
+tallies, he said, without elaborating. Nissan, like Toyota Motor Corp. (7203) and Honda Motor Co.",2013-05-01 15:01:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0113,f7071972-d0a8-5871-9cb8-813fa0dab528,4f8b9138-e151-5911-8e6c-63eb4e72a2cb,0.5808120965957642,"[0.55, 0.75)",144.0,3-7d,Wells Fargo,U.S. Day Ahead: JPMorgan and Wells Fargo up next,,2012-10-11 00:00:00+00:00,Wall Street Webcasting Presents Wells Fargo Securities: Spread Markets Pause after Rally,,2012-10-17 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0114,e9426256-2a05-50c0-ae03-3073a80f4712,c9a6f61a-1957-5209-8a6d-5bc9dede84bf,0.5565928816795349,"[0.55, 0.75)",139.98333333333332,3-7d,Facebook,Facebook Falls to Half-Price From IPO After Lock-Up Ends,"Facebook Inc. (FB) fell to a record low, losing almost half its value since an initial public offering in May, after the lifting of restrictions on share sales by its biggest investors. Shares in the world’s largest social-networking service fell 4.1 percent to $19.05 at the close in New York yesterday. Facebook had dropped to as low as $19, after the number of shares available for trading increased 60 percent two days ago. The decline reflects concern that more sales will follow in the coming months as additional lock-ups expire and as the company struggles to wring sales from a growing custo",2012-08-18 04:01:00+00:00,Facebook envisions swanky new digs as shares sink,,2012-08-24 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0115,607ac1a7-098f-5a1f-963e-d753a0227649,a9e01ca1-79cd-516f-b596-1aa61109074d,0.5895165205001831,"[0.55, 0.75)",264.0,7-14d,Facebook,Facebook flop hurts small investors' trust in stocks,,2012-05-25 00:00:00+00:00,Facebook flop means hard times ahead for startups â Y Combinatorâs Paul Graham is worried,,2012-06-05 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0116,f21e0f44-e344-597d-8618-78e0a864d66e,704c25ee-173e-5eb5-aeef-f6613b14515b,0.5755006074905396,"[0.55, 0.75)",168.0,3-7d,Ford,"Ford sees total $3 billion European loss in 2012, 2013",,2012-10-25 00:00:00+00:00,"BRIEF-Ford says Sandy cut U.S. October auto sales by 20,000 to 25,000 vehicles",,2012-11-01 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0117,1dc3cb1e-d46f-59f5-ab7b-5f1844c4cc96,10459ead-d48f-5f72-a0e6-176d7fbbb2f9,0.5842491984367371,"[0.55, 0.75)",78.78444444444445,3-7d,Goldman Sachs,Goldman Sachs loses appeal of $20.6 million Bayou award,,2012-07-03 00:00:00+00:00,"Goldman Sachs Faces $387 Million Lawsuit, Telegraph Says","Goldman Sachs (GS) Group Inc.’s asset
+management arm is facing a 313 million euro ($387 million)
+lawsuit over its handling of a Dutch pension fund at the height
+of the financial crisis, the Daily Telegraph reported, without
+saying where it obtained the information. Pensioenfonds Vervoer, which has assets of 7 billion euros,
+is suing the bank over the way the unit managed the pension
+funds. The writ could be filed as early as today in London’s
+High Court, according to the Telegraph. An unidentified
+spokesman for Goldman’s asset management arm said the lawsuit
+would be contested because any clai",2012-07-06 06:47:04+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0118,57f4b5d3-917f-54f4-b700-5f37fc286fa1,24ab77ad-bce2-5ec5-8627-3f625556232e,0.6466781497001648,"[0.55, 0.75)",312.0,7-14d,Verizon,"Customers In Stroudsburg, Pennsylvania, Can Soon Enjoy The Nation's Largest 4G LTE Network From Verizon Wireless",,2012-09-06 00:00:00+00:00,"Verizon Wireless Introduces High-Speed 4G LTE Network In Marion County, Ohio",,2012-09-19 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0119,6da0b8c9-e470-5aaf-80be-83fdf69bde72,8d8bbb2b-4470-50e0-856d-cae259869ec0,0.5625302195549011,"[0.55, 0.75)",528.0,14-30d,Apple,Ascent Solar Accepts Order for EnerPlex TM Charger for Apple`s iPhone,,2012-06-19 00:00:00+00:00,GTSO: Apple iPad and iPhone Boom Sparks Incredible Lithium Opportunities in Urban Mining,,2012-07-11 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0120,bbc6712d-0ded-5314-a08d-6456069953b3,1ac34e6e-c4ab-59e4-a13a-56a569a10dbc,0.766770601272583,"[0.75, 0.9)",336.0,7-14d,Verizon,"Verizon Wireless Enhances 4G LTE Coverage in Massachusettsâ Middlesex, Norfolk and Worcester Counties",,2013-05-15 00:00:00+00:00,Verizon Wireless Enhances 4G LTE Coverage in York and Oxford Counties in Maine,,2013-05-29 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0121,53a7a91f-2117-5c2f-a231-aeba3096ff95,d33e16d9-a302-51c2-b10e-611dff5bee18,0.6943708658218384,"[0.55, 0.75)",192.21583333333334,7-14d,Apple,"Apple, Zynga, Gruma, Dole, Jovani: Intellectual Property","Apple Inc. (AAPL) appealed a Tokyo ruling
+that said Samsung Electronics Co. didn’t infringe on the iPhone
+maker’s patent as the world’s top two smartphone sellers
+continue their global legal dispute. Apple appealed an Aug. 31 ruling by Tokyo District Court
+that said Samsung didn’t violate Apple’s invention of technology
+for synchronizing music and video data with servers, Yutaka
+Sakai, a court spokesman, said by phone yesterday. Cupertino,
+California-based Apple was ordered by Tokyo District Judge
+Tamotsu Shoji at the time to pay costs of the lawsuit. Samsung, based in Suwon, South Korea , and",2012-10-16 11:01:01+00:00,Apple Loses Dutch Patent Case Against Samsung on Touch Screen,"Apple Inc. (AAPL) lost a Dutch court ruling
+in a patent lawsuit over Samsung Electronics Co. (005930) ’s Galaxy
+handsets. Samsung’s Galaxy products using certain versions of Google
+Inc. (GOOG) ’s Android operating system don’t infringe Apple patents
+concerning so-called multi-touch flags, Judge Peter Blok said in
+a ruling today in The Hague, Netherlands. Apple claims Galaxy
+smartphones and tablets infringe a patent for technology that
+interprets finger activity on touch screens. The ruling is the latest in a long line of disputes in
+courts across the globe as rivals including HTC Corp. (2498) ",2012-10-24 11:13:58+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0122,3a48e31c-a3a3-553f-8a15-1354ba0b99bc,e3c8c00b-05c1-59e6-a620-ca834a53e6b5,0.5546685457229614,"[0.55, 0.75)",93.49277777777777,3-7d,Bank of America,UPDATE 1-Judge denies AIG motion in BofA $8.5 bln settlement,,2012-04-24 00:00:00+00:00,"BofA’s Merrill Lynch Settlement Inadequate, Lawyers Contend","Bank of America Corp. directors’
+$20 million settlement of investor lawsuits alleging the bank
+overpaid when it bought Merrill Lynch & Co. amounts to just 4
+percent of the board’s $500 million in insurance coverage and is
+inadequate, lawyers objecting to the accord said. Attorneys for Bank of America shareholders suing in
+ Delaware over the $50 billion acquisition of Merrill Lynch have
+asked a judge in that state to keep their claims alive even
+though a federal judge in New York is considering a $20 million
+settlement of almost identical suits brought by other bank
+investors. If that accord is",2012-04-27 21:29:34+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0124,84e93a9b-366a-5045-922d-6ba3322033ae,094ecd26-cb3e-5d37-a0c7-137564931750,0.6097264289855957,"[0.55, 0.75)",168.0,3-7d,Google,U.S. judge allows lawsuit against Google over email ads,,2013-09-26 00:00:00+00:00,Appeals court revives Microsoft claim against Google,,2013-10-03 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0125,ac99260a-b0d7-57f9-a404-df9b945efabc,0c2c5404-73a7-5132-9054-6a323de44458,0.862862229347229,"[0.75, 0.9)",504.0,14-30d,Morgan Stanley,"ON THE MOVE: Morgan Stanley advisers move to rivals UBS, Merrill",,2013-01-14 00:00:00+00:00,"ON THE MOVE-Morgan Stanley lands advisers from Wells, JPMorgan",,2013-02-04 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0126,c82e843a-022d-53f6-8932-a3187a5b1f2a,7b506872-5186-54e5-b45a-e81ab22a97cc,0.6433417797088623,"[0.55, 0.75)",288.0,7-14d,Boeing,REFILE-China Eastern seen placing $6 bln Boeing 777 order,,2012-04-26 00:00:00+00:00,"UPDATE 1-Boeing, EVA Air finalize deal for three 777s",,2012-05-08 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0127,39927293-a46e-56bf-998c-069d07ec5a2a,f8158f8d-cba5-5b87-a480-eca46d5cb4c0,0.7678157091140747,"[0.75, 0.9)",264.0,7-14d,JPMorgan,"MOVES-Morgan Stanley, JPMorgan Chase, HSBC Holdings",,2013-05-23 00:00:00+00:00,"MOVES-J.P. Morgan Private Bank, ING Investment Management, Barnett Waddingham",,2013-06-03 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0128,39c0b707-79d7-56fd-b342-e202e13cbb04,6b8254a0-c430-5263-a0c5-4022203593ef,0.6037957072257996,"[0.55, 0.75)",169.07888888888888,7-14d,Facebook,Facebook Stalls in Public Debut After Record $16B in IPO,"Facebook Inc. (FB) hovered near the
+initial public offering price in its trading debut, following a
+record IPO that made the social network more costly than almost
+every company in the Standard & Poor’s 500 Index. (SPX) The shares rose 23 cents above the IPO price of $38 as of 4
+p.m. in New York . Facebook sold 421.2 million shares to raise
+$16 billion yesterday, giving the company a $104.2 billion
+market value. Underwriters bought Facebook’s stock to keep it from
+falling below the IPO price, people with knowledge of the matter
+said today. The offering valued the company at 107 times
+trailing ",2012-05-18 22:55:16+00:00,"RPT-INSIGHT-Minute by minute, Nasdaq chaos engulfed Facebook IPO",,2012-05-26 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0129,50e2a744-68dc-52d2-8276-3007d4aa0cdb,ab33d001-aa65-5827-b104-43debf46add5,0.5533048510551453,"[0.55, 0.75)",216.0,7-14d,JPMorgan,"In the JPMorgan scandal, a rush to hire lawyers",,2012-07-18 00:00:00+00:00,UPDATE 5-JPMorgan creates more management checks and balances,,2012-07-27 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0130,b1096257-cea1-5d91-99d9-d2375a6655d3,348a0af5-41e1-5715-95ea-4634027ccca4,0.6519638895988464,"[0.55, 0.75)",288.0,7-14d,JPMorgan,"JPMorgan has $2 billion trading loss, reputation hit",,2012-05-10 00:00:00+00:00,Regulators digging into JPMorgan loss,,2012-05-22 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0131,4333b079-2c1b-53cc-9b68-a093593c9157,8f52d2de-a642-5d38-b26a-d49a20dbbad8,0.7739789485931396,"[0.75, 0.9)",240.0,7-14d,Boeing,Wesco Aircraft Receives Silver Boeing Performance Excellence Award,,2012-02-13 00:00:00+00:00,"PDS Tech, Inc. Receives Silver Boeing Performance Excellence Award",,2012-02-23 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0132,03c02d07-46ec-5ba0-9e45-7e9aa1c35d60,96c32031-a378-5449-aa10-750b05ebaddd,0.7555975914001465,"[0.75, 0.9)",312.0,7-14d,Verizon,Verizon Wireless Bringing the Power of Its 4G LTE Network to the Cattaraugus-Allegany Area on April 19,,2012-04-04 00:00:00+00:00,Verizon Wireless Brings its 4G LTE Network to Brunswick on April 19,,2012-04-17 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0133,d66ff3f9-56bd-557a-b2e7-9d2489a100de,2f7662ff-921e-5684-a170-c29fc542cbdb,0.8274894952774048,"[0.75, 0.9)",672.4422222222222,14-30d,Citigroup,"Asia-Pacific Bond Risk Drops, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds against non-payment in the Asia-Pacific region
+fell, according to traders of credit-default swaps. The Markit iTraxx Australia index dropped two basis points
+to 117 basis points as of 11:26 a.m. in Sydney, according to
+Westpac Banking Corp. prices. The benchmark is set to extend its
+decline this year to 10.5 basis points, after retreating for a
+fifth straight month in January, according to data provider CMA. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan decreased two basis points to 113 as of
+8:26 a.m. in Hong Kon",2013-02-04 01:40:43+00:00,"Japan Corporate Bond Risk Falls, Credit-Default Swap Prices Show","The cost of insuring Japanese
+corporate bonds from non-payment fell, according to traders of
+credit-default swaps. The Markit iTraxx Japan index decreased 2 basis points to
+121 basis points as of 9:24 a.m. in Tokyo , Citigroup Inc. prices
+show. The index is on track for its lowest close since Feb. 14,
+according to data provider CMA. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan was little changed at 109 basis points
+as of 8:22 a.m. in Hong Kong , Royal Bank of Scotland Group Plc
+prices show. The gauge rose 1.1 basis point in the five days to
+March 1, its first wee",2013-03-04 02:07:15+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0134,2f31a915-0092-5469-b5b4-64a392d61ab8,3bf02fe7-5129-544c-9179-adf9319e6514,0.7788314819335938,"[0.75, 0.9)",143.9561111111111,3-7d,Apple,S&P 500 Ends Five-Day Rally Amid Stalemate Over Greek Debt Talks,"U.S. stocks retreated, ending a
+five-day advance in the Standard & Poor’s 500 Index, amid a
+stalemate between European finance ministers and Greek
+bondholders over how to resolve the nation’s debt crisis. Travelers Cos., the only insurer in the Dow Jones
+Industrial Average , sank 3.8 percent as earnings fell.
+ McDonald’s Corp. (MCD) slid 2.2 percent after saying that foreign-
+currency fluctuations will cut 2012 profit. Verizon
+Communications Inc. dropped 1.6 percent as it reported a loss .
+ Peabody Energy Corp. (BTU) declined 1.7 percent as earnings missed
+estimates. Apple Inc. (AAPL) surged 7",2012-01-24 22:08:37+00:00,U.S. Stocks Decline Amid Concern About Greek Debt Negotiations,"U.S. stocks fell, sending the
+Standard & Poor’s 500 Index lower for a third day, as European
+leaders sparred with Greece over a second rescue program. Equities pared declines as some of the biggest technology
+companies rallied. Apple Inc. (AAPL) and Microsoft Corp. (MSFT) added at least
+1.2 percent. Bank of America Corp. (BAC) fell 3 percent after Goldman
+Sachs Group Inc. cut its recommendation. Halliburton Co. (HAL) and
+Chesapeake Energy Corp. dropped more than 1.1 percent as oil
+slumped. Gannett Co. (GCI) , the owner of 82 newspapers including USA
+Today , tumbled 6.9 percent as its profit pl",2012-01-30 22:05:59+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0135,f769e927-8969-552c-906f-604330db8044,94901693-489b-558f-b34d-0d426769b60e,0.8155834078788757,"[0.75, 0.9)",526.7075,14-30d,ExxonMobil,Chicago Gasoline Falls to 1-Week Low on Exxon Joliet,"Chicago gasoline weakened to the
+lowest level in a week versus New York futures as Exxon Mobil
+Corp. (XOM) completed maintenance at a Joliet, Illinois, refinery. Conventional, 85-octane gasoline, or CBOB, in Chicago fell
+10 cents to a premium of 50 cents a gallon above futures traded
+the New York Mercantile Exchange as of 4:15 p.m., according to
+data compiled by Bloomberg. That was the smallest differential 
+since May 30. The spread narrowed for a fifth consecutive day after Exxon
+said it completed a refinery-wide turnaround at the 238,000-barrel-a-day Joliet plant , the fifth-largest in the U",2013-06-10 20:49:58+00:00,Chicago Gasoline Falls as Supplies Improve After Shortage,"U.S. gasoline in Chicago weakened
+versus futures as Midwest inventories improved following a
+shortage that sent differentials to a record high in June. Conventional, 85-octane gasoline , or CBOB, in Chicago slid
+3 cents to 13.5 cents a gallon below futures traded on the New
+York Mercantile Exchange at 2:35 p.m., according to data
+compiled by Bloomberg. The spread weakened as BP Plc (BP/) restarted a crude
+distillation unit at the Whiting, Indiana, refinery and Citgo
+Petroleum Corp. returned the Lemont, Illinois, plant to planned
+rates following a June 28 malfunction. Magellan Midstream Partner",2013-07-02 19:32:25+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0136,3aa77992-e1cf-510e-8e1f-be822e786f46,bb8640db-36fb-5649-8ad4-f66b46d547b3,0.8892428874969482,"[0.75, 0.9)",216.0,7-14d,Verizon,"Verizon Wireless Enhances 4G LTE Network Coverage In Leominster, Massachusetts",,2012-03-13 00:00:00+00:00,"Verizon Wireless Enhances 4G LTE Network Coverage in Lowell, Massachusetts",,2012-03-22 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0137,15798d41-f404-5eb6-8fb0-0cfc9539479f,0dfd9de8-9c51-5126-9024-9260c664b033,0.7802813649177551,"[0.75, 0.9)",417.2686111111111,14-30d,Toyota,"Asian Stocks Advance This Week as Japan Surges on Yen, Earnings","Asian stocks advanced, with the
+regional benchmark ending the week near its highest since June
+2008, as the yen’s slide past 100 against the dollar buoyed
+exporters in the busiest week of Japan ’s earnings season. Toyota Motor Corp. (7203) jumped 10 percent after forecasting its
+highest profit in six years. Sharp Corp. surged 33 percent amid
+reports the unprofitable electronics maker will cut jobs and
+secure more investment from Samsung Electronics Co. HSBC
+Holdings Plc (5) rose 3.3 percent in Hong Kong after the lender
+posted a bigger-than-estimated increase in first-quarter profit. The MSCI ",2013-05-11 01:01:08+00:00,"Asian Stocks Rise, Halt Five-Day Slump, as Yen Weakens","Asian stocks rose, with the regional
+equities benchmark snapping a five-day losing streak, as a
+weakening yen boosted the earnings outlook for Japanese
+exporters and China Taiping Insurance (966) Holdings Co. surged after
+saying it will buy its parent’s assets. China Taiping, the first overseas-listed Chinese insurer,
+jumped 15 percent in Hong Kong . Toyota Motor Corp., the world’s
+biggest carmaker, climbed 4.9 percent in Tokyo. Tokyo Electric
+Power Co. sank 6 percent after Kyodo News said a parliamentary
+committee approved a bill allowing people affected by the
+Fukushima nuclear disaster to s",2013-05-28 10:17:15+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0138,34ee3666-2276-531b-9b5c-5de8b878e622,da06e835-0555-5c5e-b067-c4904967c161,0.774742841720581,"[0.75, 0.9)",96.0,3-7d,JPMorgan,KB Home to Webcast Presentation at the J.P. Morgan Homebuilding and Building Products Conference,,2013-05-16 00:00:00+00:00,Standard Pacific Corp. Presentation At The J.P. Morgan Homebuilding & Building Products Conference To Be Webcast Live,,2013-05-20 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0139,2292ecf2-49c5-5670-8786-fb9bf313cc20,b37dcb9e-fd8d-5c3a-8d78-0bdf39fd3d7d,0.9855849146842957,"[0.9, 1.01)",360.0,14-30d,JPMorgan,"Fitch Rates J.P. Morgan PUTTERs/DRIVERs, Series 4425 and 4427 Trusts",,2013-12-05 00:00:00+00:00,"Fitch Rates J.P. Morgan PUTTERs/DRIVERs, Series 4429 Trust",,2013-12-20 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0140,bbc6712d-0ded-5314-a08d-6456069953b3,0234af30-8b90-5075-ad2e-ed1fd1a7626c,0.844407320022583,"[0.75, 0.9)",384.0,14-30d,Verizon,"Verizon Wireless Enhances 4G LTE Coverage in Massachusettsâ Middlesex, Norfolk and Worcester Counties",,2013-05-15 00:00:00+00:00,Verizon Wireless Enhances 4G LTE Coverage along Massachusettsâ North Shore,,2013-05-31 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0141,3a7ae24b-4f3a-5715-9499-f71c871ecc05,f3ca19df-062c-58cd-879a-14454d162f80,0.826264500617981,"[0.75, 0.9)",120.0,3-7d,Morgan Stanley,"ON THE MOVE-Ameriprise lands teams from Merrill, Morgan Stanley",,2012-11-28 00:00:00+00:00,"ON THE MOVE-Morgan Stanley hires brokers from Merrill, Barclays",,2012-12-03 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0143,c7db61a9-3d08-5556-a381-2fce1f479057,9a55be39-fa1b-536b-b0c0-3bc6cbb22d7e,0.7528121471405029,"[0.75, 0.9)",128.75583333333333,3-7d,Twitter,Twitter Pitch to IPO Investors Hinges on Potential for Growth,"Twitter Inc. (TWTR) will make the case to
+potential investors in its initial public offering that it needs
+to keep spending to grow, and profit will come once it can reap
+the benefits of those investments. “The magnitude of our investments has limited our
+margins,” Chief Financial Officer Mike Gupta said in a video
+posted yesterday to accompany the investor road show , which
+begins next week and will take Gupta and Chief Executive Officer
+ Dick Costolo from their San Francisco home to cities including
+ New York , Denver, and Chicago . “In the near term we will
+continue to invest aggressively t",2013-10-26 04:00:01+00:00,Twitter Stays Mum on Profit on Roadshow Ahead of IPO,"Twitter Inc. (TWTR) sought to drum up
+investor interest this week for its initial public offering by
+talking about mobile growth and advertising capacity. Notably
+absent from the list: profits. As the money-losing company held roadshow meetings in New
+York and Philadelphia, Twitter executives discussed no plan for
+breaking even, according to people with knowledge of the
+discussions that took place at New York’s Mandarin Oriental
+yesterday and at the Philadelphia Ritz-Carlton on Oct. 28. That
+left some attendees questioning the value of Twitter as a long-term investment, said Max Wolff, chief e",2013-10-31 12:45:22+00:00,False,UNCLEAR,DIFFERENT,DIFFERENT,DIFFERENT
+supp0144,8b1c6faa-3ce8-5d20-8438-7f9c23e76826,00eda421-43a7-5588-ad6e-1029359eef6b,0.7817996740341187,"[0.75, 0.9)",503.98333333333335,14-30d,Bank of America,BofA’s Countrywide Asks Appeals Court to Undo MBIA Ruling,"Bank of America Corp. asked a New
+York appeals court to overturn portions of a lower-court ruling
+that improved bond insurer MBIA Inc. (MBI) ’s chances of recovering
+losses on mortgage loans . Lawyers for the bank’s Countrywide unit argued yesterday in
+ Manhattan that State Supreme Court Justice Eileen Bransten was
+wrong when she ruled last year that MBIA doesn’t need to
+establish a “direct causal link” between misrepresentations
+about the loans and claims payments made by the insurer. Countrywide attorneys also argued that Bransten was wrong
+when she said MBIA was entitled to rescissory damag",2013-03-13 04:01:01+00:00,MBIA Wins Ruling on Loan Buybacks in Bank of America Suit,"MBIA Inc. (MBI) , the bond insurer suing
+ Bank of America Corp . to recover losses tied to mortgage loans,
+won an appeals court ruling that the lender could be required to
+repurchase securitized loans even if they aren’t in default. MBIA is entitled to have Bank of America buy back a
+performing loan that it can prove “materially and adversely”
+affected its interest, the New York state appeals panel said in
+a decision yesterday, reversing part of a ruling by a lower
+court. The panel also reversed a decision that MBIA could seek
+so-called rescissory damages. “Plaintiff is entitled to a finding t",2013-04-03 04:00:01+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0145,956ff261-13cd-5f2c-902d-62e73e651cb0,913fa6ac-b5d0-53b1-b17c-ea426a725077,0.7590045928955078,"[0.75, 0.9)",648.0,14-30d,Amazon,Attunity Rockets to the Cloud by Expanding its Software as a Service (SaaS) Platform for Amazon Web Services (AWS),,2012-10-31 00:00:00+00:00,Attunity Announces Commercial Availability of Attunity CloudBeam for Amazon Web Services (AWS),,2012-11-27 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0146,c7405c6e-75e0-5add-b9b6-ba2afa57aa52,72b35199-d643-5290-a12a-8efda9c99afb,0.755923867225647,"[0.75, 0.9)",256.77972222222223,7-14d,Apple,Apple Seeks Ban on Sales of At Least 8 Samsung Devices in U.S.,"Apple Inc. (AAPL) , which won more than $1
+billion after a jury found Samsung Electronics Co. infringed six
+of seven patents for its mobile devices, sought a ban on sales
+of at least eight Samsung mobile devices in the U.S., according
+to a court filing today. To contact the reporter on this story:
+Joel Rosenblatt in San Francisco at 
+ jrosenblatt@bloomberg.net To contact the editor responsible for this story:
+Peter Blumberg at 
+ pblumberg1@bloomberg.net",2012-08-27 18:14:14+00:00,"Apple, Teva, Salesforce.com, Mars: Intellectual Property","Apple Inc. lost a bid to delay
+ Samsung Electronics Co. (005930) ’s request to lift a preliminary ban on
+U.S. sales of its Galaxy Tab 10.1 computer until after a judge
+considers Apple’s request to bar some products permanently. U.S. District Judge Lucy Koh in San Jose , California ,
+yesterday denied Apple’s request to reschedule the Dec. 6
+hearing for a permanent ban on U.S. sales of eight Samsung
+mobile devices ahead of a Sept. 20 hearing on Samsung’s request
+to lift a preliminary sales ban on the Galaxy tablet. Apple
+argued in a court filing that its request is “more urgent”
+than Samsung’s. ",2012-09-07 11:01:01+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0147,bd5ef4d9-d80d-5ea3-92e3-75e9650a03db,3bfb5c72-f552-5d37-aaac-19f302c09cb0,0.8086600303649902,"[0.75, 0.9)",493.2786111111111,14-30d,Toyota,Toyota Wins Dismissal of Prius Brakes Class-Action Claims,"Toyota Motor Corp. (7203) won a judge’s
+ruling blocking a class-action lawsuit by owners of Prius and
+Lexus models who sued over a 2010 recall to install a software
+update that fixed a concern with the cars’ anti-lock braking
+system. U.S. District Judge Cormac Carney in Santa Ana , California ,
+yesterday denied a request by four car owners to represent other
+owners of a 2010 Prius or a 2010 Lexus HS 250h in California,
+saying that three of the four plaintiffs as well as the
+substantial majority of the purported class never suffered any
+injury from the alleged defect. The judge also granted Toy",2013-01-10 05:01:01+00:00,Toyota Can’t Compel Arbitration in Prius Brake Cases,"Toyota Motor Corp. (7203) can’t force Prius
+owners into arbibration related to the performance of the car’s
+brakes, a U.S. appeals court said in upholding a lower-court
+ruling. To contact the reporter on this story:
+Karen Gullo in San Francisco at 
+ kgullo@bloomberg.net To contact the editor responsible for this story:
+Michael Hytha at 
+ mhytha@bloomberg.net",2013-01-30 18:17:44+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0148,6c570133-2083-5634-ac5c-8c0add4d11bd,ca8a3231-d144-5397-ad89-3c0e58ea044e,0.7512126564979553,"[0.75, 0.9)",432.0,14-30d,Apple,Samsung to unveil its next Galaxy S smartphone on Apple's turf,,2013-02-24 00:00:00+00:00,Samsung Galaxy S4 emerges to do battle on Apple's home turf,,2013-03-14 00:00:00+00:00,False,UNCLEAR,DIFFERENT,DIFFERENT,DIFFERENT
+supp0149,ac9a681f-d1b0-5526-b574-e08c38737a50,2850e205-2478-5ade-badf-ac554c8a2855,0.8395159244537354,"[0.75, 0.9)",288.47305555555556,7-14d,JPMorgan,"JPMorgan Nearing FERC Market-Rigging Settlement, WSJ Says","JPMorgan Chase & Co. (JPM) , the biggest
+ U.S. bank , is near a deal with the Federal Energy Regulatory
+Commission to settle allegations that the lender rigged
+electricity markets, the Wall Street Journal reported. The deal, which would resolve claims that the bank
+manipulated power prices in California and the Midwest, could
+require the largest payout in the agency’s history, according to
+the report, which cited people familiar with the discussions.
+ Joseph Evangelisti , a spokesman for New York-based JPMorgan, and
+Mary O’Driscoll, a FERC spokeswoman, declined to comment. Previous negotiation",2013-07-17 21:49:56+00:00,JPMorgan Accused of Energy-Market Manipulation by U.S. Agency,"JPMorgan Chase & Co. (JPM) manipulated power markets in California and the Midwest from September 2010 to June 2011, obtaining tens of millions of dollars in overpayments from grid operators, the U.S. Federal Energy Regulatory Commission alleged today. The agency said in a Notice of Alleged Violations that it had preliminarily determined a JPMorgan trading unit had engaged in eight manipulative bidding strategies. The New York-based bank has agreed to sanctions including a fine of about $400 million in a settlement that may be announced as early as tomorrow, according to a person familiar with",2013-07-29 22:18:19+00:00,False,DIFFERENT,SAME,DIFFERENT,DIFFERENT
+supp0150,63c9592f-469d-55e2-9ebc-463df7bfc466,579ce8c1-827c-5594-b984-6b2514d38c7c,0.8683661222457886,"[0.75, 0.9)",192.0,7-14d,Verizon,RLPC: Verizon details pricing on $61B bridge loan,,2013-09-03 00:00:00+00:00,RLPC: Fee details out on Verizon's $12B bank loan,,2013-09-11 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0151,6dfcd858-d71b-5baa-88ed-8aaca30f34c1,b3fe95fe-1e29-562f-9329-a7c9e3fff4dc,0.8506132364273071,"[0.75, 0.9)",72.0911111111111,3-7d,Citigroup,"Asia-Pacific Bond Risk Declines to 2011 Lows, Swap Prices Show","The cost of insuring corporate
+bonds and sovereign bonds from non-payment in the Asia-Pacific
+region declined, according to traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan fell 3 basis points to 100 basis points
+as of 8:55 a.m. in Hong Kong , according to Australia & New
+Zealand Banking Group Ltd. prices. The measure is set for its
+lowest close since Jan. 2011, according to data provider CMA. The Markit iTraxx Japan index retreated 3 basis points to
+102.3 as of 9:11 a.m. in Tokyo , Citigroup Inc. prices show. The
+benchmark is falling",2013-03-11 01:32:44+00:00,"Japan Corporate Bond Risk Falls, Credit-Default Swap Prices Show","The cost of insuring Japanese
+corporate bonds from non-payment dropped, according to traders
+of credit-default swaps. The Markit iTraxx Japan index declined 1 basis point to 101
+basis points as of 9:10 a.m. in Tokyo , Citigroup Inc. prices
+show. The benchmark is headed for its lowest close since March
+2011, CMA data show. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan was little changed at 102.5 basis points
+as of 8:24 a.m. in Hong Kong , according to Royal Bank of
+Scotland Group Plc prices. The measure rose for the past three
+business days, the longest stretch sin",2013-03-14 01:38:12+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0152,ea772487-29e3-514e-8648-422569fcaa27,1ac34e6e-c4ab-59e4-a13a-56a569a10dbc,0.7540652751922607,"[0.75, 0.9)",504.0,14-30d,Verizon,Verizon Wireless Enhances 4G LTE Coverage in Connecticutâs Hartford and Tolland Counties,,2013-05-08 00:00:00+00:00,Verizon Wireless Enhances 4G LTE Coverage in York and Oxford Counties in Maine,,2013-05-29 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0153,cc4390eb-87b0-528a-a753-e0ece7a2d099,3f9e303d-49fc-5f28-a0a8-cdad722b4cc6,0.8210660815238953,"[0.75, 0.9)",583.6711111111111,14-30d,Microsoft,Motorola Mobility Wins Ruling on Microsoft Xbox Patents,"Motorola Mobility Holdings Inc. (MMI) won
+a U.S. International Trade Commission judge’s ruling that
+bolsters its chances of blocking imports of Microsoft Corp. (MSFT) ’s
+Xbox gaming system from entering the U.S. ITC Judge David Shaw said yesterday that Microsoft was
+violating four of five Motorola Mobility patents. The judge’s
+ findings are subject to review by the six-member commission,
+which has the power to ban imports that infringe U.S. patents. A
+second judge at the ITC delayed until today issuing his findings
+in a separate Motorola Mobility case against Apple Inc. (AAPL) The ruling gives",2012-04-24 15:25:08+00:00,Microsoft Wins Ruling Forcing Change in Motorola Phones,"Microsoft Corp. (MSFT) won a federal trade
+ruling that will force Motorola Mobility Holdings Inc. (MMI) to alter
+software on some of its Android-based mobile phones to keep
+bringing them into the U.S. A U.S. International Trade Commission judge found that
+Motorola Mobility infringed a patent covering a program by
+Redmond, Washington-based Microsoft called ActiveSync , which
+lets users generate meeting requests among a group. Six other
+patents weren’t violated, the judge ruled. The ruling still must be reviewed by President Barack Obama , who can override the order on public policy grounds. “We",2012-05-18 23:05:24+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0154,73d5be65-df2c-51eb-9873-61a6cbedbac8,e1afcc7d-45d7-5f58-b2a2-676478f85e70,0.8379197120666504,"[0.75, 0.9)",312.0,7-14d,JPMorgan,Fitch Affirms J.P. Morgan Chase 2011-C3 Commercial Mortgage Pass-Through Certificates,,2013-03-14 00:00:00+00:00,Fitch Rates J.P. Morgan Mortgage Trust 2013-1,,2013-03-27 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0155,b7eda172-65b3-5a34-a0d8-8e905b5e6c6c,6f09e670-d8c3-5205-be3a-71c0c4ce3a91,0.819208562374115,"[0.75, 0.9)",336.0,7-14d,AT&T,AT&T; 4G LTE Available In Fairmont,,2013-08-14 00:00:00+00:00,AT&T; 4G LTE Available In Marshall,,2013-08-28 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0156,666a816c-5763-5b0b-a27f-e7f2d729df4f,6b6f853d-d6ee-5857-bfb1-d817895f52ae,0.878908634185791,"[0.75, 0.9)",167.855,3-7d,Citigroup,"Asia-Pacific Bond Risk Falls, Credit-Default Swaps Prices Show","The cost of insuring Asia-Pacific
+corporate and sovereign bonds from default fell, according to
+traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan decreased 1 basis point to 198 basis
+points as of 8:59 a.m. in Hong Kong , Royal Bank of Scotland
+Group Plc prices show. The index rose 8.5 basis points yesterday
+to 201.6 basis points, the highest since Jan. 16 and its biggest
+one-day increase since March 20, according to data provider CMA. The Markit iTraxx Australia index was little changed at 198
+basis points as of 11:00 a.m. in Sydney, C",2012-05-24 01:43:40+00:00,"Asia-Pacific Bond Risk Rises, Credit-Default Swap Prices Show","The cost of insuring Asia-Pacific
+corporate and sovereign bonds against non-payment increased,
+with the Asia and Australia indexes set for their biggest
+monthly gains since September, according to traders of credit-
+default swaps. The Markit iTraxx Australia index jumped 7 basis points to
+205 basis points as of 10:41 a.m. in Sydney, according to
+Westpac Banking Corp. The gauge is poised for its highest close
+since Nov. 29 and a monthly increase of 50 basis points,
+according to data provider CMA. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan climbed 8 basis points ",2012-05-31 01:34:58+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0157,31aedf1e-328b-5154-ae7d-90edcf3e3075,f5961b1a-ee37-531a-b8d8-4f33ff23e978,0.7655457258224487,"[0.75, 0.9)",194.9061111111111,7-14d,Microsoft,Microsoft Debuts Euro Bond as Record-Low Yields Spur Issuance,"Microsoft Corp., the world’s
+largest software maker, sold bonds in euros for the first time,
+joining LVMH Moet Hennessy Louis Vuitton SA (MC) and Nestle (NESN) SA in
+taking advantage of record-low borrowing costs. Microsoft raised 550 million euros ($719 million) from 20-
+year notes, according to a person familiar with the transaction.
+French luxury goods maker LVMH is marketing its first euro bonds
+in two years, while Nestle, the world’s biggest food company,
+sold its first securities in the currency since October. It’s the busiest day in six weeks for issuance in Europe ,
+as non-financial co",2013-04-25 13:26:20+00:00,"Microsoft, AT&T Cross Atlantic for Euro Rates","Microsoft Corp. (MSFT) and AT&T Inc. (T) are
+among U.S. borrowers selling the most bonds in Europe since the
+start of 2008, taking advantage of record-low borrowing costs
+that outstrip dollar rates. American issuers raised 17.2 billion euros ($22.5 billion)
+from bond sales this year, nine times the amount for the same
+period in 2012, according to data compiled by Bloomberg. The
+average yield on investment-grade euro corporate bonds fell to
+an unprecedented 1.75 percent yesterday, or 89 basis points
+below comparable dollar notes, Bank of America Merrill Lynch
+indexes show. That’s the biggest di",2013-05-03 16:20:42+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0158,4efa790d-c70f-576f-ab1c-7d4d8ef91444,8c06e2bc-67d8-53eb-8208-8d76df89409e,0.7990230917930603,"[0.75, 0.9)",120.0,3-7d,AT&T,AT&T; Invests Nearly $60 Million In West Virginia Wireless And Wireline Networks In First Half Of 2013,,2013-08-09 00:00:00+00:00,AT&T; Invests Nearly $175 Million In Mississippi Wireless And Wireline Networks In First Half Of 2013,,2013-08-14 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0159,ddf9241c-9b6e-592f-9dae-7ec6bccd804d,0ee044b8-c9e3-5037-a08e-7c8530f343b3,0.8784510493278503,"[0.75, 0.9)",215.99722222222223,7-14d,Citigroup,"Asia-Pacific Bond Risk Little Changed, Credit-Default Swaps Show","The cost of insuring Asia-Pacific
+corporate and sovereign bonds from default was little changed,
+according to traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan held at 141 basis points as of 8:18 a.m.
+in Hong Kong, Royal Bank of Scotland Group Plc prices show. The
+gauge jumped yesterday to its highest close since Sept. 26,
+according to data provider CMA. The Markit iTraxx Australia index was little changed at 130
+basis points as of 10:19 a.m. in Sydney, according to Westpac
+Banking Corp. (WBC) prices. It closed at 128.5 basis points ye",2013-06-12 02:08:31+00:00,"Asia-Pacific Bond Risk Rises, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds in the Asia-Pacific region against non-payment
+rose, according to credit-default swap traders. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan gained 5 basis points to 166 basis
+points as of 8:21 a.m. in Singapore , according to Royal Bank of
+Scotland Group Plc prices. The benchmark surged 29.5 yesterday,
+the most since September 2011, according to data provider CMA. The Markit iTraxx Australia index jumped 10 basis points to
+147.5 as of 10:23 a.m. in Sydney, according to National
+Australia Bank Ltd. prices. The mea",2013-06-21 02:08:21+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0161,82606797-b7a8-5a71-bbb4-e90e427b0bab,ab053610-5c02-5329-bb6f-7fa32245e11b,0.8469685316085815,"[0.75, 0.9)",238.9688888888889,7-14d,Apple,Dialog Semi Falls on Nikkei’s Apple IPhone Cutback Report,"Dialog Semiconductor Plc (DLG) , which
+makes chips used in Apple Inc. (AAPL) ’s iPhone, fell the most in almost
+six months after Nikkei newswire reported that the U.S. company
+scaled back production plans for the smartphone. Apple reduced its original target to order 65 million
+iPhone 5 handsets this quarter by about half, Nikkei said,
+citing an unidentified senior executive at a component maker it
+didn’t name. Dialog fell as much as 6.2 percent to 14.50 euros,
+the biggest intraday drop since July 24, and was trading down
+4.3 percent at 11:21 a.m. in Frankfurt. Volume was 62 percent
+higher tha",2013-01-14 10:28:14+00:00,Dialog Semiconductor Drops on Weak Apple Sales: Frankfurt Mover,"Dialog Semiconductor Plc (DLG) , a maker of
+chips used in Apple Inc. (AAPL) ’s iPhone, slumped in German trading
+after the company, its biggest customer, reported the weakest
+sales growth in 14 quarters and forecast second-quarter revenue
+that fell short of analyst estimates. Dialog, based in Kirchheim, Germany , fell as much as 5.5
+percent, making it the largest decliner in the HDAX Index (HDAX) of 110
+most highly capitalized stocks traded on the Frankfurt exchange.
+Volume was 62 percent of the three-month daily average after 24
+minutes of trading. The German supplier depends on Cupertino, Ca",2013-01-24 09:26:22+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0162,a9e6c869-7c68-519f-a219-8312ca406f9b,dce8f314-4fb6-52d8-a446-030a9eba6b09,0.8370130062103271,"[0.75, 0.9)",144.0,3-7d,AT&T,AT&T; to Webcast Keynote by Pete Ritcher at Deutsche Bank Conference on March 6,,2013-02-27 00:00:00+00:00,AT&T; to Webcast Keynote by Steve Caniano at Piper Jaffray Conference on March 12,,2013-03-05 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0163,ea772487-29e3-514e-8648-422569fcaa27,bbc6712d-0ded-5314-a08d-6456069953b3,0.8011508584022522,"[0.75, 0.9)",168.0,3-7d,Verizon,Verizon Wireless Enhances 4G LTE Coverage in Connecticutâs Hartford and Tolland Counties,,2013-05-08 00:00:00+00:00,"Verizon Wireless Enhances 4G LTE Coverage in Massachusettsâ Middlesex, Norfolk and Worcester Counties",,2013-05-15 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0164,16a140cf-1c42-5e65-9e6e-bf36d863a65e,a54704ae-ee99-5006-9717-9c8d84757f13,0.819480299949646,"[0.75, 0.9)",432.0,14-30d,Morgan Stanley,TEXT-Fitch affirms Morgan Stanley 2004-IQ7,,2012-06-01 00:00:00+00:00,Fitch Affirms Morgan Stanley Re-Remic Trust 2011-IO,,2012-06-19 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0165,daaf4f77-5c11-587d-ba0e-96602c8fbff6,b47cb9f3-3cda-5bad-9106-4b4c7e476321,0.7547329664230347,"[0.75, 0.9)",576.1533333333333,14-30d,Bank of America,AIG argues against $8.5 billion settlement with BofA,,2013-06-04 00:00:00+00:00,BofA Rebuffs AIG Mediation Bid on $8.5 Billion Accord,"Bank of America Corp. said it won’t renegotiate its $8.5 billion mortgage-bond settlement with investors after American International Group Inc. (AIG) , which opposes the deal, sought mediation. Bank of America won’t participate in mediation proposed by AIG and other opponents and “will not otherwise engage in any renegotiation,” Elaine Golin, an attorney for the lender, said in a June 25 letter filed today in New York state court. “The settlement agreement reflects the result of lengthy, hard and arms-length negotiation,” Golin wrote. “It does not permit any of the economic terms to be renego",2013-06-28 00:09:12+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0166,362cee50-1de3-52db-a16a-bd70cfecd902,1a122d3b-1f6b-56a9-9324-1a8040dd57c5,0.9297220706939697,"[0.9, 1.01)",335.6227777777778,7-14d,Citigroup,"Bond Risk in Asia Increases, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds from non-payment in Asia climbed, according to
+traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan increased 2 basis points to 168.5 as of
+8:53 a.m. in Singapore, Royal Bank of Scotland Group Plc prices
+show. The benchmark has traded between 210 and 132.5 since Jan.
+1, according to CMA. The Markit iTraxx Japan index rose 2 basis points to 177 as
+of 9:24 a.m. in Tokyo, Citigroup Inc. prices show. The gauge is
+set for its highest close since July 9, according to CMA, which
+is owned by McGr",2012-07-11 01:43:01+00:00,"Asia-Pacific Bond Risk Rises, Credit-Default Swap Prices Show","The cost of insuring Asia-Pacific
+corporate and sovereign bonds from non-payment increased,
+according to traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan advanced 5 basis points to 179 basis
+points as of 8:31 a.m. in Singapore , Royal Bank of Scotland
+Group Plc prices show. The gauge is headed for the highest close
+since June 28, according to data provider CMA. The Markit iTraxx Australia index gained 3 basis points to
+187 basis points as of 10:17 a.m. in Sydney, National Australia
+Bank Ltd. prices show. The benchmark is also poised t",2012-07-25 01:20:23+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0167,dad67f1f-273b-55b7-ad2e-b3924a3d6c19,f4459a55-98d5-566e-9785-e79e8a36d756,0.7699988484382629,"[0.75, 0.9)",216.0,7-14d,Verizon,Verizon Wireless spectrum deal near regulatory approval: WSJ,,2012-08-14 00:00:00+00:00,UPDATE 1-FCC approves Verizon Wireless' cable spectrum deal,,2012-08-23 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0168,2652c669-5bf1-510e-85dd-fd5984361f2e,ab049668-d17a-58de-b069-10ec9abb8f12,0.9817999005317688,"[0.9, 1.01)",168.67194444444445,7-14d,Citigroup,"Asia-Pacific Bond Risk Falls, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds in the Asia-Pacific region against non-payment
+dropped, according to traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan fell 2 basis points to 160 basis points
+as of 8:17 a.m. in Hong Kong , Australia & New Zealand Banking
+Group Ltd. prices show. The gauge is set for its lowest level
+since Aug. 21, according to data provider CMA. The Markit iTraxx Japan index declined 1.5 basis points to
+94.5 as of 9:11 a.m. in Tokyo , according to Citigroup Inc.
+prices. The measure, which has ranged fr",2013-08-26 01:20:58+00:00,"Asia-Pacific Bond Risk Declines, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds in the Asia-Pacific region against non-payment
+fell, according to traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan dropped 2 basis points to 162 basis
+points as of 8:59 a.m. in Singapore , Australia & New Zealand
+Banking Group Ltd. (ANZ) prices show. The gauge rose 16.9 basis points
+last month, the most since June, according to data provider CMA. The Markit iTraxx Australia index decreased 1 basis point
+to 124 as of 10:57 a.m. in Sydney, according to ANZ prices. The
+measure, which adv",2013-09-02 02:01:17+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0169,a5848180-48a1-587f-9641-71b402e71086,14a67d55-5277-5b8b-941e-e7a96e12790f,0.7595148086547852,"[0.75, 0.9)",335.7558333333333,7-14d,Toyota,"Japanese Stock Futures Fall on U.S. Factory Orders, Oil","Japanese stock futures and
+Australian equities fell after orders placed with U.S. factories
+for durable goods rose less than economists estimated and oil
+prices dropped, damping demand for riskier assets. American depositary receipts of Toyota Motor Corp. (7203) , Asia’s
+biggest carmaker by market value that gets 28 percent of its
+revenue in North America , fell 1.1 percent from the closing
+share price in Tokyo. ADRs of Sharp Corp. (6753) , a Japanese
+electronics maker, surged 14 percent after the shares rose by
+their daily limit yesterday on an investment plan by Foxconn
+Technology Group. BHP",2012-03-28 23:31:12+00:00,"Japanese Stock Futures Rise on U.S. Earnings, Spain","Japanese stock futures rose after
+the Nikkei 225 Stock Average (NKY) yesterday capped the longest losing
+streak since 2009 as optimism about U.S. corporate earnings and
+a drop in Spanish bond yields boosted demand for riskier assets.
+Australian stock futures gained. American depositary receipts of Toyota Corp., Asia’s
+biggest carmaker that generates 28 percent of its sales in North
+America , rose 0.5 percent from the closing share price in Tokyo 
+after Alcoa Inc., the largest U.S. aluminum producer, reported
+an unexpected first-quarter profit. Those of electronics maker
+Kyocera Corp., which ge",2012-04-11 23:16:33+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0170,0eaacdb8-a65f-59a3-9d58-5312cc1c8439,e523ab41-47f4-5a40-b924-d73978b1fc3d,0.7550415992736816,"[0.75, 0.9)",552.0,14-30d,Facebook,Analysis: UBS's huge Facebook loss throws doubt on Nasdaq plan,,2012-07-31 00:00:00+00:00,UBS: Nasdaq's Facebook compensation plan 'inadequate',,2012-08-23 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0171,249c81d0-aed5-5430-95bc-844fe5594151,4d720fe2-aded-5fc0-8c08-64c8f0a7c891,0.7890204191207886,"[0.75, 0.9)",315.9625,7-14d,Amazon,Chevron Bid to Dismiss $18 Billion Award Rejected in Ecuador,"Chevron Corp. (CVX) lost its challenge to
+an $18 billion judgment before an Ecuador appeals court in a
+lawsuit alleging the company is responsible for chemicals
+spilled in the Amazon River basin more than 20 years ago. The decision upholding the lower-court judgment was issued
+by a panel of three judges in the Provincial Court of Justice of
+Sucumbios in Lago Agrio , Ecuador, Chevron said in an e-mailed
+statement yesterday. Chevron appealed a February ruling that it was responsible
+for chemical-laden wastewater dumped in jungle land from 1964 to
+about 1992 by Texaco Inc., which Chevron acquired",2012-01-04 20:02:15+00:00,Amazon Defense Coalition: Chevron Refusing to Contest Ecuador Appellate Court Decision Upholding $18 Billion In Damages,,2012-01-18 00:00:00+00:00,False,SAME,SAME,SAME,SAME
+supp0172,ebd91df5-a201-530e-bacb-2dc48d05c360,bb8db83a-5105-5f9b-97f1-9d27b7640393,0.8193482160568237,"[0.75, 0.9)",336.0,7-14d,Microsoft,WPC and Microsoft Present on HITECH Security and Compliance at AHIP Webinar,,2012-02-06 00:00:00+00:00,WPC Demonstrates Security & Compliance and ICD-10 Solutions With Microsoft at HIMSS12,,2012-02-20 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0173,fa43e62b-c772-5112-a3c0-491f3a8f59b4,578cefda-9dd7-5ad5-9c2e-c21dd82bf983,0.8092412352561951,"[0.75, 0.9)",120.0,3-7d,AT&T,"AT&T; Invested More Than $1.5 Billion In North Carolina From 2010 Through 2012 To Enhance Speeds, Reliability And Performance For Customers",,2013-02-21 00:00:00+00:00,"AT&T; Invested More Than $1.0 Billion In Pennsylvania From 2010 Through 2012 To Enhance Speeds, Reliability And Performance For Customers",,2013-02-26 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0174,1ae94937-e3aa-5576-ac37-4f9de7ca5163,24dbb078-4df8-5e97-bdee-82c4345745da,0.7878528833389282,"[0.75, 0.9)",493.8025,14-30d,Apple,Samsung Loses Bid to Delay Tablet Sales Ban in Apple Suit,"Samsung Electronics Co. lost its bid
+to put on hold a court order barring sales of its Galaxy 10.1
+tablet computer in the U.S. until an appeals court rules on the
+matter. U.S. District Judge Lucy Koh yesterday rejected Samsung’s
+request to stay her June 26 order while the company pursues an
+appeal. That order was followed by Koh’s June 29 ruling blocking
+U.S. sales of Samsung’s Galaxy Nexus smartphone. Samsung, the
+world’s biggest maker of mobile phones, filed its notice of
+appeal of that order today as it awaits Koh’s ruling on a
+request to stay that injunction. “As Samsung itself concedes, t",2012-07-03 18:51:29+00:00,Apple Loses Bid to Ban Samsung’s Galaxy Tab 10.1N in Germany,"Apple Inc. (AAPL) lost a court bid to ban
+sales of Samsung Electronics Co.’s Galaxy 10.1N tablet computer,
+a modified version of the original 10.1 model that was blocked
+in Germany . The Dusseldorf appeals court judges backed a lower court
+ruling that had rejected the bid in February, the tribunal’s
+spokesman Klaus Schumacher said in an interview today. The court
+granted a separate Apple bid for a ban on Samsung’s Galaxy 7.7
+tablet in all 27 member states of the European Union. Apple has been fighting tablet competitors in courts across
+the globe for about a year. The iPad maker scored a victo",2012-07-24 08:39:38+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0175,2f7662ff-921e-5684-a170-c29fc542cbdb,6dfcd858-d71b-5baa-88ed-8aaca30f34c1,0.8410477042198181,"[0.75, 0.9)",167.42472222222221,3-7d,Citigroup,"Japan Corporate Bond Risk Falls, Credit-Default Swap Prices Show","The cost of insuring Japanese
+corporate bonds from non-payment fell, according to traders of
+credit-default swaps. The Markit iTraxx Japan index decreased 2 basis points to
+121 basis points as of 9:24 a.m. in Tokyo , Citigroup Inc. prices
+show. The index is on track for its lowest close since Feb. 14,
+according to data provider CMA. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan was little changed at 109 basis points
+as of 8:22 a.m. in Hong Kong , Royal Bank of Scotland Group Plc
+prices show. The gauge rose 1.1 basis point in the five days to
+March 1, its first wee",2013-03-04 02:07:15+00:00,"Asia-Pacific Bond Risk Declines to 2011 Lows, Swap Prices Show","The cost of insuring corporate
+bonds and sovereign bonds from non-payment in the Asia-Pacific
+region declined, according to traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan fell 3 basis points to 100 basis points
+as of 8:55 a.m. in Hong Kong , according to Australia & New
+Zealand Banking Group Ltd. prices. The measure is set for its
+lowest close since Jan. 2011, according to data provider CMA. The Markit iTraxx Japan index retreated 3 basis points to
+102.3 as of 9:11 a.m. in Tokyo , Citigroup Inc. prices show. The
+benchmark is falling",2013-03-11 01:32:44+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0176,bb8640db-36fb-5649-8ad4-f66b46d547b3,a4a1b6ca-d033-593d-a51c-bd4b54a823b2,0.8603391051292419,"[0.75, 0.9)",192.0,7-14d,Verizon,"Verizon Wireless Enhances 4G LTE Network Coverage in Lowell, Massachusetts",,2012-03-22 00:00:00+00:00,"Verizon Wireless Enhances 4G LTE Network Coverage in Townsend, Massachusetts",,2012-03-30 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0177,e4a9e643-71b9-54b3-a1fb-4311f1ec891a,8e77f77b-d1d4-5a1d-9bf1-5c259fbe53ed,0.7685726881027222,"[0.75, 0.9)",141.84583333333333,3-7d,Ford,Nissan Said to Sell $1.54 Billion of Bonds Backed By Auto Debt,"Nissan Motor Co. (7201) sold $1.54 billion
+of bonds backed by auto loans in the automaker’s largest issue
+of the debt since 2005, according to a person familiar with the
+offering. The sale was increased from $1 billion, said the person,
+who declined to be identified because terms aren’t public. A
+top-ranked portion maturing in 2.3 years yields 15 basis points
+more than the benchmark swap rate. Automakers are boosting asset-backed sales as investor
+seeks bonds tied to vehicle lending. Honda Motor Co. yesterday
+increased its sale of securities backed loans by $440 million to
+$1.69 billion in its",2012-02-15 18:27:08+00:00,Auto Rally Sways Traders in Most Sales Since at Least ’08: Credit Markets,"Automakers are selling bonds linked
+to vehicle debt at the fastest pace since at least 2008 as
+soaring investor demand sends relative yields on the notes to
+the lowest level in more than six months. Issuance of auto asset-backed securities has reached $14.8
+billion this year, compared with a range of $7 billion to $9
+billion in the comparable periods of 2008 to 2011, according to
+data from Barclays Capital . Nissan Motor Co., Honda Motor Co.
+and Ford Motor Co. sold $5.5 billion of bonds this month,
+boosting the offerings by at least 35 percent, in their biggest
+deals in as many as seven years.",2012-02-21 16:17:53+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0178,2652c669-5bf1-510e-85dd-fd5984361f2e,32719a71-acdb-54cd-b5fb-201907eef18b,0.951991617679596,"[0.9, 1.01)",72.41694444444444,3-7d,Citigroup,"Asia-Pacific Bond Risk Falls, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds in the Asia-Pacific region against non-payment
+dropped, according to traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan fell 2 basis points to 160 basis points
+as of 8:17 a.m. in Hong Kong , Australia & New Zealand Banking
+Group Ltd. prices show. The gauge is set for its lowest level
+since Aug. 21, according to data provider CMA. The Markit iTraxx Japan index declined 1.5 basis points to
+94.5 as of 9:11 a.m. in Tokyo , according to Citigroup Inc.
+prices. The measure, which has ranged fr",2013-08-26 01:20:58+00:00,"Asia-Pacific Bond Risk Falls, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds against non-payment in the Asia-Pacific region
+dropped for the first time in three days, according to traders
+of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan fell 2 basis points to 165 basis points
+as of 9:09 a.m. in Singapore , Royal Bank of Scotland Group Plc
+prices show. The gauge, which advanced 11.1 basis points over
+the last two days to a two-month high, is set for its first
+decline since Aug. 26, according to data provider CMA. The Markit iTraxx Australia index decreased 1 basis point",2013-08-29 01:45:59+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0179,e3492751-8e86-52fc-bcec-33db61cfb12e,93733bd3-12d9-564c-8641-eaa1e59b78db,0.868516206741333,"[0.75, 0.9)",138.72472222222223,3-7d,JPMorgan,"Sovereign, Corporate Bond Risk Rises, Credit-Default Swaps Show","The cost of insuring against default
+on European sovereign and corporate debt rose, according to
+traders of credit-default swaps. The Markit iTraxx SovX Western Europe Index of swaps on 15
+governments jumped eight basis points to 383 at 3 p.m. in
+London, approaching the record 385 set Nov. 25. An increase
+signals deterioration in perceptions of credit quality . The Markit iTraxx Financial Index linked to senior debt of
+25 banks and insurers increased 3.5 basis points to 293.5 and
+the subordinated index rose two to 530, according to JPMorgan
+Chase & Co. Contracts on the Markit iTraxx Crossover ",2012-01-06 15:57:53+00:00,"Sovereign, Corporate Bond Risk Falls, Credit-Default Swaps Show","The cost of insuring against default
+on European sovereign and corporate debt fell, according to
+traders of credit-default swaps. The Markit iTraxx SovX Western Europe Index of swaps on 15
+governments declined 13 basis points to 355 at 10:30 a.m. in
+London. A decline signals improvement in perceptions of credit
+quality . Contracts on the Markit iTraxx Crossover Index of 50
+companies with mostly high-yield credit ratings decreased 21.5
+basis points to 713.5, according to JPMorgan Chase & Co., the
+lowest in more than a month. The Markit iTraxx Europe Index of 125 companies with
+investment-grade ",2012-01-12 10:41:22+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0180,4a6c1a83-8163-5d0e-a92c-e2297bdfd03e,b87252e0-0533-54da-9053-2a62ef7947b1,0.7715623378753662,"[0.75, 0.9)",168.0,3-7d,AT&T,AT&T; 4G LTE Available In Fort Collins-Loveland,,2013-08-07 00:00:00+00:00,AT&T; 4G LTE Available In Williston,,2013-08-14 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0181,c78a5db7-a1db-53d2-98ee-66ec107d228e,a7c64666-9d4c-5ab4-9a16-6992a25c4222,0.8045259714126587,"[0.75, 0.9)",96.0,3-7d,JPMorgan,JPMorgan Chase to pay $4.5 billion in mortgage security deal,,2013-11-15 00:00:00+00:00,JPMorgan agrees $13 billion settlement with U.S. over bad mortgages,,2013-11-19 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0182,c2409cd7-121e-50c6-89e5-24a9d9eca35e,9cab9b3b-ad30-5ea4-99d1-40d4a8688783,0.9083643555641174,"[0.9, 1.01)",672.0,14-30d,AT&T,AT&T; 4G LTE Coming To Cookeville This Summer,,2013-04-10 00:00:00+00:00,AT&T; 4G LTE Launches In Cookeville,,2013-05-08 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0183,96060e5f-d911-551b-9707-b6939d195aee,a15dda2a-54c9-5069-bb91-7f2fdd142702,0.8058455586433411,"[0.75, 0.9)",144.0,3-7d,AT&T,AT&T; Invests $35 Million In New Mexico Wireless And Wireline Networks In First Half Of 2013,,2013-08-08 00:00:00+00:00,AT&T; Invests $90 Million In Massachusetts Wireless And Wireline Networks In First Half Of 2013,,2013-08-14 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0184,25a8c502-e90f-5056-8389-2500128a86be,28ba67ab-26f6-550a-bbe6-ad5e13a2d95b,0.8615341782569885,"[0.75, 0.9)",157.51055555555556,3-7d,Wells Fargo,"Wells Fargo Should Be Forced to Meet Subpoenas, SEC Says","Wells Fargo & Co. (WFC) failed to hand
+over documents demanded in U.S. subpoenas and should be forced
+to cooperate with a probe into its sale of almost $60 billion in
+residential mortgage-backed securities, regulators said. The Securities and Exchange Commission asked a federal
+judge to compel the bank, the largest U.S. home lender, to
+deliver documents it agreed to produce under subpoenas dating
+from September, the agency said yesterday in a statement . The
+SEC said it’s looking into possible fraud by the San Francisco-
+based company and hasn’t concluded that anyone broke the law. “Up until n",2012-03-24 04:00:03+00:00,"Wells Fargo, SEC Ordered to Confer on Subpoena Requests","Wells Fargo & Co. (WFC) and U.S.
+Securities and Exchange Commission lawyers were told by a
+federal judge to meet to discuss the agency’s subpoenas for
+documents about an investigation of mortgage-backed securities. U.S. Magistrate Judge Laurel Beeler in San Francisco
+rejected the SEC’s request for an order compelling the bank, the
+largest U.S. home lender, to deliver documents it agreed to
+produce under subpoenas dating from September, according to a
+court filing yesterday. Beeler said the parties’ lawyers should
+meet in person, and if that doesn’t work, file a letter to her. The SEC has said ",2012-03-30 17:30:41+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0185,5ab3f4af-b574-5cd6-8554-93ab57624245,6e2b15e2-f32f-5a5a-b10f-9c982ee6b19b,0.8115512132644653,"[0.75, 0.9)",120.0,3-7d,Facebook,"Wolf Haldenstein Adler Freeman & Herz LLP Commences Class Action Lawsuit on Behalf of Investors in Facebook, Inc.",,2012-05-24 00:00:00+00:00,Harwood Feffer LLP Files Class Action on Behalf of Purchasers of Facebook Inc. Common Stock Against Facebook's Lead Underwriters,,2012-05-29 00:00:00+00:00,False,UNCLEAR,DIFFERENT,DIFFERENT,DIFFERENT
+supp0186,17d5f880-7517-54b3-8494-a51463f70500,6498280c-89ea-59e5-817a-5f97cf4a41e7,0.9629947543144226,"[0.9, 1.01)",600.0,14-30d,Ford,Details Of Ford Motor Company's November 2012 U.S. Sales Conference Call,,2012-11-26 00:00:00+00:00,Details Of Ford Motor Company's December 2012 U.S. Sales Conference Call,,2012-12-21 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0187,4a754089-3782-5b79-8804-e6a86389df15,cd88a15e-11da-5258-8192-1b8e8a8dde72,0.9094299077987671,"[0.9, 1.01)",192.0,7-14d,Verizon,"Verizon Wireless Enhances 4G LTE Network Coverage in Manchester, New Hampshire",,2012-04-10 00:00:00+00:00,"Verizon Wireless Enhances 4G LTE Network Coverage in Amherst, New Hampshire",,2012-04-18 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0188,f88dad13-6cd8-5258-a14f-c960f82fab61,d66ff3f9-56bd-557a-b2e7-9d2489a100de,0.9650271534919739,"[0.9, 1.01)",576.195,14-30d,Citigroup,"Asia-Pacific Bond Risk Falls, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds from non-payment in the Asia-Pacific region
+fell, according to traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan retreated one basis point to 103 basis
+points as of 8:17 a.m. in Hong Kong, according to Royal Bank of
+Scotland Group Plc prices. The measure has declined 10 basis
+points this year, after sliding 93 basis points in 2012,
+according to data provider CMA. The Markit iTraxx Japan index fell three basis points to
+135 as of 9:23 a.m. in Tokyo , Citigroup Inc. prices show. The
+benc",2013-01-11 01:29:01+00:00,"Asia-Pacific Bond Risk Drops, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds against non-payment in the Asia-Pacific region
+fell, according to traders of credit-default swaps. The Markit iTraxx Australia index dropped two basis points
+to 117 basis points as of 11:26 a.m. in Sydney, according to
+Westpac Banking Corp. prices. The benchmark is set to extend its
+decline this year to 10.5 basis points, after retreating for a
+fifth straight month in January, according to data provider CMA. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan decreased two basis points to 113 as of
+8:26 a.m. in Hong Kon",2013-02-04 01:40:43+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0189,acb8c51a-a515-5a25-a683-475ca68082e9,95715a7f-ea21-5c48-aabf-223541a03659,0.9410995244979858,"[0.9, 1.01)",144.0,3-7d,Facebook,Facebook's Sandberg sells $7.4 mln in stock,,2012-11-02 00:00:00+00:00,Facebook's Sandberg sells another $3.75 mln in stock,,2012-11-08 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0190,c1a173c0-554e-5a73-b496-887f97e99d26,694f8a7c-2719-563a-9701-f0970685d66e,0.9083267450332642,"[0.9, 1.01)",672.0,14-30d,Ford,BRIEF-Ford expects mid-15 million vehicle range for US sales rate for January,,2013-02-01 00:00:00+00:00,BRIEF-Ford sees Feb US annual sales rate in mid-15 million range including medium and heavy trucks,,2013-03-01 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0191,db1cfa13-6071-54a7-bb7d-fb54bba884bd,0181efa7-1d33-54af-a47b-96372776e969,0.9260746836662292,"[0.9, 1.01)",168.0,3-7d,ExxonMobil,"U.S. refinery shutdowns- Motiva, Exxon, Sunoco",,2012-07-16 00:00:00+00:00,"U.S. refinery shutdowns - Sunoco, Valero, Exxon",,2012-07-23 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0192,ac572b0c-5b2d-5bbf-94b6-d7e4a4ba1501,24be6af1-fce1-5abe-a577-f18ae8b86b63,0.9100130796432495,"[0.9, 1.01)",324.85277777777776,7-14d,Facebook,Felda Said to Seek $3.2 Billion in Malaysian Share Sale,"Felda Global Ventures Holdings Bhd.
+may raise as much as 10.2 billion ringgit ($3.2 billion) in an
+initial public offering in Kuala Lumpur , two people with
+knowledge of the matter said. The Kuala Lumpur-based company is attempting this year’s
+second-biggest IPO after Facebook Inc. (FB) even as other Asian
+initial public offerings get pulled or trimmed amid adverse
+market conditions. Graff Diamonds Corp., the London-based
+jeweler, postponed a $1 billion IPO in Hong Kong today. Felda Global, a Malaysian palm oil and rubber producer,
+fixed a price range of between 4 ringgit and 4.65 ringgit a
+sh",2012-05-31 02:20:59+00:00,Felda Said to Raise $3.3 Billion in Malaysian Share Sale,"Felda Global Ventures Holdings Bhd. (FGVH) ,
+the world’s third-largest operator of palm oil plantations,
+raised about 10.4 billion ringgit ($3.3 billion) in the biggest
+initial public offering since Facebook Inc. (FB) , said three people
+with knowledge of the matter. The Kuala Lumpur-based company priced shares to
+institutional investors at 4.55 ringgit each, said the people,
+asking not to be identified as the information is confidential.
+Felda Global had marketed the shares at 4 ringgit to 4.65
+ringgit. Demand for shares from fund managers exceeded supply by
+more than 29 times at that price, ",2012-06-13 15:12:09+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0193,32719a71-acdb-54cd-b5fb-201907eef18b,ab049668-d17a-58de-b069-10ec9abb8f12,0.9506072402000427,"[0.9, 1.01)",96.255,3-7d,Citigroup,"Asia-Pacific Bond Risk Falls, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds against non-payment in the Asia-Pacific region
+dropped for the first time in three days, according to traders
+of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan fell 2 basis points to 165 basis points
+as of 9:09 a.m. in Singapore , Royal Bank of Scotland Group Plc
+prices show. The gauge, which advanced 11.1 basis points over
+the last two days to a two-month high, is set for its first
+decline since Aug. 26, according to data provider CMA. The Markit iTraxx Australia index decreased 1 basis point",2013-08-29 01:45:59+00:00,"Asia-Pacific Bond Risk Declines, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds in the Asia-Pacific region against non-payment
+fell, according to traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan dropped 2 basis points to 162 basis
+points as of 8:59 a.m. in Singapore , Australia & New Zealand
+Banking Group Ltd. (ANZ) prices show. The gauge rose 16.9 basis points
+last month, the most since June, according to data provider CMA. The Markit iTraxx Australia index decreased 1 basis point
+to 124 as of 10:57 a.m. in Sydney, according to ANZ prices. The
+measure, which adv",2013-09-02 02:01:17+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0194,d66ff3f9-56bd-557a-b2e7-9d2489a100de,2ffdbc4c-3201-5ec0-bc15-76a5a99d35d0,0.9049301743507385,"[0.9, 1.01)",335.7336111111111,7-14d,Citigroup,"Asia-Pacific Bond Risk Drops, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds against non-payment in the Asia-Pacific region
+fell, according to traders of credit-default swaps. The Markit iTraxx Australia index dropped two basis points
+to 117 basis points as of 11:26 a.m. in Sydney, according to
+Westpac Banking Corp. prices. The benchmark is set to extend its
+decline this year to 10.5 basis points, after retreating for a
+fifth straight month in January, according to data provider CMA. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan decreased two basis points to 113 as of
+8:26 a.m. in Hong Kon",2013-02-04 01:40:43+00:00,"Asia-Pacific Bond Risk Rises, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds from non-payment in the Asia-Pacific region
+rose, according to traders of credit-default swaps. The Markit iTraxx Australia index increased 1.5 basis
+points to 115 basis points as of 11:33 a.m. in Sydney, according
+to Westpac Banking Corp. prices. The gauge is headed for its
+second straight daily rise after falling to its lowest in more
+than a month at 112.5 on Feb. 14, according to data provider
+CMA. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan rose one basis point to 111.5 as of 8:10
+a.m. in Hong Kong, accordin",2013-02-18 01:24:44+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0195,2f7662ff-921e-5684-a170-c29fc542cbdb,b3fe95fe-1e29-562f-9329-a7c9e3fff4dc,0.983202338218689,"[0.9, 1.01)",239.51583333333335,7-14d,Citigroup,"Japan Corporate Bond Risk Falls, Credit-Default Swap Prices Show","The cost of insuring Japanese
+corporate bonds from non-payment fell, according to traders of
+credit-default swaps. The Markit iTraxx Japan index decreased 2 basis points to
+121 basis points as of 9:24 a.m. in Tokyo , Citigroup Inc. prices
+show. The index is on track for its lowest close since Feb. 14,
+according to data provider CMA. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan was little changed at 109 basis points
+as of 8:22 a.m. in Hong Kong , Royal Bank of Scotland Group Plc
+prices show. The gauge rose 1.1 basis point in the five days to
+March 1, its first wee",2013-03-04 02:07:15+00:00,"Japan Corporate Bond Risk Falls, Credit-Default Swap Prices Show","The cost of insuring Japanese
+corporate bonds from non-payment dropped, according to traders
+of credit-default swaps. The Markit iTraxx Japan index declined 1 basis point to 101
+basis points as of 9:10 a.m. in Tokyo , Citigroup Inc. prices
+show. The benchmark is headed for its lowest close since March
+2011, CMA data show. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan was little changed at 102.5 basis points
+as of 8:24 a.m. in Hong Kong , according to Royal Bank of
+Scotland Group Plc prices. The measure rose for the past three
+business days, the longest stretch sin",2013-03-14 01:38:12+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0196,93733bd3-12d9-564c-8641-eaa1e59b78db,8d2a52e9-7ec4-5af1-804e-33329f1a3fb6,0.9619767069816589,"[0.9, 1.01)",268.4788888888889,7-14d,JPMorgan,"Sovereign, Corporate Bond Risk Falls, Credit-Default Swaps Show","The cost of insuring against default
+on European sovereign and corporate debt fell, according to
+traders of credit-default swaps. The Markit iTraxx SovX Western Europe Index of swaps on 15
+governments declined 13 basis points to 355 at 10:30 a.m. in
+London. A decline signals improvement in perceptions of credit
+quality . Contracts on the Markit iTraxx Crossover Index of 50
+companies with mostly high-yield credit ratings decreased 21.5
+basis points to 713.5, according to JPMorgan Chase & Co., the
+lowest in more than a month. The Markit iTraxx Europe Index of 125 companies with
+investment-grade ",2012-01-12 10:41:22+00:00,"Corporate, Sovereign Bond Risk Fall in Europe, Debt Swaps Show","The cost of insuring against default
+on European corporate and sovereign debt fell, according to
+traders of credit-default swaps. Contracts on the Markit iTraxx Crossover Index of 50
+companies with mostly high-yield credit ratings fell 17.5 basis
+points to 630, the lowest since Oct. 28, according to JPMorgan
+Chase & Co. at 3 p.m. in London. A decline signals improvement
+in perceptions of credit quality . The Markit iTraxx Europe Index of 125 companies with
+investment-grade ratings decreased 6.5 basis points to 147.5
+basis points. The Markit iTraxx Financial Index linked to senior
+debt of 25 ba",2012-01-23 15:10:06+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0197,d4db9886-8c08-522f-b054-95948f05cd82,2af7e2b4-0d75-5bc0-ac52-0f574520f572,0.9222719073295593,"[0.9, 1.01)",504.0,14-30d,Ford,"Ford eNews -- Dec. 12, 2012",,2012-12-12 00:00:00+00:00,"Ford eNews - Jan. 2, 2013",,2013-01-02 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0198,40e10dcc-0dcb-56a8-8c94-69febc086268,3136b62c-801b-5248-bc0f-aad824bad4b9,0.9537681341171265,"[0.9, 1.01)",312.0,7-14d,Bank of America,"Fitch Rates Bank of America Merrill Lynch P-FLOATs Series MT-698, 699, 738, 742, 772 and 784",,2012-02-15 00:00:00+00:00,"Fitch Rates Bank of America Merrill Lynch P-FLOATs Series PT-4665, PT-4666 and PT-4707",,2012-02-28 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0199,666a816c-5763-5b0b-a27f-e7f2d729df4f,9a9e7f1d-3ddc-59f3-871f-f8b585a83ce7,0.9574670791625977,"[0.9, 1.01)",647.5394444444445,14-30d,Citigroup,"Asia-Pacific Bond Risk Falls, Credit-Default Swaps Prices Show","The cost of insuring Asia-Pacific
+corporate and sovereign bonds from default fell, according to
+traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan decreased 1 basis point to 198 basis
+points as of 8:59 a.m. in Hong Kong , Royal Bank of Scotland
+Group Plc prices show. The index rose 8.5 basis points yesterday
+to 201.6 basis points, the highest since Jan. 16 and its biggest
+one-day increase since March 20, according to data provider CMA. The Markit iTraxx Australia index was little changed at 198
+basis points as of 11:00 a.m. in Sydney, C",2012-05-24 01:43:40+00:00,"Asia-Pacific Bond Risk Falls, Credit-Default Swap Prices Show","The cost of insuring Asia-Pacific
+corporate and sovereign bonds from non-payment decreased,
+according to traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan dropped 4 basis points to 176 basis
+points as of 8:24 a.m. in Hong Kong , according to Credit
+Agricole SA. (ACA) The gauge is set for its lowest close since May 8,
+according to data provider CMA. The Markit iTraxx Australia index fell 4 basis points to
+181 as of 10:25 a.m. in Sydney, Westpac Banking Corp. (WBC) prices
+show. The index is headed for its lowest close since May 11,
+accor",2012-06-20 01:16:02+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0200,c30f2f84-64ce-537a-8f88-0ef3ec339577,24be6af1-fce1-5abe-a577-f18ae8b86b63,0.9085804224014282,"[0.9, 1.01)",338.29333333333335,14-30d,Facebook,Felda Said to Seek $3.2 Billion in Malaysian Share Sale,"Felda Global Ventures Holdings Bhd.
+may raise as much as 10.2 billion ringgit ($3.2 billion) in an
+initial public offering in Kuala Lumpur, two people with
+knowledge of the matter said. The Malaysian palm oil and rubber producer fixed a price
+range of between 4 ringgit and 4.65 ringgit apiece after a
+meeting today, said the people who declined to be identified
+because the information was private. Felda declined to comment
+in a statement to Bloomberg News, saying the final price will be
+determined at a later date. The Kuala Lumpur-based company is attempting this year’s
+second-biggest IPO after",2012-05-30 12:54:33+00:00,Felda Said to Raise $3.3 Billion in Malaysian Share Sale,"Felda Global Ventures Holdings Bhd. (FGVH) ,
+the world’s third-largest operator of palm oil plantations,
+raised about 10.4 billion ringgit ($3.3 billion) in the biggest
+initial public offering since Facebook Inc. (FB) , said three people
+with knowledge of the matter. The Kuala Lumpur-based company priced shares to
+institutional investors at 4.55 ringgit each, said the people,
+asking not to be identified as the information is confidential.
+Felda Global had marketed the shares at 4 ringgit to 4.65
+ringgit. Demand for shares from fund managers exceeded supply by
+more than 29 times at that price, ",2012-06-13 15:12:09+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0201,33fbfc7a-bf84-5c44-baf8-c87bb50d6de4,02b0be7b-13c4-5256-ae3f-fc7670ed0ad7,0.9659034609794617,"[0.9, 1.01)",168.0,3-7d,Ford,"Ford eNews -- Oct. 17, 2012",,2012-10-17 00:00:00+00:00,"Ford eNews - Oct. 24, 2012",,2012-10-24 00:00:00+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT
+supp0202,0ee044b8-c9e3-5037-a08e-7c8530f343b3,30b25eaf-56eb-5aea-abf0-d81aec2cfb05,0.9199661016464233,"[0.9, 1.01)",407.40055555555557,14-30d,Citigroup,"Asia-Pacific Bond Risk Rises, Credit-Default Swap Prices Show","The cost of insuring corporate and
+sovereign bonds in the Asia-Pacific region against non-payment
+rose, according to credit-default swap traders. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan gained 5 basis points to 166 basis
+points as of 8:21 a.m. in Singapore , according to Royal Bank of
+Scotland Group Plc prices. The benchmark surged 29.5 yesterday,
+the most since September 2011, according to data provider CMA. The Markit iTraxx Australia index jumped 10 basis points to
+147.5 as of 10:23 a.m. in Sydney, according to National
+Australia Bank Ltd. prices. The mea",2013-06-21 02:08:21+00:00,"Bond Risk Rises in Asia Outside Japan, Default Swap Prices Show","The cost of insuring bonds against
+non-payment in Australia and in Asia outside of Japan increased,
+according to traders of credit-default swaps. The Markit iTraxx Asia index of 40 investment-grade
+borrowers outside Japan climbed 2 basis points to 157 basis
+points as of 8:36 a.m. in Singapore , Royal Bank of Scotland
+Group Plc prices show. The measure is set to rise for the first
+time in three trading days, according to data provider CMA. The Markit iTraxx Australia index rose 2 basis points to
+135 as of 10:32 a.m. in Sydney, Westpac Banking Corp. prices
+show. The gauge, which fell 3.1 basis p",2013-07-08 01:32:23+00:00,False,DIFFERENT,DIFFERENT,DIFFERENT,DIFFERENT

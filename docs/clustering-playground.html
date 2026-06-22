@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Story Clustering POC — Spec Explorer</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0f1115;
+    --panel: #181b22;
+    --panel-2: #20242d;
+    --border: #2a2f3a;
+    --text: #e5e7eb;
+    --text-dim: #9ca3af;
+    --text-faint: #6b7280;
+    --accent: #4a9eff;
+    --green: #7ec850;
+    --red: #ef4444;
+    --yellow: #f59e0b;
+    --purple: #a78bfa;
+    --cyan: #06b6d4;
+    --orange: #fb923c;
+    --mono: 'SF Mono', Monaco, 'Cascadia Code', Consolas, monospace;
+  }
+
+  html, body { height: 100%; overflow: hidden; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Header */
+  header {
+    padding: 14px 24px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+  }
+  header h1 { font-size: 15px; font-weight: 600; }
+  header h1 .sub { color: var(--text-faint); font-weight: 400; margin-left: 6px; }
+  .presets { display: flex; gap: 6px; margin-left: auto; }
+  .preset {
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: 5px 11px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .preset:hover { border-color: var(--accent); color: var(--text); }
+  .preset.active {
+    border-color: var(--accent);
+    background: rgba(74, 158, 255, 0.12);
+    color: var(--accent);
+  }
+
+  /* Tabs */
+  nav.tabs {
+    padding: 0 24px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+  .tab {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    padding: 11px 16px;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: inherit;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+  }
+  .tab:hover { color: var(--text); }
+  .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  /* Layout */
+  .layout {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    overflow: hidden;
+    min-height: 0;
+  }
+  main.canvas {
+    overflow: auto;
+    padding: 22px 24px;
+  }
+  aside.controls {
+    background: var(--panel);
+    border-left: 1px solid var(--border);
+    padding: 18px 18px 24px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  /* Aside groups */
+  .group h3 {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--text-faint);
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .slider-row { margin-bottom: 11px; }
+  .slider-row:last-child { margin-bottom: 0; }
+  .slider-row .label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  .slider-row .label .name { color: var(--text-dim); }
+  .slider-row .label .val { color: var(--text); font-family: var(--mono); }
+  input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: var(--panel-2);
+    border-radius: 2px;
+    outline: none;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    background: var(--accent);
+    cursor: pointer;
+  }
+  input[type="range"]::-moz-range-thumb {
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    background: var(--accent);
+    cursor: pointer;
+    border: none;
+  }
+
+  .metric {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .metric:last-child { border-bottom: none; }
+  .metric .name { color: var(--text-dim); }
+  .metric .val { font-family: var(--mono); }
+  .metric .val.good { color: var(--green); }
+  .metric .val.warn { color: var(--yellow); }
+  .metric .val.bad { color: var(--red); }
+
+  /* Pipeline view */
+  .pipeline { display: flex; flex-direction: column; gap: 14px; }
+  .phase {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .phase-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  .phase-dot { width: 10px; height: 10px; border-radius: 50%; }
+  .phase-name { font-weight: 600; font-size: 13px; }
+  .phase-desc { color: var(--text-faint); font-size: 12px; margin-left: auto; }
+  .sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 8px;
+  }
+  .section-card {
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    border-left: 3px solid;
+    border-radius: 4px;
+    padding: 9px 11px;
+    cursor: pointer;
+    transition: all 0.12s;
+  }
+  .section-card:hover { background: var(--bg); border-color: var(--text-faint); }
+  .section-card.active {
+    background: rgba(74, 158, 255, 0.10);
+    border-color: var(--accent);
+  }
+  .section-num {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text-faint);
+    margin-bottom: 2px;
+  }
+  .section-title { font-size: 12px; font-weight: 500; }
+  .section-tags { display: flex; gap: 4px; margin-top: 5px; }
+  .tag {
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding: 1px 5px;
+    border-radius: 3px;
+    background: var(--bg);
+    color: var(--text-faint);
+    font-weight: 600;
+  }
+  .tag.critical { background: rgba(239, 68, 68, 0.18); color: #fca5a5; }
+  .tag.api { background: rgba(74, 158, 255, 0.18); color: var(--accent); }
+  .tag.chart { background: rgba(167, 139, 250, 0.18); color: var(--purple); }
+
+  /* Section detail */
+  .detail {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin-top: 14px;
+  }
+  .detail .d-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+  .detail .d-num {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-faint);
+  }
+  .detail h2 { font-size: 14px; font-weight: 600; }
+  .detail h3 {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--text-faint);
+    margin: 12px 0 5px;
+    font-weight: 600;
+  }
+  .detail p { font-size: 12px; color: var(--text-dim); }
+  .detail ul { padding-left: 18px; }
+  .detail li { font-size: 12px; color: var(--text-dim); margin: 3px 0; }
+  .detail li code { background: var(--bg); padding: 1px 4px; border-radius: 3px; font-size: 11px; }
+  .detail .decision {
+    background: var(--bg);
+    border-left: 3px solid var(--accent);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: var(--text);
+  }
+
+  /* Gate view */
+  .gate-view {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .gate-view h2 {
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+  .gate-view p.note {
+    font-size: 12px;
+    color: var(--text-faint);
+    margin-bottom: 16px;
+  }
+  .gate-svg-wrap { display: flex; justify-content: center; }
+  svg.gate-tree { max-width: 100%; }
+  .gate-legend {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 14px;
+    font-size: 11px;
+    color: var(--text-dim);
+  }
+  .gate-legend .lg { display: flex; align-items: center; gap: 6px; }
+  .gate-legend .swatch { width: 12px; height: 12px; border-radius: 3px; }
+
+  .sample-pairs {
+    margin-top: 18px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 18px;
+  }
+  .sample-pairs h3 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--text-faint);
+    margin-bottom: 10px;
+  }
+  .pair {
+    display: grid;
+    grid-template-columns: 70px 1fr 1fr 90px 110px;
+    gap: 10px;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 12px;
+  }
+  .pair:last-child { border-bottom: none; }
+  .pair .cos { font-family: var(--mono); color: var(--text); }
+  .pair .item { color: var(--text-dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .pair .ent { font-family: var(--mono); font-size: 11px; color: var(--text-faint); }
+  .pair .outcome {
+    font-family: var(--mono);
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .outcome.auto { background: rgba(126, 200, 80, 0.15); color: var(--green); }
+  .outcome.judge-same { background: rgba(74, 158, 255, 0.18); color: var(--accent); }
+  .outcome.judge-diff { background: rgba(245, 158, 11, 0.18); color: var(--yellow); }
+  .outcome.residual { background: rgba(156, 163, 175, 0.15); color: var(--text-dim); }
+  .outcome.no-gate { background: rgba(239, 68, 68, 0.15); color: #fca5a5; }
+
+  /* Distribution view */
+  .dist-view {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px 20px;
+  }
+  .dist-view canvas { display: block; width: 100%; }
+  .dist-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 14px;
+  }
+  .dist-zone {
+    background: var(--bg);
+    border-left: 3px solid;
+    border-radius: 4px;
+    padding: 8px 11px;
+  }
+  .dist-zone .zone-name {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-faint);
+    margin-bottom: 3px;
+  }
+  .dist-zone .zone-val {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--text);
+  }
+
+  /* Cost view */
+  .cost-view {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px 20px;
+  }
+  .cost-bar {
+    height: 38px;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    margin: 12px 0 18px;
+    background: var(--bg);
+  }
+  .cost-seg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+    min-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .cost-rows { display: flex; flex-direction: column; gap: 8px; }
+  .cost-row {
+    display: grid;
+    grid-template-columns: 14px 1fr 90px 70px;
+    gap: 10px;
+    align-items: center;
+    font-size: 12px;
+  }
+  .cost-row .sw { width: 12px; height: 12px; border-radius: 3px; }
+  .cost-row .nm { color: var(--text); }
+  .cost-row .ct { color: var(--text-faint); font-size: 11px; }
+  .cost-row .v { font-family: var(--mono); color: var(--text); text-align: right; }
+  .cost-row .p { font-family: var(--mono); color: var(--text-faint); text-align: right; }
+
+  .cost-total {
+    border-top: 1px solid var(--border);
+    margin-top: 12px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cost-total .lbl { font-size: 12px; color: var(--text-dim); }
+  .cost-total .val { font-family: var(--mono); font-size: 18px; color: var(--text); }
+
+  /* Footer */
+  footer.prompt-foot {
+    background: var(--panel);
+    border-top: 1px solid var(--border);
+    padding: 12px 24px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .prompt-body {
+    flex: 1;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 9px 12px;
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1.55;
+    color: var(--text);
+    max-height: 110px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+  }
+  .copy-btn {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: inherit;
+    white-space: nowrap;
+    align-self: stretch;
+  }
+  .copy-btn:hover { filter: brightness(1.1); }
+  .copy-btn.copied { background: var(--green); }
+
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Story Clustering POC <span class="sub">— Interactive Spec Explorer</span></h1>
+  <div class="presets">
+    <button class="preset" data-preset="research">Research Priors</button>
+    <button class="preset" data-preset="conservative">Conservative</button>
+    <button class="preset" data-preset="aggressive">Aggressive</button>
+    <button class="preset" data-preset="poc">POC Calibrated</button>
+  </div>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" data-tab="pipeline">1. Pipeline Overview</button>
+  <button class="tab" data-tab="gates">2. Gate Decision Logic</button>
+  <button class="tab" data-tab="dist">3. Cosine Distributions</button>
+  <button class="tab" data-tab="cost">4. Cost Model</button>
+</nav>
+
+<div class="layout">
+  <main class="canvas">
+    <!-- Tab: Pipeline -->
+    <div id="tab-pipeline">
+      <div class="pipeline" id="pipelineRoot"></div>
+      <div class="detail hidden" id="sectionDetail"></div>
+    </div>
+
+    <!-- Tab: Gates -->
+    <div id="tab-gates" class="hidden">
+      <div class="gate-view">
+        <h2>Single-pass assignment gate logic (Section 11)</h2>
+        <p class="note">Each item runs through this decision tree. Counts update live based on the current τ_high and τ_low.</p>
+        <div class="gate-svg-wrap">
+          <svg class="gate-tree" id="gateSvg" viewBox="0 0 780 620" width="780" height="620"></svg>
+        </div>
+        <div class="gate-legend">
+          <div class="lg"><span class="swatch" style="background: var(--green)"></span>Auto-assigned (no LLM call)</div>
+          <div class="lg"><span class="swatch" style="background: var(--accent)"></span>Gray-zone → Haiku judged SAME</div>
+          <div class="lg"><span class="swatch" style="background: var(--yellow)"></span>Gray-zone → Haiku judged DIFFERENT</div>
+          <div class="lg"><span class="swatch" style="background: #6b7280"></span>Residual (→ HDBSCAN)</div>
+        </div>
+      </div>
+
+      <div class="sample-pairs">
+        <h3>Sample item pairs flowing through the gates</h3>
+        <div id="samplePairs"></div>
+      </div>
+    </div>
+
+    <!-- Tab: Distributions -->
+    <div id="tab-dist" class="hidden">
+      <div class="dist-view">
+        <h2 style="font-size: 13px; margin-bottom: 4px;">Cosine similarity: SAME vs DIFFERENT pair distributions (Section 9)</h2>
+        <p class="note" style="font-size: 12px; color: var(--text-faint); margin-bottom: 14px;">
+          The single most important visualization in the POC. Drag thresholds in the right panel — the shaded zones are where each gate fires.
+        </p>
+        <canvas id="distCanvas" width="1000" height="380"></canvas>
+        <div class="dist-info">
+          <div class="dist-zone" style="border-color: var(--green)">
+            <div class="zone-name">Auto-assign zone (cos ≥ τ_high)</div>
+            <div class="zone-val" id="zAuto">—</div>
+          </div>
+          <div class="dist-zone" style="border-color: var(--yellow)">
+            <div class="zone-name">Gray zone (τ_low ≤ cos &lt; τ_high)</div>
+            <div class="zone-val" id="zGray">—</div>
+          </div>
+          <div class="dist-zone" style="border-color: var(--text-faint)">
+            <div class="zone-name">Residual (cos &lt; τ_low)</div>
+            <div class="zone-val" id="zRes">—</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab: Cost -->
+    <div id="tab-cost" class="hidden">
+      <div class="cost-view">
+        <h2 style="font-size: 13px; margin-bottom: 4px;">Projected daily API cost (Section 16)</h2>
+        <p class="note" style="font-size: 12px; color: var(--text-faint); margin-bottom: 12px;">
+          Scaled from POC token counts. Move the Items / day slider on the right to see how cost scales linearly.
+        </p>
+        <div class="cost-bar" id="costBar"></div>
+        <div class="cost-rows" id="costRows"></div>
+        <div class="cost-total">
+          <div class="lbl">Total projected daily spend</div>
+          <div class="val" id="costGrandTotal">—</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <aside class="controls">
+    <div class="group">
+      <h3>Thresholds</h3>
+      <div class="slider-row">
+        <div class="label"><span class="name">τ_high · auto-assign</span><span class="val" id="vTauHigh">0.75</span></div>
+        <input type="range" id="tauHigh" min="0.50" max="0.95" step="0.01" value="0.75">
+      </div>
+      <div class="slider-row">
+        <div class="label"><span class="name">τ_low · gray-zone floor</span><span class="val" id="vTauLow">0.55</span></div>
+        <input type="range" id="tauLow" min="0.30" max="0.80" step="0.01" value="0.55">
+      </div>
+      <div class="slider-row">
+        <div class="label"><span class="name">MinHash near-dup</span><span class="val" id="vMinhash">0.85</span></div>
+        <input type="range" id="minhash" min="0.60" max="0.95" step="0.01" value="0.85">
+      </div>
+    </div>
+
+    <div class="group">
+      <h3>Scale</h3>
+      <div class="slider-row">
+        <div class="label"><span class="name">Items / day</span><span class="val" id="vItems">100,000</span></div>
+        <input type="range" id="items" min="10000" max="500000" step="10000" value="100000">
+      </div>
+    </div>
+
+    <div class="group">
+      <h3>Outcomes (per 1k items)</h3>
+      <div class="metric"><span class="name">Auto-assigned</span><span class="val" id="mAuto">—</span></div>
+      <div class="metric"><span class="name">Gray-zone → judge</span><span class="val" id="mGray">—</span></div>
+      <div class="metric"><span class="name">  ↳ judged SAME</span><span class="val" id="mGraySame">—</span></div>
+      <div class="metric"><span class="name">  ↳ judged DIFFERENT</span><span class="val" id="mGrayDiff">—</span></div>
+      <div class="metric"><span class="name">Residual → HDBSCAN</span><span class="val" id="mResidual">—</span></div>
+    </div>
+
+    <div class="group">
+      <h3>Simulated Quality</h3>
+      <div class="metric"><span class="name">Precision</span><span class="val" id="mPrec">—</span></div>
+      <div class="metric"><span class="name">Recall</span><span class="val" id="mRec">—</span></div>
+      <div class="metric"><span class="name">B³ F1 (est.)</span><span class="val" id="mF1">—</span></div>
+      <div class="metric"><span class="name">Ship gate (≥0.85)</span><span class="val" id="mGate">—</span></div>
+    </div>
+
+    <div class="group">
+      <h3>Daily Cost Snapshot</h3>
+      <div class="metric"><span class="name">Embeddings (OpenAI)</span><span class="val" id="cEmbed">—</span></div>
+      <div class="metric"><span class="name">Entities (Haiku)</span><span class="val" id="cEnt">—</span></div>
+      <div class="metric"><span class="name">Gray-zone judge</span><span class="val" id="cJudge">—</span></div>
+      <div class="metric"><span class="name">Metadata (Sonnet)</span><span class="val" id="cMeta">—</span></div>
+      <div class="metric"><span class="name"><b>Total / day</b></span><span class="val" id="cTotal">—</span></div>
+    </div>
+  </aside>
+</div>
+
+<footer class="prompt-foot">
+  <div class="prompt-body" id="promptBody"></div>
+  <button class="copy-btn" id="copyBtn">Copy prompt</button>
+</footer>
+
+<script>
+// ────────────────────────────────────────────────────────────────────────
+// Data: phases and sections, derived from docs/story-clustering-poc-spec.md
+// ────────────────────────────────────────────────────────────────────────
+const phases = [
+  { id: 'prep',    name: '1 · Data Prep',    color: '#4a9eff', desc: 'Load and adapt dataset to production schema' },
+  { id: 'dedup',   name: '2 · Dedup',        color: '#7ec850', desc: 'URL canonicalize + MinHash LSH' },
+  { id: 'enrich',  name: '3 · Enrichment',   color: '#a78bfa', desc: 'Entity extraction + assignment embeddings' },
+  { id: 'calib',   name: '4 · Calibration',  color: '#ef4444', desc: 'Label pairs + pick τ_high, τ_low' },
+  { id: 'cluster', name: '5 · Clustering',   color: '#f59e0b', desc: 'Single-pass nearest cluster + HDBSCAN residual' },
+  { id: 'meta',    name: '6 · Metadata',     color: '#06b6d4', desc: 'Sonnet titles/summaries + weekly merge pass' },
+  { id: 'eval',    name: '7 · Evaluation',   color: '#10b981', desc: 'B³ F1 vs baselines + cost projection + findings' },
+];
+
+const sections = [
+  { id: 1, phase: 'prep', title: 'Setup & Config', tags: [],
+    purpose: 'Pin package versions, load API keys (OPENAI/ANTHROPIC/GOOGLE), and define a single CONFIG dict with every threshold, model ID, and random seed.',
+    ops: [
+      'Install: <code>datasets pandas numpy sklearn hdbscan umap-learn matplotlib plotly datasketch tiktoken openai anthropic google-generativeai</code>',
+      'Fail-fast on missing API keys with a clear message',
+      'All downstream cells read from CONFIG — one place to re-tune'
+    ],
+    decision: 'Determinism baseline. Re-runs should produce identical outputs given fixed seeds.' },
+
+  { id: 2, phase: 'prep', title: 'Dataset Loading & Exploration', tags: ['chart'],
+    purpose: 'Inspect Brianferrell787/financial-news-multisource: column schema, source mix, token-length distribution, time coverage. Map to canonical schema (item_id, title, body, source, published_at, url).',
+    ops: [
+      'datasets.load_dataset("Brianferrell787/financial-news-multisource")',
+      'Bar chart: items per source; time-series stacked by source',
+      'Histogram: body token length log-scaled, vlines at 512 / 2000 / 8000'
+    ],
+    decision: 'Enough items/day to exercise 72h window? Heavy long-tail of body length → contextual chunking is worth testing.' },
+
+  { id: 3, phase: 'prep', title: 'Adapt to Production Schema', tags: ['api', 'chart'],
+    purpose: 'Build the client universe (top-N tickers/orgs as "banker clients"), curate alias lookups, filter items mentioning ≥1 client. Noise items go aside.',
+    ops: [
+      'Deterministic UUID5 from URL for item_id (stable re-runs)',
+      'One Haiku pass over titles + first 200 chars to extract orgs/tickers if columns absent',
+      'Heatmap: client × day; histogram of #clients-mentioned per item'
+    ],
+    decision: 'Empirical justification for the global-stories-with-affected-clients schema vs per-client story scoping (multi-client items would be duplicated otherwise).' },
+
+  { id: 4, phase: 'dedup', title: 'URL Canonicalization', tags: [],
+    purpose: 'First-pass dedup. Strip utm_*, fbclid, gclid, mc_eid, and fragment IDs. Hash canonical URL. Drop duplicates keeping earliest published_at.',
+    ops: [
+      'sha256(canonical_url) → url_hash',
+      'df.drop_duplicates(subset="url_hash")',
+      'Sample 10 collapsed before/after URL pairs for inspection'
+    ],
+    decision: 'Is canonicalization doing real work? <2% drop → extend rules; >20% → dataset has heavy duplication that distorts cost estimates.' },
+
+  { id: 5, phase: 'dedup', title: 'MinHash + LSH Near-dup', tags: ['chart'],
+    purpose: 'Catch wire-syndicated copies where URLs differ but body content is essentially identical (Reuters/AP across outlets).',
+    ops: [
+      '128-perm MinHash on body 5-gram shingles via datasketch',
+      'LSH threshold = 0.85 (production prior); union-find for cluster grouping',
+      'Pick canonical: highest-ranked source first (Bloomberg > Reuters > WSJ > FT > AP), tiebreak earliest published_at',
+      'Threshold sweep at 0.70/0.75/0.80/0.85/0.90 to justify the production choice'
+    ],
+    decision: 'Confirms 0.85 is sensible for financial news; the threshold-sweep curve is the visual evidence.' },
+
+  { id: 6, phase: 'enrich', title: 'Entity Extraction', tags: ['api'],
+    purpose: 'Build entity sets that drive (a) the entity-overlap gate in Stage 2, (b) the entities field on each story for downstream display.',
+    ops: [
+      'One Haiku call per canonical item; tool_use schema → JSON {people, orgs, tickers, locations}',
+      'Resolve tickers to client universe via the alias lookup',
+      'Sample 10 items, eyeball entity quality; compare with Section 3 regex matcher'
+    ],
+    decision: 'Calibrates how aggressive the entity-overlap gate can be. If &lt;50% of intra-week pairs share an entity, the gate is too tight for this domain.' },
+
+  { id: 7, phase: 'enrich', title: 'Assignment Embeddings', tags: ['api', 'chart'],
+    purpose: 'Produce the 1024-dim vector each item is clustered on. Input = title + first 600 chars of body.',
+    ops: [
+      'OpenAI text-embedding-3-large @ dimensions=1024',
+      'L2-normalize so cosine = dot product',
+      '<b>[Stakeholder chart]</b> Interactive 3D UMAP scatter colored by top-1 client tag — proves embeddings are doing real work',
+      'Persist the fitted UMAP reducer; later sections re-use it for a consistent projected space'
+    ],
+    decision: 'Sanity check: embeddings separate by topic, not by source. Source-clustering in UMAP signals HTML/boilerplate contamination in the lede.' },
+
+  { id: 8, phase: 'calib', title: 'Build Labeled Eval Set', tags: ['critical', 'api'],
+    purpose: 'Produce the ground truth that calibrates every threshold. The single highest-leverage step in the POC.',
+    ops: [
+      'Stratified sample ~600 pairs across cosine bins [0.20, 1.0]; both items share ≥1 entity + ≤72h apart',
+      'LLM ensemble (3 vendors, temperature=0): <b>Claude Sonnet 4.6 + GPT-5.2 + Gemini 3.5 Flash</b>',
+      'Production Haiku judge is <i>excluded</i> — same family would be circular calibration',
+      'Human spot-check on [0.55, 0.75] band + any split-ensemble pairs (~175 pairs, ~2 person-hours)',
+      'Trust LLM at scale if LLM-vs-human agreement ≥ 85% on spot-check; mixed-trust at 70–85%; stop at &lt;70%'
+    ],
+    decision: 'The <code>final_label</code> column becomes the regression test for production until the embedding model is upgraded.' },
+
+  { id: 9, phase: 'calib', title: 'Threshold Calibration', tags: ['critical', 'chart'],
+    purpose: 'Pick τ_high and τ_low from the labeled distribution.',
+    ops: [
+      'KDE overlay of SAME (green) vs DIFFERENT (red) cosine distributions — THE headline chart',
+      'τ_high = smallest τ where precision ≥ 0.95 (auto-assign)',
+      'τ_low = largest τ where recall ≥ 0.95 (below this LLM judge isn\'t worth calling)',
+      'Sweep precision/recall/F1 across τ ∈ [0.30, 0.95] step 0.01'
+    ],
+    decision: 'If POC values land within ±0.05 of (0.75 / 0.55) priors → ship priors and re-calibrate quarterly. Further off → calibrated values go to prod from day one.' },
+
+  { id: 10, phase: 'cluster', title: 'Long-doc Contextual Chunking', tags: ['api'],
+    purpose: 'Validate the doc-summary-prepend pattern (Anthropic Contextual Retrieval, Sep 2024) for items > 2000 tokens.',
+    ops: [
+      'Haiku produces a 1–2 sentence doc-level context summary',
+      'Split body into 800-token chunks with 100-token overlap',
+      'Embed two versions: plain chunk vs. "DOCUMENT CONTEXT: {summary}\\n\\nCHUNK: {chunk}"',
+      '20 hand-crafted Q&A retrieval benchmark; score hits@1, hits@3, hits@5'
+    ],
+    decision: 'Hits@5 lift &gt; 5% → keep contextual prepend in production. Lift &lt; 5% → drop and rely on truncation. May be deferred if dataset has no long items.' },
+
+  { id: 11, phase: 'cluster', title: 'Single-pass Assignment Loop', tags: ['critical', 'api'],
+    purpose: 'The main clustering algorithm. Each item finds candidate stories (shared client + 72h active), picks nearest by cosine, applies the τ_high / τ_low / entity / LLM-judge gates.',
+    ops: [
+      '<b>Candidate set:</b> stories.affected_clients ∩ item.clients ≠ ∅ AND last_seen within 72h AND not closed',
+      '<b>Gate 1:</b> cosine ≥ τ_high → auto-assign (no LLM call)',
+      '<b>Gate 2:</b> τ_low ≤ cosine &lt; τ_high AND entity overlap → Haiku judges SAME/DIFFERENT',
+      '<b>Else:</b> residual → flows to HDBSCAN in Section 12',
+      'Update: recompute centroid from full membership, refresh last_seen_at, union entities + clients',
+      '<b>[Money chart]</b> 3D UMAP of top stories with projected centroids as diamonds — re-uses Section 7 reducer'
+    ],
+    decision: 'Quality spot-check on top-20 stories. Sensible mix (not all-singletons, not one mega-story), growth tracks news cycles.' },
+
+  { id: 12, phase: 'cluster', title: 'HDBSCAN Residual Clustering', tags: ['chart'],
+    purpose: 'Spawn new stories from items that didn\'t match anything in single-pass.',
+    ops: [
+      'hdbscan.HDBSCAN(min_cluster_size=2, min_samples=2, metric="cosine", cluster_selection_method="eom")',
+      'Items with label -1 (noise) become 1-member stories',
+      'Enforce client-overlap within each cluster — split along client lines if members don\'t share any client',
+      '<b>[Stakeholder chart]</b> 3D UMAP of residual items + projected cluster centroids'
+    ],
+    decision: 'Noise rate &gt; 60% → tighten τ_low so fewer items reach residual. Large ill-defined clusters → tune min_samples lower or switch selection method.' },
+
+  { id: 13, phase: 'meta', title: 'Story Metadata Generation', tags: ['api'],
+    purpose: 'Sonnet generates story title (≤80 chars), summary (≤400 chars), topic, entities for each new or grown story.',
+    ops: [
+      'Full generation for new stories; Chain-of-Key incremental update for grown stories',
+      'Anthropic tool_use to force JSON schema',
+      '20 sampled stories reviewed for whether titles fairly describe the items'
+    ],
+    decision: 'Are Sonnet outputs production-quality? Titles over the cap signal prompt non-compliance; bland summaries signal prompt problem to fix here, before AWS port.' },
+
+  { id: 14, phase: 'meta', title: 'Story Merge & Expiry', tags: ['api'],
+    purpose: 'Apply weekly merge logic on the simulated corpus.',
+    ops: [
+      'Candidate pairs: centroid cosine &gt; 0.85 AND |affected_clients ∩| ≥ 2 AND |entities ∩| ≥ 2',
+      'Haiku judges "same story?" — if yes, union members, recompute centroid, set merged_into',
+      'Final 72h expiry: close stories whose newest member is older than 72h before dataset end-date'
+    ],
+    decision: 'Merge precision (sampled human verify) high enough? 72h expiry actually closing on financial-news cadence (multi-day arcs may need longer window)?' },
+
+  { id: 15, phase: 'eval', title: 'End-to-end B³ F1 Evaluation', tags: ['critical', 'chart'],
+    purpose: 'Compute headline B-cubed F1 against labeled eval set vs 3 baselines.',
+    ops: [
+      '<b>Baseline 1:</b> single-threshold (cos ≥ 0.65), no LLM, no entity gate',
+      '<b>Baseline 2:</b> pure HDBSCAN on full dataset (no single-pass)',
+      '<b>Baseline 3:</b> title-Jaccard &gt; 0.5 (floor)',
+      '10 worst false-positive merges + 10 worst false-negative splits surface direction to iterate'
+    ],
+    decision: '<b>F1 ≥ 0.85 → ship to AWS. F1 &lt; 0.85 → iterate.</b> False merges → tighten thresholds; false splits → loosen or revisit entity gate.' },
+
+  { id: 16, phase: 'eval', title: 'Cost Accounting & Projection', tags: ['chart'],
+    purpose: 'Token consumption per stage; project to production scale (100k items/day, 5k stories updated/day).',
+    ops: [
+      'Sum tokens per stage: embeddings, entities (Haiku), gray-zone judge (Haiku), metadata (Sonnet), doc-context (Haiku)',
+      'Pie/stacked-bar at POC scale and at projected production scale',
+      'Identify dominant line item (typically Sonnet metadata)'
+    ],
+    decision: 'API budget plausible? If dominant cost looks excessive: downgrade metadata model, embed title-only, or move updates to per-cluster-update cadence.' },
+
+  { id: 17, phase: 'eval', title: 'Findings & Handoff', tags: [],
+    purpose: 'Capture decision, calibrated thresholds, algorithmic findings, failure modes, open questions.',
+    ops: [
+      '<b>Outputs to disk:</b> labeled_eval_set.csv · pos_calibration.json · poc_findings.md',
+      '2×2 grid summary panel: KDE overlay + PR curve + B³ scorecard + cost breakdown',
+      'These three files are preconditions for any Glue job in the AWS deployment spec'
+    ],
+    decision: 'Final go/no-go: <b>ship as specified</b>, iterate algorithm, or <b>abandon</b>.' },
+];
+
+// ────────────────────────────────────────────────────────────────────────
+// Synthetic data — generate pair similarities once at load
+// ────────────────────────────────────────────────────────────────────────
+function gauss(mu, sigma) {
+  // Box–Muller, deterministic-ish via the Mulberry32 PRNG below
+  const u1 = 1 - rng();
+  const u2 = rng();
+  return mu + sigma * Math.sqrt(-2 * Math.log(u1)) * Math.cos(2 * Math.PI * u2);
+}
+function clip(x, lo, hi) { return Math.min(hi, Math.max(lo, x)); }
+
+// Seeded RNG so distributions are stable across reloads
+let seed = 1729;
+function rng() {
+  seed |= 0; seed = seed + 0x6D2B79F5 | 0;
+  let t = Math.imul(seed ^ seed >>> 15, 1 | seed);
+  t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+  return ((t ^ t >>> 14) >>> 0) / 4294967296;
+}
+
+const N = 5000;
+const SAME_RATE = 0.30;     // ~30% of stratified-sampled pairs are SAME
+const samples = [];
+for (let i = 0; i < N; i++) {
+  const isSame = rng() < SAME_RATE;
+  // SAME pairs: peak ~0.72, σ 0.09; DIFFERENT pairs: peak ~0.42, σ 0.14 — overlap in [0.5, 0.7]
+  const cos = isSame ? clip(gauss(0.72, 0.09), 0, 1) : clip(gauss(0.42, 0.14), 0, 1);
+  // Entity overlap probability: SAME pairs overlap more often
+  const entOverlap = isSame ? (rng() < 0.92) : (rng() < 0.45);
+  samples.push({ isSame, cos, entOverlap });
+}
+
+// Pre-compute KDE once on load (samples never change)
+function kde(values, bw, nPts) {
+  const out = new Float32Array(nPts + 1);
+  const scale = 1 / (bw * Math.sqrt(2 * Math.PI));
+  for (let i = 0; i <= nPts; i++) {
+    const x = i / nPts;
+    let s = 0;
+    for (let j = 0; j < values.length; j++) {
+      const u = (x - values[j]) / bw;
+      s += Math.exp(-0.5 * u * u);
+    }
+    out[i] = scale * s / values.length;
+  }
+  return out;
+}
+
+const KDE_PTS = 200;
+const KDE_BW = 0.035;
+const sameVals = samples.filter(s => s.isSame).map(s => s.cos);
+const diffVals = samples.filter(s => !s.isSame).map(s => s.cos);
+const kdeSame = kde(sameVals, KDE_BW, KDE_PTS);
+const kdeDiff = kde(diffVals, KDE_BW, KDE_PTS);
+const kdeMax = Math.max(...kdeSame, ...kdeDiff);
+
+// Static sample pairs for the gates tab (use fixed indices for stability)
+const samplePairs = [
+  { aTitle: 'Apple Q3 earnings beat on Services growth', bTitle: 'Apple posts record Q3, Services hit all-time high', cos: 0.83, ent: ['AAPL'] },
+  { aTitle: 'MSFT layoffs hit cloud division', bTitle: 'Microsoft cuts 1,500 in Azure restructuring', cos: 0.71, ent: ['MSFT', 'Azure'] },
+  { aTitle: 'Tesla Cybertruck recall over braking issue', bTitle: 'Tesla recalls 2,400 Cybertrucks; brake software update', cos: 0.78, ent: ['TSLA'] },
+  { aTitle: 'JPMorgan downgrades Nvidia on data-center slowdown', bTitle: 'Nvidia stock falls after Citi note on supply glut', cos: 0.62, ent: ['NVDA'] },
+  { aTitle: 'OpenAI Sora 2 release; image-to-video', bTitle: 'Anthropic Opus 4.7 launches 1M context window', cos: 0.41, ent: [] },
+  { aTitle: 'Goldman Sachs ups Boeing PT to $245', bTitle: 'Boeing 737 MAX deliveries hit 2026 high in April', cos: 0.58, ent: ['BA'] },
+];
+
+// ────────────────────────────────────────────────────────────────────────
+// State
+// ────────────────────────────────────────────────────────────────────────
+const DEFAULTS = { tauHigh: 0.75, tauLow: 0.55, minhash: 0.85, items: 100000 };
+const state = { ...DEFAULTS, tab: 'pipeline', selectedSection: null, preset: 'research' };
+
+const PRESETS = {
+  research:     { tauHigh: 0.75, tauLow: 0.55, minhash: 0.85 },
+  conservative: { tauHigh: 0.82, tauLow: 0.62, minhash: 0.88 },
+  aggressive:   { tauHigh: 0.68, tauLow: 0.48, minhash: 0.80 },
+  poc:          { tauHigh: 0.73, tauLow: 0.57, minhash: 0.85 },
+};
+
+// ────────────────────────────────────────────────────────────────────────
+// Outcome simulation
+// ────────────────────────────────────────────────────────────────────────
+function computeOutcomes() {
+  let auto = 0, autoTrueSame = 0;
+  let gray = 0, grayTrueSame = 0, grayJudgedSame = 0, grayJudgedSameCorrect = 0;
+  let resid = 0, residTrueSame = 0;
+  let noEntityGate = 0;
+
+  for (const s of samples) {
+    if (s.cos >= state.tauHigh) {
+      auto++;
+      if (s.isSame) autoTrueSame++;
+    } else if (s.cos >= state.tauLow) {
+      if (!s.entOverlap) {
+        // Entity gate fails — routed to residual
+        resid++;
+        if (s.isSame) residTrueSame++;
+        noEntityGate++;
+        continue;
+      }
+      gray++;
+      if (s.isSame) grayTrueSame++;
+      // Haiku judge: ~92% sensitivity, ~88% specificity in our sim
+      const judgedSame = s.isSame ? rng() < 0.92 : rng() < 0.12;
+      if (judgedSame) {
+        grayJudgedSame++;
+        if (s.isSame) grayJudgedSameCorrect++;
+      }
+    } else {
+      resid++;
+      if (s.isSame) residTrueSame++;
+    }
+  }
+
+  const predictedSame = auto + grayJudgedSame;
+  const totalActualSame = samples.filter(s => s.isSame).length;
+  const truePos = autoTrueSame + grayJudgedSameCorrect;
+  const precision = predictedSame > 0 ? truePos / predictedSame : 0;
+  const recall = totalActualSame > 0 ? truePos / totalActualSame : 0;
+  const f1 = (precision + recall) > 0 ? 2 * precision * recall / (precision + recall) : 0;
+  // B³ tends to be slightly lower than pairwise F1 in practice
+  const b3f1 = f1 * 0.95;
+
+  return {
+    auto, autoTrueSame, gray, grayTrueSame, grayJudgedSame, grayJudgedSameCorrect,
+    resid, residTrueSame, noEntityGate,
+    precision, recall, f1, b3f1, N
+  };
+}
+
+// ────────────────────────────────────────────────────────────────────────
+// Cost simulation
+// ────────────────────────────────────────────────────────────────────────
+function computeCosts(outcomes) {
+  const items = state.items;
+  // Per-item costs (derived from the spec's POC budget ~$70 over ~5k items)
+  const embedPerItem = 0.0004;
+  const entityPerItem = 0.0001;
+  const judgePerCall = 0.001;
+  const metadataPerStory = 0.0075;
+  const grayRate = outcomes.gray / outcomes.N;
+  const storySpawnRate = 0.05; // ~5% of items spawn or grow a story (rough)
+
+  const embed = items * embedPerItem;
+  const ent = items * entityPerItem;
+  const judge = items * grayRate * judgePerCall;
+  const meta = items * storySpawnRate * metadataPerStory;
+  const total = embed + ent + judge + meta;
+  return { embed, ent, judge, meta, total };
+}
+
+// ────────────────────────────────────────────────────────────────────────
+// Rendering: tabs
+// ────────────────────────────────────────────────────────────────────────
+const tabContainers = {
+  pipeline: document.getElementById('tab-pipeline'),
+  gates: document.getElementById('tab-gates'),
+  dist: document.getElementById('tab-dist'),
+  cost: document.getElementById('tab-cost'),
+};
+
+function setTab(t) {
+  state.tab = t;
+  for (const [k, el] of Object.entries(tabContainers)) {
+    el.classList.toggle('hidden', k !== t);
+  }
+  document.querySelectorAll('.tab').forEach(b => b.classList.toggle('active', b.dataset.tab === t));
+  renderActiveTab();
+  updatePrompt();
+}
+
+function renderActiveTab() {
+  if (state.tab === 'gates') renderGates();
+  else if (state.tab === 'dist') renderDistribution();
+  else if (state.tab === 'cost') renderCost();
+  // Pipeline is mostly static, no re-render needed on threshold change
+}
+
+// ────────────────────────────────────────────────────────────────────────
+// Rendering: Pipeline view
+// ────────────────────────────────────────────────────────────────────────
+function renderPipeline() {
+  const root = document.getElementById('pipelineRoot');
+  root.innerHTML = '';
+  for (const ph of phases) {
+    const phEl = document.createElement('div');
+    phEl.className = 'phase';
+    phEl.innerHTML = `
+      <div class="phase-head">
+        <span class="phase-dot" style="background:${ph.color}"></span>
+        <span class="phase-name">${ph.name}</span>
+        <span class="phase-desc">${ph.desc}</span>
+      </div>
+      <div class="sections"></div>`;
+    const grid = phEl.querySelector('.sections');
+    sections.filter(s => s.phase === ph.id).forEach(s => {
+      const card = document.createElement('div');
+      card.className = 'section-card';
+      card.style.borderLeftColor = ph.color;
+      card.dataset.sectionId = s.id;
+      const tagsHtml = s.tags.map(t => `<span class="tag ${t}">${t}</span>`).join('');
+      card.innerHTML = `
+        <div class="section-num">§ ${s.id}</div>
+        <div class="section-title">${s.title}</div>
+        ${tagsHtml ? `<div class="section-tags">${tagsHtml}</div>` : ''}`;
+      card.addEventListener('click', () => selectSection(s.id));
+      grid.appendChild(card);
+    });
+    root.appendChild(phEl);
+  }
+}
+
+function selectSection(id) {
+  state.selectedSection = id;
+  document.querySelectorAll('.section-card').forEach(c => {
+    c.classList.toggle('active', Number(c.dataset.sectionId) === id);
+  });
+  const detail = document.getElementById('sectionDetail');
+  const s = sections.find(x => x.id === id);
+  const ph = phases.find(p => p.id === s.phase);
+  detail.classList.remove('hidden');
+  detail.innerHTML = `
+    <div class="d-head">
+      <span class="phase-dot" style="background:${ph.color}"></span>
+      <span class="d-num">§ ${s.id} · ${ph.name}</span>
+    </div>
+    <h2>${s.title}</h2>
+    <h3>Purpose</h3>
+    <p>${s.purpose}</p>
+    <h3>Key operations</h3>
+    <ul>${s.ops.map(op => `<li>${op}</li>`).join('')}</ul>
+    <h3>Decision this enables</h3>
+    <div class="decision">${s.decision}</div>
+  `;
+  detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  updatePrompt();
+}
+
+// ────────────────────────────────────────────────────────────────────────
+// Rendering: Gates view
+// ────────────────────────────────────────────────────────────────────────
+function renderGates() {
+  const svg = document.getElementById('gateSvg');
+  const o = computeOutcomes();
+  const k = (n) => Math.round((n / o.N) * 1000);
+
+  // Layout helpers
+  const W = 780, H = 620;
+  const cx = W / 2;
+
+  function diamond(x, y, w, h, label, sub) {
+    return `
+      <polygon points="${x},${y - h/2} ${x + w/2},${y} ${x},${y + h/2} ${x - w/2},${y}"
+        fill="#20242d" stroke="#2a2f3a" stroke-width="1.5"/>
+      <text x="${x}" y="${y - 4}" text-anchor="middle" fill="#e5e7eb" font-size="13" font-family="-apple-system, sans-serif">${label}</text>
+      ${sub ? `<text x="${x}" y="${y + 12}" text-anchor="middle" fill="#9ca3af" font-size="11" font-family="-apple-system, sans-serif">${sub}</text>` : ''}
+    `;
+  }
+  function box(x, y, w, h, label, count, color, sub) {
+    return `
+      <rect x="${x - w/2}" y="${y - h/2}" width="${w}" height="${h}" rx="6"
+        fill="${color}" fill-opacity="0.14" stroke="${color}" stroke-width="1.5"/>
+      <text x="${x}" y="${y - 2}" text-anchor="middle" fill="${color}" font-size="12" font-weight="600" font-family="-apple-system, sans-serif">${label}</text>
+      <text x="${x}" y="${y + 14}" text-anchor="middle" fill="${color}" font-size="11" font-family="SF Mono, monospace">${count} / 1k</text>
+      ${sub ? `<text x="${x}" y="${y + 28}" text-anchor="middle" fill="#9ca3af" font-size="9.5" font-family="-apple-system, sans-serif">${sub}</text>` : ''}
+    `;
+  }
+  function arrow(x1, y1, x2, y2, label, count, color = '#6b7280') {
+    const midX = (x1 + x2) / 2;
+    const midY = (y1 + y2) / 2;
+    const lab = label
+      ? `<text x="${midX + 6}" y="${midY - 4}" fill="#e5e7eb" font-size="11" font-family="-apple-system, sans-serif">${label}</text>`
+      : '';
+    const ct = count !== undefined
+      ? `<text x="${midX + 6}" y="${midY + 10}" fill="#9ca3af" font-size="10" font-family="SF Mono, monospace">${count}</text>`
+      : '';
+    return `
+      <line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${color}" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+      ${lab}${ct}
+    `;
+  }
+
+  const totalK = 1000;
+  const autoK = k(o.auto);
+  const noCandidateK = Math.round(totalK * 0.18); // 18% have no candidate, simulated
+  // Adjust outcomes for the no-candidate split so display sums match
+  const remainingK = totalK - noCandidateK;
+  const autoDisp = Math.round(remainingK * (o.auto / o.N));
+  const grayDisp = Math.round(remainingK * (o.gray / o.N));
+  const noEntK = Math.round(remainingK * (o.noEntityGate / o.N));
+  const judgeSameK = Math.round(remainingK * (o.grayJudgedSame / o.N));
+  const judgeDiffK = grayDisp - judgeSameK;
+  const belowLowK = remainingK - autoDisp - grayDisp - noEntK;
+  const residTotal = noCandidateK + noEntK + judgeDiffK + belowLowK;
+
+  svg.innerHTML = `
+    <defs>
+      <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+        <polygon points="0 0, 8 4, 0 8" fill="#6b7280"/>
+      </marker>
+    </defs>
+
+    <!-- Title node -->
+    <rect x="${cx - 110}" y="10" width="220" height="40" rx="6" fill="#20242d" stroke="#2a2f3a"/>
+    <text x="${cx}" y="32" text-anchor="middle" fill="#e5e7eb" font-size="12" font-family="-apple-system, sans-serif">1,000 items entering</text>
+    <text x="${cx}" y="46" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="-apple-system, sans-serif">(per-batch sample)</text>
+
+    <!-- Arrow to candidate check -->
+    ${arrow(cx, 50, cx, 80, '', '')}
+
+    <!-- Candidate check -->
+    ${diamond(cx, 110, 230, 60, 'Has candidate story?', 'shared client + within 72h')}
+
+    <!-- Right branch: no candidate -->
+    ${arrow(cx + 115, 110, cx + 230, 110, 'no', noCandidateK)}
+    ${box(cx + 320, 110, 130, 50, 'Residual', noCandidateK, '#6b7280', 'no candidate')}
+
+    <!-- Down: yes -->
+    ${arrow(cx, 140, cx, 180, 'yes', '')}
+
+    <!-- τ_high check -->
+    ${diamond(cx, 220, 230, 60, 'cos ≥ τ_high?', `τ_high = ${state.tauHigh.toFixed(2)}`)}
+
+    <!-- Left branch: auto-assign -->
+    ${arrow(cx - 115, 220, cx - 230, 220, 'yes', autoDisp)}
+    ${box(cx - 320, 220, 130, 50, 'AUTO-ASSIGN', autoDisp, '#7ec850', 'no LLM call')}
+
+    <!-- Down: no -->
+    ${arrow(cx, 250, cx, 290, 'no', '')}
+
+    <!-- τ_low + entity check -->
+    ${diamond(cx, 340, 280, 80, 'cos ≥ τ_low', `AND entities overlap (τ_low = ${state.tauLow.toFixed(2)})`)}
+
+    <!-- Right branch: no -->
+    ${arrow(cx + 140, 340, cx + 240, 340, 'no', belowLowK + noEntK)}
+    ${box(cx + 320, 340, 130, 56, 'Residual', belowLowK + noEntK, '#6b7280', 'below τ_low or no entity overlap')}
+
+    <!-- Down: Haiku judge -->
+    ${arrow(cx, 380, cx, 420, 'yes', grayDisp)}
+
+    <!-- Haiku judge -->
+    <ellipse cx="${cx}" cy="455" rx="120" ry="35" fill="#20242d" stroke="#4a9eff" stroke-width="1.5"/>
+    <text x="${cx}" y="450" text-anchor="middle" fill="#4a9eff" font-size="12" font-weight="600" font-family="-apple-system, sans-serif">Haiku judge</text>
+    <text x="${cx}" y="466" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="-apple-system, sans-serif">SAME / DIFFERENT</text>
+
+    <!-- Judge → SAME (left) -->
+    ${arrow(cx - 110, 460, cx - 230, 530, 'SAME', judgeSameK, '#4a9eff')}
+    ${box(cx - 320, 555, 130, 50, 'ASSIGN', judgeSameK, '#4a9eff', 'gray-zone confirmed')}
+
+    <!-- Judge → DIFFERENT (right) -->
+    ${arrow(cx + 110, 460, cx + 230, 530, 'DIFFERENT', judgeDiffK, '#f59e0b')}
+    ${box(cx + 320, 555, 130, 50, 'Residual', judgeDiffK, '#f59e0b', 'judge ruled out')}
+  `;
+
+  // Update the sample pairs renderer
+  const sp = document.getElementById('samplePairs');
+  sp.innerHTML = samplePairs.map(p => {
+    const hasEnt = p.ent.length > 0;
+    let outcome, klass;
+    if (p.cos >= state.tauHigh) { outcome = 'AUTO-ASSIGN'; klass = 'auto'; }
+    else if (p.cos >= state.tauLow && hasEnt) {
+      // Stub judge: cosine > 0.65 in gray zone → SAME
+      if (p.cos > 0.65) { outcome = 'JUDGE → SAME'; klass = 'judge-same'; }
+      else { outcome = 'JUDGE → DIFF'; klass = 'judge-diff'; }
+    } else if (p.cos >= state.tauLow && !hasEnt) {
+      outcome = 'NO ENT-GATE'; klass = 'no-gate';
+    } else {
+      outcome = 'RESIDUAL'; klass = 'residual';
+    }
+    return `
+      <div class="pair">
+        <div class="cos">${p.cos.toFixed(2)}</div>
+        <div class="item" title="${p.aTitle}">${p.aTitle}</div>
+        <div class="item" title="${p.bTitle}">${p.bTitle}</div>
+        <div class="ent">${hasEnt ? '[' + p.ent.join(',') + ']' : '—'}</div>
+        <div class="outcome ${klass}">${outcome}</div>
+      </div>
+    `;
+  }).join('');
+}
+
+// ────────────────────────────────────────────────────────────────────────
+// Rendering: Distribution view
+// ────────────────────────────────────────────────────────────────────────
+function renderDistribution() {
+  const canvas = document.getElementById('distCanvas');
+  // High-DPI sharpening
+  const dpr = window.devicePixelRatio || 1;
+  const cssW = canvas.clientWidth || 1000;
+  const cssH = 380;
+  if (canvas.width !== cssW * dpr) {
+    canvas.width = cssW * dpr;
+    canvas.height = cssH * dpr;
+  }
+  canvas.style.height = cssH + 'px';
+  const ctx = canvas.getContext('2d');
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, cssW, cssH);
+
+  // Margins
+  const m = { top: 20, right: 20, bottom: 40, left: 50 };
+  const plotW = cssW - m.left - m.right;
+  const plotH = cssH - m.top - m.bottom;
+
+  // Map x ∈ [0, 1] to canvas
+  const xMap = x => m.left + x * plotW;
+  // Map y to canvas
+  const yMap = y => m.top + plotH - (y / kdeMax) * plotH * 0.92;
+
+  // Threshold positions
+  const xLow = xMap(state.tauLow);
+  const xHigh = xMap(state.tauHigh);
+
+  // Shaded zones (residual, gray, auto)
+  ctx.fillStyle = 'rgba(156, 163, 175, 0.08)';
+  ctx.fillRect(m.left, m.top, xLow - m.left, plotH);
+  ctx.fillStyle = 'rgba(245, 158, 11, 0.10)';
+  ctx.fillRect(xLow, m.top, xHigh - xLow, plotH);
+  ctx.fillStyle = 'rgba(126, 200, 80, 0.10)';
+  ctx.fillRect(xHigh, m.top, m.left + plotW - xHigh, plotH);
+
+  // Gridlines
+  ctx.strokeStyle = '#2a2f3a';
+  ctx.lineWidth = 1;
+  for (let i = 0; i <= 10; i++) {
+    const x = m.left + (plotW * i / 10);
+    ctx.beginPath();
+    ctx.moveTo(x, m.top);
+    ctx.lineTo(x, m.top + plotH);
+    ctx.stroke();
+  }
+
+  // X-axis labels
+  ctx.fillStyle = '#6b7280';
+  ctx.font = '11px -apple-system, sans-serif';
+  ctx.textAlign = 'center';
+  for (let i = 0; i <= 10; i += 2) {
+    const x = m.left + (plotW * i / 10);
+    ctx.fillText((i / 10).toFixed(1), x, m.top + plotH + 16);
+  }
+  ctx.fillText('cosine similarity', m.left + plotW / 2, m.top + plotH + 32);
+
+  // KDE: DIFFERENT (red, behind)
+  function drawKde(densities, color, fillAlpha) {
+    ctx.fillStyle = color.replace(')', `, ${fillAlpha})`).replace('rgb', 'rgba');
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(xMap(0), yMap(0));
+    for (let i = 0; i <= KDE_PTS; i++) {
+      const x = xMap(i / KDE_PTS);
+      const y = yMap(densities[i]);
+      ctx.lineTo(x, y);
+    }
+    ctx.lineTo(xMap(1), yMap(0));
+    ctx.closePath();
+    ctx.fill();
+    ctx.beginPath();
+    for (let i = 0; i <= KDE_PTS; i++) {
+      const x = xMap(i / KDE_PTS);
+      const y = yMap(densities[i]);
+      if (i === 0) ctx.moveTo(x, y);
+      else ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+  }
+
+  drawKde(kdeDiff, 'rgb(239, 68, 68)', 0.20);
+  drawKde(kdeSame, 'rgb(126, 200, 80)', 0.25);
+
+  // Threshold vertical lines
+  function vline(x, label, color) {
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 2;
+    ctx.setLineDash([6, 4]);
+    ctx.beginPath();
+    ctx.moveTo(x, m.top);
+    ctx.lineTo(x, m.top + plotH);
+    ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle = color;
+    ctx.font = 'bold 11px -apple-system, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillRect(x - 30, m.top - 2, 60, 16);
+    ctx.fillStyle = '#0f1115';
+    ctx.fillText(label, x, m.top + 9);
+  }
+  vline(xLow, `τ_low ${state.tauLow.toFixed(2)}`, '#f59e0b');
+  vline(xHigh, `τ_high ${state.tauHigh.toFixed(2)}`, '#7ec850');
+
+  // Legend
+  ctx.font = '12px -apple-system, sans-serif';
+  ctx.textAlign = 'left';
+  ctx.fillStyle = 'rgb(126, 200, 80)';
+  ctx.fillRect(m.left + 12, m.top + 12, 14, 10);
+  ctx.fillStyle = '#e5e7eb';
+  ctx.fillText('SAME pairs', m.left + 32, m.top + 22);
+  ctx.fillStyle = 'rgb(239, 68, 68)';
+  ctx.fillRect(m.left + 120, m.top + 12, 14, 10);
+  ctx.fillStyle = '#e5e7eb';
+  ctx.fillText('DIFFERENT pairs', m.left + 140, m.top + 22);
+
+  // Update zone summaries
+  const o = computeOutcomes();
+  const pct = n => ((n / o.N) * 100).toFixed(1) + '%';
+  const autoSamePct = o.auto > 0 ? ((o.autoTrueSame / o.auto) * 100).toFixed(0) : '—';
+  const grayMixSame = o.gray > 0 ? ((o.grayTrueSame / o.gray) * 100).toFixed(0) : '—';
+  const residMissedRecall = o.residTrueSame; // SAME pairs that ended up in residual
+  document.getElementById('zAuto').textContent = `${pct(o.auto)} · ${autoSamePct}% are truly SAME`;
+  document.getElementById('zGray').textContent = `${pct(o.gray)} · ${grayMixSame}% truly SAME (needs judge)`;
+  document.getElementById('zRes').textContent = `${pct(o.resid)} · ${residMissedRecall} SAME pairs at risk of being missed`;
+}
+
+// ────────────────────────────────────────────────────────────────────────
+// Rendering: Cost view
+// ────────────────────────────────────────────────────────────────────────
+const COST_COLORS = {
+  embed: '#4a9eff',
+  ent:   '#a78bfa',
+  judge: '#f59e0b',
+  meta:  '#06b6d4',
+};
+const COST_LABELS = {
+  embed: 'Embeddings · text-embedding-3-large',
+  ent:   'Entity extraction · Haiku',
+  judge: 'Gray-zone judge · Haiku',
+  meta:  'Story metadata · Sonnet',
+};
+const COST_NOTES = {
+  embed: '$0.00040 / item',
+  ent:   '$0.00010 / item',
+  judge: '$0.00100 / gray-zone call',
+  meta:  '$0.0075 / story update',
+};
+
+function renderCost() {
+  const o = computeOutcomes();
+  const c = computeCosts(o);
+  const total = c.total || 1;
+  const bar = document.getElementById('costBar');
+  bar.innerHTML = '';
+  ['embed', 'ent', 'judge', 'meta'].forEach(k => {
+    const pct = (c[k] / total) * 100;
+    const seg = document.createElement('div');
+    seg.className = 'cost-seg';
+    seg.style.width = pct + '%';
+    seg.style.background = COST_COLORS[k];
+    seg.textContent = pct >= 6 ? '$' + c[k].toFixed(0) : '';
+    bar.appendChild(seg);
+  });
+
+  const rows = document.getElementById('costRows');
+  rows.innerHTML = '';
+  ['embed', 'ent', 'judge', 'meta'].forEach(k => {
+    const pct = (c[k] / total) * 100;
+    const row = document.createElement('div');
+    row.className = 'cost-row';
+    row.innerHTML = `
+      <div class="sw" style="background:${COST_COLORS[k]}"></div>
+      <div>
+        <div class="nm">${COST_LABELS[k]}</div>
+        <div class="ct">${COST_NOTES[k]}</div>
+      </div>
+      <div class="v">$${c[k].toFixed(2)}</div>
+      <div class="p">${pct.toFixed(1)}%</div>`;
+    rows.appendChild(row);
+  });
+  document.getElementById('costGrandTotal').textContent = '$' + c.total.toFixed(2);
+}
+
+// ────────────────────────────────────────────────────────────────────────
+// Rendering: aside panel (always visible)
+// ────────────────────────────────────────────────────────────────────────
+function renderAside() {
+  const o = computeOutcomes();
+  const c = computeCosts(o);
+  const k = (n) => Math.round((n / o.N) * 1000);
+
+  document.getElementById('mAuto').textContent = k(o.auto);
+  document.getElementById('mGray').textContent = k(o.gray);
+  document.getElementById('mGraySame').textContent = k(o.grayJudgedSame);
+  document.getElementById('mGrayDiff').textContent = k(o.gray - o.grayJudgedSame);
+  document.getElementById('mResidual').textContent = k(o.resid);
+
+  document.getElementById('mPrec').textContent = o.precision.toFixed(3);
+  document.getElementById('mRec').textContent = o.recall.toFixed(3);
+
+  const f1El = document.getElementById('mF1');
+  f1El.textContent = o.b3f1.toFixed(3);
+  f1El.classList.toggle('good', o.b3f1 >= 0.85);
+  f1El.classList.toggle('warn', o.b3f1 < 0.85 && o.b3f1 >= 0.80);
+  f1El.classList.toggle('bad', o.b3f1 < 0.80);
+
+  const gateEl = document.getElementById('mGate');
+  if (o.b3f1 >= 0.85) {
+    gateEl.textContent = 'SHIP';
+    gateEl.className = 'val good';
+  } else if (o.b3f1 >= 0.80) {
+    gateEl.textContent = 'CLOSE';
+    gateEl.className = 'val warn';
+  } else {
+    gateEl.textContent = 'ITERATE';
+    gateEl.className = 'val bad';
+  }
+
+  document.getElementById('cEmbed').textContent = '$' + c.embed.toFixed(0);
+  document.getElementById('cEnt').textContent = '$' + c.ent.toFixed(0);
+  document.getElementById('cJudge').textContent = '$' + c.judge.toFixed(0);
+  document.getElementById('cMeta').textContent = '$' + c.meta.toFixed(0);
+  document.getElementById('cTotal').textContent = '$' + c.total.toFixed(0);
+}
+
+// ────────────────────────────────────────────────────────────────────────
+// Prompt generation — context-aware by tab
+// ────────────────────────────────────────────────────────────────────────
+function updatePrompt() {
+  const o = computeOutcomes();
+  const c = computeCosts(o);
+  const pct = (n) => ((n / o.N) * 100).toFixed(0) + '%';
+  let p = '';
+
+  if (state.tab === 'pipeline') {
+    if (state.selectedSection) {
+      const s = sections.find(x => x.id === state.selectedSection);
+      const ph = phases.find(p => p.id === s.phase);
+      p = `I'm reading the story-clustering POC spec (docs/story-clustering-poc-spec.md) and want to dig into Section ${s.id} — ${s.title}, which sits in the ${ph.name} phase of the pipeline.
+
+Walk me through:
+  • Why this section is needed for the overall algorithm (what failure mode would occur if it were skipped)
+  • The specific output it hands to downstream sections, and which sections depend on it
+  • The decision the section is designed to surface (the spec frames it as: "${s.decision.replace(/<[^>]+>/g, '').trim()}")
+  • Any judgment calls the spec deliberately leaves open, and what evidence in the notebook would tilt those calls.
+
+Skip generic explanation — assume I've read the section and want the why behind it.`;
+    } else {
+      p = `I'm trying to understand the overall structure of the story-clustering POC (docs/story-clustering-poc-spec.md). It's organized into 17 notebook sections grouped into 7 phases: Data Prep → Dedup → Enrichment → Calibration → Clustering → Metadata → Evaluation.
+
+Walk me through the data-dependency graph between these phases — specifically:
+  • Which phase's output is the strict precondition for which next phase
+  • Where the "critical path" is (if I had to skip something to save time, what could safely be deferred vs what would break everything downstream)
+  • Which two or three sections, if they go badly, kill the whole POC
+  • How the three handoff artifacts (labeled_eval_set.csv, pos_calibration.json, poc_findings.md) flow into the AWS deployment spec.`;
+    }
+  } else if (state.tab === 'gates') {
+    p = `I'm exploring the single-pass assignment gate logic from Section 11 with τ_high = ${state.tauHigh.toFixed(2)} and τ_low = ${state.tauLow.toFixed(2)}.
+
+Simulated outcomes on a stratified pair sample of ${o.N}:
+  • ${pct(o.auto)} auto-assigned (cos ≥ τ_high, no LLM call)
+  • ${pct(o.gray)} routed to Haiku judge in the gray zone
+  • ${pct(o.resid)} dropped to residual (will be re-clustered by HDBSCAN in Section 12)
+  • Simulated precision ${o.precision.toFixed(3)}, recall ${o.recall.toFixed(3)}, B³ F1 estimate ${o.b3f1.toFixed(3)} (ship gate ≥ 0.85)
+
+Help me reason about:
+  • Whether this τ_high / τ_low split is sensible for a banker-facing product — is the precision lift worth the recall hit?
+  • Where the costliest mistakes likely live at this operating point: false merges in the auto-assign zone, or false splits where SAME pairs slipped into residual?
+  • What pulling τ_low DOWN by 0.05 would do to gray-zone judge volume and HDBSCAN residual pool size
+  • Whether the entity-overlap gate (which routes failures to residual) is overcompensating or under-compensating given the 92% sensitivity I'm assuming for Haiku.`;
+  } else if (state.tab === 'dist') {
+    p = `I'm looking at the cosine-similarity KDE overlay chart from Section 9, the headline calibration chart in the POC. Current thresholds: τ_high = ${state.tauHigh.toFixed(2)}, τ_low = ${state.tauLow.toFixed(2)}.
+
+In my simulated distribution:
+  • SAME pairs peak near cos 0.72 (σ ≈ 0.09)
+  • DIFFERENT pairs peak near cos 0.42 (σ ≈ 0.14)
+  • The two distributions overlap meaningfully in [0.50, 0.70] — this is the threshold-critical zone the spec routes to human spot-check
+
+Explain:
+  • Why the spec's methodology insists on stratified pair sampling across this band rather than uniform random — and what would happen to the calibrated thresholds if I just used uniform sampling
+  • What the chart would look like if the embedding model were materially weaker (e.g. ada-002): how much should the SAME and DIFFERENT modes overlap before I conclude the model isn't good enough for this domain
+  • At what point the spec's recommendation to upgrade to voyage-3-large kicks in — what failure pattern in this chart would trigger that
+  • Whether my current τ_high = ${state.tauHigh.toFixed(2)} achieves the spec's "precision ≥ 0.95" target, given the visible overlap mass to the right of that line.`;
+  } else if (state.tab === 'cost') {
+    const dominantPair = ['embed', 'meta', 'judge', 'ent']
+      .map(k => ({ k, v: c[k] }))
+      .sort((a, b) => b.v - a.v);
+    const top = dominantPair[0];
+    const topLabel = COST_LABELS[top.k];
+    p = `At a production scale of ${state.items.toLocaleString()} items/day with my current threshold mix (τ_high ${state.tauHigh.toFixed(2)}, τ_low ${state.tauLow.toFixed(2)}), the projected daily API spend breaks down as:
+  • Embeddings (text-embedding-3-large)  $${c.embed.toFixed(0)}
+  • Entity extraction (Haiku)             $${c.ent.toFixed(0)}
+  • Gray-zone judge (Haiku)               $${c.judge.toFixed(0)} (${pct(o.gray)} of items hit the gray zone)
+  • Metadata generation (Sonnet)          $${c.meta.toFixed(0)}
+  • TOTAL                                 $${c.total.toFixed(0)} / day
+
+The dominant line item right now is ${topLabel.toLowerCase()}.
+
+Help me think through:
+  • Whether this matches the spec's expectation that Sonnet metadata is the largest line at production scale, or whether my threshold choice has shifted the distribution
+  • Three concrete swaps that could cut the dominant cost by ≥30% without dropping below the 0.85 B³ F1 ship gate (the spec mentions a few: embed-title-only, per-cluster-update cadence for metadata, Haiku-instead-of-Sonnet for grown stories)
+  • Whether moving to Bedrock changes any of these numbers meaningfully (the spec assumes API list prices and notes Bedrock is "same or slightly lower")
+  • What threshold change would most cheaply reduce the gray-zone judge cost specifically.`;
+  }
+
+  document.getElementById('promptBody').textContent = p;
+}
+
+// ────────────────────────────────────────────────────────────────────────
+// Wire up controls
+// ────────────────────────────────────────────────────────────────────────
+function applyState() {
+  document.getElementById('vTauHigh').textContent = state.tauHigh.toFixed(2);
+  document.getElementById('vTauLow').textContent = state.tauLow.toFixed(2);
+  document.getElementById('vMinhash').textContent = state.minhash.toFixed(2);
+  document.getElementById('vItems').textContent = state.items.toLocaleString();
+  document.getElementById('tauHigh').value = state.tauHigh;
+  document.getElementById('tauLow').value = state.tauLow;
+  document.getElementById('minhash').value = state.minhash;
+  document.getElementById('items').value = state.items;
+}
+
+function updateAll() {
+  // Enforce τ_low ≤ τ_high
+  if (state.tauLow > state.tauHigh) state.tauLow = state.tauHigh;
+  applyState();
+  renderAside();
+  renderActiveTab();
+  updatePrompt();
+}
+
+document.getElementById('tauHigh').addEventListener('input', e => {
+  state.tauHigh = parseFloat(e.target.value);
+  state.preset = null;
+  document.querySelectorAll('.preset').forEach(b => b.classList.remove('active'));
+  updateAll();
+});
+document.getElementById('tauLow').addEventListener('input', e => {
+  state.tauLow = parseFloat(e.target.value);
+  state.preset = null;
+  document.querySelectorAll('.preset').forEach(b => b.classList.remove('active'));
+  updateAll();
+});
+document.getElementById('minhash').addEventListener('input', e => {
+  state.minhash = parseFloat(e.target.value);
+  state.preset = null;
+  document.querySelectorAll('.preset').forEach(b => b.classList.remove('active'));
+  updateAll();
+});
+document.getElementById('items').addEventListener('input', e => {
+  state.items = parseInt(e.target.value, 10);
+  updateAll();
+});
+
+// Presets
+document.querySelectorAll('.preset').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const id = btn.dataset.preset;
+    Object.assign(state, PRESETS[id]);
+    state.preset = id;
+    document.querySelectorAll('.preset').forEach(b => b.classList.toggle('active', b === btn));
+    updateAll();
+  });
+});
+
+// Tabs
+document.querySelectorAll('.tab').forEach(btn => {
+  btn.addEventListener('click', () => setTab(btn.dataset.tab));
+});
+
+// Copy
+document.getElementById('copyBtn').addEventListener('click', () => {
+  const text = document.getElementById('promptBody').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const b = document.getElementById('copyBtn');
+    b.textContent = 'Copied!';
+    b.classList.add('copied');
+    setTimeout(() => {
+      b.textContent = 'Copy prompt';
+      b.classList.remove('copied');
+    }, 1400);
+  });
+});
+
+// Window resize → redraw distribution canvas
+window.addEventListener('resize', () => {
+  if (state.tab === 'dist') renderDistribution();
+});
+
+// ────────────────────────────────────────────────────────────────────────
+// Boot
+// ────────────────────────────────────────────────────────────────────────
+renderPipeline();
+// Default preset
+document.querySelector('.preset[data-preset="research"]').classList.add('active');
+applyState();
+renderAside();
+updatePrompt();
+// Preselect Section 11 (the main algorithm) for first-time discovery
+selectSection(11);
+
+</script>
+</body>
+</html>

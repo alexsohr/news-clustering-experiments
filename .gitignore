@@ -1,0 +1,25 @@
+# --- secrets (never commit) ---
+.env
+.env.save
+.jupyter_mcp_token
+
+# --- environments / caches ---
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- jupyter collaboration / runtime ---
+.jupyter_ystore.db*
+.jupyter/
+
+# --- OS ---
+.DS_Store
+
+# --- large data + binary checkpoints (regenerable) ---
+dataset/
+*.pkl
+artifacts/**/checkpoints/
+/tmp/

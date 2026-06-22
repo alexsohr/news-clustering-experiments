@@ -1,0 +1,23 @@
+{
+  "tau_high": 0.94,
+  "tau_low": 0.54,
+  "minhash_threshold": 0.85,
+  "hdbscan_min_cluster_size": 2,
+  "centroid_merge_sim": 0.85,
+  "active_window_hours": 72,
+  "embed_model": "text-embedding-3-large",
+  "embed_dims": 1024,
+  "eval_set_size": 543,
+  "eval_n_same": 93,
+  "eval_n_different": 450,
+  "precision_at_tau_high": 1.0,
+  "recall_at_tau_high": 0.0543,
+  "precision_at_tau_low": 0.3843,
+  "recall_at_tau_low": 0.9565,
+  "single_threshold_baseline_tau": 0.62,
+  "single_threshold_baseline_f1": 0.64,
+  "roc_auc": 0.849,
+  "tau_high_prior": 0.75,
+  "tau_low_prior": 0.55,
+  "calibrated_at": "2026-06-11T02:47:18.451422+00:00"
+}

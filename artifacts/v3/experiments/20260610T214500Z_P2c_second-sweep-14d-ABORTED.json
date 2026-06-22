@@ -1,0 +1,9 @@
+{
+  "run_id": "20260610T214500Z_P2c_second-sweep-14d-ABORTED",
+  "phase": "P2c",
+  "tag": "second-sweep-14d-ABORTED",
+  "accepted": false,
+  "parent_run_id": "20260610T212348Z_P2a_hdbscan-judge-gate",
+  "comparison_root": "R0",
+  "notes": "ABORTED mid-run (judge-call volume: top-3 candidates x 6,601 singletons over a 14d window queued thousands of fresh calls). Rejected by analysis: the 13 judge_said_no FNs reuse byte-identical judge cache keys (singleton was already judged vs the same story first-member in the s10 loop), so the sweep cannot recover them; supplemental slice predicts added long-range FPs. Re-test after Phase 4 (template-aware judge), with top-1 candidate and a tighter (<=7d) window."
+}

@@ -1,0 +1,901 @@
+pair_id,cosine_sim,sim_bucket,ensemble_majority,ensemble_confidence,verdict_sonnet,verdict_openai,verdict_gemini,shared_clients,item_a_title,item_a_lede,item_a_published_at,item_b_title,item_b_lede,item_b_published_at,human_label
+p0180,0.5612467527389526,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG-JPMorgan Asset Management Form 8.3 - Cove Energy Plc,,2012-03-05 00:00:00,REG - JPMorgan Asian Inv - Ten Largest Investments,,2012-03-08 00:00:00,
+p0181,0.5695918202400208,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Google'],"Techquity: China vs.Google, more trouble for HP's board",,2013-03-05 00:00:00,"The Zacks Analyst Blog Highlights: Hewlett-Packard, Google, Microsoft, CIBER and Washington Post",,2013-03-06 00:00:00,
+p0182,0.5583530068397522,"[0.55, 0.60)",,routed_to_human,UNCLEAR,UNCLEAR,DIFFERENT,['JPMorgan'],"Premier appoints BofA, JPM to lead initial public offering",,2013-02-04 00:00:00,"JPMorgan adds Morgan Stanley, Credit Suisse advisers",,2013-02-07 00:00:00,
+p0183,0.5841487050056458,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Verizon'],VisionMAX and Verizon Wireless Show Futuristic Retail Solutions at 2012 CES,,2012-01-10 00:00:00,HID Global and Yale Locks Open Doors With Verizon Wireless Smartphones at 2012 CES,,2012-01-10 00:00:00,
+p0184,0.55926513671875,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Ford'],"Ford to shorten ""summer shutdown"" in North America",,2012-05-08 00:00:00,Ford's gearhead gadfly may skip the annual meeting,,2012-05-09 00:00:00,
+p0185,0.5822467803955078,"[0.55, 0.60)",,routed_to_human,UNCLEAR,SAME,DIFFERENT,['Apple'],"Apple set to unwrap mini-iPad to take on Amazon, Google",,2012-10-22 00:00:00,Apple in miniature,,2012-10-24 00:00:00,
+p0186,0.5784454345703125,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],U.S. Stocks Rise as Confidence Gains Amid Stimulus Bets,"U.S. stocks rose, sending the Standard & Poor’s 500 Index trading to another record, as consumer confidence gained and investors bet central banks worldwide will continue their efforts to stimulate the economy. Apple Inc. (AAPL) climbed 2.9 percent as the iPhone maker sold $17 billion of bonds in the biggest U.S. corporate offering on record. Avon Products Inc. (AVP) gained 4.1 percent after earnings topped analysts’ forecasts. Pfizer Inc. (PFE) dropped 4.5 percent as the world’s biggest drugmaker reported earnings that fell short of analysts’ projections. Newmont Mining Corp. (NEM) lost 4.6 p",2013-04-30 21:33:00,China Stocks Rebound From 4-Month Low on Financial Shares,"China’s stocks rose the most in a
+week, led by financial companies, after valuations on the
+benchmark index dropped to a four-month low. Poly Real Estate Group Co. and Haitong Securities Co.
+advanced at least 1.4 percent, driving financial stocks to the
+ biggest gain in two weeks. Drugmaker Yunnan Baiyao Group Co. and
+Goertek Inc., a supplier to Apple Inc., surged to record highs.
+BYD Co., the automaker partially owned by Warren Buffett ’s
+Berkshire Hathaway Inc., jumped 6.5 percent after the Shanghai
+Securities News reported the government may issue subsidies for
+renewable-energy cars. The Sh",2013-05-03 07:25:15,
+p0187,0.5570214986801147,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],"BRIEF-Trader sentenced to 9 months prison, ordered to pay Goldman $118 mln over S&P; 500 e-mini futures trade",,2013-12-06 00:00:00,Ex-Goldman Sachs banker jailed in UK in Nigerian corruption case,,2013-12-09 00:00:00,
+p0188,0.5858181715011597,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Google'],AngelList reportedly raises $24M from Google Ventures & others,,2013-09-23 00:00:00,Urban Compass Valued at $150 Million After Funding Round,"After selling two Internet startups
+to Google Inc. (GOOG) and Twitter Inc., Ori Allon plans to announce a
+$20 million funding round today for a company that sifts through
+another kind of complex data: New York apartment rentals. The investment in Urban Compass -- started by Allon and
+Robert Reffkin, a veteran of Goldman Sachs Group Inc. (GS) -- values
+the company at $150 million, according to a person with
+knowledge of the terms. That’s five times the value of the
+company at its $8 million seed round in November 2012, said the
+person, who asked not to be identified because the information
+is p",2013-09-25 18:07:50,
+p0189,0.575667142868042,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG-JPMorgan Asset Management Form 8.3 - Cove Energy Plc,,2012-03-05 00:00:00,REG - JPMorgan Inc&Grwth; - Ten Largest Investments,,2012-03-08 00:00:00,
+p0190,0.5950122475624084,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Citigroup'],Citigroup can't block Abu Dhabi arbitration over $7.5 bln stake,,2013-11-25 00:00:00,UPDATE 1-Citigroup seeks to end financier Hands' U.S. lawsuit over EMI,,2013-11-28 00:00:00,
+p0191,0.5761851668357849,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Verizon'],US court rejects Verizon Wireless challenge to roaming rule,,2012-12-04 00:00:00,Judge denies bid to block Verizon's $7.5 billion pension transfer,,2012-12-07 00:00:00,
+p0192,0.5971882939338684,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],HanesBrands Announces Participation at Goldman Sachs and CL King Investor Conferences,,2012-08-28 00:00:00,"Pier 1 Imports, Inc. to Present at the Goldman Sachs Nineteenth Annual Global Retailing Conference",,2012-08-30 00:00:00,
+p0193,0.5758422613143921,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Facebook'],Several brokerages stop taking Facebook IPO orders,,2012-05-16 00:00:00,Nasdaq Sets Up Appeals Process for Missed Facebook Orders,"Nasdaq OMX Group Inc. (NDAQ) set up an
+appeals process for traders whose Facebook Inc. (FB) trades didn’t go
+through, giving them a deadline of 5 p.m. New York time to
+submit requests. Nasdaq OMX said traders with questions about orders placed
+between 11:11 a.m. and 11:30 a.m. New York time should contact
+the exchange operator at +1-212-231-5100. “Our intention is to reach resolution of those trades
+today through an offline matching process,” Nasdaq said in an
+e-mailed statement. “If at the end of that process, a firm
+continues to have questions or concerns, the firm needs to
+submit a formal a",2012-05-18 20:31:33,
+p0194,0.5750167369842529,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Ford'],Ford Delivers 4 Millionth SYNC In-Car Connectivity System; 9 Million More Expected by 2015,,2012-01-09 00:00:00,Ford First to Enable iHeartRadio App Inside the Car Using Voice Control,,2012-01-11 00:00:00,
+p0195,0.5808678865432739,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],Haemonetics to Provide an Update on Key Growth Initiatives at J.P. Morgan Health Care Conference,,2013-01-04 00:00:00,CytoDyn to Attend 31st Annual J.P. Morgan Healthcare Conference,,2013-01-07 00:00:00,
+p0196,0.5787878036499023,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Boeing'],"Japan's airlines back Boeing, as battery probes make slow progress",,2013-01-25 00:00:00,Battery Charger Aboard 787 Cleared in Fire Investigation,"U.S. investigators examining the
+battery charger from a Boeing Co. (BA) 787 that caught fire this
+month in Boston have found no evidence of flaws that could have
+caused the incident. The U.S. National Transportation Safety Board has completed
+testing of the charger at the Tucson, Arizona , plant where it
+was made by Securaplane Technologies Inc. , the agency said in an
+e-mailed release today. Securaplane is a division of
+Christchurch, England-based Meggitt Plc. (MGGT) The NTSB also said it examined a device known as an
+auxiliary power unit, which contained the lithium-ion battery
+that burned o",2013-01-27 20:45:42,
+p0197,0.5514708757400513,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Toyota'],"General Electric, Toyota Double Structured Notes Sales in 2012","General Electric Capital Corp. and
+Toyota Motor Credit Corp. have each increased market share in
+the shrinking U.S. structured notes market, selling more than
+twice as many of the securities as the same period last year. General Electric Capital, the largest non-bank structured
+note issuer in the U.S., sold $525 million of rate-linked
+structured notes this year, 3.5 times more than last year,
+according to data compiled by Bloomberg. Toyota has sold $215
+million in rate-linked notes, more than twice as much as in
+2011. Investors are buying more structured notes from non-bank
+issuers this year b",2012-10-26 14:48:39,Toyota Extends Global Lead Over GM on Quarterly Gain,"Toyota Motor Corp. (7203) ’s worldwide sales
+grew 18 percent last quarter on U.S. demand for Camry sedans and
+Prius hybrids and helped Asia ’s largest automaker expand its
+lead over General Motors Co. (GM) , the global volume leader in 2011. Toyota delivered 2.43 million cars and trucks in the
+quarter that ended Sept. 30, including subsidiaries Hino Motors
+Ltd. (7205) and Daihatsu Motor Co. (7262) , up from 2.06 million a year ago,
+according to figures provided by Yurika Motoyoshi, a company
+spokeswoman, yesterday. Its sales rose 28 percent to 7.4 million
+units through September. GM had 2.28 m",2012-10-26 22:00:01,
+p0198,0.5720268487930298,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['ExxonMobil'],Reuters Summit: Jim Chanos bets against Buffett on Exxon,,2013-11-19 00:00:00,Warren Buffett's Exxon Bungle,"How often do you make a decision to sell something for a giant gain? Quite a few times across the arc of a career, if you are a half-decent investor. But how often is that sell decision a terrible mistake? Today, I want to tell the tale of Warren Buffett’s bungled profit-taking in Exxon. We all have war stories of the profitable sale that should never have been made. I took profits in a 2001 purchase of Apple at $15 (pre-split) at $43 to buy a house. (It was post-iPod, pre-iPhone). So who am I to criticize the sale of XOM? Before I proceed with today’s blasphemy, allow me a few caveats: I have",2013-11-20 12:40:58,
+p0199,0.5684682130813599,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],"NI Technology Research Updates Outlooks for GT Advanced Technologies, Apple, Corning, Qualcomm and TriQuint Semiconductor",,2013-11-12 00:00:00,"Development of New Products, New Appointments, Stock Price Update, and Collaborations - Research Report on Apple, Harman, Sony, Philips, and iRobot",,2013-11-13 00:00:00,
+p0200,0.5945076942443848,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Facebook'],Exclusive: Regulators may review Morgan Stanley-Facebook allegations,,2012-05-22 00:00:00,Bernstein Liebhard LLP Partner Stanley D. Bernstein Interviewed By Thomson Reuters Concerning Facebook Inc. IPO Lawsuits,,2012-05-25 00:00:00,
+p0201,0.5836423635482788,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Bank of America'],Norfolk Southern CEO to address Bank of America Merrill Lynch Global Transportation Conference,,2012-05-04 00:00:00,Informatica to Present at Bank of America Merrill Lynch Technology Conference,,2012-05-07 00:00:00,
+p0202,0.561052143573761,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Facebook'],Trading at Noon: Facebook Makes its Debut,,2012-05-18 00:00:00,3XSQ: Facebook may drop below IPO Price,,2012-05-21 00:00:00,
+p0203,0.5970988869667053,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],Comcast to Participate in Morgan Stanley Investor Conference,,2013-02-18 00:00:00,"PROS Holdings, Inc. to Present at the Morgan Stanley Technology, Media & Telecom Conference",,2013-02-20 00:00:00,
+p0204,0.576690137386322,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Boeing'],EXCLUSIVE-Japan eased safety standards ahead of Boeing 787 rollout,,2013-01-28 00:00:00,Japan to send 2 officials to US for Boeing battery probe,,2013-01-31 00:00:00,
+p0205,0.5519465804100037,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Toyota'],Japan Inc. Cashes in on Abenomics as Toyota Profit to Rise,"Japanese Prime Minister Shinzo Abe’s economic recovery plan is filling the coffers of manufacturers from Toyota Motor Corp. (7203) to Sony Corp. (6758) As the exporters prepare to announce first-quarter earnings this week, 14 of Japan ’s 27 largest are projected to beat their own full-year operating profit forecasts by 5 percent or more, according to data compiled by Bloomberg. Net income may surge 75 percent from a year earlier among companies that sell abroad and 33 percent at domestic-oriented firms, UBS AG said this month. Abe’s drive to end 15 years of deflation in Japan through monetary ",2013-07-29 08:38:55,Toyota Said to Prepare to Raise Output Target Above 10 Million,"Toyota Motor Corp. (7203) plans to produce more than 10 million vehicles this year, becoming the first carmaker to reach that milestone, according to two people familiar with the matter. Toyota and its subsidiaries expect combined output to climb to about 10.1 million vehicles in 2013, or 200,000 higher than previously forecast, said the people, who asked not to be identified because the plan hasn’t been made public. The new targets will be disclosed when the Toyota reports earnings Aug. 2, the people said. The projections illustrate the recovery of a company that’s battled through a recall cr",2013-07-31 02:45:01,
+p0206,0.5799752473831177,"[0.55, 0.60)",,routed_to_human,UNCLEAR,UNCLEAR,DIFFERENT,['Ford'],Third Production Crew with 900 New U.S. Jobs Begins to Meet Surging Ford F-Series Demand,,2013-08-05 00:00:00,Ford to Honda Move to Boost Capacity as U.S. Sales Rise,"Automakers, enjoying the best U.S.
+sales since 2007, this week disclosed plans to spend $434
+million to boost their capacity to make vehicles and engines in
+ North America . Ford Motor Co. (F) said it’s looking to squeeze more vehicles
+out of every factory on the continent. Honda Motor Co. (7267) said
+yesterday it will invest $215 million in Ohio , including about
+$180 million at an engine plant, the Tokyo-based automaker said
+in a statement . Chrysler Group LLC yesterday said it will add
+capacity and almost 300 jobs at a Michigan engine plant. The carmakers are responding to increased sales, ",2013-08-07 22:15:47,
+p0207,0.5685665607452393,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['IBM'],"IBM Research, CDC and PHDSC Enable Real-Time Reporting of Public Health Cases",,2012-08-16 00:00:00,IBM and Singapore Economic Development Board Collaborate to Launch Analytics-Based Supply Chain Center,,2012-08-16 00:00:00,
+p0208,0.5764000415802002,"[0.55, 0.60)",DIFFERENT,2_of_3,UNCLEAR,DIFFERENT,DIFFERENT,['Apple'],Apple earnings the bright spot in tech sector: StarMine,,2012-01-23 00:00:00,Apple Reports First Quarter Results,,2012-01-24 00:00:00,
+p0209,0.5553197860717773,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],REG-Morgan Stanley Early Repurchase,,2012-02-27 00:00:00,REG - Morgan Stanley SecsGlencore Inter - Form 8.5 (EPT/RI) Glencore Intl Plc,,2012-02-29 00:00:00,
+p0210,0.5793890357017517,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - AIM - Nomad Name Change - J.P. Morgan Securities Ltd,,2012-07-10 00:00:00,REG-J.P. Morgan Securities plc. Form 8.5 (EPT/RI) Cable & Wireless Worldwide Plc,,2012-07-11 00:00:00,
+p0211,0.5997042655944824,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Verizon'],Verizon Combines Insane Internet Speeds With Sensible Value in New FiOS Bundles,,2012-06-18 00:00:00,"Verizon Wireless & Comcast Team Up in Michigan to Deliver First-class Video Entertainment, Communications and Internet Experiences",,2012-06-21 00:00:00,
+p0212,0.5778028964996338,"[0.55, 0.60)",SAME,3_of_3,SAME,SAME,SAME,['Facebook'],UPDATE 5-Facebook smashes analyst targets but executive comments spook Street,,2013-10-30 00:00:00,Weil on Finance: Facebook's Wild Ride,"Happy Thursday, View fans. Here’s a look at some of my breakfast reading this morning. An after-hours roller coaster Facebook Inc. rose as much as 18 percent yesterday in extended trading after the company reported earnings -- and then gave it all up after executives’ remarks on the company’s conference call. Chief Financial Officer David Ebersman said news-feed advertisements, which had been a big revenue driver, won’t rise significantly. And younger teens aren’t using Facebook as much as they used to –- not cool. It’s a mo-mo market out there. The man behind the Justice Department’s bank law",2013-10-31 11:01:02,
+p0213,0.5930405855178833,"[0.55, 0.60)",DIFFERENT,2_of_3,UNCLEAR,DIFFERENT,DIFFERENT,['JPMorgan'],JPMorgan directors knew of bad trades: report,,2012-06-11 00:00:00,How JPMorgan’s Added Risk Led to $2 Billion Loss: Timeline,"Jamie Dimon , chief executive officer
+of JPMorgan Chase & Co. (JPM) , is scheduled to testify tomorrow before
+Congress about the bank’s $2 billion loss on derivatives trading
+at its chief investment office. Here’s a chronology of events
+leading to the disclosure and the aftermath. Some dates are approximate and are subject to revision as
+more information becomes available. 2004------------------------------------------------------- Nov. 13: JPMorgan completes takeover of Bank One Corp., run by
+Jamie Dimon. He becomes CEO of JPMorgan the following year.
+Global treasury unit, led by Ina Drew, is",2012-06-12 04:00:24,
+p0214,0.5523717403411865,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['AT&T'],"AT&T; Invested Nearly $110 Million In Salt Lake City Area From 2010 Through 2012 To Enhance Speeds, Reliability And Performance For Customers",,2013-03-04 00:00:00,AT&T; 4G LTE Expands In Charlotte To Shelby And Lincolnton,,2013-03-07 00:00:00,
+p0215,0.5760893821716309,"[0.55, 0.60)",SAME,2_of_3,SAME,SAME,DIFFERENT,['Apple'],Apple to Refresh IPads Amid Challenges for Tablet Share,"Apple Inc. (AAPL) is upgrading its iPad lineup to fend off a growing list of competitors, which are introducing their own tablets at lower prices with snazzier features. Chief Executive Officer Tim Cook will debut a high-definition iPad mini and a thinner iPad at a San Francisco event tomorrow, people with knowledge of the plans have said. Facing two straight quarters of declining profit and a stock that’s down by more than a quarter from a September 2012 record, Apple is facing a similar challenge with the iPad as it has with the iPhone, battling lower-cost rivals and proving that incremental",2013-10-21 04:01:00,"Apple unveils iPad Air, new Macs for holidays",,2013-10-22 00:00:00,
+p0216,0.5514098405838013,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Google'],EU's Almunia sets deadline for Google antitrust plan,,2012-12-18 00:00:00,France extends deadline for publishers' talks with Google,,2012-12-21 00:00:00,
+p0217,0.566642165184021,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Microsoft'],Microsoft announces Surface tablet,,2012-06-18 00:00:00,Acer slates Microsoft's hardware push,,2012-06-21 00:00:00,
+p0218,0.5737763047218323,"[0.55, 0.60)",,routed_to_human,UNCLEAR,DIFFERENT,SAME,['Twitter'],Twitter to raise up to $1.44bln; Stocks gain,,2013-10-24 00:00:00,Twitter avoids Facebook IPO overreach â thus far,,2013-10-25 00:00:00,
+p0219,0.5880049467086792,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Boeing'],Boeing Seeks Labor Peace in Deal to Keep 777X in Seattle,"Boeing Co. (BA) offered to build its
+upgraded 777 twin-aisle jet in the Seattle area if members of
+its largest union accept benefit cuts and a contract extension
+that would ensure labor peace for the next decade. Ratification of the terms by Machinists union members would
+cement a new working relationship between the planemaker and the
+labor group after years of labor strife at Boeing’s commercial
+hub in Washington ’s Puget Sound region. The proposal “means decades of economic activity for the
+region and will anchor the next generation of wide-body aircraft
+production right here in its histori",2013-11-06 14:50:31,"Washington state lawmakers pass tax breaks, aiming to win Boeing work",,2013-11-09 00:00:00,
+p0220,0.5856665372848511,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - JPMorgan Eur Small - Net Asset Value(s),,2012-01-03 00:00:00,REG-JPMorgan Asset Management Form 8.3 - Premier Oil Plc,,2012-01-04 00:00:00,
+p0221,0.568126916885376,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],Goldman loses co-head of commodity trade Shenouda: memo,,2013-10-29 00:00:00,"Top Goldman Asia banker Dees to take global, U.S.-based role-sources",,2013-11-01 00:00:00,
+p0222,0.5583081841468811,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],Pegatron Says It Hasn’t Been Informed of Labor Inspections,"Pegatron Corp. (4938) , a maker of Apple
+Inc. (AAPL) ’s iPhones, said it has been informed of pending inspections
+of factory work conditions by a labor group. Pegatron’s Shanghai factory was told about the coming
+inspection within the last two days and hasn’t been given a
+schedule for the visit, Charles Lin, chief financial officer of
+the Taipei-based company, said by telephone today. Earlier, Lin
+had said the company wasn’t informed about the inspections. Apple said the Washington-based Fair Labor Association
+began checks of working conditions at supplier Foxconn
+Technology Group yesterday, a",2012-02-14 16:58:44,Foxconn Technology Group Raises Wages in China for Third Time Since 2010,"Foxconn Technology Group (FOXCGZ) , the
+world’s biggest contract manufacturer of electronics including
+ Apple Inc. (AAPL) ’s iPhone, raised the pay of its workers in China this
+month, the third increase since 2010. Pay rose by 16 percent to 25 percent starting Feb. 1, the
+company said in an e-mailed statement yesterday. The basic
+monthly pay of a junior worker in Shenzhen has risen to 1,800
+yuan ($290) from 900 yuan three years ago, it said. Foxconn will
+raise monthly salaries to more than 2,200 yuan for workers who
+pass technical examinations, it said. The announcement came after Apple said t",2012-02-17 16:16:26,
+p0223,0.5578784942626953,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],"UPDATE 1-EU probes Motorola after Microsoft, Apple complaints",,2012-04-03 00:00:00,UPDATE 2-US court wary of Apple request to block Samsung,,2012-04-06 00:00:00,
+p0224,0.5672414302825928,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['AT&T'],AT&T; U-verse Launches More Than 100 Live Channels On Smartphone And Tablet,,2013-10-07 00:00:00,"AT&T; Brings U-verse High-Speed Internet, TV and Voice Services to More Than 13,000 Additional Customer Locations in Sacramento Area",,2013-10-09 00:00:00,
+p0225,0.578373372554779,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,"['Facebook', 'Microsoft']",Microsoft Joins Oracle as Computing Companies Fight Patent Suits,"The top lawyers for Microsoft Corp. (MSFT) 
+and Oracle Corp. (ORCL) say a U.S. debate over rampant patent
+litigation could endanger businesses that rely on such legal
+protections for their innovative software. Companies including Google Inc. (GOOG) and Facebook Inc. (FB) have said
+too many software patents are being used primarily to generate
+lawsuits instead of contributing to new products and services.
+While agreeing on that point, Microsoft, the world’s biggest
+software maker, and Oracle say some demands for change go too
+far in calling for strict limits or even the elimination of
+patents o",2013-02-22 05:00:01,"Microsoft Joins Apple, Facebook as Target of Cyberattack","Microsoft Corp. (MSFT) , the largest
+software maker, said a small number of its computers were
+infected by malicious software in a cyberattack similar to those
+experienced by Facebook Inc. (FB) and Apple Inc. (AAPL) There’s no evidence that customers were affected, Microsoft
+said in a blog post yesterday. Some of the techniques were
+similar to those documented by others, and the investigation is
+ongoing, Microsoft said. The incident follows recent attacks that hit more than 40
+companies, including microblogging service Twitter Inc., and
+were linked to an Eastern European hacker gang trying to ",2013-02-23 05:01:00,
+p0226,0.5742018222808838,"[0.55, 0.60)",SAME,2_of_3,UNCLEAR,SAME,SAME,['Apple'],"U.S. Day Ahead: With or without Einhorn, Apple eyes giveaway",,2013-02-07 00:00:00,Einhorn’s Call for Apple Preferred Bucks Trend: Chart of the Day,"David Einhorn’s call for Apple Inc.
+to distribute preferred shares to the iPhone and iPad maker’s
+investors is at odds with a growing tendency for companies to
+shun this form of equity. As the CHART OF THE DAY illustrates, the number of
+companies in the Standard & Poor’s 500 Index with preferred
+stock outstanding fell in every year but one during the past
+decade and a half. The exception was 2009, when several banks
+sold the shares to raise funds after a financial crisis. Sixty-three companies in the S&P 500 have preferred stock,
+according to data compiled by Bloomberg from their most recent
+f",2013-02-08 05:00:01,
+p0227,0.5589423179626465,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],JPMorgan to pay $150 mln over failed Sigma SIV,,2012-03-20 00:00:00,"Milan Settles Derivatives With UBS, Deutsche Bank, JPMorgan","JPMorgan Chase & Co. (JPM) , UBS AG (UBSN) ,
+ Deutsche Bank AG (DBK) and Depfa Bank Plc agreed to unwind interest-
+rate swaps with the city of Milan’s government in a 455 million-
+euro ($600 million) transaction. Under the settlement, the banks, which are on trial for
+fraud, closed the swaps today at a “positive” mark-to-market
+for the city, according to an e-mailed statement from the
+Italian municipality. The settlement isn’t for damages and doesn’t indicate any
+acceptance of responsibility by the banks, according to the
+statement. Milan agreed to drop claims for damages in the U.K.
+and Italy",2012-03-22 17:10:04,
+p0228,0.583036482334137,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],JPMorgan settles overdraft fee case for $110 million,,2012-02-06 00:00:00,JPMorgan Reaches Tentative Settlement in AFTRA Pension Suit,"JPMorgan Chase & Co. reached an
+“agreement in principal” to settle a class action suit
+claiming losses from the bank’s securities lending program. The suit was filed by three union pension funds, which
+represented a class of all investors in a group of structured
+debt securities. The settlement was to be announced on the
+plaintiffs’ website, according to a statement provided today by
+Stephanie Cirkovich, a spokeswoman for the federal court in
+ Manhattan . “The parties are drafting a formal settlement agreement,
+to be submitted to the court for approval within approximately
+three weeks,” accord",2012-02-08 02:14:56,
+p0229,0.5557448267936707,"[0.55, 0.60)",DIFFERENT,2_of_3,UNCLEAR,DIFFERENT,DIFFERENT,['Citigroup'],Citigroup Reports First Quarter 2012 Earnings Per Share1 of $0.95 -- $1.11 Excluding the Impact of Negative CVA/DVA2 And a Net Gain on Minority Investments3,,2012-04-16 00:00:00,"Citigroup May Wait for Capital Plan on Dividend, Buybacks","Citigroup Inc. (C) , the bank that’s
+been paying a 1-cent quarterly dividend since last year, may
+wait until it submits a 2013 capital plan to the Federal Reserve 
+before seeking approval to boost the payout or buy back shares. “As we consider our resubmission for this year, we also
+have to keep in mind that we will be submitting the 2013 capital
+plan to the Fed a short time later,” Chief Executive Officer
+ Vikram Pandit , 55, said today on a conference call with
+analysts. “We’re having the conversations with the Fed which
+will inform what we submit and what we ask for.” Pandit said the reques",2012-04-16 18:13:53,
+p0230,0.5516631007194519,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Boeing'],Boeing 787 Delay Creates Qatar Airways Opening for Airbus,"Boeing Co (BA) .’s halt in delivering the 787 Dreamliner this year because of battery failures has created an opening for Airbus SAS to sell about $3.5 billion of A330 wide-body jets to Qatar Airways Ltd. The airline, which has five 787s, may order as many as 15 A330s as it waits for Boeing to hand over more Dreamliners, Chief Executive Officer Akbar Al Baker told reporters today at a conference in Dubai. The A330 has added sales amid the 787’s delays even though it lacks the Boeing plane’s range. Airbus will have to “sharpen their pencils” to clinch an order for more A330s, Al Baker said, sig",2013-05-06 20:20:27,"Alafco to Focus on Sale-Leasebacks for Growth, Chairman Says","Aviation Lease & Finance Co., a
+Kuwaiti aircraft leasing company, will generally refrain from
+buying new airliners until it gets the first of 117 planes
+already on order in four years, its chairman said. Aviation Lease, known as Alafco, now has 49 planes
+operating in its fleet. Until 2017, when Alfaco’s new Boeing Co. (BA) 
+and Airbus SAS single-aisle planes start delivering, the company
+will add to the portfolio only with occasional sale-leasebacks,
+buying newly-delivered planes from airlines and leasing them
+back, Chairman Ahmad Al-Zabin said. “We need to slow down now or stop rather, until ",2013-05-07 08:25:06,
+p0231,0.587269127368927,"[0.55, 0.60)",SAME,3_of_3,SAME,SAME,SAME,['JPMorgan'],"UPDATE 4-JPMorgan $2 bln loss hits shares, dents image",,2012-05-11 00:00:00,Breakingviews: JPMorgan hammers another nail in VaR coffin,,2012-05-14 00:00:00,
+p0232,0.5752949714660645,"[0.55, 0.60)",,routed_to_human,UNCLEAR,DIFFERENT,SAME,['Toyota'],"As sales accelerate, Toyota goes to war on waste",,2012-05-08 00:00:00,Toyota sees profits tripling,,2012-05-08 00:00:00,
+p0233,0.5640266537666321,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Boeing'],Boeing Sees Larger 787 With Chance to Boost Orders by 60%,"Boeing Co. (BA) said its stretched 787 Dreamliner promises to match sales of the smallest variant, boosting the plane’s order tally as much as 60 percent, as it expanded its wide-body lineup to blunt an Airbus SAS challenge. The 787-10 is in “great demand,” Chief Executive Officer Jim McNerney said in a Bloomberg Television interview today at the Paris Air Show , where United Airlines (UAL) agreed to buy 20 of the jets and Air Lease Corp. (AL) ordered 30. Building a Dreamliner capable of seating about 330 people is part of Boeing’s strategy to upgrade two aircraft families, along with the 777,",2013-06-18 16:12:51,"Thomson Airways Mulls Hawaii, Perth Routes as 787 Extends Reach","Thomson Airways Ltd. may add flights
+to locations as far flung as Hawaii and Perth, Australia , as the
+U.K. tour operator swaps Boeing Co. (BA) 767s for the planemaker’s
+latest 787 Dreamliners able to fly 2,000 nautical miles further. Thomson, Britain’s No. 3 mainline carrier by passengers,
+took delivery of the first of eight 787s in May as it retires
+nine 767-300ERs. The Dreamliner can fly up to 8,200 nautical
+miles, versus 5,990 for the 767 model, Boeing’s website says. “Hawaii, South Africa -- it can even get to Perth if you
+fly in the right way with the right number of people,” Jeremy
+Elli",2013-06-21 14:17:34,
+p0234,0.5989316701889038,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],Hyatt Hotels Corporation to Speak at Goldman Sachs Conference,,2012-05-29 00:00:00,PerkinElmer to Present at Goldman Sachs Global Healthcare Conference,,2012-05-30 00:00:00,
+p0235,0.5580792427062988,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Toyota'],Japan Inc. Cashes in on Abenomics as Toyota Profit to Rise,"Japanese Prime Minister Shinzo Abe’s economic recovery plan is filling the coffers of manufacturers from Toyota Motor Corp. (7203) to Sony Corp. (6758) As the exporters prepare to announce first-quarter earnings this week, 14 of Japan ’s 27 largest are projected to beat their own full-year operating profit forecasts by 5 percent or more, according to data compiled by Bloomberg. Net income may surge 75 percent from a year earlier among companies that sell abroad and 33 percent at domestic-oriented firms, UBS AG said this month. Abe’s drive to end 15 years of deflation in Japan through monetary ",2013-07-29 08:38:55,"Toyota, nearing record profit, slows in Southeast Asia",,2013-08-01 00:00:00,
+p0236,0.5683367252349854,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],JPMorgan Sued for $95 Million Over Mortgage Securities,"JPMorgan Chase & Co. (JPM) , the biggest
+U.S. bank by assets, was sued for about $95 million over
+ mortgage loans bundled into securities. JPMorgan “materially breached” representations about
+loans backing the securities, a mortgage-securitization trust
+said in a summons filed Dec. 30 in New York State Supreme Court
+in Manhattan. The Bear Stearns trust is seeking damages of at least
+$95 million, according to the court filing. Bear Stearns Cos.,
+which was acquired by JPMorgan, and EMC Mortgage Corp. are also
+named as defendants. Jennifer Zuccarelli , a JPMorgan spokeswoman, declined to
+comment ",2012-01-03 17:09:42,PwC Fined $2.17 Million by U.K. Regulator Over JPMorgan Client-Money Audit,"PricewaterhouseCoopers LLP was fined
+a record 1.4 million pounds ($2.17 million) for failures
+concerning reports on client-money accounts at JPMorgan Chase &
+Co. (JPM) ’s London securities unit. PwC’s “acts of misconduct merit a severe reprimand,” the
+ Accountancy & Actuarial Discipline Board said in a judgment 
+released today. PwC failed to notice that J.P. Morgan Securities
+Ltd. hadn’t properly segregated an average of $8.6 billion of
+client funds from the firm’s accounts in reports to the U.K.’s
+Financial Services Authority for the seven years through 2008. JPMorgan discovered the error in ",2012-01-06 00:01:00,
+p0237,0.5608508586883545,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Wells Fargo'],Wells Fargo & Company Announces Dividend,,2012-01-24 00:00:00,Wells Fargo and Enfinity Announce $100 Million Solar Fund,,2012-01-25 00:00:00,
+p0238,0.594799280166626,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Wells Fargo'],Kennametal Management to Meet with Financial Community at Wells Fargo Securities Industrial and Construction Conference,,2013-04-30 00:00:00,Lennox International to Present at Wells Fargo Conference,,2013-05-03 00:00:00,
+p0239,0.5712984204292297,"[0.55, 0.60)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],Apple's iPhone loses China market share,,2012-02-17 00:00:00,China Telecom says in deal with Apple to sell iPhones in China,,2012-02-20 00:00:00,
+p0240,0.615852952003479,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],News Corp to Participate in Goldman Sachs Communacopia Conference,,2013-09-23 00:00:00,Gannett Reports Significant Progress on its Strategic Growth Plan at Goldman Sachs Communacopia,,2013-09-26 00:00:00,
+p0241,0.6468743681907654,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],Comcast to Participate in Morgan Stanley Investor Conference,,2013-02-18 00:00:00,"Blue Nile to Present at Morgan Stanley Technology, Media & Telecom Conference",,2013-02-19 00:00:00,
+p0242,0.6473526954650879,"[0.60, 0.65)",SAME,3_of_3,SAME,SAME,SAME,['Walmart'],UPDATE 2-Walmart holiday hiring to outpace U.S. retail industry,,2013-09-23 00:00:00,Wal-Mart Hires Workers for Holidays Amid Shelf Complaints,"Wal-Mart Stores Inc. (WMT) is hiring
+55,000 seasonal workers and adding another 70,000 part-time and
+full-time workers as it gears up for the holiday season and
+reverses workforce reductions that have made it hard to keep
+store shelves stocked. The company is moving 35,000 part-time workers to full-time
+status and is elevating another 35,000 to part-time from
+temporary, the Bentonville, Arkansas-based retailer said today
+in a statement. The 70,000 workers will be elevated in the next
+few months and will keep their new posts after the holiday
+season ends, said Kory Lundberg, a Wal-Mart spokesma",2013-09-23 20:07:55,
+p0243,0.6114839315414429,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Bank of America'],"Bank of America, Syncora settle mortgage fraud lawsuit",,2012-07-17 00:00:00,BofA Profit Rebound Marred by $22.7 Billion in Mortgage Claims,"Bank of America Corp. ’s second-
+quarter results were marred by record claims for refunds on
+faulty mortgages, casting doubt on whether improvements in the
+lender’s real estate operations will last. A cut in reserves for bad loans helped the Charlotte , North
+Carolina-based company swing to a $2.46 billion profit from a
+record $8.83 billion loss a year earlier as the bank reported
+today that fewer borrowers fell behind on payments. At the same
+time, the bank said demands for buybacks from mortgage-bond
+investors and insurers surged more than $6 billion in three
+months to $22.7 billion. “We don",2012-07-18 21:09:38,
+p0244,0.6463985443115234,"[0.60, 0.65)",SAME,3_of_3,SAME,SAME,SAME,['Verizon'],U.S. NSA is collecting phone records of Verizon customers -report,,2013-06-05 00:00:00,U.S. Culling Verizon Phone Data Defended as Terror Shield,"The Obama administration and Senate Intelligence Committee leaders of both parties defended the secret collection of telephone records of millions of U.S. residents as critical to combating terrorism, with one lawmaker saying such surveillance thwarted a “significant” plot. As some members of Congress condemned the program as an intrusion in the lives of innocent Americans, the White House said Congress was regularly updated and all rules were followed. Lawmakers confirmed they knew of the classified court order compelling Verizon Communications Inc. (VZ) to provide data on its customers’ call",2013-06-06 23:07:33,
+p0245,0.6212700605392456,"[0.60, 0.65)",SAME,3_of_3,SAME,SAME,SAME,['Bank of America'],BRIEF-Bank of America CFO bruce Thompson speaking at investor conference,,2012-09-10 00:00:00,BofA looking to grow loans after divestitures-CFO,,2012-09-10 00:00:00,
+p0246,0.6278770565986633,"[0.60, 0.65)",DIFFERENT,2_of_3,SAME,DIFFERENT,DIFFERENT,['AT&T'],SBA Communications Corporation Releases Information Regarding Contemplated Combination of AT&T; and Leap Wireless,,2013-07-15 00:00:00,"LEAP Stockholders Seeking More Money, Important Information Regarding AT&T; Merger Encouraged to Contact Securities Lawyers at Deans & Lyons",,2013-07-16 00:00:00,
+p0247,0.6141696572303772,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],"Cincinnati Bell to Present at Morgan Stanley Technology, Media & Telecom Conference",,2013-02-22 00:00:00,Equinix to Present at Morgan Stanley and Raymond James Investor Conferences,,2013-02-25 00:00:00,
+p0248,0.6057118773460388,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Bank of America'],Sonic to Attend Bank of America Merrill Lynch 2013 Consumer & Retail Conference,,2013-03-06 00:00:00,"TRW to Present at the Bank of America Merrill Lynch 2013 New York Auto Summit on March 27, 2013",,2013-03-08 00:00:00,
+p0249,0.6277145743370056,"[0.60, 0.65)",SAME,2_of_3,SAME,SAME,DIFFERENT,['IBM'],"SHAREHOLDER ALERT: Law Firm of Levi & Korsinsky, LLP Announces Investigation into Possible Breaches of Fiduciary Duty by the Board of Kenexa Corp. in Connection with the Sale of the Company to IBM Corp.",,2012-08-27 00:00:00,IBM to Buy Social-Business Company Kenexa for $1.3 Billion,"International Business Machines
+Corp. (IBM) agreed to buy Kenexa Corp. (KNXA) for about $1.3 billion in cash,
+adding social-networking services that help companies handle
+human resources and recruiting. IBM will pay $46 a share for the Wayne, Pennsylvania-based
+company, a 42 percent premium over the stock’s closing price on
+Aug. 24. The deal is expected to be completed in the fourth
+quarter, IBM said today in a statement. The purchase bolsters IBM’s business-analytics software,
+which helps companies cull vast amounts of data to make
+decisions and study trends. Kenexa works with more than 8,900",2012-08-27 20:15:53,
+p0250,0.6329501867294312,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],Apple signs deal with Warner for streaming music: reports,,2013-06-03 00:00:00,"Apple to sell audio ads on ""iRadio"" music service -sources",,2013-06-05 00:00:00,
+p0251,0.6443882584571838,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - JPMorgan Eur Small - Tender Offer,,2012-05-09 00:00:00,REG - JPMorgan Overseas - Top Ten Largest Investments,,2012-05-11 00:00:00,
+p0252,0.6346156597137451,"[0.60, 0.65)",SAME,3_of_3,SAME,SAME,SAME,['Facebook'],UPDATE 5-Facebook smashes analyst targets but executive comments spook Street,,2013-10-30 00:00:00,"FACTBOX: Facebook results beat, but young teens turn away",,2013-10-30 00:00:00,
+p0253,0.6097440719604492,"[0.60, 0.65)",DIFFERENT,2_of_3,DIFFERENT,UNCLEAR,DIFFERENT,['Bank of America'],Bank of America Merrill Lynch Launches Controlled Account in Mexico,,2013-05-23 00:00:00,MOVES-Bank of America Merrill Lynch,,2013-05-24 00:00:00,
+p0254,0.6182593107223511,"[0.60, 0.65)",SAME,3_of_3,SAME,SAME,SAME,['Ford'],Sanchez Energy buys Eagle Ford assets from Hess for $265 mln,,2013-03-18 00:00:00,Sanchez Energy Invites You to Join Its Eagle Ford Acquisition Conference Call,,2013-03-20 00:00:00,
+p0255,0.627948522567749,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],Covidien to Present at J.P. Morgan Healthcare Conference,,2013-12-30 00:00:00,The Advisory Board Company to Present at 32nd Annual J.P. Morgan Healthcare Conference,,2013-12-31 00:00:00,
+p0256,0.6437968015670776,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Bank of America'],"Capital Senior Living Corporation to Present at the Bank of America Merrill Lynch 2013 Health Care Conference on Wednesday, May 15, 2013",,2013-05-03 00:00:00,SolarCity to Present at the 2013 Bank of America Merrill Lynch Smid Cap Conference,,2013-05-06 00:00:00,
+p0257,0.6011078357696533,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],"Goldman Beats Estimates on Investment Banking, Debt Gains","Goldman Sachs Group Inc. (GS) said earnings doubled, beating analysts’ estimates on a surge in underwriting revenue and gains from the firm’s own investments. Second-quarter net income rose to $1.93 billion, or $3.70 a share, from $962 million, or $1.78, a year earlier, the New York-based company said today in a statement. That beat the $2.89 average estimate of 27 analysts in a Bloomberg survey. Gains from debt investments almost tripled and fixed-income trading climbed 12 percent as Chief Executive Officer Lloyd C. Blankfein, 58, led Goldman Sachs through a drop in bond prices sparked by ind",2013-07-16 20:06:33,BofA to Goldman Sachs Lead $30 Billion of Bond Offerings in U.S.,"Bank of America Corp. and Goldman
+Sachs Group Inc. (GS) led at least $30 billion of corporate bond
+ sales in the U.S. this week, the busiest period in almost two
+months, as relative yields narrowed. Bank of America, the second-biggest U.S. lender, sold $2
+billion of 10-year securities and New York-based Goldman Sachs
+issued $2.5 billion at its lowest relative yield for five-year
+debt since the financial crisis, according to data compiled by
+Bloomberg. Offerings increased from $24.6 billion last week and
+were the most since $36.8 billion in the five days ended May 24. The extra yield investors ",2013-07-19 14:07:13,
+p0258,0.6252118349075317,"[0.60, 0.65)",SAME,2_of_3,SAME,SAME,DIFFERENT,['JPMorgan'],JPMorgan mortgage deal with U.S. government likely for Tuesday -source,,2013-11-18 00:00:00,JPMorgan $13 Billion Mortgage Deal Seen as Lawsuit Shield,"JPMorgan Chase & Co. (JPM) ’s record $13
+billion deal to end probes into mortgage-bond sales may save the
+bank billions more because of what the agreement lacked: an
+explicit admission of wrongdoing. Employees of JPMorgan and two firms it acquired knew some
+of the loans included in bonds didn’t meet underwriting
+standards, a fact not shared with buyers of those securities,
+the U.S. Justice Department said yesterday in a statement. That
+doesn’t mean the company misled investors, said Chief Financial
+Officer Marianne Lake, disputing how some state and federal
+officials characterized the deal. JP",2013-11-20 14:39:01,
+p0259,0.6098907589912415,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],Rajat Gupta Judge Says He’s Inclined to Allow July 2008 Call,"The judge presiding over Rajat
+Gupta’s trial for insider trading said he’s inclined to let
+prosecutors introduce a secretly recorded July 2008 phone call. On the call, Gupta discloses to Galleon Group co-founder
+Raj Rajaratnam details of a Goldman Sachs Group Inc. (GS) board
+meeting about the bank acquiring a commercial bank or American
+International Group Inc. (AIG) U.S. District Judge Jed Rakoff in
+Manhattan said that he will hear arguments from both sides
+before making a final ruling. To contact the reporter on this story:
+Patricia Hurtado in New York at 
+ pathurtado@bloomberg.net To contac",2012-05-16 16:17:50,Gupta’s Lawyer Seeks Victory Where Rajaratnam’s Failed,"Galleon Group LLC co-founder Raj Rajaratnam, for his trial last year on insider-trading charges,
+selected as his lawyer a combative ex-Marine who cursed at a
+cameraman after court one day. The jury, citing overwhelming evidence, voted to convict. Rajat Gupta -- the ex- Goldman Sachs Group Inc. (GS) director
+whose own insider-trading trial begins May 21 -- chose a lawyer
+with a different style: Gary Naftalis , an affable presence in
+the elite New York white-collar defense bar who recently
+attended a reception for a Rajaratnam prosecutor at his new law
+firm and who socializes with the judge pres",2012-05-19 04:01:01,
+p0260,0.6222147345542908,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Citigroup'],"The Zacks Analyst Blog Highlights: Citigroup, JPMorgan Chase, U.S. Bancorp, Nissan Motor and Ford Motor",,2012-04-24 00:00:00,"Zacks Bull and Bear of the Day Highlights: Intuitive Surgical, Leggett & Platt, Bank of America, Morgan Stanley and Citigroup",,2012-04-25 00:00:00,
+p0261,0.647114098072052,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Bank of America'],Community Health Systems to Participate in The Bank of America Merrill Lynch 2012 Leveraged Finance Conference,,2012-11-27 00:00:00,Scientific Games to Present at Bank of America Merrill Lynch 2012 Leveraged Finance Conference,,2012-11-29 00:00:00,
+p0262,0.6102170944213867,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Verizon'],"UPDATE 2-Verizon, Vodafone to announce $130 bln US deal on Monday",,2013-09-01 00:00:00,Vodafone’s Project Spring Puts $10 Billion in High-Speed Network,"Vodafone Group Plc (VOD) ’s sale of its
+ Verizon Wireless stake will usher in what Chief Executive
+Officer Vittorio Colao called a new chapter focused on expanding
+services and strengthening the company’s presence where it
+already exists. Vodafone, the world’s second-biggest mobile-phone carrier,
+dubbed it Project Spring, and said it’ll use about $10 billion
+from the sale for upgrades, giving it faster, fourth-generation
+wireless coverage across 90 percent of its five biggest markets
+in Europe by 2017, Colao said in a conference call today. “Now is the time for Vodafone to step up its investme",2013-09-03 13:38:15,
+p0263,0.6453968286514282,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Bank of America'],Informatica to Present at Bank of America Merrill Lynch Technology Conference,,2012-05-07 00:00:00,MannKind to Present at Bank of America Merrill Lynch 2012 Health Care Conference,,2012-05-08 00:00:00,
+p0264,0.6219748258590698,"[0.60, 0.65)",SAME,3_of_3,SAME,SAME,SAME,['AT&T'],AT&T; could buy wireless assets in Europe -CEO,,2013-09-24 00:00:00,AT&T’s European Expansion Seen as Perilous Growth Strategy,"AT&T Inc. (T) , which is considering an
+expansion across the Atlantic, faces the same realities that
+undermined European deals a decade ago: Doing business in the
+region is costly, complicated and highly regulated. Phone companies have tried and failed to reap benefits from
+global networks, said Craig Moffett, founder of researcher
+MoffettNathanson LLC. In Europe, AT&T would have to contend with
+a fragmented, price-sensitive market, with a patchwork of
+governments hampering efforts to create a regional network. “There simply aren’t sufficient economic benefits to
+global scale,” said Moffett, w",2013-09-26 20:43:04,
+p0265,0.606235682964325,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Walmart'],"Wal-Mart Stores, Inc. to present at the 33rd Annual William Blair Growth Stock Conference",,2013-06-05 00:00:00,"UPDATE 1-Wal-Mart annual meeting: glitz, songs, stock buyback, protests",,2013-06-07 00:00:00,
+p0266,0.6476660370826721,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],Comcast to Participate in Morgan Stanley Investor Conference,,2013-02-18 00:00:00,AT&T; to Webcast Presentation by John Stephens at Morgan Stanley Conference on February 26,,2013-02-19 00:00:00,
+p0267,0.6224775314331055,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG-JPMorgan Asset Management FORM 8.3 - Chemring Group Plc,,2012-08-29 00:00:00,REG - JPMorgan Small Co IT - Total Voting Rights,,2012-08-31 00:00:00,
+p0268,0.6245669722557068,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Bank of America'],"Five Star Quality Care, Inc. to Present at the Bank of America Merrill Lynch 2013 Health Care Conference on May 14, 2013",,2013-05-07 00:00:00,GenMark Diagnostics to Present at the Bank of America Merrill Lynch 2013 Healthcare Conference,,2013-05-10 00:00:00,
+p0269,0.6361280083656311,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Verizon'],"Verizon Invested More Than $525 Million in 2012 on Wireline Communications, IT Infrastructure in Pennsylvania",,2013-02-14 00:00:00,Verizon Wireless Completes $267 Million In Network Enhancements In New York Metro Region,,2013-02-15 00:00:00,
+p0270,0.6317936182022095,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],"ON THE MOVE-Morgan Stanley hires brokers from Merrill, Barclays",,2012-12-03 00:00:00,UPDATE 1-Morgan Stanley shifts broker bonuses to reward growth,,2012-12-06 00:00:00,
+p0271,0.6008511781692505,"[0.60, 0.65)",SAME,2_of_3,UNCLEAR,SAME,SAME,['Twitter'],Twitter to raise up to $1.44bln; Stocks gain,,2013-10-24 00:00:00,Twitter IPO as Economical as Its Tweets With 27% Discount,"Twitter Inc. (TWTR) ’s $10.9 billion initial public offering valuation is as economical as its 140-character tweets. The San Francisco-based company is seeking a valuation of 9.5 times 2014 sales in its IPO next month, according to data released in a filing with the Securities and Exchange Commission yesterday and analyst projections compiled by Bloomberg. That’s 27 percent cheaper than the 12.9 times 2014 sales that Facebook Inc. (FB) traded at as of yesterday, and 29 percent lower than LinkedIn Corp. (LNKD) ’s multiple of 13.4 times sales, the data show. The discount Twitter is offering unde",2013-10-25 15:42:37,
+p0272,0.6162280440330505,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],"Worldwide Smart Connected Device Market, Led by Samsung and Apple, Grew 27.1% in the Third Quarter, According to IDC",,2012-12-10 00:00:00,Strategy Analytics: Samsung and Apple Surge Ahead in Consumer Brand Preference,,2012-12-12 00:00:00,
+p0273,0.6486890316009521,"[0.60, 0.65)",SAME,3_of_3,SAME,SAME,SAME,['Goldman Sachs'],Goldman officials get over $100 million in stock-filings,,2013-01-18 00:00:00,Goldman Raises CEO’s Stock Bonus 90% to $13.3 Million,"(Corrects 2007 payout in third paragraph of story
+published Jan. 18.) Goldman Sachs Group Inc. (GS) boosted
+Chief Executive Officer Lloyd C. Blankfein’s stock bonus 90
+percent to $13.3 million, topping JPMorgan Chase & Co. (JPM) ’s Jamie Dimon for the first time in five years, as profit climbed . While the bank didn’t disclose Blankfein’s cash bonus, a
+person familiar with the payout said his total bonus was about
+70 percent restricted stock and 30 percent cash, like last year.
+On that basis, the total would be about $19 million including
+$5.7 million in cash. Pay for Blankfein, whose $67.9 mi",2013-01-19 14:54:59,
+p0274,0.6427003741264343,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Bank of America'],KEMET to Present at Bank of America Merrill Lynch 2013 Leveraged Finance Conference,,2013-12-02 00:00:00,Plum Creek CEO to Speak at the Bank of America Merrill Lynch 2013 US Basic Materials Conference,,2013-12-03 00:00:00,
+p0275,0.6036750674247742,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['ExxonMobil'],Exxon Starting Development of $4 Billion Gulf of Mexico Field,"Exxon Mobil Corp. (XOM) , the largest U.S.
+oil company, said it will invest more than $4 billion in the
+development of its Julia oil field in the Gulf of Mexico . Oil production is expected to start in 2016 from the field,
+which was discovered in 2007, Irving, Texas-based Exxon said in
+a statement today. The resource in place is estimated to be
+almost 6 billion barrels, Exxon said. The Julia unit was the subject of a 2011 Exxon lawsuit
+against the U.S. over the government’s decision to cancel the
+offshore leases because Exxon hadn’t proceeded quickly enough
+with development. The litigation was",2013-05-07 23:38:07,Exxon to Build $10 Billion U.S. LNG Export Plant With Qatar,"Exxon Mobil Corp. (XOM) , the largest energy
+company by market value, signed an agreement with Qatar
+Petroleum International to move forward with construction of a
+$10 billion natural gas export terminal in Texas . The project will involve installing liquefaction equipment
+at an existing import facility in Sabine Pass, Texas, according
+to an e-mailed statement today from Golden Pass Products LLC, a
+subsidiary formed by the two companies. It won permission last
+year to export the fuel to nations with free-trade agreements
+with the U.S. and is awaiting approval to send the fuel to all
+other coun",2013-05-09 20:20:05,
+p0276,0.6255573034286499,"[0.60, 0.65)",SAME,2_of_3,SAME,SAME,DIFFERENT,['Apple'],Apple to Refresh IPads Amid Challenges for Tablet Share,"Apple Inc. (AAPL) is upgrading its iPad lineup to fend off a growing list of competitors, which are introducing their own tablets at lower prices with snazzier features. Chief Executive Officer Tim Cook will debut a high-definition iPad mini and a thinner iPad at a San Francisco event tomorrow, people with knowledge of the plans have said. Facing two straight quarters of declining profit and a stock that’s down by more than a quarter from a September 2012 record, Apple is facing a similar challenge with the iPad as it has with the iPhone, battling lower-cost rivals and proving that incremental",2013-10-21 04:01:00,"Apple kicks off Tuesday event, expected to show new iPads",,2013-10-22 00:00:00,
+p0277,0.6147894263267517,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Verizon'],"Verizon Wireless Enhances 4G LTE Coverage in and around Bath, Maine",,2013-06-25 00:00:00,Verizon Wireless 4G LTE Network Now Substantially Complete In Georgia,,2013-06-28 00:00:00,
+p0278,0.6273540258407593,"[0.60, 0.65)",SAME,3_of_3,SAME,SAME,SAME,['Microsoft'],CEO Ballmer retires as Microsoft struggles to modernize,,2013-08-23 00:00:00,Microsoft CEO Ballmer Said to Discuss Exit in 2010,"Microsoft Corp. (MSFT) Chief Executive Officer Steve Ballmer has been contemplating his departure from the world’s largest software maker for at least three years. Ballmer and the company’s board started discussing succession planning as early as 2010, said a person with knowledge of the matter, who asked not to be identified because the deliberations were private. The conversations centered on what attributes Ballmer and other board members wanted in a new CEO. That led to Ballmer exposing internal CEO candidates to the board and also meeting with external candidates, said the person. The exi",2013-08-24 04:01:00,
+p0279,0.610322892665863,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Citigroup'],REG - Citigroup Global MktSportingbet PLC - Form 8.5 (EPT/RI) Amendment,,2012-09-21 00:00:00,REG - Citigroup Global MktPetrobras Energia SA - Stabilisation Notice,,2012-09-24 00:00:00,
+p0280,0.6303602457046509,"[0.60, 0.65)",DIFFERENT,2_of_3,UNCLEAR,DIFFERENT,DIFFERENT,['Apple'],RPT-Apple's new iPad making waves in video game market,,2012-03-12 00:00:00,Apple touches record high as iPad 3 sales run hot,,2012-03-15 00:00:00,
+p0281,0.6128754615783691,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Google'],"WRAPUP 2-Google gets US, EU nod to buy Motorola Mobility",,2012-02-13 00:00:00,China anti-monopoly bureau looking into Google/Motorola deal,,2012-02-15 00:00:00,
+p0282,0.6484987735748291,"[0.60, 0.65)",SAME,2_of_3,SAME,SAME,DIFFERENT,['Google'],Google Probe by French Privacy Agency May Prompt More Inquiries,"Google Inc. (GOOG) could face a fresh
+round of criticism from European watchdogs after a French
+regulator reports on whether changes to its privacy policy
+violate data-protection rules. France ’s National Commission for Computing and Civil
+Liberties , or CNIL, will announce its conclusions tomorrow.
+Given the European Union’s patchwork approach to data
+protection, regulators may then decide to pursue their own cases
+against the company. As a result, the matter may not end with France for Google,
+said Nick Graham, a data protection lawyer at SNR Denton in
+ London . “While CNIL’s views will be p",2012-10-14 22:00:01,Legal flaws in Google privacy policy - EU data regulators,,2012-10-15 00:00:00,
+p0283,0.6370609402656555,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Citigroup'],Citigroup Reports First Quarter 2012 Earnings Per Share1 of $0.95 -- $1.11 Excluding the Impact of Negative CVA/DVA2 And a Net Gain on Minority Investments3,,2012-04-16 00:00:00,Citigroup Declares Dividends,,2012-04-18 00:00:00,
+p0284,0.6397451758384705,"[0.60, 0.65)",DIFFERENT,2_of_3,DIFFERENT,SAME,DIFFERENT,['ExxonMobil'],Rosneft to Buy TNK-BP for $55 Bln in 3rd-Biggest Oil Deal,"OAO Rosneft (ROSN) agreed to buy TNK-BP, a
+50-50 venture between BP Plc (BP/) and a group of billionaires, for
+$54.8 billion in the third-biggest oil acquisition ever. After the deal, state-run Rosneft will match the output of
+ Exxon Mobil Corp. (XOM) , the world’s largest publicly traded oil
+producer, and control more than 40 percent of Russia’s crude
+output. President Vladimir Putin, who’s sought to reassert
+government control over the oil and gas industry, said today’s
+accord was important for the Russian economy. “This deal is in line with the Russian government’s
+strategy of reversing the",2012-10-22 16:50:56,"Cleary, Linklaters, Wachtell, Fasken: Business of Law","Cleary Gottlieb Steen & Hamilton LLP 
+advised OAO Rosneft (ROSN) , which agreed to buy TNK-BP, a 50-50 venture
+between BP Plc (BP/) and a group of billionaires, for $54.8 billion in
+the third-biggest oil acquisition ever. Linklaters LLP are
+principal legal advisers for BP. The core Cleary Gottlieb team includes partners Russell Pollack and Daniel Braverman on corporate aspects. Partner
+Antoine Winckler is advising on antitrust matters, and partner
+Murat Akuyev on Russian law matters. Linklaters’s team advising BP was led by partners Stephen
+Griffin and Jeremy Parr, corporate; and Michael Benne",2012-10-23 11:11:54,
+p0285,0.6316851377487183,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],Tyco to Present at the Morgan Stanley Industrials & Autos Conference,,2013-08-26 00:00:00,Incyte to Present at the Morgan Stanley Global Healthcare Conference,,2013-08-28 00:00:00,
+p0286,0.6043111681938171,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - AIM - Nomad Name Change - J.P. Morgan Securities Ltd,,2012-07-10 00:00:00,REG - JPMorgan Overseas - Ten Largest Investments,,2012-07-10 00:00:00,
+p0287,0.6070956587791443,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['ExxonMobil'],CORRECTED-(OFFICIAL)-Exxon eyes Interoil assets for PNG LNG expansion,,2013-05-27 00:00:00,UPDATE 1-ExxonMobil completes Singapore chemical plant expansion,,2013-05-30 00:00:00,
+p0288,0.610486626625061,"[0.60, 0.65)",DIFFERENT,2_of_3,DIFFERENT,SAME,DIFFERENT,"['Facebook', 'Morgan Stanley']",Facebook Banker Morgan Stanley Props Up Price It Helped Boost,"Morgan Stanley (MS) 's reputation as lead
+underwriter may suffer from the stock market debut of Facebook 
+Inc., whose initial public offering left investors in the 
+largest social network disappointed. The bank stepped in to prop up the stock from dipping below
+its $38 IPO price yesterday, said people with knowledge of the
+matter, who asked not to be identified because the purchases
+were private. Morgan Stanley, based in New York , was the only
+underwriter among Facebook’s 33 banks with the responsibility to
+support the shares , the people said. Underwriters “are acting like the cavalry to kee",2012-05-19 04:01:00,Exclusive: Regulators may review Morgan Stanley-Facebook allegations,,2012-05-22 00:00:00,
+p0289,0.6117848753929138,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],Fitch Affirms Morgan Stanley Re-Remic Trust 2011-IO,,2012-06-19 00:00:00,REG-Morgan Stanley Morgan Stanley Statement on Moodyâs Two-Notch Downgrade,,2012-06-22 00:00:00,
+p0290,0.6241044998168945,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Verizon'],Verizon Wireless' 4G LTE Network Now Reaches Thousands Of San Francisco College Students,,2012-10-05 00:00:00,"Verizon Wireless ""4G LTE Update: The Road Ahead"" At MobileCONâ¢ 2012 In San Diego",,2012-10-08 00:00:00,
+p0291,0.6089432835578918,"[0.60, 0.65)",SAME,3_of_3,SAME,SAME,SAME,['AT&T'],AT&T; subscriber growth beats but profit margin misses,,2013-01-24 00:00:00,Strong Growth in Wireless and U-verse Drives Revenue and Adjusted Earnings Per Share Growth in AT&T;`s Fourth-Quarter Results,,2013-01-24 00:00:00,
+p0292,0.6373598575592041,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Bank of America'],Sonic to Attend Bank of America Merrill Lynch 2013 Consumer & Retail Conference,,2013-03-06 00:00:00,"Eaton to Participate in the Bank of America Merrill Lynch Global Industrials & EU Autos Conference March 19, 2013",,2013-03-08 00:00:00,
+p0293,0.6129086017608643,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Facebook'],Nasdaq alters IPO procedures after Facebook glitch,,2012-05-21 00:00:00,REFILE-Facebook exec ducks questions about IPO debacle,,2012-05-24 00:00:00,
+p0294,0.6290630102157593,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - JPMorgan Indian Inv - Interim Management Statement,,2012-02-14 00:00:00,REG - JPMorgan Euro IT PLCJPMorgan Euro IT Inc - Transaction in Own Shares,,2012-02-17 00:00:00,
+p0295,0.6145211458206177,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - JPMorgan Jap Smllr - Conversion of Securities,,2012-04-02 00:00:00,REG - JPMorgan Chase & Co - 2012 Proxy Statement,,2012-04-05 00:00:00,
+p0296,0.6058377027511597,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Walmart'],Asian Stocks Advance on Optimism Region Weathering Europe Crisis,"Asian stocks (MXAPJ) rose, with a regional
+gauge heading for a three-week high, as manufacturing growth
+from Australia, China and India added to optimism the region’s
+economies will withstand Europe’s sovereign-debt crisis. BHP Billiton Ltd. (BHP) , which gets about 28 percent of sales
+from China, gained 1.1 percent in Sydney. Industrial &
+Commercial Bank of China (601398) Ltd., the world’s No. 1 lender by
+market value, advanced 3 percent as trading in Hong Kong 
+resumed. Li & Fung Ltd. (494) , a supplier of toys and clothes to
+retailers including Wal-Mart Stores Inc., climbed 6 percent on
+spe",2012-01-03 11:02:16,Hong Kong Stocks Decline as Wen Warns of ‘Difficult’ Conditions for China,"Hong Kong stocks (HSI) fell as Premier Wen
+Jiabao said China faces “relatively difficult” business
+conditions, tempering gains by exporters on better-than-
+estimated economic data from the U.S. and Germany . Swire Pacific Ltd. (19) , the Hong Kong developer, retailer and
+airline operator, led declines, dropping 14 percent as it spins
+off its property unit. Agile Property Holdings Ltd., a developer
+of properties in mainland China, fell 6.5 percent. Li & Fung
+Ltd., the biggest supplier to Wal-Mart Stores Inc., climbed 0.7
+percent as U.S. manufacturing increased and German unemployment
+unexpected",2012-01-04 08:49:46,
+p0297,0.6112426519393921,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],"JPMorgan $2 billion loss hits shares, credit, image",,2012-05-12 00:00:00,"UPDATE 9-FBI launches JPMorgan probe, shareholders back Dimon",,2012-05-15 00:00:00,
+p0298,0.6128894090652466,"[0.60, 0.65)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Bank of America'],Informatica to Present at Bank of America Merrill Lynch Technology Conference,,2012-05-07 00:00:00,Spectrum Pharmaceuticals to Present at the Bank of America Merrill Lynch 2012 Health Care Conference,,2012-05-08 00:00:00,
+p0299,0.6045596599578857,"[0.60, 0.65)",SAME,3_of_3,SAME,SAME,SAME,['Bank of America'],"BofA Merrill Lynch Fund Manager Survey Finds Investors Moderating Earlier Exuberance, Though Still Positive",,2013-04-16 00:00:00,Investors Most Bullish on Japan Stocks Since 2006,"Investors are the most bullish on
+Japanese stocks for more than six years, while they are selling
+euro-area equities amid renewed concern about the region’s debt
+crisis, a Bank of America Corp. (BAC) survey showed. A net 20 percent of global money managers, who together
+oversee about $578 billion, said they were overweight Japan this
+month, the highest proportion since 2006 as Prime Minister
+Shinzo Abe increased stimulus in the world’s third-biggest
+economy. A net 8 percent said they held less euro-region
+equities than benchmark indexes for the first time in eight
+months. Managers’ allocations",2013-04-16 12:30:00,
+p0300,0.6804603338241577,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - AIM - Nomad Name Change - J.P. Morgan Securities Ltd,,2012-07-10 00:00:00,"REG - JPMorgan Chase & CoJPMorgan ChaseBankJPMorgan Bnk Dublin - Form 8-K's dated July 13, 2012",,2012-07-13 00:00:00,
+p0301,0.6808193325996399,"[0.65, 0.70)",SAME,3_of_3,SAME,SAME,SAME,['IBM'],"IBM misses estimates, but sees potential in new âgrowth initiativesâ",,2013-04-18 00:00:00,IBM Profit Misses Estimates for First Time Since 2005,"International Business Machines
+Corp. (IBM) , the largest computer-services provider, fell the most in
+eight years after missing profit estimates, hurt by a hardware
+slump and the failure to sign customers to contracts. The shares dropped 8.3 percent to $190 at the close in New
+York , the biggest one-day decline since April 15, 2005. The
+tumble wiped out the stock’s gains for the year, a month after
+it hit a record high. The Armonk, New York-based company posted first-quarter
+profit of $3 a share yesterday, missing the $3.05 predicted by
+analysts. It was the first earnings shortfall since 2005",2013-04-19 20:11:36,
+p0302,0.6808269023895264,"[0.65, 0.70)",DIFFERENT,2_of_3,UNCLEAR,DIFFERENT,DIFFERENT,['JPMorgan'],Exclusive: JPMorgan faces action on laundering controls,,2013-01-11 00:00:00,UPDATE 1-JPMorgan ordered to improve controls after 'Whale' loss,,2013-01-14 00:00:00,
+p0303,0.6753594875335693,"[0.65, 0.70)",SAME,2_of_3,SAME,SAME,DIFFERENT,['JPMorgan'],JPMorgan mortgage deal with U.S. government likely for Tuesday -source,,2013-11-18 00:00:00,JPMorgan agrees $13 billion settlement with U.S. over bad mortgages,,2013-11-19 00:00:00,
+p0304,0.6597514152526855,"[0.65, 0.70)",DIFFERENT,2_of_3,DIFFERENT,SAME,DIFFERENT,['AT&T'],SBA Communications Corporation Releases Information Regarding Contemplated Combination of AT&T; and Leap Wireless,,2013-07-15 00:00:00,SHAREHOLDER ALERT: Levi & Korsinsky Announces Investigation into Possible Breaches of Fiduciary Duty by the Board of Leap Wireless International Inc. in Connection with the Sale of the Company To AT&T; Inc.,,2013-07-16 00:00:00,
+p0305,0.680673360824585,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],"Actavis, Inc. to Present at the Goldman Sachs 34th Annual Global Healthcare Conference 2013",,2013-06-04 00:00:00,Infinity to Present at the Goldman Sachs 34th Annual Global Healthcare Conference,,2013-06-05 00:00:00,
+p0306,0.6779316663742065,"[0.65, 0.70)",SAME,3_of_3,SAME,SAME,SAME,['Amazon'],BRIEF-Amazon.com unveils new kindle fire for $159,,2012-09-06 00:00:00,Amazon Challenges Apple With Updated Line of Kindles,"Amazon.com Inc. (AMZN) unveiled a new line of bigger, faster and sleeker Kindle e-readers and tablets, presenting a fresh challenge to Apple Inc. (AAPL) ’s dominance of the market with the iPad. The Seattle-based Web retailer introduced devices yesterday ranging in price from a $69 ad-supported e-reader to the $599 top-of-the-line Kindle Fire HD, backed by 22 million movies, TV shows, songs, apps, games, books and magazines. Chief Executive Officer Jeff Bezos is retooling the tablets as consumers face a widening array of choices, including new entries from Google Inc. (GOOG) and Microsoft Corp",2012-09-07 20:11:50,
+p0307,0.6574549674987793,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],"Blue Nile to Present at Morgan Stanley Technology, Media & Telecom Conference",,2013-02-19 00:00:00,"Liberty Global to Present at the Morgan Stanley Technology, Media & Telecom Conference",,2013-02-22 00:00:00,
+p0308,0.6720154285430908,"[0.65, 0.70)",DIFFERENT,2_of_3,DIFFERENT,SAME,DIFFERENT,"['Apple', 'Google']","Apple, J&J, Tesla, Intel, Sirius: Intellectual Property","Apple Inc. won an appeals court
+ruling that lets it argue anew that Google Inc. (GOOG) ’s Motorola
+Mobility infringed its patents for touchscreen technology. The appeals court ordered the U.S. International Trade
+Commission in Washington to consider whether Motorola Mobility
+infringed one patent, and review whether an aspect of a second
+patent was valid. The U.S. Court of Appeals for the Federal
+Circuit, which posted the opinion on its website yesterday,
+upheld invalidity findings on other aspects of that patent. The case focused on what an Apple lawyer told the court was
+a key invention that ",2013-08-08 04:01:01,Apple’s Legal Wins Show No Clear Victor in Patent War,"Apple Inc. (AAPL) scored three legal victories in a week that still leaves unclear whether the iPhone maker will be the victor in global patent battles over technology that’s transformed everyday lives. A U.S. trade agency on Aug. 9 issued an import ban that prevents Apple’s chief competitor, Samsung Electronics Co. (005930) , from selling devices in the U.S. that infringe two Apple patents. A week earlier, President Barack Obama ’s administration overturned a similar ban won by Samsung against some of Apple’s older iPhone 4s. In between, a U.S. appeals court revived Apple’s patent case agains",2013-08-11 04:00:01,
+p0309,0.6722403764724731,"[0.65, 0.70)",DIFFERENT,2_of_3,SAME,DIFFERENT,DIFFERENT,['Apple'],Apple earnings the bright spot in tech sector: StarMine,,2012-01-23 00:00:00,Apple earnings wow Wall Street,,2012-01-24 00:00:00,
+p0310,0.6781007051467896,"[0.65, 0.70)",,routed_to_human,UNCLEAR,UNCLEAR,DIFFERENT,['Boeing'],Boeing says it is confident in 787 after incidents,,2013-01-09 00:00:00,Boeing Statement on FAA Joint Review on 787,,2013-01-11 00:00:00,
+p0311,0.6949938535690308,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],St. Jude Medical to Present at the Morgan Stanley Global Healthcare Conference,,2012-09-04 00:00:00,Neurocrine Biosciences To Present At The Morgan Stanley Global Healthcare Conference,,2012-09-05 00:00:00,
+p0312,0.667675793170929,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,"['Google', 'Microsoft']","The Zacks Analyst Blog Highlights: Yahoo, Walt Disney, Google, Microsoft and Facebook",,2012-12-11 00:00:00,"Zacks Bull and Bear of the Day Highlights: Monster Worldwide, France Telecom, Google, Yahoo and Microsoft",,2012-12-11 00:00:00,
+p0313,0.6773713827133179,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,"['Bank of America', 'Wells Fargo']",Fed Releases U.S. Banks’ Plans for Improving Faulty Foreclosure Practices,"The Federal Reserve released
+documents showing how U.S. mortgage servicers pledged to
+overhaul faulty foreclosure practices that led to this month’s
+$25 billion settlement with state and federal authorities. Bank of America Corp. (BAC) , Wells Fargo & Co. (WFC) and JPMorgan Chase
+& Co. (JPM) were among lenders that submitted the so-called action
+plans following a Fed enforcement action last year. The
+documents describe how firms will strengthen communications with
+borrowers, limit certain foreclosures and bolster compliance
+programs, the Fed said today in a statement. It also released
+“engagem",2012-02-27 20:00:00,Banks Win Reprieve on Home Equity Loans in Settlement,"Bank of America Corp. (BAC) , Wells Fargo &
+Co. (WFC) and three other banks that settled a nationwide probe of
+ foreclosure practices this month will get a bonus from the deal:
+protection for $308 billion of home-equity loans they hold. The banks that service about half the nation’s mortgages on
+behalf of investors will be able to share losses on their junior
+loans with bondholders and get credit toward the cash they
+pledged to spend in the settlement, said an Obama administration
+official involved in drafting the $25 billion agreement. Second
+liens would typically be wiped out before senior-m",2012-02-27 21:35:53,
+p0314,0.6645035147666931,"[0.65, 0.70)",DIFFERENT,2_of_3,DIFFERENT,SAME,DIFFERENT,"['AT&T', 'Verizon']",Deutsche Telekom to Combine T-Mobile USA with MetroPCS,"Deutsche Telekom AG (DTE) agreed to combine its T-Mobile USA unit with MetroPCS Communications Inc. (PCS) , doubling down on the U.S. wireless industry after a failed effort to sell the business to AT&T Inc. (T) last year. Germany ’s largest phone company will own 74 percent of the new business in a deal that pays MetroPCS shareholders $1.5 billion in cash, the companies said today. The combined entity will keep the T-Mobile name and be run by John Legere, the former chief executive officer of Global Crossing Ltd. who took charge of T-Mobile USA last month. The deal is the latest attempt by De",2012-10-03 20:32:53,Banks May Split $50 Million Advising on T-Mobile-MetroPCS Merger,"Banks advising on Deutsche Telekom
+AG (DTE) ’s merger of its T-Mobile USA Inc. unit with MetroPCS
+Communications Inc. (PCS) may earn at least $50 million if the deal
+goes through, according to research firm Freeman & Co. First in line are Morgan Stanley and JPMorgan Chase & Co.,
+lead advisers to Deutsche Telekom and MetroPCS, respectively.
+The amount they’ll split with other banks, which may range from
+$50 million to $80 million, is at least 36 percent less than the
+$125 million advisers would have gotten if AT&T Inc. (T) ’s $39
+billion bid for T-Mobile last year had succeeded, according to
+Ne",2012-10-03 22:01:00,
+p0315,0.6734631061553955,"[0.65, 0.70)",DIFFERENT,2_of_3,SAME,DIFFERENT,DIFFERENT,['AT&T'],SBA Communications Corporation Releases Information Regarding Contemplated Combination of AT&T; and Leap Wireless,,2013-07-15 00:00:00,"Attention LEAP Shareholders: The Proposed Buyout of Leap Wireless International, Inc. by AT&T; Inc. Under Investigation By The Young Law Firm",,2013-07-17 00:00:00,
+p0316,0.6529052257537842,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],S&P 500 Posts Biggest Weekly Drop Since June on Economy,"U.S. stocks fell for the week, as
+the Standard & Poor’s 500 Index posted its biggest drop since
+June, on concern Europe’s debt crisis is worsening and stimulus
+measures may not be enough to boost economic growth. The S&P Supercomposite Homebuilding Index (S15HOME) slid 7.3 percent
+for the first drop in five weeks amid worse-than-expected
+housing data. Technology stocks and commodity producers led
+declines as investors sold shares of companies most tied to
+economic swings. Apple (AAPL) Inc. posted its biggest drop since May
+after the release of its iPhone 5. Caterpillar Inc. (CAT) slid 6.2
+perc",2012-09-29 04:00:01,U.S. Stocks Pare Gains as Apple Leads Slump in Technology Shares,"U.S. stocks pared gains as Apple Inc. (AAPL) 
+led a retreat in technology shares that wiped out most of an
+early rally triggered by unexpected growth in American
+manufacturing. Apple slid 1.2 percent, extending last week’s 4.7 percent
+tumble. Technology shares in the Standard & Poor’s 500 Index
+lost 0.4 percent and were the biggest drag on the index among
+its 10 main groups. The S&P 500 was up less than 0.1 percent at 1,441.39 at
+3:27 p.m. in New York after surging as much as 1.1 percent. To contact the editor responsible for this story:
+Michael P. Regan at 
+ mregan12@bloomberg.net",2012-10-01 19:28:17,
+p0317,0.6817863583564758,"[0.65, 0.70)",SAME,3_of_3,SAME,SAME,SAME,['ExxonMobil'],"ExxonMobil Canada Acquires Celtic Exploration Ltd., Including Liquids-Rich Montney Shale Acreage",,2012-10-17 00:00:00,COLUMN-Exxon's Celtic buy signals shift for Canada oil-Campbell,,2012-10-18 00:00:00,
+p0318,0.6890155673027039,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],"Blue Nile to Present at Morgan Stanley Technology, Media & Telecom Conference",,2013-02-19 00:00:00,"Cincinnati Bell to Present at Morgan Stanley Technology, Media & Telecom Conference",,2013-02-22 00:00:00,
+p0319,0.661874532699585,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Wells Fargo'],"Quality Systems, Inc. to Present at the Wells Fargo Securities 2013 Healthcare Conference",,2013-06-12 00:00:00,HeartWare Presentation at the Wells Fargo Securities 2013 Healthcare Conference to be Webcast,,2013-06-13 00:00:00,
+p0320,0.6759018898010254,"[0.65, 0.70)",SAME,3_of_3,SAME,SAME,SAME,['Google'],Google could emerge unscathed from federal web search probe - WSJ,,2012-12-16 00:00:00,"Google-FTC Probe, CFTC-Audio Rule, JPMorgan: Compliance","Google Inc. (GOOG) is poised to make
+voluntary concessions that will end a 20-month U.S. antitrust
+probe of its business practices without any enforcement action,
+two people familiar with the matter said. Google, which has been under investigation by the Federal
+Trade Commission, is preparing a letter promising not to copy
+content from rival websites without permission and to allow
+advertisers to compare Google’s ad-campaign data with
+performance on other Internet search engines, one of the people
+said Dec. 16. That will close the investigation without a
+lawsuit or settlement, said the people,",2012-12-18 13:28:01,
+p0321,0.6995932459831238,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],Commercial Vehicle Group To Present At J.P. Morgan Diversified Industries Conference,,2013-05-29 00:00:00,TriMas Corporation to Present at the J.P. Morgan 8th Annual Diversified Industries Conference,,2013-05-30 00:00:00,
+p0322,0.6541450023651123,"[0.65, 0.70)",SAME,2_of_3,SAME,SAME,DIFFERENT,['JPMorgan'],The One Thing Jamie Dimon Got Right This Week,"About two-thirds the way through
+ JPMorgan Chase & Co. (JPM) Chief Executive Officer Jamie Dimon’s
+stunning May 10 conference call, in which he announced that the
+hedging strategy originating in the firm’s vaunted “chief
+investment office” had cost the firm $2 billion, he seemed to
+hit his stride. “It is very unfortunate,” he said, “this plays right into
+the hands of pundits out there. But we have to deal with it.” Well, Jamie, as a former JPMorgan Chase managing director
+turned Wall Street pundit, here you go: The problem with the
+unexpected loss and its hasty announcement was not so much the",2012-05-11 15:19:32,SunTrust’s Rogers Says JPMorgan Loss ‘Black Eye’,"JPMorgan Chase & Co. (JPM) ’s $2 billion
+loss on synthetic credit securities bolsters the case of banking
+critics pushing for tighter regulations on proprietary trading,
+SunTrust Banks Inc. Chief Executive Officer William Rogers said. “It is a black eye for the industry,” Rogers said in an
+interview with Bloomberg Television’s “In the Loop” from
+Atlanta. “It would certainly embolden those on the Volcker side
+of that equation,” referring to the so-called Volcker rule
+setting restrictions on trading. Senator Carl Levin, Democrat from Michigan and co-author of
+the rule, said May 11 the JPMorgan l",2012-05-14 12:38:05,
+p0323,0.6907798647880554,"[0.65, 0.70)",DIFFERENT,2_of_3,DIFFERENT,SAME,DIFFERENT,['JPMorgan'],Jefferson County JPMorgan Deal Called Safer Than Suing,"Jefferson County, Alabama ’s,
+bankruptcy deal with JPMorgan Chase & Co. and other creditors
+would lock in more than $1.4 billion in concessions without the
+risk of suing the bank, a consultant said in court. Eric Rothstein, a county utility rate consultant, said
+yesterday that those savings are a safer proposition than the
+$1.6 billion that could be won in a lawsuit that opponents of
+the county’s bankruptcy exit plan want to pursue. “That $1.4 billion writedown is a certainty,” Rothstein
+said in U.S. Bankruptcy Court in Birmingham, the county seat.
+“The $1.6 billion number is speculative, and ",2013-11-21 05:00:01,Jefferson County’s Bankruptcy Left Few Winners,"The impact of Jefferson County’s
+bankruptcy will reverberate for decades in Alabama and in the
+$3.7 trillion U.S. municipal bond market. Creditors, including JPMorgan Chase & Co. (JPM) , agreed to
+forgive $1.4 billion of the county’s $3 billion sewer bonds.
+Ratepayers, like Charles Hicks, a retired landscaper who lives
+on a fixed income in Birmingham, will see his sewer rate rise
+about 8 percent annually for the next four years and 3.5 percent
+annually thereafter, under a plan approved by a federal judge on
+Nov 21. “There’s a lot of pain going around -- bondholders are
+taking large losses, but",2013-11-23 20:11:52,
+p0324,0.6632272005081177,"[0.65, 0.70)",SAME,3_of_3,SAME,SAME,SAME,['Facebook'],UPDATE 5-Facebook smashes analyst targets but executive comments spook Street,,2013-10-30 00:00:00,CORRECTED-UPDATE 1-Facebook tops analyst revenue targets as mobile ads surge,,2013-10-30 00:00:00,
+p0325,0.6568628549575806,"[0.65, 0.70)",DIFFERENT,2_of_3,UNCLEAR,DIFFERENT,DIFFERENT,['ExxonMobil'],California Refiners Ration Gasoline as Prices Near Record,"Exxon Mobil Corp. (XOM) and Valero Energy
+Corp. (VLO) are rationing gasoline deliveries to customers in
+California as refinery halts cut into the state’s supplies,
+driving pump prices toward record highs. Valero stopped spot sales in Southern California and is
+allocating the rest of its deliveries to customers. Exxon is
+also rationing to buyers at West Coast terminals. Retail prices
+in the state jumped to an average $4.486 a gallon, according to
+data published today by AAA, the nation’s biggest motoring
+organization. California’s gasoline markets are particularly susceptible
+to refinery outage",2012-10-05 20:26:35,California Regular Unleaded Gasoline Rises to Record $4.655,"The average price of regular unleaded
+gasoline reached a record $4.655 a gallon in California today,
+22 percent more than the national average of $3.814, AAA said on
+its website. The highest average price in the state is the San Luis
+Osbispo-Atascadero-Paso Robles metropolitan area at $4.74, up
+from $4.709 yesterday and an average of $4.233 a week ago, AAA
+said. San Francisco was the second-most expensive metro area at
+$4.731 per gallon for regular gasoline, up from $4.689 yesterday
+and $4.263 a week ago. Both metro areas set all-time records,
+the automobile association said. AAA spokeswoman M",2012-10-07 15:55:41,
+p0326,0.6586402654647827,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],"The Bon-Ton Stores, Inc. Announces Participation in the Goldman Sachs Nineteenth Global Retailing Conference",,2012-08-22 00:00:00,Wolverine Worldwide To Present At The Goldman Sachs 2012 Global Retailing Conference,,2012-08-23 00:00:00,
+p0327,0.6612238883972168,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Bank of America'],Community Health Systems to Participate in The Bank of America Merrill Lynch 2012 Leveraged Finance Conference,,2012-11-27 00:00:00,Covanta Holding Corporation to Present at Bank of America Merrill Lynch 2012 Leveraged Finance Conference,,2012-11-28 00:00:00,
+p0328,0.6913659572601318,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Verizon'],Verizon Wireless Enhances 4G LTE Network Coverage On and Around UCONN Campus,,2012-05-29 00:00:00,"Verizon Wireless Enhances 4G LTE Network Coverage in Epsom, New Hampshire",,2012-05-30 00:00:00,
+p0329,0.6878129243850708,"[0.65, 0.70)",SAME,2_of_3,SAME,SAME,DIFFERENT,['Apple'],"Apple set to unwrap mini-iPad to take on Amazon, Google",,2012-10-22 00:00:00,Apple's new iPad Mini and the Great Tablet Wars of 2012,,2012-10-23 00:00:00,
+p0330,0.6608737707138062,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - JPMorgan Small Co IT - Total Voting Rights,,2012-08-31 00:00:00,REG-JPMorgan Asset Management Form 8.3 - K3 Business Technology Group Plc,,2012-09-03 00:00:00,
+p0331,0.6708811521530151,"[0.65, 0.70)",SAME,3_of_3,SAME,SAME,SAME,['Boeing'],UPDATE 4-Boeing seen in advanced talks to make 777X near Seattle,,2013-11-04 00:00:00,Boeing Seeks Labor Peace in Deal to Keep 777X in Seattle,"Boeing Co. (BA) offered to build its
+upgraded 777 twin-aisle jet in the Seattle area if members of
+its largest union accept benefit cuts and a contract extension
+that would ensure labor peace for the next decade. Ratification of the terms by Machinists union members would
+cement a new working relationship between the planemaker and the
+labor group after years of labor strife at Boeing’s commercial
+hub in Washington ’s Puget Sound region. The proposal “means decades of economic activity for the
+region and will anchor the next generation of wide-body aircraft
+production right here in its histori",2013-11-06 14:50:31,
+p0332,0.676254153251648,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],"Internap to Present at the Morgan Stanley Technology, Media & Telecom Conference",,2013-02-15 00:00:00,Comcast to Participate in Morgan Stanley Investor Conference,,2013-02-18 00:00:00,
+p0333,0.6844534277915955,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Wells Fargo'],Kennametal Management to Meet with Financial Community at Wells Fargo Securities Industrial and Construction Conference,,2013-04-30 00:00:00,Hubbell To Appear At The Wells Fargo 2013 Industrial and Construction Conference,,2013-05-02 00:00:00,
+p0334,0.6776198148727417,"[0.65, 0.70)",,routed_to_human,UNCLEAR,DIFFERENT,SAME,['JPMorgan'],CORRECTED-Ex-JPMorgan exec released after arrest in Spain -court source,,2013-08-27 00:00:00,RPT-Tortuous extradition process awaits Spaniard in JPMorgan 'Whale' case,,2013-08-29 00:00:00,
+p0335,0.6518040299415588,"[0.65, 0.70)",,routed_to_human,UNCLEAR,SAME,DIFFERENT,['Boeing'],GE Lease Unit to Buy 10 of Boeing’s Biggest Dreamliners,"General Electric Co (GE) .’s aircraft leasing division agreed to buy 10 of the largest Boeing Co (BA) . 787 Dreamliners valued at about $2.9 billion, a boost for the planemaker’s decision to stretch the jet to add seats. Deliveries would occur from 2019 to 2021, pending final approval at Boeing to offer the model, Chief Executive Officer Norm Liu of GE Capital Aviation Services (GELK) said today at the Paris Air Show . Fairfield, Connecticut-based GE makes engines for the 787, the first jetliner built chiefly from composite plastic. Support from lessors such as Gecas is important, because they",2013-06-17 10:00:05,Lessors Spur Boeing to Embraer as New Planes Rule Show,"(Corrects spelling of consultant’s name in ninth paragraph of story published June 18. For more on the Paris Air Show , see SHOW.) Airbus SAS, Boeing Co. (BA) and Embraer SA (EMBR3) won $19 billion in orders from lessors on the first day of the Paris Air Show, gaining support for some of the newest and largest planes from buyers spanning the global airline industry . GE Capital Aviation Services offered the first commitment by a leasing company for Boeing’s stretched 787 Dreamliner yesterday as the Paris expo began. Embraer then won the initial customer for its upgraded regional jets, with Int",2013-06-19 16:24:11,
+p0336,0.6651854515075684,"[0.65, 0.70)",,routed_to_human,UNCLEAR,SAME,DIFFERENT,['Apple'],"Apple set to unwrap mini-iPad to take on Amazon, Google",,2012-10-22 00:00:00,"Apple’s Smaller IPad to Double 7-Inch Tablet Market, IHS Says","Apple Inc. (AAPL) ’s smaller iPad, which the
+company is expected to debut today, will help double the size of
+the market for 7-inch tablets this year, according to IHS
+ISuppli. Global sales of tablets with 7-inch displays will surge to
+about 34 million units this year, from 17 million last year, IHS
+said in a report today. Next year, the market will nearly double 
+again, to about 67 million units. To contact the reporter on this story:
+Lisa Rapaport in New York at 
+ lrapaport1@bloomberg.net To contact the editor responsible for this story:
+Tom Giles at 
+ tgiles5@bloomberg.net",2012-10-23 13:16:36,
+p0337,0.6766570806503296,"[0.65, 0.70)",SAME,3_of_3,SAME,SAME,SAME,['AT&T'],AT&T; Completes Acquisition of Alltel Assets; Provides Third-Quarter Update on Strong Smartphone and U-verse Sales,,2013-09-20 00:00:00,AT&T Sees Third-Quarter Smartphone Sales Steady on Upgrade Plans,"AT&T Inc. (T) , the second-biggest U.S.
+wireless carrier, said it will report third-quarter smartphone
+sales similar to the 6.8 million it had from April to June,
+aided by new upgrade programs. The result will be a record for any third quarter in AT&T’s
+history, the company said yesterday in a statement. Fourth-quarter smartphone upgrades will decline from a year earlier,
+though, because some customers went ahead and got new phones
+already. AT&T began providing an option in July to pay for phones
+and tablets on an installment plan, with the ability to upgrade
+yearly. The promotion mimicked a s",2013-09-21 04:01:00,
+p0338,0.6550012826919556,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],JPMorgan loss shows global swaps rule need-Gensler,,2012-05-21 00:00:00,"JPMorgan Loss Shows Need to Measure Risk, Krawcheck Writes in FT","JPMorgan Chase & Co. (JPM) ’s $2 billion
+trading loss shows regulators need to focus on ensuring banks
+have enough capital relative to their risks, rather than trying
+to ban proprietary trading, Sallie Krawcheck wrote in a
+Financial Times op-ed article. It’s often impossible to distinguish between proprietary
+trading, services for clients and hedging, said Krawcheck,
+former head of Bank of America Corp.’s wealth-management
+division. Regulators should instead work to measure how much
+risk banks have and on improving inadequate risk measurements,
+in order to guarantee lenders have the right amou",2012-05-23 20:54:11,
+p0339,0.6811226606369019,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],"Actavis, Inc. to Present at the Goldman Sachs 34th Annual Global Healthcare Conference 2013",,2013-06-04 00:00:00,Spectrum Pharmaceuticals to Present Corporate Update at the Goldman Sachs 34th Annual Global Healthcare Conference in Rancho Palos Verdes on June 11th,,2013-06-06 00:00:00,
+p0340,0.6550788879394531,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Boeing'],Boeing Open to Raising 787 Output Again to Shrink Backlog,"Boeing Co. (BA) Chief Executive Officer
+ James McNerney is open to another increase in production rates
+for the 787 Dreamliner so the world’s largest planemaker can
+shrink a backlog of 840 jets. A faster tempo would give Boeing a chance to attract new
+customers, McNerney said today an interview, as waiting times
+now run six years or more. Output is already supposed to double
+in 2013 to 10 a month, and he didn’t give a possible goal. “We haven’t decided to do that yet, because we’re just
+trying to keep our feet underneath us,” McNerney said aboard
+ United Airlines (UAL) Flight 1 from Houston to",2013-05-20 21:13:34,Boeing plans to return more cash to shareholders -CEO McNerney,,2013-05-22 00:00:00,
+p0341,0.6553630828857422,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],HanesBrands Announces Participation at Goldman Sachs and CL King Investor Conferences,,2012-08-28 00:00:00,"Express, Inc. To Present At The Goldman Sachs 19th Annual Global Retailing Conference",,2012-08-29 00:00:00,
+p0342,0.6861132383346558,"[0.65, 0.70)",SAME,3_of_3,SAME,SAME,SAME,['JPMorgan'],"Stocks mixed; JPMorgan near ""Whale"" settlement",,2013-09-16 00:00:00,JPMorgan Whale settlement expected Thursday -source,,2013-09-18 00:00:00,
+p0343,0.6923679113388062,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - JPMorgan Jap Smllr - Conversion of Securities,,2012-04-02 00:00:00,REG - JPMorgan Elect PLC - Listing Rule 15.6.8,,2012-04-03 00:00:00,
+p0344,0.6842464208602905,"[0.65, 0.70)",,routed_to_human,UNCLEAR,SAME,DIFFERENT,['Verizon'],"UPDATE 2-Verizon, Vodafone to announce $130 bln US deal on Monday",,2013-09-01 00:00:00,"Verizon, Vodafone set $1.55 bln breakup fee",,2013-09-03 00:00:00,
+p0345,0.694534182548523,"[0.65, 0.70)",SAME,3_of_3,SAME,SAME,SAME,"['AT&T', 'Verizon']",Deutsche Telekom to Combine T-Mobile USA with MetroPCS,"Deutsche Telekom AG (DTE) agreed to combine its T-Mobile USA unit with MetroPCS Communications Inc. (PCS) , doubling down on the U.S. wireless industry after a failed effort to sell the business to AT&T Inc. (T) last year. Germany ’s largest phone company will own 74 percent of the new business in a deal that pays MetroPCS shareholders $1.5 billion in cash, the companies said today. The combined entity will keep the T-Mobile name and be run by John Legere, the former chief executive officer of Global Crossing Ltd. who took charge of T-Mobile USA last month. The deal is the latest attempt by De",2012-10-03 20:32:53,"Wachtell, Cleary, K&L Gates, Akin Gump: Business of Law","Deutsche Telekom AG (DTE) , advised by
+Wachtell, Lipton, Rosen & Katz, Cleary Gottlieb Steen & Hamilton
+LLP, K&L Gates LLP and Wiley Rein LLP, agreed to combine its T-
+Mobile USA unit with MetroPCS Communications Inc. (PCS) to create a
+bigger rival to market leader Verizon Wireless , after failing to
+sell the business to AT&T Inc. (T) last year. MetroPCS worked with law firms Gibson, Dunn & Crutcher LLP,
+ Paul Hastings LLP and Telecommunications Law Professionals as
+well as Akin Gump Strauss Hauer & Feld LLP and Fulbright &
+Jaworski LLP. Wachtell Lipton ’s team is led by corporate partner Adam",2012-10-04 10:33:29,
+p0346,0.6641192436218262,"[0.65, 0.70)",,routed_to_human,UNCLEAR,UNCLEAR,DIFFERENT,['JPMorgan'],Trading at Noon: JPMorgan's Dimon dilemma,,2013-05-13 00:00:00,"Lloyd Blankfein, Jamie Dimon and Trading Places","It's an irresistible story: Lloyd Blankfein, the once-embattled chairman and chief executive officer of Goldman Sachs Group Inc., has been giving quiet advice to Jamie Dimon, the chairman and CEO of JPMorgan Chase & Co., on how to handle ""the challenges that Mr. Dimon is facing,"" as the New York Times put it in an article today. Just what they have been discussing is left to the imagination, since the report is vague. It's one of those stories where the sources of information aren't named. Dimon and Blankfein have known each other for years. So it's no surprise that they talk. But the tidbits ",2013-05-15 18:59:42,
+p0347,0.6901465654373169,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Wells Fargo'],Exactech to Present to Investors at Wells Fargo 2012 Healthcare Conference,,2012-06-11 00:00:00,Aetna Announces Appearance at the Wells Fargo Securities 2012 Healthcare Conference,,2012-06-14 00:00:00,
+p0348,0.661763072013855,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],"Hon Hai Posts Record Profit on IPhone Sales, Declining Costs","Hon Hai Precision Industry Co. (2317) , the
+world’s largest contract manufacturer of electronics, posted
+record quarterly profit as sales of Apple Inc. (AAPL) ’s iPhones and
+iPads climbed and costs for relocating factories dropped. Fourth-quarter net income climbed 64 percent to NT$35
+billion ($1.18 billion) from NT$21.4 billion a year earlier,
+according to an e-mailed statement from the Taipei-based company
+today. Profit beat each of the nine analysts’ estimates compiled
+by Bloomberg, and the average NT$26.6 billion. Hon Hai, flagship of the Foxconn Technology Group,
+benefited from better-tha",2012-03-27 12:24:12,"Taiwan Stocks: Hon Hai Precision, Motech Industries, Quanta","Shares of the following companies
+had unusual moves in Taiwan trading . Stock symbols are in
+parentheses and prices are as of the close in Taipei. The benchmark Taiex Index advanced 0.8 percent to 7,933.
+The gauge dropped 2.3 percent in March, trimming this quarter’s
+gains to 12 percent, the best three-month performance since the
+period ended September 2010. Hon Hai Precision Industry Co. (2317) (2317 TT), a unit of Foxconn
+Technology Group, retreated 1.3 percent to NT$114.50, the most
+since March 20. An audit of Foxconn found “serious and
+pressing” violations of Chinese labor laws . Inspector",2012-03-30 07:09:52,
+p0349,0.655846118927002,"[0.65, 0.70)",,routed_to_human,UNCLEAR,SAME,DIFFERENT,['Boeing'],GE Lease Unit to Buy 10 of Boeing’s Biggest Dreamliners,"General Electric Co (GE) .’s aircraft leasing division agreed to buy 10 of the largest Boeing Co (BA) . 787 Dreamliners valued at about $2.9 billion, a boost for the planemaker’s decision to stretch the jet to add seats. Deliveries would occur from 2019 to 2021, pending final approval at Boeing to offer the model, Chief Executive Officer Norm Liu of GE Capital Aviation Services (GELK) said today at the Paris Air Show . Fairfield, Connecticut-based GE makes engines for the 787, the first jetliner built chiefly from composite plastic. Support from lessors such as Gecas is important, because they",2013-06-17 10:00:05,Boeing launches 787-10 with $30 billion of orders,,2013-06-20 00:00:00,
+p0350,0.6849976778030396,"[0.65, 0.70)",,routed_to_human,UNCLEAR,UNCLEAR,UNCLEAR,"['Facebook', 'Morgan Stanley']",Facebook Banker Morgan Stanley Props Up Price It Helped Boost,"Morgan Stanley (MS) 's reputation as lead
+underwriter may suffer from the stock market debut of Facebook 
+Inc., whose initial public offering left investors in the 
+largest social network disappointed. The bank stepped in to prop up the stock from dipping below
+its $38 IPO price yesterday, said people with knowledge of the
+matter, who asked not to be identified because the purchases
+were private. Morgan Stanley, based in New York , was the only
+underwriter among Facebook’s 33 banks with the responsibility to
+support the shares , the people said. Underwriters “are acting like the cavalry to kee",2012-05-19 04:01:00,Morgan Stanley's Facebook about-face,,2012-05-22 00:00:00,
+p0351,0.6866028308868408,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],HanesBrands Announces Participation at Goldman Sachs and CL King Investor Conferences,,2012-08-28 00:00:00,Michael Kors Holdings Limited Announces Participation in the Goldman Sachs Nineteenth Annual Global Retailing Conference,,2012-08-29 00:00:00,
+p0352,0.677560031414032,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Toyota'],REG - Toyota Mtr Fin(Nthld - Publication of Prospectus,,2012-08-06 00:00:00,REG - Toyota Motor Credit - Doc re. Form 10-Q,,2012-08-09 00:00:00,
+p0353,0.6642641425132751,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],"JPMorgan has $2 billion trading loss, reputation hit",,2012-05-10 00:00:00,JPMorgan executives expected to leave over loss,,2012-05-13 00:00:00,
+p0354,0.6539363861083984,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],US will review decision that Apple didn't violate Samsung patent,,2012-11-19 00:00:00,Samsung wins U.S. court order to access Apple-HTC deal details,,2012-11-22 00:00:00,
+p0355,0.6940245628356934,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],"Apple, Google bid on Kodak patents: report",,2012-08-06 00:00:00,Apple Seeks Swift Appeal of Kodak Imaging Patent Ruling,"Apple Inc. (AAPL) , which lost part of a
+court fight with Eastman Kodak Co. (EKDKQ) this month when a federal
+judge denied its ownership claim of two digital image patents,
+is seeking a swift appeal of his decision. Bankrupt Kodak sued Apple in June, accusing the iPhone
+maker of trying to disrupt an auction of more than 1,000 patents
+that officially starts tomorrow. A judge in Manhattan ruled in
+favor of Kodak on two of 10 patents claimed by Apple, which
+Kodak plans to sell as part of its bankruptcy restructuring.
+Apple can’t appeal his decision until he makes his ruling final. “There is no ju",2012-08-07 16:27:43,
+p0356,0.6825206279754639,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG-JPMorgan Asset Management Form 8.3 - K3 Business Technology Group Plc,,2012-09-03 00:00:00,REG-J.P. Morgan Securities plc. Form 8.5 (EPT/RI) - Chemring Group Plc,,2012-09-05 00:00:00,
+p0357,0.6652387380599976,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['IBM'],IBM Gets Record Low 1.875% Coupon on $1 Billion 10-Year Bond,"July 25 (Bloomberg) -- International Business Machines
+Corp. obtained a record-low 1.875 percent coupon on $1 billion
+of 10-year bonds, the least for dollar-denominated debt of that
+maturity. The world’s largest computer-services provider sold the
+debt at 98.398 cents on the dollar to yield 2.053 percent, or a
+relative yield of 65 basis points more than similar-maturity
+Treasuries, according to data compiled by Bloomberg. The coupon beat the previous 2 percent record held by 3M
+Co.’s 10-year notes sold on June 21, Bloomberg data show. A
+basis point is 0.01 percentage point. “The yield is refle",2012-07-25 22:10:50,Corporate Bond Sales Fall in U.S. as High-Yield Issuance Tumbles,"Corporate bond sales fell in the
+U.S. this week as high-yield offerings tumbled 47 percent and
+relative yields climbed for the first time in almost two months
+with Europe ’s sovereign-debt crisis roiling markets globally. Offerings of at least $21 billion compare with $24.3
+billion in the five days ended July 20 and a weekly 2012 average
+of $26.3 billion, according to data compiled by Bloomberg.
+ International Business Machines Corp. (IBM) , the world’s largest
+computer-services provider, obtained a record-low coupon for 10-
+year dollar-denominated bonds. Bristol-Myers Squibb Co. (BMY) got
+rec",2012-07-27 14:05:39,
+p0358,0.6651238203048706,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Bank of America'],Sonic to Attend Bank of America Merrill Lynch 2013 Consumer & Retail Conference,,2013-03-06 00:00:00,"Carterâs, Inc. Announces Participation at the 2013 Bank of America Merrill Lynch Consumer and Retail Conference",,2013-03-08 00:00:00,
+p0359,0.667670726776123,"[0.65, 0.70)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,"['Google', 'Microsoft']","The Zacks Analyst Blog Highlights: Yahoo, Google, Microsoft, Walt Disney's and Facebook",,2012-07-16 00:00:00,"Zacks Industry Outlook Highlights: Amazon.com, Apple, Google, Microsoft and Groupon",,2012-07-18 00:00:00,
+p0360,0.725919246673584,"[0.70, 0.75)",SAME,2_of_3,UNCLEAR,SAME,SAME,['ExxonMobil'],Rosneft wins American access in Exxon deal,,2012-04-13 00:00:00,"Exxon, Rosneft to sign strategic deal: sources",,2012-04-16 00:00:00,
+p0361,0.7475625872612,"[0.70, 0.75)",SAME,3_of_3,SAME,SAME,SAME,['ExxonMobil'],"UPDATE 1-Exxon cleanup of Arkansas oil spill continues, pipeline still shut",,2013-04-01 00:00:00,Exxon Developing Excavation Plan for Pegasus Oil Pipeline Spill,"Exxon Mobil Corp. (XOM) is developing an
+excavation and removal plan for a damaged section of its 96,000
+barrel-a-day Pegasus crude pipeline, which was shut after a leak
+was discovered in Arkansas on March 29. The company said yesterday it collected about 12,000
+barrels of oil and water from the spill, classified as major by
+the U.S. Environmental Protection Agency, according to a
+statement from the Mayflower Incident Unified Command Joint
+Information Center. Local officials recommended 22 homes closest
+to the leak remain evacuated. “We didn’t really update it much beyond yesterday, so
+we’re u",2013-04-02 05:07:43,
+p0362,0.7351139783859253,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],Fitch Upgrades Morgan Stanley Dean Witter Capital I Trust 2002-TOP7,,2012-06-18 00:00:00,Fitch Affirms Morgan Stanley Re-Remic Trust 2011-IO,,2012-06-19 00:00:00,
+p0363,0.7222881317138672,"[0.70, 0.75)",SAME,3_of_3,SAME,SAME,SAME,['Bank of America'],UPDATE 2-U.S. accuses Bank of America of mortgage-backed securities fraud,,2013-08-06 00:00:00,Bank of America Sued by Justice Department Over Mortgage Bonds,"The U.S. Justice Department filed
+civil claims today against Bank of America Corp. over a 2008
+mortgage-bond deal that soured as housing prices collapsed. The Justice Department announced the suit alleging the
+Charlotte, North Carolina-based bank defrauded investors in
+connection with the sale of more than $850 million in
+residential mortgage-backed securities. To contact the reporter on this story:
+Phil Mattingly in Washington at 
+ pmattingly@bloomberg.net To contact the editor responsible for this story:
+Gregory Mott at 
+ gmott1@bloomberg.net",2013-08-06 19:20:07,
+p0364,0.7176592350006104,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],REG - Goldman Sachs & Co.Eaton Corp - Form 8.1 - [Eaton Corporation],,2012-06-19 00:00:00,REG - Goldman Sachs (EPT)Psion PLC - Form 8.5 (EPT/RI),,2012-06-20 00:00:00,
+p0365,0.7369890213012695,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],UPDATE 1-JPMorgan ordered to improve controls after 'Whale' loss,,2013-01-14 00:00:00,JPMorgan directors to release report on Whale loss -NY Times,,2013-01-15 00:00:00,
+p0366,0.7066794633865356,"[0.70, 0.75)",SAME,3_of_3,SAME,SAME,SAME,['Boeing'],UPDATE 4-Boeing seen in advanced talks to make 777X near Seattle,,2013-11-04 00:00:00,Washington governor to announce tentative deal on Boeing 777X,,2013-11-05 00:00:00,
+p0367,0.7048214673995972,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],"Apple got up to 5,000 data requests in six months",,2013-06-17 00:00:00,"Yahoo Received Up to 13,000 Data Requests From U.S. Agencies","Yahoo! Inc. (YHOO) , the largest U.S. Web
+portal, said it got as many as 13,000 requests for information
+from U.S. law enforcement agencies, becoming the latest
+technology company to detail government data collection. The requests occurred in the six months ended May, with the
+most common types related to fraud, homicides and criminal
+investigations, Yahoo said in a posting on Tumblr. The company
+said it can’t lawfully break out Foreign Intelligence
+Surveillance Act requests, and it urged the U.S. government to
+reconsider its stance on the issue. Yahoo joins Apple Inc. (AAPL) , Facebook Inc. (",2013-06-18 18:13:58,
+p0368,0.7195911407470703,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - JPMorgan Eur Small - Net Asset Value(s),,2012-01-03 00:00:00,REG - JPMorgan Mid CapLloyds Banking Group - Holding(s) in Company,,2012-01-06 00:00:00,
+p0369,0.7261868119239807,"[0.70, 0.75)",SAME,3_of_3,SAME,SAME,SAME,['Morgan Stanley'],Rosneft's presence on global oil market to be boosted by Morgan Stanley deal- Sechin,,2013-12-23 00:00:00,UPDATE 1-Rosneft targets oil trading big league with Morgan Stanley deal,,2013-12-23 00:00:00,
+p0370,0.7396095991134644,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],REG - Goldman Sachs IntlLogica PLC - Form 8.5 (EPT/RI),,2012-07-09 00:00:00,REG - Goldman Sachs (EPT)Cooper Industries - Form 38.5,,2012-07-10 00:00:00,
+p0371,0.7319999933242798,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Citigroup'],"Turkey Stocks: Akbank, Denizbank Shares Active in Istanbul","Turkey’s benchmark ISE National 100
+Index (XU100) rose 0.1 percent to 54,843.93 at the close in Istanbul,
+snapping three days of losses. The following shares were active. Stock symbols are in
+parentheses. Akbank TAS (AKBNK) , Turkey’s second-biggest bank by
+market value, fell for a sixth day, dropping 2.2 percent to 5.32
+liras, its lowest level since July 2009. Citigroup Inc. said on
+May 25 it sold a 10.1 percent stake in the lender for 5.24 liras
+per share. Denizbank AS (DENIZ) , the Turkish lender owned by
+Belgium’s Dexia SA (DEXB) , plunged 10 percent to 12.75 liras, the
+lowest since April ",2012-05-28 14:56:03,Akbank Advances as MSCI Increases Index Weight: Istanbul Mover,"Akbank TAS (AKBNK) , Turkey ’s second-largest
+listed lender in which Citigroup Inc. sold part of its stake
+last week, snapped six days of losses after MSCI Inc. (MSCI) said it
+was raising the company’s weight in its Global Standard Indices. The shares jumped 3.4 percent to 5.50 liras at the close in
+Istanbul, their biggest gain in more than two months. Akbank’s “foreign inclusion factor” on MSCI indexes will
+be increased to 0.45 from 0.3 at the close of trading on May 31,
+MSCI said in an e-mail today. The decision comes after Citigroup
+Inc. (C) reduced its 20 percent stake in the lender to 9.9",2012-05-29 15:11:17,
+p0372,0.7343915700912476,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],REG - Morgan Stanley SecsAer Lingus Group PLC - Form 8.5 (EPT/RI) Aer Lingus Group Plc,,2012-07-04 00:00:00,REG - Morgan Stanley CapNautical Petroleum - Form 8.5 (EPT/RI) Nautical Petroleum Plc,,2012-07-06 00:00:00,
+p0373,0.7498152256011963,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['AT&T'],AT&T; 4G LTE Expands In Atlanta,,2013-06-05 00:00:00,AT&T; 4G LTE Expands In Harrisburg And York,,2013-06-05 00:00:00,
+p0374,0.7499381303787231,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Wells Fargo'],"Oiltanking Partners, L.P. To Participate In Wells Fargo Securities 2012 Pipeline, MLP & Energy Symposium",,2012-11-26 00:00:00,"LRR Energy, L.P. to Present at Wells Fargo Securities Research and Economics Pipeline, MLP and Energy Symposium",,2012-11-28 00:00:00,
+p0375,0.749139130115509,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG-J.P. Morgan Securities plc. Form 8.5 (EPT/RI) CPP Group Plc,,2013-04-02 00:00:00,REG-J.P. Morgan Securities plc. Form 8.5 (EPT/RI) Costain Group PLC - Amendment,,2013-04-05 00:00:00,
+p0376,0.7337222099304199,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['AT&T'],AT&T; 4G LTE Available In Corning,,2013-08-28 00:00:00,AT&T; 4G LTE Available In Marshall,,2013-08-28 00:00:00,
+p0377,0.7417889833450317,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['AT&T'],AT&T; 4G LTE Available In Prescott,,2013-06-12 00:00:00,AT&T; 4G LTE Available In Dayton,,2013-06-12 00:00:00,
+p0378,0.7259010672569275,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['AT&T'],AT&T; 4G LTE Available In Grand Junction,,2013-07-02 00:00:00,AT&T; 4G LTE Available In Chico-Oroville,,2013-07-02 00:00:00,
+p0379,0.7103145122528076,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],"VMware to Present at the Morgan Stanley Technology, Media and Telecom Conference",,2013-02-11 00:00:00,"EarthLink to Present at Morgan Stanley Technology, Media & Telecom Conference",,2013-02-14 00:00:00,
+p0380,0.7081024050712585,"[0.70, 0.75)",SAME,3_of_3,SAME,SAME,SAME,['Facebook'],"UPDATE 5-Facebook reveals revenue, profit slide ahead of IPO",,2012-04-23 00:00:00,Facebook First-Quarter Profit Drops; Costs Almost Double,"Facebook Inc. (FB) , the social network
+planning an initial public offering, said first-quarter profit
+fell 12 percent as sales growth slowed and marketing costs more
+than doubled. Net income dropped to $205 million in the three months
+through March, Menlo Park , California-based Facebook said
+yesterday in a regulatory filing . Sales climbed 45 percent to
+$1.06 billion, a slowdown from 55 percent in the December
+period. Expenses surged to $677 million, reflecting higher costs of
+helping marketers reach Facebook’s growing user base, which
+swelled by one-third to 901 million last quarter. The co",2012-04-24 21:40:56,
+p0381,0.7347102165222168,"[0.70, 0.75)",SAME,3_of_3,SAME,SAME,SAME,['Apple'],"UPDATE 2-Apple apologises to Chinese consumers, revamps service",,2013-04-01 00:00:00,Apple CEO Cook Apologizes for China IPhone Warranties,"Apple Inc (AAPL) . Chief Executive Officer Tim Cook apologized for the company’s iPhone warranty and repair policies in China after receiving criticism from state-run media over customer service in its second-largest market. Apple, in a change in practice, will offer full replacements of older iPhones experiencing problems, Cook said in a letter posted on the company’s Chinese website. Apple also vowed to improve training, customer service and monitoring of stores authorized to sell its products in China. The stock fell 3.1 percent yesterday, its biggest decline since Jan. 24. “In the process ",2013-04-02 08:03:45,
+p0382,0.7196926474571228,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - JPMorgan Jap Smllr - Conversion of Securities,,2012-04-02 00:00:00,REG - JPMorgan Mid Cap - Transaction in Own Shares,,2012-04-04 00:00:00,
+p0383,0.7109390497207642,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['IBM'],"Research and Markets: Global Big Customer Market 2012-2016 with IBM, Microsoft, Oracle and SAP AG Dominating",,2013-10-08 00:00:00,"Research and Markets: Global Software Testing Services Market 2012-2016 with Capgemini SA, IBM Corp., and Wipro Ltd Dominating",,2013-10-10 00:00:00,
+p0384,0.7305030822753906,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Bank of America'],KEMET to Present at Bank of America Merrill Lynch 2013 Leveraged Finance Conference,,2013-12-02 00:00:00,SS&C; Technologies to Present at Bank of America Merrill Lynch Leveraged Finance Conference,,2013-12-03 00:00:00,
+p0385,0.7451127767562866,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],REG - Morgan Stanley & Co.Aer Lingus Group PLC - Rule 38.5 - Aer Lingus,,2012-08-20 00:00:00,REG - Morgan Stanley SecsAegis Group PLC - Form 8.5 (EPT/RI) Aegis Group Plc,,2012-08-22 00:00:00,
+p0386,0.7487117052078247,"[0.70, 0.75)",SAME,3_of_3,SAME,SAME,SAME,['ExxonMobil'],"Exxon, Rosneft to sign strategic deal: sources",,2012-04-16 00:00:00,"Exxon, Rosneft unveil $500 billion offshore venture",,2012-04-18 00:00:00,
+p0387,0.7328866124153137,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Microsoft'],"The Zacks Analyst Blog Highlights:Microsoft, Apple, Amazon.com, Hewlett-Packard and Dell",,2013-05-06 00:00:00,"The Zacks Analyst Blog Highlights: Bayer, Biogen Idec, Conceptus, Microsoft and J. C. Penney",,2013-05-07 00:00:00,
+p0388,0.7006622552871704,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Walmart'],UPDATE 2-Wal-Mart silenced Mexican bribe inquiry-NY Times,,2012-04-21 00:00:00,UPDATE 2-Mexico presidency favorite calls for Wal-Mart probe,,2012-04-23 00:00:00,
+p0389,0.7215697765350342,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],St. Jude Medical to Present at the Morgan Stanley Global Healthcare Conference,,2012-09-04 00:00:00,Covance to Present at the Morgan Stanley Global Healthcare Conference,,2012-09-07 00:00:00,
+p0390,0.7226554751396179,"[0.70, 0.75)",DIFFERENT,2_of_3,SAME,DIFFERENT,DIFFERENT,['JPMorgan'],U.S. Said to Plan Charges Against Ex-JPMorgan Employees,"The U.S. may announce charges as
+early as this week against former London-based JPMorgan Chase &
+Co. (JPM) employees related to allegations they tried to conceal
+losses last year, a person familiar with the matter said. The situation remains fluid and it isn’t clear who may be
+charged, said the person, who requested anonymity because the
+information wasn’t public. Those facing U.S. charges include
+Javier Martin-Artajo, a former executive who oversaw the trading
+strategy, and Julien Grout, a trader who worked for him, the New
+York Times (NYT) reported Aug. 9. Prosecutors also are weighing
+penal",2013-08-12 13:42:11,UPDATE 4-U.S. charges two ex-JPMorgan bankers over 'London Whale' loss,,2013-08-14 00:00:00,
+p0391,0.7327849864959717,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],"Actavis, Inc. to Present at the Goldman Sachs 34th Annual Global Healthcare Conference 2013",,2013-06-04 00:00:00,Aetna Announces Appearance at Goldman Sachs 34th Annual Global Healthcare Conference,,2013-06-06 00:00:00,
+p0392,0.7400493025779724,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - JPMorgan Asian Inv - Transaction in Own Shares,,2012-08-03 00:00:00,REG - JPMorgan Russ - Holding(s) in Company,,2012-08-06 00:00:00,
+p0393,0.7322540283203125,"[0.70, 0.75)",SAME,2_of_3,SAME,SAME,DIFFERENT,['JPMorgan'],U.S. Said to Plan Charges Against Ex-JPMorgan Employees,"The U.S. may announce charges as
+early as this week against former London-based JPMorgan Chase &
+Co. (JPM) employees related to allegations they tried to conceal
+losses last year, a person familiar with the matter said. The situation remains fluid and it isn’t clear who may be
+charged, said the person, who requested anonymity because the
+information wasn’t public. Those facing U.S. charges include
+Javier Martin-Artajo, a former executive who oversaw the trading
+strategy, and Julien Grout, a trader who worked for him, the New
+York Times (NYT) reported Aug. 9. Prosecutors also are weighing
+penal",2013-08-12 13:42:11,U.S. charges two ex-JPMorgan bankers over 'London Whale' loss,,2013-08-14 00:00:00,
+p0394,0.7018059492111206,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],U.S. appeals court revives Apple bid for Samsung injunction,,2013-11-18 00:00:00,U.S. jury awards Apple $290.45 mln in retrial against Samsung,,2013-11-21 00:00:00,
+p0395,0.7401795387268066,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],"Actavis, Inc. to Present at the Goldman Sachs 34th Annual Global Healthcare Conference 2013",,2013-06-04 00:00:00,BD to Present at the Goldman Sachs 34th Annual Global Healthcare Conference,,2013-06-06 00:00:00,
+p0396,0.7327399253845215,"[0.70, 0.75)",SAME,3_of_3,SAME,SAME,SAME,['Amazon'],"Chevron Suffers Yet Another Legal Setback In Campaign to Evade Ecuador Judgment -- This Time By Judge Kaplan, says Amazon Defense Coalition",,2012-07-31 00:00:00,Chevron Loses Bid for Order Ecuador Award Unenforceable,"(Corrects status of 2011 ruling on injunction in sixth
+paragraph of story published July 31.) Chevron Corp. (CVX) failed to persuade a
+federal judge in New York to find an $18.2 billion judgment by
+an Ecuadorean court unenforceable. U.S. District Judge Lewis Kaplan in Manhattan declined to
+rule today on Chevron’s request, saying it remained to be seen
+whether the judgment was based on fraudulent evidence. The oil
+company is suing lawyers for Ecuadorean plaintiffs who claim
+Chevron is responsible for pollution in the Amazon rainforest,
+alleging they fabricated evidence in the case in violation ",2012-08-02 23:25:21,
+p0397,0.7066644430160522,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],"Actavis, Inc. to Present at the Goldman Sachs 34th Annual Global Healthcare Conference 2013",,2013-06-04 00:00:00,Catamaran to Present at Goldman Sachs Global Healthcare Conference,,2013-06-04 00:00:00,
+p0398,0.7355135679244995,"[0.70, 0.75)",SAME,3_of_3,SAME,SAME,SAME,['Apple'],"Apple, Samsung CEOs talk but no trial settlement reached",,2012-08-20 00:00:00,Samsung CEO Said to Speak With Apple Today About Suit,"Samsung Electronics Co. (005930) ’s chief
+executive officer will talk with his counterpart at Apple Inc.
+to see whether they can resolve their smartphone patent dispute
+before a U.S. jury begins deliberating, according to a person
+familiar with the matter. The companies’ lawyers will report to U.S. District Judge
+Lucy Koh in federal court in San Jose , California , on the
+outcome of today’s telephone discussion between Apple’s Tim Cook 
+and Samsung’s Kwon Oh Hyun, according to the person, who asked
+not to be identified because the talks are private. Apple, based in Cupertino, California, sued ",2012-08-20 12:59:34,
+p0399,0.7238433361053467,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['ExxonMobil'],"Biogen Idec Inc., Elan Corporation, Chevron Corporation, CNOOC Ltd., and ExxonMobil Corporation highlighted in Zacks Analyst Blog",,2013-01-18 00:00:00,"The Zacks Analyst Blog Highlights:Dow Chemical, Exxon Mobil, Chevron, Phillips 66 and Goldman Sachs Group",,2013-01-21 00:00:00,
+p0400,0.744759202003479,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['IBM'],"Research and Markets: Global Big Customer Market 2012-2016 with IBM, Microsoft, Oracle and SAP AG Dominating",,2013-10-08 00:00:00,Research and Markets: Customer Analytics Profile: IBM,,2013-10-09 00:00:00,
+p0401,0.7370361089706421,"[0.70, 0.75)",SAME,3_of_3,SAME,SAME,SAME,['Twitter'],Twitter launches music app to deepen multimedia offering,,2013-04-18 00:00:00,Twitter Debuts Mobile Music Application for Apple ITunes,"Twitter Inc. (TWTR) , the Web-based social messaging service, unveiled a mobile-music application that will let its users play and share songs from services including Apple Inc. (AAPL) ’s iTunes. The app is available for Apple today and will later be added for devices running Google Inc.’s Android software, Twitter said in a blog post . In addition to iTunes, it will work with streaming music from Rdio Inc. and Spotify Ltd. Twitter is going beyond 140-character messages as it vies with social-networking rivals to get users to spend more time on its site. The San Francisco-based company release",2013-04-18 13:07:38,
+p0402,0.7057734727859497,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],FleetCor to Present at the Goldman Sachs Technology and Internet Conference 2013,,2013-02-08 00:00:00,Sapient to Present at Goldman Sachs Technology and Internet Conference,,2013-02-11 00:00:00,
+p0403,0.7484680414199829,"[0.70, 0.75)",SAME,3_of_3,SAME,SAME,SAME,['Wells Fargo'],Wells Fargo Reports Record Quarterly and Full Year Net Income,,2012-01-17 00:00:00,Wells Fargo comes out on top for Q4 bank earnings,,2012-01-20 00:00:00,
+p0404,0.7035728096961975,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],"UPDATE 4-JPMorgan $2 bln loss hits shares, dents image",,2012-05-11 00:00:00,UPDATE 1-JPMorgan CIO chief Drew quits after trading loss,,2012-05-14 00:00:00,
+p0405,0.7125575542449951,"[0.70, 0.75)",SAME,3_of_3,SAME,SAME,SAME,['Verizon'],"Verizon, Vodafone mulling options for Verizon Wireless- report",,2013-03-05 00:00:00,Verizon Said to be Seeking to Resolve Vodafone Venture,"Verizon Communications Inc. (VZ) is working to resolve its relationship with Vodafone Group Plc (VOD) this year, having weighed options that range from ending its wireless venture with its European ally to a full merger of the two phone companies, said people familiar with the situation. The U.S. and U.K. mobile-phone operators discussed a full combination as recently as December, said two of the people, who asked not to be named because the matter is private. Those talks stumbled over disagreements on leadership and the location of the new headquarters, making a buyout or partial sale of Voda",2013-03-05 21:47:04,
+p0406,0.7282458543777466,"[0.70, 0.75)",DIFFERENT,2_of_3,UNCLEAR,DIFFERENT,DIFFERENT,['Walmart'],"Primark, M&S Agree to Set Bangladesh Safety Standards, ETI Says","U.K. retailers including Associated
+British Foods Plc (ABF) ’s Primark chain and Marks & Spencer Group Plc (MKS) 
+will take a “common approach” to fire and building safety in
+Bangladesh following a series of industrial accidents. The Ethical Trading Initiative , whose members also include
+ Wal-Mart Stores Inc. (WMT) ’s Asda chain, said today that its retailers
+who source from Bangladesh will improve factories to an agreed
+minimum standard. The mandates of health and safety committees
+in unsafe factories will be “strengthened,” ETI also said in a
+statement, without being more specific. Rescue e",2013-05-02 16:23:01,"Wal-Mart, J.C. Penney Join Bangladesh Safety Talks","Wal-Mart Stores Inc. (WMT) (WMT) and J.C. Penney Co. were among retailers sending representatives to a meeting near Frankfurt to discuss allying to improve worker safety in Bangladesh following the nation’s biggest industrial disaster. The talks, organized by Germany ’s international cooperation service known as GIZ, were aimed at winning support from the companies, labor unions and non-governmental groups for Bangladesh’s national action plan and for supplier assessments of fire and building risk, said Peter McAllister, a director of the Ethical Trading Initiative , who attended. A document c",2013-05-02 18:07:57,
+p0407,0.7003129720687866,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - JPMorgan Emerg Mkts - Conversion of Subscription Shares,,2012-05-01 00:00:00,REG - JPMorgan Amer InvTst - AGM Statement,,2012-05-04 00:00:00,
+p0408,0.73958820104599,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG-J.P. Morgan Securities plc. Form 8.5 (EPT/RI) CPP Group Plc,,2013-04-02 00:00:00,REG-J.P. Morgan Securities plc. Form 8.5 (EPT/RI) - May Gurney Integrated Services Plc,,2013-04-05 00:00:00,
+p0409,0.7173176407814026,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Morgan Stanley'],Comcast to Participate in Morgan Stanley Investor Conference,,2013-02-18 00:00:00,"Seagate to Participate in the Morgan Stanley Technology, Media & Telecom Conference",,2013-02-21 00:00:00,
+p0410,0.7468928694725037,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],"MARKET PULSE- Apple, Blyth, Micron, Boise, Pluristem, Dryships",,2013-09-16 00:00:00,"MARKET PULSE- Apple, Fedex, Tesla, Dollar Tree, Five Below, Adobe",,2013-09-18 00:00:00,
+p0411,0.7204697728157043,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['JPMorgan'],REG - JPMorgan Eur Small - Net Asset Value(s),,2012-01-03 00:00:00,REG - JPMorgan Amer InvTst - Total Voting Rights,,2012-01-03 00:00:00,
+p0412,0.7008765935897827,"[0.70, 0.75)",SAME,3_of_3,SAME,SAME,SAME,['JPMorgan'],RPT-Investors may lobby JPMorgan to clip Dimon's wings if vote fails,,2013-05-06 00:00:00,Will Shareholders Demote Jamie Dimon?,"You could say Jamie Dimon is the Houdini of Wall Street, wiggling out of one embarrassing situation after another. But can he maneuver out of his most recent tight spot? Two companies that advise shareholders on corporate governance are supporting proposals to oust some of JPMorgan Chase & Co.'s board. They also favor splitting Dimon's roles as chairman and chief executive officer into two. Calls for a fresh board and for Dimon to share power have grown since last May, when the bank disclosed a $6.2 billion derivatives trading loss. Today, Glass Lewis & Co., a proxy advisory company, said it b",2013-05-07 21:39:01,
+p0413,0.7004820108413696,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['AT&T'],AT&T; 4G LTE Coming To Greenville This Year,,2013-08-21 00:00:00,AT&T; 4G LTE Expands In Shreveport/Bossier Area,,2013-08-21 00:00:00,
+p0414,0.7097541689872742,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,"['Facebook', 'Microsoft']","Facebook, Nestle, Greg Norman, Fiat: Intellectual Property","Facebook Inc. (FB) , the biggest social-
+networking service, made an offer for AOL Inc. (AOL) ’s patent
+portfolio before losing out to Microsoft Corp. (MSFT) ’s $1.06 billion
+bid, two people with knowledge of the matter said. The proposal from Menlo Park , California-based Facebook was
+too low, said the people, who asked not to be identified because
+the discussions haven’t been disclosed. Facebook Chief Operating
+Officer Sheryl Sandberg led the negotiations to acquire AOL’s
+patents, one person said. Microsoft intends to sell most of the newly acquired
+portfolio because it doesn’t consider all ",2012-04-20 11:00:00,Facebook pays Microsoft $550 million for AOL patents,,2012-04-23 00:00:00,
+p0415,0.7165124416351318,"[0.70, 0.75)",SAME,2_of_3,SAME,SAME,DIFFERENT,['Goldman Sachs'],Goldman may delay UK bonuses until top tax rate falls,,2013-01-13 00:00:00,Goldman will not delay UK bonuses after tax row: source,,2013-01-15 00:00:00,
+p0416,0.7120578289031982,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Verizon'],VisionMAX and Verizon Wireless Show Futuristic Retail Solutions at 2012 CES,,2012-01-10 00:00:00,Novatel Wireless Showcases 10 New 4G Solutions With OEM Partners and Verizon Wireless at CES 2012,,2012-01-10 00:00:00,
+p0417,0.7493429183959961,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Apple'],"Einhorn hedge fund may succeed in Apple case, judge says",,2013-02-19 00:00:00,UPDATE 2-Einhorn wins ruling against Apple in cash pile fight,,2013-02-22 00:00:00,
+p0418,0.7073401212692261,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['AT&T'],AT&T; 4G LTE Available In Corsicana,,2013-04-30 00:00:00,AT&T; 4G LTE Available In Mountain Home,,2013-04-30 00:00:00,
+p0419,0.7153825163841248,"[0.70, 0.75)",DIFFERENT,3_of_3,DIFFERENT,DIFFERENT,DIFFERENT,['Goldman Sachs'],Iconix Brand Group To Present At The Goldman Sachs Global Retailing Conference,,2013-09-03 00:00:00,Michael Kors Holdings Limited Announces Participation at the Goldman Sachs Twentieth Annual Global Retailing Conference,,2013-09-04 00:00:00,
+p0423,0.777228593826294,"[0.75, 0.80)",,routed_to_human,UNCLEAR,SAME,DIFFERENT,['Toyota'],Toyota to cut Tianjin plant output next week as China sales fall: Nikkei,,2012-10-15 00:00:00,"Toyota eyes global output cut of 200,000 cars on China slump-media",,2012-10-17 00:00:00,
+p0439,0.7940006852149963,"[0.75, 0.80)",,routed_to_human,UNCLEAR,SAME,DIFFERENT,['Boeing'],UPDATE 4-Boeing seen in advanced talks to make 777X near Seattle,,2013-11-04 00:00:00,UPDATE 3-Washington state takes steps to nail down Boeing 777X contract,,2013-11-07 00:00:00,
+p0540,0.8601207733154297,"[0.85, 1.00)",,routed_to_human,UNCLEAR,DIFFERENT,SAME,['JPMorgan'],JPMorgan Sees More Pain in Mortgages If Rates Remain High,"JPMorgan Chase & Co (JPM) . Chief Executive Officer Jamie Dimon warned investors that higher interest rates could lead to a “dramatic reduction” in the bank’s profits by eroding demand for mortgage refinancing. The surge in 30-year home-loan rates to 4.46 percent at the end of June from 3.51 percent in mid-May caused second-quarter mortgage-fee revenue to decline 20 percent, the New York-based bank reported today. Refinancing volume could fall as much as 40 percent in the second half if rates remain elevated, Chief Financial Officer Marianne Lake told analysts on a call today. “The environment",2013-07-12 20:16:32,Housing Unfazed as Dimon Sees JPMorgan Profit Squeeze,"JPMorgan Chase & Co. (JPM) Chief Executive Officer Jamie Dimon told investors last week that rising interest rates could trigger a “dramatic reduction” in the bank’s mortgage profits. According to its own analysts, the U.S. housing market will extend its recovery regardless. The rate for 30-year home loans jumped to 4.51 percent last week from a near record-low of 3.35 percent in early May after Federal Reserve Chairman Ben S. Bernanke indicated the central bank may slow its purchases of government and mortgage bonds. Refinancing, which has slumped to the lowest in two years, may drop by as mu",2013-07-15 12:52:35,
+p0543,0.8799252510070801,"[0.85, 1.00)",,routed_to_human,UNCLEAR,UNCLEAR,SAME,['Verizon'],RLPC: Verizon sets pricing on $14B bank loan,,2013-09-09 00:00:00,RLPC: Fee details out on Verizon's $12B bank loan,,2013-09-11 00:00:00,

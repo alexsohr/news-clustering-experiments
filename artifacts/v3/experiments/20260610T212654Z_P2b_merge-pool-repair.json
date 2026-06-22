@@ -1,0 +1,547 @@
+{
+  "run_id": "20260610T212654Z_P2b_merge-pool-repair",
+  "phase": "P2b",
+  "tag": "merge-pool-repair",
+  "description": "Repaired merge pool: closed multi-stories included, MERGE_SIM 0.85->0.80 (sweep charted), merge-judge gates every union; on top of accepted P2a gate",
+  "parent_run_id": "20260610T212348Z_P2a_hdbscan-judge-gate",
+  "comparison_root": "R0",
+  "kernel_clean": false,
+  "checkpoint_fingerprint": "ab222bbfebeda711",
+  "pipeline_counts": {
+    "processed_items": 7871,
+    "s10": {
+      "new_no_candidates": 1283,
+      "new_below_tau_low": 5182,
+      "gray_diff": 823,
+      "gray_same": 566,
+      "auto": 17
+    },
+    "s11": {
+      "clusters_raw": 596,
+      "noise": 4313,
+      "dropped_client": 214,
+      "judge_gate": {
+        "clusters_in": 382,
+        "kept": 94,
+        "dropped": 288,
+        "peeled_members": 46,
+        "judge_calls": 607
+      },
+      "absorbed": 288
+    },
+    "s13": {
+      "merge_pool": 493,
+      "merge_candidates": 71,
+      "merges_applied": 50,
+      "second_sweep_assigned": 0
+    },
+    "final": {
+      "stories": 7446,
+      "multi_item": 845,
+      "singletons": 6601,
+      "largest_story": 40
+    }
+  },
+  "metrics": {
+    "frozen_full": {
+      "precision": 0.7525773195876289,
+      "recall": 0.7849462365591398,
+      "f1": 0.768421052631579,
+      "tp": 73,
+      "fp": 24,
+      "fn": 20,
+      "tn": 426,
+      "n_scored": 543,
+      "unresolved_pairs": 178
+    },
+    "frozen_non_boilerplate": {
+      "precision": 0.7525773195876289,
+      "recall": 0.7934782608695652,
+      "f1": 0.7724867724867726,
+      "tp": 73,
+      "fp": 24,
+      "fn": 19,
+      "tn": 249,
+      "n_scored": 365
+    },
+    "frozen_full_v2style": {
+      "precision": 0.7525773195876289,
+      "recall": 0.7849462365591398,
+      "f1": 0.768421052631579,
+      "tp": 73,
+      "fp": 24,
+      "fn": 20,
+      "tn": 426,
+      "n_scored": 543
+    },
+    "supplemental_gt72h": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 13,
+      "fn": 1,
+      "tn": 185,
+      "n_scored": 199,
+      "by_gap_bucket": {
+        "14-30d": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 6,
+          "fn": 0,
+          "tn": 64,
+          "n_scored": 70
+        },
+        "3-7d": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 5,
+          "fn": 0,
+          "tn": 57,
+          "n_scored": 62
+        },
+        "7-14d": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 1,
+          "tn": 64,
+          "n_scored": 67
+        }
+      }
+    }
+  },
+  "attribution": {
+    "pred_same_stage_counts": {
+      "s10_judge": 72,
+      "s10_other": 21,
+      "s10_auto": 3,
+      "s11_cluster": 1
+    },
+    "fp_by_stage": {
+      "s10_judge": 23,
+      "s11_cluster": 1
+    },
+    "fn_by_blocker": {
+      "judge_said_no": 13,
+      "below_tau_low_pairwise": 4,
+      "divergent_other": 2,
+      "set_aside_unresolved": 1
+    },
+    "fp_pairs": [
+      {
+        "pair_id": "p0196",
+        "stage": "s10_judge",
+        "cosine": 0.579,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0208",
+        "stage": "s10_judge",
+        "cosine": 0.576,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0213",
+        "stage": "s10_judge",
+        "cosine": 0.593,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0219",
+        "stage": "s10_judge",
+        "cosine": 0.588,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0259",
+        "stage": "s10_judge",
+        "cosine": 0.61,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0280",
+        "stage": "s10_judge",
+        "cosine": 0.63,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0284",
+        "stage": "s10_judge",
+        "cosine": 0.64,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0288",
+        "stage": "s10_judge",
+        "cosine": 0.61,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0293",
+        "stage": "s10_judge",
+        "cosine": 0.613,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0297",
+        "stage": "s10_judge",
+        "cosine": 0.611,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0309",
+        "stage": "s10_judge",
+        "cosine": 0.672,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0314",
+        "stage": "s10_judge",
+        "cosine": 0.665,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0323",
+        "stage": "s10_judge",
+        "cosine": 0.691,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0353",
+        "stage": "s10_judge",
+        "cosine": 0.664,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0365",
+        "stage": "s10_judge",
+        "cosine": 0.737,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0390",
+        "stage": "s10_judge",
+        "cosine": 0.723,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0404",
+        "stage": "s10_judge",
+        "cosine": 0.704,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0417",
+        "stage": "s10_judge",
+        "cosine": 0.749,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0420",
+        "stage": "s10_judge",
+        "cosine": 0.778,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0435",
+        "stage": "s11_cluster",
+        "cosine": 0.756,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0443",
+        "stage": "s10_judge",
+        "cosine": 0.77,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0456",
+        "stage": "s10_judge",
+        "cosine": 0.752,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0481",
+        "stage": "s10_judge",
+        "cosine": 0.815,
+        "boilerplate": false
+      },
+      {
+        "pair_id": "p0493",
+        "stage": "s10_judge",
+        "cosine": 0.844,
+        "boilerplate": false
+      }
+    ],
+    "fn_pairs": [
+      {
+        "pair_id": "p0124",
+        "blocker": "below_tau_low_pairwise",
+        "cosine": 0.536
+      },
+      {
+        "pair_id": "p0126",
+        "blocker": "below_tau_low_pairwise",
+        "cosine": 0.523
+      },
+      {
+        "pair_id": "p0152",
+        "blocker": "below_tau_low_pairwise",
+        "cosine": 0.529
+      },
+      {
+        "pair_id": "p0176",
+        "blocker": "below_tau_low_pairwise",
+        "cosine": 0.54
+      },
+      {
+        "pair_id": "p0215",
+        "blocker": "divergent_other",
+        "cosine": 0.576
+      },
+      {
+        "pair_id": "p0245",
+        "blocker": "judge_said_no",
+        "cosine": 0.621
+      },
+      {
+        "pair_id": "p0254",
+        "blocker": "set_aside_unresolved",
+        "cosine": 0.618
+      },
+      {
+        "pair_id": "p0258",
+        "blocker": "divergent_other",
+        "cosine": 0.625
+      },
+      {
+        "pair_id": "p0271",
+        "blocker": "judge_said_no",
+        "cosine": 0.601
+      },
+      {
+        "pair_id": "p0273",
+        "blocker": "judge_said_no",
+        "cosine": 0.649
+      },
+      {
+        "pair_id": "p0278",
+        "blocker": "judge_said_no",
+        "cosine": 0.627
+      },
+      {
+        "pair_id": "p0291",
+        "blocker": "judge_said_no",
+        "cosine": 0.609
+      },
+      {
+        "pair_id": "p0299",
+        "blocker": "judge_said_no",
+        "cosine": 0.605
+      },
+      {
+        "pair_id": "p0303",
+        "blocker": "judge_said_no",
+        "cosine": 0.675
+      },
+      {
+        "pair_id": "p0322",
+        "blocker": "judge_said_no",
+        "cosine": 0.654
+      },
+      {
+        "pair_id": "p0337",
+        "blocker": "judge_said_no",
+        "cosine": 0.677
+      },
+      {
+        "pair_id": "p0398",
+        "blocker": "judge_said_no",
+        "cosine": 0.736
+      },
+      {
+        "pair_id": "p0415",
+        "blocker": "judge_said_no",
+        "cosine": 0.717
+      },
+      {
+        "pair_id": "p0497",
+        "blocker": "judge_said_no",
+        "cosine": 0.829
+      },
+      {
+        "pair_id": "p0505",
+        "blocker": "judge_said_no",
+        "cosine": 0.806
+      }
+    ]
+  },
+  "judge_quality": {
+    "n_judged": 543,
+    "overall_accuracy": 0.9042357274401474,
+    "by_bin": {
+      "[0.20, 0.40)": {
+        "n": 60,
+        "acc": 1.0
+      },
+      "[0.40, 0.50)": {
+        "n": 60,
+        "acc": 0.983
+      },
+      "[0.50, 0.55)": {
+        "n": 60,
+        "acc": 0.9
+      },
+      "[0.55, 0.60)": {
+        "n": 55,
+        "acc": 0.909
+      },
+      "[0.60, 0.65)": {
+        "n": 60,
+        "acc": 0.783
+      },
+      "[0.65, 0.70)": {
+        "n": 52,
+        "acc": 0.865
+      },
+      "[0.70, 0.75)": {
+        "n": 60,
+        "acc": 0.917
+      },
+      "[0.75, 0.80)": {
+        "n": 46,
+        "acc": 0.913
+      },
+      "[0.80, 0.85)": {
+        "n": 42,
+        "acc": 0.857
+      },
+      "[0.85, 1.00)": {
+        "n": 48,
+        "acc": 0.896
+      }
+    }
+  },
+  "fusion": null,
+  "cost": {
+    "judge_calls_new": 0,
+    "judge_calls_cached": 1996
+  },
+  "notebook": "story_clustering_poc_v3.ipynb",
+  "config": {
+    "active_window_hours": 72,
+    "artifacts_dir": "/Users/alex/Projcts/news-clustering/artifacts/v3",
+    "cache_dir": "/Users/alex/Projcts/news-clustering/.cache",
+    "centroid_merge_sim": 0.85,
+    "client_universe_size": 20,
+    "comparison_root": "R0",
+    "data_dir": "/Users/alex/Projcts/news-clustering/dataset/financial-news-multisource/data",
+    "embed_dims": 1024,
+    "embed_model": "text-embedding-3-large",
+    "eval_cosine_bins": [
+      [
+        0.2,
+        0.4
+      ],
+      [
+        0.4,
+        0.5
+      ],
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.55,
+        0.6
+      ],
+      [
+        0.6,
+        0.65
+      ],
+      [
+        0.65,
+        0.7
+      ],
+      [
+        0.7,
+        0.75
+      ],
+      [
+        0.75,
+        0.8
+      ],
+      [
+        0.8,
+        0.85
+      ],
+      [
+        0.85,
+        1.0
+      ]
+    ],
+    "eval_pairs_per_bin": 60,
+    "frozen_eval_path": "/Users/alex/Projcts/news-clustering/artifacts/v2/labeled_eval_set.csv",
+    "gemini_judge_model": "gemini-3.5-flash",
+    "hdbscan_cluster_selection_method": "eom",
+    "hdbscan_judge_gate": true,
+    "hdbscan_metric": "cosine",
+    "hdbscan_min_cluster_size": 2,
+    "hdbscan_min_samples": 2,
+    "human_spotcheck_band": [
+      0.55,
+      0.75
+    ],
+    "judge_model": "gpt-4.1-mini",
+    "judge_prompt_version": "v1",
+    "judge_rep": "first",
+    "lede_chars": 600,
+    "merge_include_closed": true,
+    "merge_sim_v3": 0.8,
+    "metadata_model": "gpt-4.1",
+    "minhash_num_perm": 128,
+    "minhash_threshold": 0.85,
+    "openai_judge_model": "gpt-5.2",
+    "parent_run_id": "20260610T212348Z_P2a_hdbscan-judge-gate",
+    "primary_source": "bloomberg_reuters",
+    "random_seed": 42,
+    "run_description": "Repaired merge pool: closed multi-stories included, MERGE_SIM 0.85->0.80 (sweep charted), merge-judge gates every union; on top of accepted P2a gate",
+    "run_phase": "P2b",
+    "run_tag": "merge-pool-repair",
+    "second_sweep": false,
+    "second_sweep_window_h": 336,
+    "sonnet_model": "claude-sonnet-4-6",
+    "supplemental_eval_path": "/Users/alex/Projcts/news-clustering/artifacts/v3/labeled_eval_supplemental.csv",
+    "target_canonical_items": 10000,
+    "tau_high": 0.94,
+    "tau_high_prior": 0.75,
+    "tau_low": 0.54,
+    "tau_low_prior": 0.55,
+    "use_fusion_gates": false,
+    "vendor_rate_limits_rpm": {
+      "sonnet": 25,
+      "haiku": 40,
+      "openai": 50,
+      "gemini": 50
+    }
+  },
+  "eval_hashes": {
+    "frozen_csv_sha256": "f8dde5b701cee45d",
+    "supplemental_csv_sha256": "fe215c5d0e19b7da"
+  },
+  "stop_rule": {
+    "ship": 0.85,
+    "floor": 0.75,
+    "headline_f1": 0.768421052631579,
+    "verdict": "CONTINUE"
+  },
+  "accepted": false,
+  "notes": "INVALID RUN: 13.4 carry-over double-counted closed pool stories; superseded by merge-pool-repair-fix."
+}
