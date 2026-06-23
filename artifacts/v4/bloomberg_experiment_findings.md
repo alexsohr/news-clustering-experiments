@@ -93,3 +93,52 @@ actively hurts.
 `bloomberg_eval.csv` (463), `bloomberg_eval_large.csv` (1100), `bb_followup_sa{1,2,3}.json`.
 
 ## Cost ≈ $7 total BB (initial ~$1.7 + follow-ups: SA1 ~$1.5, SA2 ~$0.1, SA3 ~$3.9 incl. gpt-4.1 labeling + large judge A/B).
+
+---
+
+# UPDATE 2026-06-23 — Representative eval (the apples-to-apples number)
+
+**Why:** every prior BB end-to-end F1 (0.40–0.63) was measured on a *hard-negative-mined* eval
+(`bloomberg_eval_large.csv`: 6.2% SAME, SAME−DIFF cosine gap **0.021** — near-inseparable by
+construction). That number is a floor, not a production estimate, and is NOT comparable to the news
+F1=0.834/0.870 (which used a representative, cosine-stratified eval). So we built the missing eval.
+
+**How (`artifacts/v4/eval_repr/`):** 521 candidate pairs drawn from the *real* candidate rule
+(shared-client + 72h window) over the 3,000 BB items, then **stratified across single-vec cosine
+buckets** (mirrors the v2 news eval that produced 0.870) — not top-cosine mined. Labeled SAME/DIFFERENT
+by **Claude Sonnet subagents on the Claude Code subscription** (11 parallel agents; not the OpenAI key).
+Result: **520 scored pairs, 125 SAME (24.0%)**, SAME cosine 0.772 vs DIFF 0.584 → **gap 0.188** (wider
+than news 0.148), SAME-rate monotone by bucket (0%→5%→15%→42%→73%). Chart:
+`artifacts/v4/eval_repr/repr_vs_hard.png`.
+
+**Scorer:** identical pairwise gate + **gpt-4.1-mini** judge (no gpt-5.4-mini escalation) applied to
+BOTH evals, so the only variable is eval composition. (`scripts/score_repr_eval.py`,
+`artifacts/v4/repr_vs_hard_scored.json`.)
+
+| arm | **representative** F1 / P / R | hard F1 / P / R |
+|---|---|---|
+| single_vec (single-vec cosine, full-body judge) | **0.834** / 0.864 / 0.806 | 0.391 / 0.941 / 0.247 |
+| chunk_pair (max-pool cosine, matched-chunk judge) | 0.773 / 0.872 / 0.694 | 0.418 / 0.912 / 0.271 |
+| full_body  (max-pool cosine, full-body judge) | 0.828 / 0.848 / 0.809 | 0.410 / 0.956 / 0.261 |
+
+## Headline
+**On a representative eval the pipeline scores F1 ≈ 0.83 — the same league as the news baseline 0.834.**
+The "low" 0.4–0.6 numbers were entirely a hard-eval artifact; nothing regressed. Same pipeline, same
+scorer, swap a hard-negative-mined eval for a representative one → F1 roughly doubles.
+
+## Refinement that CHANGES the recommendation
+On representative-difficulty pairs the **chunk_pair judge text HURTS** (F1 0.773 vs full_body 0.828 /
+single_vec 0.834) — and it's all recall (**48 missed SAME vs 25**). The single best-matching chunk pair
+is too thin to confirm SAME once pairs are no longer near-duplicates; the full body is needed. At the
+*vector/gate* level, chunk max-pool ≈ single-vec (full_body 0.828 ≈ single_vec 0.834 — tied). So:
+
+- ❌ The earlier hard-eval-based call ("adopt body chunking + **chunk_pair** judge — same quality at ⅓
+  cost") does **not** hold on representative data. chunk_pair's ⅓-cost win was an artifact of an eval
+  made of near-duplicates, where the matched chunk already contains the whole story.
+- ✅ **Best representative config: single-vector candidates + full-body judge (F1 0.834).** Chunking the
+  vectors is neutral (tied); chunk_pair judge text costs ~6 F1 pts of recall.
+
+**Caveat:** still a Bloomberg proxy. Chunk vectors' raw-cosine separability edge on body-rich data
+(AUC 0.666 vs 0.624) remains real but does NOT convert to F1 here. For the user's own research-artifact
+corpus, recalibrate on a representative eval of THAT data before committing to chunking. Cost of this
+run: ~$0.40 (gpt-4.1-mini judge) + Sonnet labeling on subscription.

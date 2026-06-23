@@ -1,0 +1,252 @@
+[
+  {
+    "pair_id": "rp0300",
+    "label": "DIFFERENT",
+    "reason": "Daihatsu Japan recall vs Toyota China dealership post-protest rebuilding"
+  },
+  {
+    "pair_id": "rp0301",
+    "label": "DIFFERENT",
+    "reason": "Japan equity market daily wrap vs Toyota cash deployment under Abenomics"
+  },
+  {
+    "pair_id": "rp0302",
+    "label": "DIFFERENT",
+    "reason": "Dallas Fed bank-size cap proposal vs JPMorgan Senate hearing on trading-loss disclosure"
+  },
+  {
+    "pair_id": "rp0303",
+    "label": "DIFFERENT",
+    "reason": "Ambac MBS fraud lawsuit vs separate CFTC Lehman customer-funds settlement"
+  },
+  {
+    "pair_id": "rp0304",
+    "label": "DIFFERENT",
+    "reason": "North Sea crude trading transaction vs Canadian oil producer stock move"
+  },
+  {
+    "pair_id": "rp0305",
+    "label": "DIFFERENT",
+    "reason": "InterDigital patent licensing commentary vs Google/Motorola Home unit sale"
+  },
+  {
+    "pair_id": "rp0306",
+    "label": "SAME",
+    "reason": "Both cover Apple-Samsung patent litigation aftermath — injunction request and industry IP-protection response to same $1B verdict"
+  },
+  {
+    "pair_id": "rp0307",
+    "label": "DIFFERENT",
+    "reason": "Canadian provincial bond flows vs Japanese BBB corporate bond market drought"
+  },
+  {
+    "pair_id": "rp0308",
+    "label": "DIFFERENT",
+    "reason": "Zuckerberg wealth decline (ongoing share drop) vs Facebook IPO worst monthly performance post-Lehman"
+  },
+  {
+    "pair_id": "rp0309",
+    "label": "DIFFERENT",
+    "reason": "Japan broad market year-end rally vs Nissan CEO commentary on yen and China"
+  },
+  {
+    "pair_id": "rp0310",
+    "label": "SAME",
+    "reason": "Both cover Apple's $1B win over Samsung and its direct follow-up actions — same verdict event"
+  },
+  {
+    "pair_id": "rp0311",
+    "label": "DIFFERENT",
+    "reason": "Commodity hedge-fund positioning report vs Goldman annual commodities revenue ranking"
+  },
+  {
+    "pair_id": "rp0312",
+    "label": "DIFFERENT",
+    "reason": "Broad market bull-market analysis vs Morgan Stanley economist inequality commentary"
+  },
+  {
+    "pair_id": "rp0313",
+    "label": "DIFFERENT",
+    "reason": "Human-interest Thain award ceremony vs Citigroup executive appointment"
+  },
+  {
+    "pair_id": "rp0314",
+    "label": "SAME",
+    "reason": "Both cover the same Greek election aftermath and euro-exit/austerity debate"
+  },
+  {
+    "pair_id": "rp0315",
+    "label": "DIFFERENT",
+    "reason": "US monthly auto sales results vs BMW South Africa factory expansion halt"
+  },
+  {
+    "pair_id": "rp0316",
+    "label": "DIFFERENT",
+    "reason": "AT&T spectrum acquisition vs AT&T labor contract negotiation extension"
+  },
+  {
+    "pair_id": "rp0317",
+    "label": "DIFFERENT",
+    "reason": "Proview-Apple iPad China trademark stall vs multi-company IP news roundup article"
+  },
+  {
+    "pair_id": "rp0318",
+    "label": "DIFFERENT",
+    "reason": "Japan/Korea auto sales decline vs GM China record quarterly sales"
+  },
+  {
+    "pair_id": "rp0319",
+    "label": "DIFFERENT",
+    "reason": "ServiceNow IPO launch vs Facebook post-IPO stock recovery"
+  },
+  {
+    "pair_id": "rp0320",
+    "label": "DIFFERENT",
+    "reason": "CMBS bond deal vs Treasury yields hitting record lows on Europe crisis"
+  },
+  {
+    "pair_id": "rp0321",
+    "label": "SAME",
+    "reason": "Both cover the same Spain/EU crisis moment — EU finance ministers deadlock and market response in gilts and Spanish bonds"
+  },
+  {
+    "pair_id": "rp0322",
+    "label": "DIFFERENT",
+    "reason": "Hyundai U.S. strategy briefing vs GM/Ford annual China sales results"
+  },
+  {
+    "pair_id": "rp0323",
+    "label": "DIFFERENT",
+    "reason": "Asian credit spreads tightening on Fed guidance vs Italian junk bond issuance"
+  },
+  {
+    "pair_id": "rp0324",
+    "label": "DIFFERENT",
+    "reason": "Smartphone market share data release vs iPad hardware launch event"
+  },
+  {
+    "pair_id": "rp0325",
+    "label": "SAME",
+    "reason": "Both report Q4 13-F hedge fund filings showing increased Facebook stakes — same filing cycle event"
+  },
+  {
+    "pair_id": "rp0326",
+    "label": "DIFFERENT",
+    "reason": "Boeing 737 MAX production expansion vs CFM engine market forecast at Farnborough"
+  },
+  {
+    "pair_id": "rp0327",
+    "label": "DIFFERENT",
+    "reason": "Executive share-holding disclosure vs JPMorgan capital return/buyback timeline"
+  },
+  {
+    "pair_id": "rp0328",
+    "label": "SAME",
+    "reason": "Both report on the same JPMorgan $2B trading loss episode — Fed review and Goldman reaction same event"
+  },
+  {
+    "pair_id": "rp0329",
+    "label": "DIFFERENT",
+    "reason": "Southeast Asia FX reserve rebuilding vs Asian equity weekly market wrap"
+  },
+  {
+    "pair_id": "rp0330",
+    "label": "SAME",
+    "reason": "Both focus on the JPMorgan $2-3B trading loss event — congressional scrutiny and underlying CDX position unwinding"
+  },
+  {
+    "pair_id": "rp0331",
+    "label": "DIFFERENT",
+    "reason": "Brazilian exchange competition news vs European equity market daily wrap"
+  },
+  {
+    "pair_id": "rp0332",
+    "label": "DIFFERENT",
+    "reason": "Chinese developer bond issuance trend vs Third Plenum economic reform communique"
+  },
+  {
+    "pair_id": "rp0333",
+    "label": "DIFFERENT",
+    "reason": "Commodity selloff on China PMI miss vs Goldman equity outlook on Chinese valuations"
+  },
+  {
+    "pair_id": "rp0334",
+    "label": "SAME",
+    "reason": "Both concern the same JPMorgan $13B mortgage-bond settlement and Dimon's negotiating position"
+  },
+  {
+    "pair_id": "rp0335",
+    "label": "DIFFERENT",
+    "reason": "Toyota Prius U.S. sales target update vs new chairman's sports-car vision"
+  },
+  {
+    "pair_id": "rp0336",
+    "label": "DIFFERENT",
+    "reason": "Specific Exxon Yanbu fuel-oil cargo deal vs Indian Oil crude purchase tender"
+  },
+  {
+    "pair_id": "rp0337",
+    "label": "DIFFERENT",
+    "reason": "Countrywide/Mozilo investor-fraud appeals ruling vs separate BofA Texas MERS fees lawsuit"
+  },
+  {
+    "pair_id": "rp0338",
+    "label": "SAME",
+    "reason": "Both cover the Boeing 787 grounding due to battery fires — human angle and technical response same crisis"
+  },
+  {
+    "pair_id": "rp0339",
+    "label": "DIFFERENT",
+    "reason": "Nasdaq Facebook IPO compensation process vs Nasdaq winning Kraft listing (separate competitive event)"
+  },
+  {
+    "pair_id": "rp0340",
+    "label": "DIFFERENT",
+    "reason": "Broad US equity weekly market wrap vs Dell credit/business decline analysis"
+  },
+  {
+    "pair_id": "rp0341",
+    "label": "DIFFERENT",
+    "reason": "Facebook stock price recovery story vs Facebook launching ads on Zynga platform"
+  },
+  {
+    "pair_id": "rp0342",
+    "label": "DIFFERENT",
+    "reason": "VW U.S. sales target briefing vs GM/Ford 2011 China annual sales record"
+  },
+  {
+    "pair_id": "rp0343",
+    "label": "SAME",
+    "reason": "Both cover the same Greg Smith Goldman op-ed event and its regulatory/political fallout"
+  },
+  {
+    "pair_id": "rp0344",
+    "label": "SAME",
+    "reason": "Both cover airlines (including LOT) coping with grounded Boeing 787 fleet — same grounding event"
+  },
+  {
+    "pair_id": "rp0345",
+    "label": "DIFFERENT",
+    "reason": "JPMorgan dividend/buyback Fed approval vs Senate trading-loss probe handing SEC lawsuit evidence"
+  },
+  {
+    "pair_id": "rp0346",
+    "label": "DIFFERENT",
+    "reason": "BOJ policy meeting unchanged vs Fed FOMC meeting statement — different central banks, different events"
+  },
+  {
+    "pair_id": "rp0347",
+    "label": "SAME",
+    "reason": "Both cover the post-Facebook-IPO blame and technical failures — same IPO debacle event"
+  },
+  {
+    "pair_id": "rp0348",
+    "label": "DIFFERENT",
+    "reason": "US/euro market daily wrap vs emerging markets decline — different geographic focus, generic daily wraps"
+  },
+  {
+    "pair_id": "rp0349",
+    "label": "SAME",
+    "reason": "Both cover the same Google/Motorola patents dispute against Microsoft over Xbox/Windows royalty rates"
+  }
+]

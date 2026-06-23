@@ -1,0 +1,252 @@
+[
+  {
+    "pair_id": "rp0350",
+    "label": "SAME",
+    "reason": "Both cover the same gold selloff event; A is central bank reaction, B is Goldman's causal analysis of the same price drop"
+  },
+  {
+    "pair_id": "rp0351",
+    "label": "DIFFERENT",
+    "reason": "Different Microsoft developments: cloud pricing cuts vs CEO succession process"
+  },
+  {
+    "pair_id": "rp0352",
+    "label": "SAME",
+    "reason": "Both cover the same iPhone 5S/5C launch event; A reports China carrier rollout, B covers the unveiling and stock reaction"
+  },
+  {
+    "pair_id": "rp0353",
+    "label": "DIFFERENT",
+    "reason": "Different market sessions and primary drivers: US equity weekly wrap vs Asian stocks drop on China data"
+  },
+  {
+    "pair_id": "rp0354",
+    "label": "SAME",
+    "reason": "Both cover the same day's commodity selloff triggered by the same Chinese manufacturing PMI miss"
+  },
+  {
+    "pair_id": "rp0355",
+    "label": "SAME",
+    "reason": "Both are opinion pieces reacting to the same Ballmer retirement announcement"
+  },
+  {
+    "pair_id": "rp0356",
+    "label": "DIFFERENT",
+    "reason": "Different market sessions and drivers: Japan stocks on Europe/yen vs emerging markets on China/Apple earnings"
+  },
+  {
+    "pair_id": "rp0357",
+    "label": "DIFFERENT",
+    "reason": "Different bond market stories: auto ABS deals vs covered bond issuance surge"
+  },
+  {
+    "pair_id": "rp0358",
+    "label": "SAME",
+    "reason": "Both are disclosures from the same Goldman Q2 quarterly filing, covering different line items"
+  },
+  {
+    "pair_id": "rp0359",
+    "label": "DIFFERENT",
+    "reason": "Different personnel moves at BofA: European financials chairperson vs Russia/CIS co-heads"
+  },
+  {
+    "pair_id": "rp0360",
+    "label": "SAME",
+    "reason": "Both cover Apple stock crossing $500 following the same post-earnings rally"
+  },
+  {
+    "pair_id": "rp0361",
+    "label": "DIFFERENT",
+    "reason": "Different market sessions: A is Alcoa earnings-driven rally, B is a different day's equity movers with different drivers"
+  },
+  {
+    "pair_id": "rp0362",
+    "label": "DIFFERENT",
+    "reason": "Different Daihatsu events: Indonesia LCGC sales launch vs Japan engine recall"
+  },
+  {
+    "pair_id": "rp0363",
+    "label": "DIFFERENT",
+    "reason": "Different housing finance stories: rising modified-mortgage defaults vs banks hiring for loan demand"
+  },
+  {
+    "pair_id": "rp0364",
+    "label": "SAME",
+    "reason": "Both cover the same Apple v. Samsung patent verdict; A is op-ed reaction, B is jury foreman details"
+  },
+  {
+    "pair_id": "rp0365",
+    "label": "DIFFERENT",
+    "reason": "Different BofA legal matters: Countrywide securities class-action vs FHFA faulty mortgages settlement"
+  },
+  {
+    "pair_id": "rp0366",
+    "label": "DIFFERENT",
+    "reason": "Different market sessions: US markets reacting to Apple results vs Asian markets on Greece/China concerns"
+  },
+  {
+    "pair_id": "rp0367",
+    "label": "SAME",
+    "reason": "Both cover the same Gibbs & Bruns bondholder escalation against Wells Fargo and Morgan Stanley"
+  },
+  {
+    "pair_id": "rp0368",
+    "label": "DIFFERENT",
+    "reason": "Different investors' Facebook stake stories: Harvard buying vs Microsoft holding through lockup expiry"
+  },
+  {
+    "pair_id": "rp0369",
+    "label": "DIFFERENT",
+    "reason": "Different stories: Fed's Bullard stimulus remarks driving stocks vs Goldman's long-term S&P forecast"
+  },
+  {
+    "pair_id": "rp0370",
+    "label": "DIFFERENT",
+    "reason": "Different financial events: Q4 bank earnings revenue miss vs banks tapping corporate bond market"
+  },
+  {
+    "pair_id": "rp0371",
+    "label": "SAME",
+    "reason": "Both cover progress on Boeing 787 battery fix and return to service, same ongoing regulatory process"
+  },
+  {
+    "pair_id": "rp0372",
+    "label": "SAME",
+    "reason": "Both cover the same Apple shareholder meeting and Einhorn/Greenlight preferred-share dispute"
+  },
+  {
+    "pair_id": "rp0373",
+    "label": "DIFFERENT",
+    "reason": "Different credit market stories: Chinese dollar bond issuance pause vs CME gains from bond market volatility"
+  },
+  {
+    "pair_id": "rp0374",
+    "label": "SAME",
+    "reason": "Both cover the same Facebook stock slide; A focuses on Zuckerberg's wealth impact, B on growth concerns driving the same decline"
+  },
+  {
+    "pair_id": "rp0375",
+    "label": "DIFFERENT",
+    "reason": "Different mobile stories: IDC's global market growth forecast vs Nokia's North America carrier expansion strategy"
+  },
+  {
+    "pair_id": "rp0376",
+    "label": "SAME",
+    "reason": "Both cover JPMorgan's $2B trading loss and Dimon's congressional testimony on the same event"
+  },
+  {
+    "pair_id": "rp0377",
+    "label": "DIFFERENT",
+    "reason": "Different Mobile World Congress product announcements: Nokia Lumia 610 vs Orange/Intel handset"
+  },
+  {
+    "pair_id": "rp0378",
+    "label": "SAME",
+    "reason": "Both cover the same iPhone 5C launch; A reports Australia pricing, B covers the unveiling and market reaction"
+  },
+  {
+    "pair_id": "rp0379",
+    "label": "SAME",
+    "reason": "Both cover Facebook's IPO roadshow period; A on retail investor access, B on executive roadshow presentations"
+  },
+  {
+    "pair_id": "rp0380",
+    "label": "SAME",
+    "reason": "Both cover the same new iPad launch; A is the product unveiling, B is the carrier sales benefit analysis"
+  },
+  {
+    "pair_id": "rp0381",
+    "label": "SAME",
+    "reason": "Both cover the same pending Moody's bank downgrades; A on market pricing, B on Goldman CFO's expectations"
+  },
+  {
+    "pair_id": "rp0382",
+    "label": "DIFFERENT",
+    "reason": "Different events: Apple shifting chip supply from Samsung to TSMC vs Samsung Galaxy S4 disappointing sales"
+  },
+  {
+    "pair_id": "rp0383",
+    "label": "SAME",
+    "reason": "Both cover the same Twitter IPO roadshow period; A on insider share retention, B on the investor pitch narrative"
+  },
+  {
+    "pair_id": "rp0384",
+    "label": "DIFFERENT",
+    "reason": "Different company stories: Facebook recovering from post-IPO decline vs Zynga rebounding on game traffic"
+  },
+  {
+    "pair_id": "rp0385",
+    "label": "DIFFERENT",
+    "reason": "Different IP news: patent troll reform legislation vs Authentic Brands Elvis rights acquisition roundup"
+  },
+  {
+    "pair_id": "rp0386",
+    "label": "SAME",
+    "reason": "Both cover the same Senate antitrust hearing on Verizon's $3.6B cable spectrum deal"
+  },
+  {
+    "pair_id": "rp0387",
+    "label": "SAME",
+    "reason": "Both cover the same JPMorgan CIO restructuring following the $2B trading loss, with Ina Drew exit and Zames taking over"
+  },
+  {
+    "pair_id": "rp0388",
+    "label": "DIFFERENT",
+    "reason": "Different BOJ meetings: A covers a rate decision adding dollar loans, B covers a separate meeting where Shirakawa resisted bond-buying pressure"
+  },
+  {
+    "pair_id": "rp0389",
+    "label": "SAME",
+    "reason": "Both cover Twitter's IPO first day of trading and the stock price surge"
+  },
+  {
+    "pair_id": "rp0390",
+    "label": "DIFFERENT",
+    "reason": "Different JPMorgan probes: A is energy-trading criminal investigation, B is London Whale trading loss regulatory settlement"
+  },
+  {
+    "pair_id": "rp0391",
+    "label": "DIFFERENT",
+    "reason": "Different BofA events: MBIA mortgage lawsuit settlement vs CEO remarks on dividend policy at shareholder meeting"
+  },
+  {
+    "pair_id": "rp0392",
+    "label": "DIFFERENT",
+    "reason": "Different market events: palm oil weekly decline on Malaysia exports vs broad commodity selloff triggered by JPMorgan trading loss"
+  },
+  {
+    "pair_id": "rp0393",
+    "label": "DIFFERENT",
+    "reason": "Different BofA Brazil stories: state loan refinancing deals vs analyst downgrade of Banco do Brasil stock"
+  },
+  {
+    "pair_id": "rp0394",
+    "label": "DIFFERENT",
+    "reason": "Different September auto sales reports: US (Ford/Chrysler surprise gains) vs South Africa (sales decline)"
+  },
+  {
+    "pair_id": "rp0395",
+    "label": "DIFFERENT",
+    "reason": "Different Boeing stories: Q1 earnings beat with raised outlook vs 787 Dreamliner delivery to Air India from SC plant"
+  },
+  {
+    "pair_id": "rp0396",
+    "label": "SAME",
+    "reason": "Both cover the same Brazilian phone tower sale wave; A is NII Holdings' specific deal attempt, B is the broader market price surge from the same deal activity"
+  },
+  {
+    "pair_id": "rp0397",
+    "label": "DIFFERENT",
+    "reason": "Different pre-IPO Facebook events: S-1 risk factors filing vs private market $94B valuation auction on a separate occasion"
+  },
+  {
+    "pair_id": "rp0398",
+    "label": "DIFFERENT",
+    "reason": "Different credit market stories: global record corporate bond prices vs BofA's European-vs-US relative value trade recommendation"
+  },
+  {
+    "pair_id": "rp0399",
+    "label": "DIFFERENT",
+    "reason": "Different EM stories: emerging stocks rally on Europe easing vs Goldman's MIST vs BRICs investment theme"
+  }
+]

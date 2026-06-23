@@ -1,0 +1,252 @@
+[
+  {
+    "pair_id": "rp0150",
+    "label": "SAME",
+    "reason": "Both cover the JPMorgan CIO trading loss (~$2B), just different voices reacting to the same event"
+  },
+  {
+    "pair_id": "rp0151",
+    "label": "DIFFERENT",
+    "reason": "Peru corporate bond surge vs Chile water utility downgrade — unrelated events in different markets"
+  },
+  {
+    "pair_id": "rp0152",
+    "label": "DIFFERENT",
+    "reason": "Toyota chairman succession news vs Canadian government loan for Toyota hybrid production — different events"
+  },
+  {
+    "pair_id": "rp0153",
+    "label": "DIFFERENT",
+    "reason": "Samsung source-code court order violation vs Apple gaining second China carrier — different legal/market events"
+  },
+  {
+    "pair_id": "rp0154",
+    "label": "DIFFERENT",
+    "reason": "Microsoft/Motorola import ban lawsuit vs Google EU antitrust settlement talks — unrelated events"
+  },
+  {
+    "pair_id": "rp0155",
+    "label": "DIFFERENT",
+    "reason": "European market roundup featuring Kabel/Liberty deal vs TalkTalk stock move on BT Sport competitive threat"
+  },
+  {
+    "pair_id": "rp0156",
+    "label": "DIFFERENT",
+    "reason": "Samsung Windows Phone 8 US launch vs Apple CEO China visit — different companies, different events"
+  },
+  {
+    "pair_id": "rp0157",
+    "label": "DIFFERENT",
+    "reason": "CFTC/SEC finalizing swap definition vs JPMorgan analyst meeting on CIO hedging losses — different events"
+  },
+  {
+    "pair_id": "rp0158",
+    "label": "DIFFERENT",
+    "reason": "Sprint Q1 earnings miss vs China Unicom Q1 earnings beat — different companies, different results"
+  },
+  {
+    "pair_id": "rp0159",
+    "label": "DIFFERENT",
+    "reason": "Twitter adding scheduling tool for advertisers vs Twitter choosing NYSE for IPO — different Twitter developments"
+  },
+  {
+    "pair_id": "rp0160",
+    "label": "DIFFERENT",
+    "reason": "Asian stocks weekly roundup vs Citigroup/Western Asset positioning in Korean sovereign bonds — unrelated"
+  },
+  {
+    "pair_id": "rp0161",
+    "label": "SAME",
+    "reason": "Week-ahead preview mentioning Bernanke testimony and the market-reaction piece covering the same Bernanke testimony event"
+  },
+  {
+    "pair_id": "rp0162",
+    "label": "DIFFERENT",
+    "reason": "Martin-Artajo extradition (London Whale) vs JPMorgan Asia hiring practices investigation — different legal matters"
+  },
+  {
+    "pair_id": "rp0163",
+    "label": "DIFFERENT",
+    "reason": "Toyota China dealership recovery from protest damage vs Toyota supplier executive arrested for China bribery — unrelated events"
+  },
+  {
+    "pair_id": "rp0164",
+    "label": "DIFFERENT",
+    "reason": "Peru sovereign spread tightening on Fed optimism vs Citigroup's capital return plans — unrelated events"
+  },
+  {
+    "pair_id": "rp0165",
+    "label": "DIFFERENT",
+    "reason": "Hon Hai quarterly earnings record vs Twitter sentiment study on Apple vs Samsung — different events"
+  },
+  {
+    "pair_id": "rp0166",
+    "label": "DIFFERENT",
+    "reason": "China Telecom Q1 earnings miss vs Compal Q1 earnings decline — different companies, different results"
+  },
+  {
+    "pair_id": "rp0167",
+    "label": "DIFFERENT",
+    "reason": "Samsung Milan court loss on iPhone ban vs Samsung/Sony/Canon camera upgrades to compete with smartphones — different events"
+  },
+  {
+    "pair_id": "rp0168",
+    "label": "DIFFERENT",
+    "reason": "TBTF credit premium analysis vs Goldman Sachs executive compensation disparity — different topics"
+  },
+  {
+    "pair_id": "rp0169",
+    "label": "SAME",
+    "reason": "Both cover the iPhone 5S/5C announcement — one on a supplier beneficiary, one on Apple's stock reaction to the same event"
+  },
+  {
+    "pair_id": "rp0170",
+    "label": "DIFFERENT",
+    "reason": "JPMorgan swap dealer registration vs JPMorgan Madoff document withholding sanction threat — different legal events"
+  },
+  {
+    "pair_id": "rp0171",
+    "label": "DIFFERENT",
+    "reason": "Verizon/Vodafone $130B deal vs Sprint bond issuance — different companies, different events"
+  },
+  {
+    "pair_id": "rp0172",
+    "label": "DIFFERENT",
+    "reason": "Senate JPMorgan report aiding SEC case vs HSBC/StanChart decline on Cyprus Moody's warning — unrelated events"
+  },
+  {
+    "pair_id": "rp0173",
+    "label": "DIFFERENT",
+    "reason": "Fed policy statement on labor market vs S&P 500 dividend record announcement — different events"
+  },
+  {
+    "pair_id": "rp0174",
+    "label": "SAME",
+    "reason": "Both cover Citigroup's Q2/first-half results — the FX hit detail and the market reaction to the same earnings"
+  },
+  {
+    "pair_id": "rp0175",
+    "label": "DIFFERENT",
+    "reason": "Morgan Stanley London personnel departures vs European banks parking ECB LTRO funds — unrelated"
+  },
+  {
+    "pair_id": "rp0176",
+    "label": "DIFFERENT",
+    "reason": "HTC Q4 outlook warning vs Samsung Galaxy Round curved display launch — different companies, different news"
+  },
+  {
+    "pair_id": "rp0177",
+    "label": "SAME",
+    "reason": "Both cover the Fed stress test capital return cycle — one preview, one market reaction including Citigroup buyback approval"
+  },
+  {
+    "pair_id": "rp0178",
+    "label": "DIFFERENT",
+    "reason": "Berry Plastics IPO by Apollo vs Wells Fargo/Morgan Stanley RMBS lawsuit — unrelated events"
+  },
+  {
+    "pair_id": "rp0179",
+    "label": "DIFFERENT",
+    "reason": "Apple shifting chip orders from Samsung to TSMC vs Pebble smartwatch retail launch — different events"
+  },
+  {
+    "pair_id": "rp0180",
+    "label": "DIFFERENT",
+    "reason": "Jamie Dimon profile piece vs Senate confirming Fed board nominees — unrelated"
+  },
+  {
+    "pair_id": "rp0181",
+    "label": "DIFFERENT",
+    "reason": "ComScore US smartphone market share data vs Dell Windows 8 tablet pitch at corporate market — different news"
+  },
+  {
+    "pair_id": "rp0182",
+    "label": "DIFFERENT",
+    "reason": "BofA/MBIA $1.7B mortgage lawsuit settlement vs Babson Capital hiring news — unrelated events"
+  },
+  {
+    "pair_id": "rp0183",
+    "label": "UNCLEAR",
+    "reason": "Article A body is empty; cannot confirm if Citigroup Q4 earnings release matches Goldman/Citi/BofA bond sale article"
+  },
+  {
+    "pair_id": "rp0184",
+    "label": "DIFFERENT",
+    "reason": "Bank bonds trading at junk prices ahead of Moody's downgrades vs CFTC cross-border derivative guidance proposal — unrelated"
+  },
+  {
+    "pair_id": "rp0185",
+    "label": "DIFFERENT",
+    "reason": "Windows Phone 8 announcement vs Surface tablet discussion — different Microsoft product launches"
+  },
+  {
+    "pair_id": "rp0186",
+    "label": "DIFFERENT",
+    "reason": "Santander Chile stock downgrade by BofA vs Ford South America loss forecast at BofA conference — unrelated events"
+  },
+  {
+    "pair_id": "rp0187",
+    "label": "DIFFERENT",
+    "reason": "Goldman CMBS bond deal reflecting risk appetite vs Goldman ending junior banker two-year contracts — different topics"
+  },
+  {
+    "pair_id": "rp0188",
+    "label": "DIFFERENT",
+    "reason": "JPMorgan CIO exec departure to start hedge fund vs Lazard ex-chairman joining Goldman-alumni PE firm — different personnel moves"
+  },
+  {
+    "pair_id": "rp0189",
+    "label": "DIFFERENT",
+    "reason": "Samsung Galaxy S III earnings forecast vs Google Nexus 7 tablet unveiling at Google I/O — different events"
+  },
+  {
+    "pair_id": "rp0190",
+    "label": "DIFFERENT",
+    "reason": "Gold price forecast from GFMS vs European market roundup featuring Goldman earnings — unrelated"
+  },
+  {
+    "pair_id": "rp0191",
+    "label": "DIFFERENT",
+    "reason": "UPS/TNT M&A deal banking advisory vs BofA equities division layoffs — unrelated events"
+  },
+  {
+    "pair_id": "rp0192",
+    "label": "SAME",
+    "reason": "Both cover the Apple vs Samsung patent conflict — the $1.05B jury verdict and Samsung's subsequent IP defense strategy at IFA"
+  },
+  {
+    "pair_id": "rp0193",
+    "label": "DIFFERENT",
+    "reason": "Goldman CFO's 'muted impact' view on Moody's downgrades vs US stocks rising on stimulus/Dimon testimony — different events"
+  },
+  {
+    "pair_id": "rp0194",
+    "label": "DIFFERENT",
+    "reason": "NY Fed AIG portfolio sale to Goldman vs Hartford CEO resisting Goldman analyst's breakup call — unrelated events"
+  },
+  {
+    "pair_id": "rp0195",
+    "label": "DIFFERENT",
+    "reason": "Citigroup hedge fund manager breaking silence on 2008 losses vs Citigroup CEO Pandit on capital return plan — different events"
+  },
+  {
+    "pair_id": "rp0196",
+    "label": "DIFFERENT",
+    "reason": "Citigroup European M&A hire vs Goldman Sachs Q1 trading revenue miss — unrelated events"
+  },
+  {
+    "pair_id": "rp0197",
+    "label": "DIFFERENT",
+    "reason": "SEC Dodd-Frank CDS collateral policy shift vs US stocks falling on S&P US outlook and China data — unrelated"
+  },
+  {
+    "pair_id": "rp0198",
+    "label": "DIFFERENT",
+    "reason": "US stocks declining on BOJ no-stimulus-change vs Citigroup Japan M&A recovery outlook — different events"
+  },
+  {
+    "pair_id": "rp0199",
+    "label": "DIFFERENT",
+    "reason": "GE-Safran CFM engine market outlook vs Bombardier AirBaltic CSeries order — different companies, different Farnborough announcements"
+  }
+]

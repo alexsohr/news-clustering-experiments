@@ -1,0 +1,252 @@
+[
+  {
+    "pair_id": "rp0450",
+    "label": "SAME",
+    "reason": "identical title and nearly identical body about Japanese auto parts cartel guilty plea"
+  },
+  {
+    "pair_id": "rp0451",
+    "label": "SAME",
+    "reason": "both about Fabrice Tourre SEC civil fraud trial — A during deliberations, B post-verdict analysis of same case"
+  },
+  {
+    "pair_id": "rp0452",
+    "label": "SAME",
+    "reason": "both about the same May 20 UK business advisory council meeting and Google/UK tax avoidance discussion"
+  },
+  {
+    "pair_id": "rp0453",
+    "label": "DIFFERENT",
+    "reason": "different trading sessions with different catalysts (Bernanke speech vs German exports/S&P Greece cut)"
+  },
+  {
+    "pair_id": "rp0454",
+    "label": "DIFFERENT",
+    "reason": "different trading days — A driven by jobs report, B driven by Apple/BlackBerry/Ford news"
+  },
+  {
+    "pair_id": "rp0455",
+    "label": "SAME",
+    "reason": "B appears to be the same day/week as A's weekly rally wrap; both reference Citigroup jump, same week's jobs data"
+  },
+  {
+    "pair_id": "rp0456",
+    "label": "SAME",
+    "reason": "both cover Facebook's post-IPO share recovery rally in late June 2012"
+  },
+  {
+    "pair_id": "rp0457",
+    "label": "SAME",
+    "reason": "both report the same ruling by Judge Koh requiring Samsung to produce Apple communications"
+  },
+  {
+    "pair_id": "rp0458",
+    "label": "SAME",
+    "reason": "both about the same Apple v Samsung San Jose verdict — one op-ed, one analyst reaction roundup"
+  },
+  {
+    "pair_id": "rp0459",
+    "label": "DIFFERENT",
+    "reason": "different daily CDS readings with different index levels (136 vs 166 basis points)"
+  },
+  {
+    "pair_id": "rp0460",
+    "label": "SAME",
+    "reason": "both about the Fabrice Tourre Goldman Sachs fraud trial and verdict"
+  },
+  {
+    "pair_id": "rp0461",
+    "label": "SAME",
+    "reason": "both from the same Goldman Sachs annual proxy filing disclosing 2012 executive compensation"
+  },
+  {
+    "pair_id": "rp0462",
+    "label": "SAME",
+    "reason": "both about the Boeing 787 Dreamliner grounding — one on supply chain impact, one on investigation; same ongoing event"
+  },
+  {
+    "pair_id": "rp0463",
+    "label": "SAME",
+    "reason": "both about the same Walmart-AmEx Bluebird prepaid card launch announcement and its market impact"
+  },
+  {
+    "pair_id": "rp0464",
+    "label": "SAME",
+    "reason": "identical game report — Capitals beat Rangers 3-2, Mike Green power-play goal, series tied 2-2"
+  },
+  {
+    "pair_id": "rp0465",
+    "label": "DIFFERENT",
+    "reason": "different stories — A is Li Keqiang stimulus stance, B is April FDI data miss"
+  },
+  {
+    "pair_id": "rp0466",
+    "label": "DIFFERENT",
+    "reason": "different trading sessions with different catalysts (S&P US outlook/China data vs BOJ decision)"
+  },
+  {
+    "pair_id": "rp0467",
+    "label": "SAME",
+    "reason": "both about Twitter's IPO debut and its contrast with Facebook's IPO"
+  },
+  {
+    "pair_id": "rp0468",
+    "label": "SAME",
+    "reason": "both about the same BofA-MBIA $1.7 billion mortgage settlement"
+  },
+  {
+    "pair_id": "rp0469",
+    "label": "DIFFERENT",
+    "reason": "different trading sessions — A is Japan-specific Topix 4-day drop, B is pan-Asian weekly summary"
+  },
+  {
+    "pair_id": "rp0470",
+    "label": "SAME",
+    "reason": "both about the same trading session where GE beat estimates and offset Google/Microsoft earnings misses"
+  },
+  {
+    "pair_id": "rp0471",
+    "label": "SAME",
+    "reason": "same Brazil frost weather event — A anticipates it, B covers the outcome (most areas escaped damage)"
+  },
+  {
+    "pair_id": "rp0472",
+    "label": "DIFFERENT",
+    "reason": "different companies' earnings — China Unicom vs China Telecom Q1 results"
+  },
+  {
+    "pair_id": "rp0473",
+    "label": "DIFFERENT",
+    "reason": "different instruments — A is a BofA structured note tied to Apple stock, B is Apple's corporate bond losses"
+  },
+  {
+    "pair_id": "rp0474",
+    "label": "SAME",
+    "reason": "identical title and nearly identical body about same week's stock market decline"
+  },
+  {
+    "pair_id": "rp0475",
+    "label": "SAME",
+    "reason": "both about Apple losing China smartphone market share to Samsung/domestic brands, B is a profile of same trend"
+  },
+  {
+    "pair_id": "rp0476",
+    "label": "DIFFERENT",
+    "reason": "different daily CDS readings with different index levels and different geographic scopes"
+  },
+  {
+    "pair_id": "rp0477",
+    "label": "SAME",
+    "reason": "both about Facebook's IPO filing to raise $5 billion — A is the filing, B is market reaction/betting odds"
+  },
+  {
+    "pair_id": "rp0478",
+    "label": "SAME",
+    "reason": "both about the same Senate JPMorgan investigation — A is Braunstein's testimony, B is implications of the same Senate report"
+  },
+  {
+    "pair_id": "rp0479",
+    "label": "DIFFERENT",
+    "reason": "different daily CDS readings with different index levels (121 vs 96 basis points) and dates"
+  },
+  {
+    "pair_id": "rp0480",
+    "label": "DIFFERENT",
+    "reason": "A is analyst commentary comparing JPMorgan to Fannie Mae; B is Senate hearing testimony — different events"
+  },
+  {
+    "pair_id": "rp0481",
+    "label": "SAME",
+    "reason": "both about JPMorgan's chief investment office trading loss — A is Q2 earnings report, B is earlier loss estimate update"
+  },
+  {
+    "pair_id": "rp0482",
+    "label": "SAME",
+    "reason": "both about the same BofA-MBIA mortgage settlement — A is the initial report, B is next-day wrap"
+  },
+  {
+    "pair_id": "rp0483",
+    "label": "SAME",
+    "reason": "both about the same Morgan Stanley commodities business cutback — geographic exits and job cuts are part of same announcement"
+  },
+  {
+    "pair_id": "rp0484",
+    "label": "SAME",
+    "reason": "both about Foxconn/Hon Hai's investment in Sharp — A is renegotiation after losses, B is Gou's earlier commitment despite plunge"
+  },
+  {
+    "pair_id": "rp0485",
+    "label": "DIFFERENT",
+    "reason": "different events — A is about SEC disclosure of IPO pricing methodology, B is about post-IPO share recovery"
+  },
+  {
+    "pair_id": "rp0486",
+    "label": "SAME",
+    "reason": "both about the same May 2013 Treasury selloff driven by Fed tapering speculation"
+  },
+  {
+    "pair_id": "rp0487",
+    "label": "SAME",
+    "reason": "identical event — Gary Foster sentenced to 97 months for embezzling from Citigroup"
+  },
+  {
+    "pair_id": "rp0488",
+    "label": "SAME",
+    "reason": "both about pre-trial proceedings in the Rajat Gupta Goldman Sachs insider trading case"
+  },
+  {
+    "pair_id": "rp0489",
+    "label": "DIFFERENT",
+    "reason": "different Xiaomi news — A is about smartphone profitability, B is about smart TV manufacturing partnership"
+  },
+  {
+    "pair_id": "rp0490",
+    "label": "SAME",
+    "reason": "both about JPMorgan CIO trading loss — A anticipates Dimon Q&A on hedging, B reports the $7.5B loss estimate from same period"
+  },
+  {
+    "pair_id": "rp0491",
+    "label": "SAME",
+    "reason": "both about Facebook's IPO preparation — A is the S-1 filing, B is concurrent private market valuation"
+  },
+  {
+    "pair_id": "rp0492",
+    "label": "SAME",
+    "reason": "both about the same Fiat financing talks to acquire Chrysler stake"
+  },
+  {
+    "pair_id": "rp0493",
+    "label": "SAME",
+    "reason": "both about the same ICANN new top-level domain expansion program and its controversies"
+  },
+  {
+    "pair_id": "rp0494",
+    "label": "SAME",
+    "reason": "identical event — Mount Holly NJ housing-bias settlement ending Supreme Court case"
+  },
+  {
+    "pair_id": "rp0495",
+    "label": "SAME",
+    "reason": "both about the same Samsung-Apple patent/antitrust developments in Europe where Samsung withdrew injunction bids"
+  },
+  {
+    "pair_id": "rp0496",
+    "label": "SAME",
+    "reason": "both about the same BofA-MBIA $1.6 billion settlement"
+  },
+  {
+    "pair_id": "rp0497",
+    "label": "SAME",
+    "reason": "both about the same Facebook Timeline trademark trial in Chicago federal court"
+  },
+  {
+    "pair_id": "rp0498",
+    "label": "SAME",
+    "reason": "both about the same Samsung Galaxy Round curved smartphone announcement going on sale in South Korea"
+  },
+  {
+    "pair_id": "rp0499",
+    "label": "SAME",
+    "reason": "both about the same JPMorgan CIO leadership shakeup following the $2B trading loss — Drew exit then Zames appointment"
+  }
+]
