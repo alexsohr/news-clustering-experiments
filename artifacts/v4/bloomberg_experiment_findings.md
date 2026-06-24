@@ -117,9 +117,11 @@ BOTH evals, so the only variable is eval composition. (`scripts/score_repr_eval.
 
 | arm | **representative** F1 / P / R | hard F1 / P / R |
 |---|---|---|
-| single_vec (single-vec cosine, full-body judge) | **0.834** / 0.864 / 0.806 | 0.391 / 0.941 / 0.247 |
-| chunk_pair (max-pool cosine, matched-chunk judge) | 0.773 / 0.872 / 0.694 | 0.418 / 0.912 / 0.271 |
-| full_body  (max-pool cosine, full-body judge) | 0.828 / 0.848 / 0.809 | 0.410 / 0.956 / 0.261 |
+| single_vec (single-vec cosine, full-body judge) | **0.834** / 0.806 / 0.864 | 0.391 / 0.247 / 0.941 |
+| chunk_pair (max-pool cosine, matched-chunk judge) | 0.773 / 0.694 / 0.872 | 0.418 / 0.271 / 0.912 |
+| full_body  (max-pool cosine, full-body judge) | 0.828 / 0.809 / 0.848 | 0.410 / 0.261 / 0.956 |
+
+(P/R corrected 2026-06-24 — `score_repr_eval.py` had transposed precision/recall; F1 unchanged.)
 
 ## Headline
 **On a representative eval the pipeline scores F1 ≈ 0.83 — the same league as the news baseline 0.834.**
@@ -128,15 +130,17 @@ scorer, swap a hard-negative-mined eval for a representative one → F1 roughly 
 
 ## Refinement that CHANGES the recommendation
 On representative-difficulty pairs the **chunk_pair judge text HURTS** (F1 0.773 vs full_body 0.828 /
-single_vec 0.834) — and it's all recall (**48 missed SAME vs 25**). The single best-matching chunk pair
-is too thin to confirm SAME once pairs are no longer near-duplicates; the full body is needed. At the
-*vector/gate* level, chunk max-pool ≈ single-vec (full_body 0.828 ≈ single_vec 0.834 — tied). So:
+single_vec 0.834) — and it's all **precision** (**48 false merges vs 26**; recall is actually fine, even
+marginally best at 0.872). The single best-matching chunk pair is *too easy* to call SAME — one shared
+chunk between two genuinely different events fools the judge into merging — so chunk_pair **over-merges**.
+The full body supplies the context that prevents those false positives. At the *vector/gate* level,
+chunk max-pool ≈ single-vec (full_body 0.828 ≈ single_vec 0.834 — tied). So:
 
 - ❌ The earlier hard-eval-based call ("adopt body chunking + **chunk_pair** judge — same quality at ⅓
   cost") does **not** hold on representative data. chunk_pair's ⅓-cost win was an artifact of an eval
-  made of near-duplicates, where the matched chunk already contains the whole story.
+  made of near-duplicates, where one shared chunk really did mean same-story.
 - ✅ **Best representative config: single-vector candidates + full-body judge (F1 0.834).** Chunking the
-  vectors is neutral (tied); chunk_pair judge text costs ~6 F1 pts of recall.
+  vectors is neutral (tied); chunk_pair judge text costs ~6 F1 pts via over-merge (precision).
 
 **Caveat:** still a Bloomberg proxy. Chunk vectors' raw-cosine separability edge on body-rich data
 (AUC 0.666 vs 0.624) remains real but does NOT convert to F1 here. For the user's own research-artifact

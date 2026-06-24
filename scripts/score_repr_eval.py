@@ -111,7 +111,7 @@ async def score_eval(name, df):
         sem = asyncio.Semaphore(CONC)
         preds = await asyncio.gather(*[score_pair(arm, judge, a, b, sem)
                                        for a, b in zip(df.a, df.b)])
-        m = metrics(np.array(preds), y_true)
+        m = metrics(y_true, np.array(preds))
         m["judge"] = dict(judge.stats)
         res["arms"][arm] = m
         print(f"  [{name}/{arm}] F1={m['f1']:.3f} P={m['precision']:.3f} R={m['recall']:.3f} "
