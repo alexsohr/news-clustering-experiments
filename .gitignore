@@ -23,3 +23,8 @@ dataset/
 *.pkl
 artifacts/**/checkpoints/
 /tmp/
+
+# --- large regenerable vector artifacts (rebuild via scripts/build_repr_eval_pairs.py) ---
+artifacts/v4/eval_repr/chunk_vecs.npy
+artifacts/v4/eval_repr/item_vecs.npz
+artifacts/v4/eval_repr/chunks.parquet

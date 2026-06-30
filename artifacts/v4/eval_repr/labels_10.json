@@ -1,0 +1,23 @@
+[
+  {"pair_id": "rp0500", "label": "DIFFERENT", "reason": "A is analyst opinion comparing JPM to Fannie Mae; B is Senate report as SEC roadmap — different angles on JPMorgan scrutiny, not the same event"},
+  {"pair_id": "rp0501", "label": "SAME", "reason": "Both report the same update: Asiana crash death toll rises to three with Liu Yipeng dying in hospital"},
+  {"pair_id": "rp0502", "label": "SAME", "reason": "Both cover the same jobs-day U.S. stock market rally; B is the weekly wrap of which A is the intraday report"},
+  {"pair_id": "rp0503", "label": "DIFFERENT", "reason": "A is a specific day's Topix rally on yen/US manufacturing; B is a historical-pattern analysis piece about Fed tightening and Topix"},
+  {"pair_id": "rp0504", "label": "SAME", "reason": "A is the breaking news of Allscripts hiring Citi to explore a sale; B is background on the board battles leading to the same sale decision"},
+  {"pair_id": "rp0505", "label": "SAME", "reason": "Both analyze the same Obama Aug. 3 veto of Samsung's Apple import ban — A supports it editorially, B examines Samsung's potential upside"},
+  {"pair_id": "rp0506", "label": "SAME", "reason": "Both cover the Fabrice Tourre verdict — A is an opinion piece on lessons, B is news analysis of why the junior-staff defense failed"},
+  {"pair_id": "rp0507", "label": "DIFFERENT", "reason": "A is day-2 stock decline triggered by BOJ holding stimulus; B is a different day (first three-day losing streak) focused on Fed stimulus bets"},
+  {"pair_id": "rp0508", "label": "SAME", "reason": "Both cover the same Greek election outcome — A on coalition-forming gridlock, B on Germany's austerity response"},
+  {"pair_id": "rp0509", "label": "SAME", "reason": "A is pre-announcement analyst prediction on Moody's Morgan Stanley downgrade; B reports the actual Moody's decision on the same downgrade"},
+  {"pair_id": "rp0510", "label": "SAME", "reason": "Both are about the same Tim Cook China visit — A covers meetings with officials, B covers his Xinhua interview predicting China becomes top market"},
+  {"pair_id": "rp0511", "label": "SAME", "reason": "Both report Greenlight Capital's lawsuit to block Apple's preferred-stock elimination proposal at the Feb. 27 shareholder meeting"},
+  {"pair_id": "rp0512", "label": "SAME", "reason": "Both stem from the same Facebook IPO filing event — A on the $5B fundraise, B on risk factors disclosed in the same filing"},
+  {"pair_id": "rp0513", "label": "DIFFERENT", "reason": "A is editorial on NSA cloud-infiltration Snowden disclosures; B is tech companies asking Congress to reform NSA surveillance — different events"},
+  {"pair_id": "rp0514", "label": "DIFFERENT", "reason": "A is Rangers win in triple OT (game 3); B is Capitals win 3-2 (game 4) — different games"},
+  {"pair_id": "rp0515", "label": "SAME", "reason": "Both cover Corbat taking over as Citigroup CEO — A his initial statement on reviewing management, B the specific interim appointments he announced"},
+  {"pair_id": "rp0516", "label": "SAME", "reason": "A reports Zames is expected to announce a CIO shake-up; B reports Zames executing that same shake-up — same event"},
+  {"pair_id": "rp0517", "label": "DIFFERENT", "reason": "A is Yahoo's Q2 revenue forecast miss; B is Yahoo unveiling Mail and Weather mobile apps — different developments"},
+  {"pair_id": "rp0518", "label": "SAME", "reason": "Both cover the same ITU Dubai conference treaty vote — A the opposition from web groups, B the final approval over US objections"},
+  {"pair_id": "rp0519", "label": "SAME", "reason": "Both report Nokia's MWC announcement of the 189-euro Lumia 610 — A the product strategy angle, B the stock reaction"},
+  {"pair_id": "rp0520", "label": "SAME", "reason": "A is overnight futures preview; B is the actual Asian session result — both about the same trading session's big gain"}
+]

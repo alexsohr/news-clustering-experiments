@@ -1,0 +1,252 @@
+[
+  {
+    "pair_id": "rp0400",
+    "label": "DIFFERENT",
+    "reason": "A covers departure of Twiggs (marketing VP); B covers denial of a different set of 3 executives leaving after Ron Johnson ouster — distinct events"
+  },
+  {
+    "pair_id": "rp0401",
+    "label": "SAME",
+    "reason": "Both cover the FrontPoint/Skowron ruling requiring payment to Morgan Stanley; A includes it in a court roundup, B is the dedicated story"
+  },
+  {
+    "pair_id": "rp0402",
+    "label": "DIFFERENT",
+    "reason": "A covers an engine-ice software fix; B covers a 747-8 production rate cut — different developments"
+  },
+  {
+    "pair_id": "rp0403",
+    "label": "DIFFERENT",
+    "reason": "A is a daily market wrap mentioning Icahn/Apple; B is a feature on $100+ stocks and split trends — different stories"
+  },
+  {
+    "pair_id": "rp0404",
+    "label": "SAME",
+    "reason": "Both cover the same event: Microsoft reversing Xbox One used-game trading restrictions"
+  },
+  {
+    "pair_id": "rp0405",
+    "label": "DIFFERENT",
+    "reason": "A covers FB stock decline on growth concerns; B covers broader IPO market drag from Facebook's bad debut — different angles on different events"
+  },
+  {
+    "pair_id": "rp0406",
+    "label": "DIFFERENT",
+    "reason": "Two separate market wrap-up sessions citing different indices and different primary drivers"
+  },
+  {
+    "pair_id": "rp0407",
+    "label": "DIFFERENT",
+    "reason": "A is a rubber commodity outlook; B is a Japanese equities daily wrap — different asset classes and stories"
+  },
+  {
+    "pair_id": "rp0408",
+    "label": "SAME",
+    "reason": "Both cover the same S&P euro-zone sovereign downgrades event (France specifically); A is the pre-announcement reaction, B is the confirmed downgrade"
+  },
+  {
+    "pair_id": "rp0409",
+    "label": "DIFFERENT",
+    "reason": "A covers US court sanctions ruling; B covers EU antitrust pledge — different proceedings in different jurisdictions"
+  },
+  {
+    "pair_id": "rp0410",
+    "label": "DIFFERENT",
+    "reason": "A covers Zames reorganizing CIO leadership; B is a broader Dimon personality profile — different stories"
+  },
+  {
+    "pair_id": "rp0411",
+    "label": "DIFFERENT",
+    "reason": "A covers T-Mobile/MetroPCS merger approval; B covers Verizon/Vodafone stake pursuit — different deals"
+  },
+  {
+    "pair_id": "rp0412",
+    "label": "SAME",
+    "reason": "Both cover the same Asiana Airlines SF crash — one on financial fallout, one on the rising death toll"
+  },
+  {
+    "pair_id": "rp0413",
+    "label": "SAME",
+    "reason": "Both cover the same Rangers-Capitals NHL playoff series (consecutive games)"
+  },
+  {
+    "pair_id": "rp0414",
+    "label": "DIFFERENT",
+    "reason": "Two separate Citigroup personnel appointments for different roles (M&A vs cash trading)"
+  },
+  {
+    "pair_id": "rp0415",
+    "label": "DIFFERENT",
+    "reason": "A is a speculative Wal-Mart/Carrefour acquisition rumor; B is a CEO strategy profile for Carrefour — different events"
+  },
+  {
+    "pair_id": "rp0416",
+    "label": "DIFFERENT",
+    "reason": "A covers IBM shareholder meeting after earnings miss; B covers failed Lenovo server division talks — different stories"
+  },
+  {
+    "pair_id": "rp0417",
+    "label": "SAME",
+    "reason": "Both stem from the same Apple-Samsung jury verdict; A covers the follow-up ban request, B covers industry reaction to the same verdict"
+  },
+  {
+    "pair_id": "rp0418",
+    "label": "DIFFERENT",
+    "reason": "A is about Wells Fargo mortgage market share; B is about DOJ fair lending investigation — different issues"
+  },
+  {
+    "pair_id": "rp0419",
+    "label": "DIFFERENT",
+    "reason": "A covers Zynga stock rebound; B covers Facebook post-IPO stock recovery — different companies and events"
+  },
+  {
+    "pair_id": "rp0420",
+    "label": "SAME",
+    "reason": "Both cover Akbank's price action around Citigroup's stake sale and the MSCI reweighting — same stock story across consecutive days"
+  },
+  {
+    "pair_id": "rp0421",
+    "label": "DIFFERENT",
+    "reason": "Two different IP roundup articles covering unrelated patent cases"
+  },
+  {
+    "pair_id": "rp0422",
+    "label": "SAME",
+    "reason": "Both cover the same Chinese market cash crunch event — one tracking equities, one tracking currency on the same development"
+  },
+  {
+    "pair_id": "rp0423",
+    "label": "DIFFERENT",
+    "reason": "Two separate aircraft orders at the same airshow from different manufacturers and buyers"
+  },
+  {
+    "pair_id": "rp0424",
+    "label": "SAME",
+    "reason": "Both cover the same $130B Verizon-Vodafone deal; B breaks the deal, A is follow-on coverage about Liberty Global in context of Vodafone's cash windfall"
+  },
+  {
+    "pair_id": "rp0425",
+    "label": "SAME",
+    "reason": "Both cover market reaction to the same Citigroup earnings beat — US and Asian markets on the same catalyst"
+  },
+  {
+    "pair_id": "rp0426",
+    "label": "DIFFERENT",
+    "reason": "A covers MBIA-BofA mortgage litigation settlement; B covers BofA CEO comments on dividend policy at shareholder meeting — different events"
+  },
+  {
+    "pair_id": "rp0427",
+    "label": "SAME",
+    "reason": "Both cover the investigation of the same Asiana Airlines SF crash from different investigative angles"
+  },
+  {
+    "pair_id": "rp0428",
+    "label": "DIFFERENT",
+    "reason": "A is an opinion/analysis on Congressional response to JPM trading loss; B is a specific CFTC rulemaking procedural story — different events"
+  },
+  {
+    "pair_id": "rp0429",
+    "label": "DIFFERENT",
+    "reason": "A is BofA's swap spread analysis; B is a daily Treasury yield move — different specific events and topics"
+  },
+  {
+    "pair_id": "rp0430",
+    "label": "SAME",
+    "reason": "Both cover Facebook's pre-IPO valuation and pricing expectations around the same IPO filing period"
+  },
+  {
+    "pair_id": "rp0431",
+    "label": "DIFFERENT",
+    "reason": "A covers Apple's new iPad launch; B covers Dell's separate tablet strategy — different events"
+  },
+  {
+    "pair_id": "rp0432",
+    "label": "SAME",
+    "reason": "Both are follow-up coverage of the same Apple-Samsung jury verdict and its implications for Samsung"
+  },
+  {
+    "pair_id": "rp0433",
+    "label": "DIFFERENT",
+    "reason": "Two separate market wrap sessions covering different asset classes on different days"
+  },
+  {
+    "pair_id": "rp0434",
+    "label": "SAME",
+    "reason": "Both cover JPMorgan's chief investment office trading loss — A anticipates the analyst meeting, B reports the actual Q2 earnings with the $4.4B figure"
+  },
+  {
+    "pair_id": "rp0435",
+    "label": "SAME",
+    "reason": "Both stem from Facebook's IPO filing; A covers bookmaker pricing odds, B covers risk factors from the same filing"
+  },
+  {
+    "pair_id": "rp0436",
+    "label": "SAME",
+    "reason": "Both cover Twitter's IPO debut day and the 73% first-day surge"
+  },
+  {
+    "pair_id": "rp0437",
+    "label": "DIFFERENT",
+    "reason": "A covers JPMorgan's capital return plan/dividend hike; B covers Senate testimony about the CIO trading loss — different events"
+  },
+  {
+    "pair_id": "rp0438",
+    "label": "SAME",
+    "reason": "Both cover the same Facebook IPO process — shareholder selling plans and the investor road show starting"
+  },
+  {
+    "pair_id": "rp0439",
+    "label": "DIFFERENT",
+    "reason": "A covers Motorola's Q4 earnings shortfall; B covers a specific Microsoft patent lawsuit filing — different events"
+  },
+  {
+    "pair_id": "rp0440",
+    "label": "DIFFERENT",
+    "reason": "Two separate market sessions covering different regional markets and primary drivers"
+  },
+  {
+    "pair_id": "rp0441",
+    "label": "DIFFERENT",
+    "reason": "Different markets (Japan vs US CDS), different directions, different triggers on different days"
+  },
+  {
+    "pair_id": "rp0442",
+    "label": "SAME",
+    "reason": "Both cover the same Boeing 787 Dreamliner grounding — A on airline workarounds, B on Boeing's production/storage during the same grounding"
+  },
+  {
+    "pair_id": "rp0443",
+    "label": "DIFFERENT",
+    "reason": "A covers RIM's US government sales strength; B covers RIM's Middle East retail expansion strategy — different stories"
+  },
+  {
+    "pair_id": "rp0444",
+    "label": "DIFFERENT",
+    "reason": "A is a market index wrap; B is a stock movers roundup from a different session — different events"
+  },
+  {
+    "pair_id": "rp0445",
+    "label": "DIFFERENT",
+    "reason": "A covers CFTC Lehman customer fund settlement; B covers silver hedging/commodities commentary — different topics"
+  },
+  {
+    "pair_id": "rp0446",
+    "label": "SAME",
+    "reason": "Both cover the same Google I/O product announcements including the new Maps overhaul"
+  },
+  {
+    "pair_id": "rp0447",
+    "label": "SAME",
+    "reason": "Both cover the same Apple iPhone 5S fingerprint sensor announcement and its implications"
+  },
+  {
+    "pair_id": "rp0448",
+    "label": "DIFFERENT",
+    "reason": "A is an analyst opinion piece on JPMorgan risk management parallels; B covers JPMorgan's dividend increase — different events"
+  },
+  {
+    "pair_id": "rp0449",
+    "label": "SAME",
+    "reason": "Both cover the same JPMorgan $2B CIO trading loss — Dimon's Senate testimony and the unwinding of the specific index position"
+  }
+]
